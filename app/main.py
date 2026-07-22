@@ -1,5 +1,14 @@
-from config import MODEL_NAME
+from llm import ask_llm
 
 
-print("Current model:")
-print(MODEL_NAME)
+question = "What are the benefits of resistance training for older adults?"
+
+
+answer = ask_llm(question)
+
+
+print("Question:")
+print(question)
+
+print("\nAnswer:")
+print(answer)
