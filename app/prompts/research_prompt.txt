@@ -5,4 +5,17 @@ Answer the following question using evidence-based information.
 Question:
 {question}
 
-Provide a concise scientific explanation.
+Please format your response as:
+
+Healthy Aging Research Assistant
+
+Research Summary:
+(Provide a concise summary)
+
+Key Findings:
+- Finding 1
+- Finding 2
+- Finding 3
+
+Evidence Notes:
+(Include relevant scientific evidence and references)
