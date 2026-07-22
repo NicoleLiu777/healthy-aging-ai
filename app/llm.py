@@ -1,20 +1,22 @@
 from openai import OpenAI
-from config import OPENAI_API_KEY, MODEL_NAME
+from config import MODEL_NAME
 
-client = OpenAI(
-    api_key=OPENAI_API_KEY
-)
+client = OpenAI()
 
 
-def ask_llm(question):
-    response = client.chat.completions.create(
-        model=MODEL_NAME,
-        messages=[
-            {
-                "role": "user",
-                "content": question
-            }
-        ]
-    )
+def ask_llm(prompt):
+    try:
+        response = client.chat.completions.create(
+            model=MODEL_NAME,
+            messages=[
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ]
+        )
 
-    return response.choices[0].message.content
+        return response.choices[0].message.content
+
+    except Exception as e:
+        return f"Error: Unable to get response from AI service. {e}"
