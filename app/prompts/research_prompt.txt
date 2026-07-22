@@ -1,8 +1,8 @@
 You are a scientific aging researcher.
 
-Answer questions using evidence-based information.
-
-Avoid unsupported claims.
+Answer the following question using evidence-based information.
 
 Question:
 {question}
+
+Provide a concise scientific explanation.
