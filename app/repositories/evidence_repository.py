@@ -27,7 +27,11 @@ class EvidenceRepository:
         records = self._load_records()
 
         if strength is not None:
-            records = [record for record in records if record.evidence_strength == strength]
+            records = [
+                record
+                for record in records
+                if record.evidence_strength == strength
+            ]
 
         if query:
             normalized_query = query.lower().strip()
@@ -53,6 +57,7 @@ class EvidenceRepository:
                 " ".join(record.outcomes_not_improved),
                 " ".join(record.limitations),
                 " ".join(record.implementation_implications),
+                record.evidence_strength_rationale,
             ]
         ).lower()
         return query in searchable

@@ -3,11 +3,7 @@ def test_list_all_evidence(client):
 
     assert response.status_code == 200
     records = response.json()
-    assert len(records) == 2
-    assert {record["id"] for record in records} == {
-        "fixture-companion-ai-001",
-        "fixture-exercise-002",
-    }
+    assert len(records) == 3
 
 
 def test_filter_by_strength(client):

@@ -6,6 +6,15 @@ import pytest
 from app.models.evidence import EvidenceRecord
 from app.services.retrieval import retrieve_relevant_evidence, score_record, tokenize
 
+PHASE2A_RECORD_FIELDS = {
+    "doi": None,
+    "source_role": "effectiveness",
+    "decision_eligible": True,
+    "evidence_strength_rationale": "Fixture retrieval record",
+    "included_studies": None,
+    "verification_status": "verified",
+}
+
 
 def test_retrieve_relevant_evidence_with_keywords(fixture_records):
     results = retrieve_relevant_evidence(
@@ -35,24 +44,24 @@ def test_retrieve_enforces_top_k(fixture_records):
     extra_records = [
         EvidenceRecord.model_validate(
             {
-                **{
-                    "id": f"fixture-companion-ai-{index:03d}",
-                    "title": f"Fixture study {index}: AI companion tools for older adults",
-                    "authors": ["Test Author"],
-                    "year": 2020 + index,
-                    "url": f"https://example.org/fixtures/companion-ai-{index:03d}",
-                    "topic": ["AI companion", "older adults", "social isolation"],
-                    "population": "Community-dwelling older adults living alone",
-                    "study_type": "Pilot",
-                    "sample_size": 100,
-                    "intervention": "AI companion assistant",
-                    "comparison": "Usual care",
-                    "outcomes_improved": ["Loneliness scores"],
-                    "outcomes_not_improved": [],
-                    "evidence_strength": "moderate",
-                    "limitations": [],
-                    "implementation_implications": [],
-                }
+                **PHASE2A_RECORD_FIELDS,
+                "id": f"fixture-companion-ai-{index:03d}",
+                "title": f"Fixture study {index}: AI companion tools for older adults",
+                "authors": ["Test Author"],
+                "year": 2020 + index,
+                "url": f"https://example.org/fixtures/companion-ai-{index:03d}",
+                "verified_against": [f"https://example.org/fixtures/companion-ai-{index:03d}"],
+                "topic": ["AI companion", "older adults", "social isolation"],
+                "population": "Community-dwelling older adults living alone",
+                "study_type": "Pilot",
+                "sample_size": 100,
+                "intervention": "AI companion assistant",
+                "comparison": "Usual care",
+                "outcomes_improved": ["Loneliness scores"],
+                "outcomes_not_improved": [],
+                "evidence_strength": "moderate",
+                "limitations": [],
+                "implementation_implications": [],
             }
         )
         for index in range(1, 8)
@@ -70,8 +79,10 @@ def test_retrieve_enforces_top_k(fixture_records):
 
 def test_retrieve_orders_newer_studies_first_on_score_tie():
     shared = {
+        **PHASE2A_RECORD_FIELDS,
         "authors": ["Test Author"],
         "url": "https://example.org/fixtures/tie",
+        "verified_against": ["https://example.org/fixtures/tie"],
         "topic": ["AI companion", "older adults"],
         "population": "Older adults",
         "study_type": "Pilot",
@@ -111,9 +122,11 @@ def test_retrieve_orders_newer_studies_first_on_score_tie():
 
 def test_retrieve_uses_evidence_id_as_final_tiebreaker():
     shared = {
+        **PHASE2A_RECORD_FIELDS,
         "authors": ["Test Author"],
         "year": 2022,
         "url": "https://example.org/fixtures/tie",
+        "verified_against": ["https://example.org/fixtures/tie"],
         "topic": ["AI companion", "older adults"],
         "population": "Older adults",
         "study_type": "Pilot",

@@ -187,6 +187,66 @@ When the production corpus is empty, unrelated or unmatched questions return an 
 - Deployment configuration (Docker, cloud infra)
 - Frontend integration beyond CORS origin configuration
 
+## Phase 2A: verified seed corpus and source-role separation
+
+Phase 2A extends Phase 1 with a human-curated, verified production seed corpus and explicit source-role boundaries. It does not add OpenAI calls, embeddings, or ingestion.
+
+### Six-record production seed corpus
+
+`data/evidence.json` now contains six verified records:
+
+| ID | `source_role` | `decision_eligible` |
+|----|---------------|---------------------|
+| `marziali-2024` | `effectiveness` | `true` |
+| `li-2023` | `effectiveness` | `true` |
+| `dino-2025` | `effectiveness` | `true` |
+| `who-2025` | `context` | `false` |
+| `loveys-2019` | `design` | `false` |
+| `welch-2023-egm` | `evidence_map` | `false` |
+
+Each record includes `verification_status: verified` and a `verified_against` URL list pointing to its authoritative source.
+
+### Source roles
+
+| `source_role` | Purpose |
+|---------------|---------|
+| `effectiveness` | Intervention effectiveness or review evidence that may drive decisions |
+| `context` | Policy, epidemiological, or framing context |
+| `design` | Design principles or implementation viewpoints |
+| `evidence_map` | Evidence and gap maps for corpus orientation |
+
+### Decision eligibility
+
+- Only records with `decision_eligible=true` may influence aggregate evidence strength, aggregated outcomes, pilot metrics, limitations used for recommendation, and `pilot_recommendation`.
+- `decision_eligible=true` requires `source_role=effectiveness` and a non-null `evidence_strength`.
+- Context, design, and evidence-map records (`decision_eligible=false`) may appear in citations when retrieved, but they **cannot raise or lower** overall evidence strength or change the pilot recommendation.
+- If retrieval returns only non-eligible sources, `/api/ask` returns an insufficient-evidence brief (context-only retrieval).
+- The corpus is human-curated reference material for product and care teams. It is **not medical advice** and must not be treated as individualized clinical guidance.
+
+### Phase 2A schema additions
+
+Phase 2A extends `EvidenceRecord` with:
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `doi` | string or null | DOI when available |
+| `source_role` | enum | `effectiveness`, `context`, `design`, or `evidence_map` |
+| `decision_eligible` | boolean | Whether the record may drive decision synthesis |
+| `included_studies` | integer or null | Included study count for reviews/maps |
+| `evidence_strength_rationale` | string | Human-readable grading rationale |
+| `verification_status` | enum | `verified` or `needs_review` |
+| `verified_against` | list[URL] | Authoritative URLs used for verification |
+
+`evidence_strength` is nullable for non-eligible records.
+
+### What is implemented (Phase 2A)
+
+- Extended evidence schema with role, verification, and eligibility invariants
+- Six-record verified seed corpus in `data/evidence.json`
+- Decision-eligible-only synthesis for strength, outcomes, metrics, and recommendation
+- Context/design/evidence-map citation support without decision influence
+- Corpus validation tests (`tests/test_evidence_corpus.py`)
+
 ## License
 
 See [LICENSE](LICENSE).
