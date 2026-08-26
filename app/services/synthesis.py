@@ -93,12 +93,12 @@ def _role_claim(record: EvidenceRecord) -> str:
 def _build_citations(records: list[EvidenceRecord]) -> list[Citation]:
     citations: list[Citation] = []
     for record in records:
-        claims = _dedupe_preserve_order(record.outcomes_improved)
-        if not claims:
-            if record.decision_eligible:
+        if record.decision_eligible:
+            claims = _dedupe_preserve_order(record.outcomes_improved)
+            if not claims:
                 claims = [f"Study examined: {record.intervention}"]
-            else:
-                claims = [_role_claim(record)]
+        else:
+            claims = [_role_claim(record)]
         citations.append(
             Citation(
                 evidence_id=record.id,

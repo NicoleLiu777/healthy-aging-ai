@@ -130,6 +130,75 @@ def test_schema_rejects_non_positive_counts():
         )
 
 
+def test_schema_rejects_outcome_claims_on_non_effectiveness_records():
+    with pytest.raises(ValidationError):
+        EvidenceRecord.model_validate(
+            {
+                "id": "invalid-004",
+                "title": "Invalid context record",
+                "authors": ["Test Author"],
+                "year": 2024,
+                "url": "https://example.org/invalid-004",
+                "topic": ["policy"],
+                "population": "General population",
+                "study_type": "Policy report",
+                "sample_size": None,
+                "intervention": "Policy guidance",
+                "comparison": None,
+                "outcomes_improved": ["Depression symptoms"],
+                "outcomes_not_improved": [],
+                "source_role": "context",
+                "decision_eligible": False,
+                "evidence_strength": None,
+                "evidence_strength_rationale": "Context source",
+                "limitations": [],
+                "verification_status": "verified",
+                "verified_against": ["https://example.org/invalid-004"],
+            }
+        )
+
+
+def test_schema_rejects_verified_records_without_verified_against():
+    with pytest.raises(ValidationError):
+        EvidenceRecord.model_validate(
+            {
+                "id": "invalid-005",
+                "title": "Invalid verified record",
+                "authors": ["Test Author"],
+                "year": 2024,
+                "url": "https://example.org/invalid-005",
+                "topic": ["test"],
+                "population": "Test population",
+                "study_type": "Test study",
+                "sample_size": None,
+                "intervention": "Test intervention",
+                "comparison": None,
+                "outcomes_improved": [],
+                "outcomes_not_improved": [],
+                "source_role": "context",
+                "decision_eligible": False,
+                "evidence_strength": None,
+                "evidence_strength_rationale": "Context source",
+                "limitations": [],
+                "verification_status": "verified",
+                "verified_against": [],
+            }
+        )
+
+
+def test_production_non_effectiveness_records_have_empty_outcomes(production_repository):
+    non_effectiveness = [
+        record
+        for record in production_repository.list_all()
+        if record.source_role != "effectiveness"
+    ]
+
+    assert len(non_effectiveness) == 3
+    for record in non_effectiveness:
+        assert record.outcomes_improved == []
+        assert record.outcomes_not_improved == []
+
+
 def test_context_only_retrieval_produces_insufficient_evidence(production_client):
     response = production_client.post(
         "/api/ask",

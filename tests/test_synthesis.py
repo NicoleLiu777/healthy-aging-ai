@@ -27,8 +27,12 @@ def _make_record(
             "included_studies": None,
             "intervention": "Test intervention",
             "comparison": None,
-            "outcomes_improved": outcomes_improved or ["Outcome A"],
-            "outcomes_not_improved": outcomes_not_improved or ["Outcome B"],
+            "outcomes_improved": outcomes_improved
+            if outcomes_improved is not None
+            else ["Outcome A"],
+            "outcomes_not_improved": outcomes_not_improved
+            if outcomes_not_improved is not None
+            else ["Outcome B"],
             "source_role": source_role,
             "decision_eligible": decision_eligible,
             "evidence_strength": evidence_strength,
@@ -111,6 +115,9 @@ def test_context_only_retrieval_returns_insufficient_evidence():
     assert brief.pilot_recommendation == "insufficient_evidence"
     assert brief.pilot_metrics == []
     assert len(brief.citations) == 1
+    assert brief.citations[0].supported_claims == [
+        "Context source for policy and framing"
+    ]
 
 
 def test_pilot_metrics_derived_from_outcomes_not_implementation_implications():

@@ -73,4 +73,17 @@ class EvidenceRecord(BaseModel):
                 )
         elif self.evidence_strength is not None:
             raise ValueError("decision_eligible=false requires evidence_strength=null")
+
+        if self.source_role != "effectiveness":
+            if self.outcomes_improved or self.outcomes_not_improved:
+                raise ValueError(
+                    "Non-effectiveness records must have empty outcomes_improved "
+                    "and outcomes_not_improved"
+                )
+
+        if self.verification_status == "verified" and not self.verified_against:
+            raise ValueError(
+                "verification_status='verified' requires at least one verified_against URL"
+            )
+
         return self
