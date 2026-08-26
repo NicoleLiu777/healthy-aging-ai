@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: suvane-research-api
+    runtime: python
+    plan: free
+    branch: main
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: CORS_ORIGINS
+        value: http://localhost:5173,https://suvane.org,https://www.suvane.org,https://suvane-research.oliviaralph89.chatgpt.site

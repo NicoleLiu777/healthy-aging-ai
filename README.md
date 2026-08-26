@@ -247,6 +247,85 @@ Phase 2A extends `EvidenceRecord` with:
 - Context/design/evidence-map citation support without decision influence
 - Corpus validation tests (`tests/test_evidence_corpus.py`)
 
+## Phase 2B: Render deployment readiness
+
+Phase 2B prepares the existing FastAPI API for deployment to Render and for use by the SUVANÉ Research frontend. It does not add OpenAI, embeddings, a database, or frontend code.
+
+### Render deployment settings
+
+The repository includes a root-level `render.yaml` Blueprint with one Python web service:
+
+| Setting | Value |
+|---------|-------|
+| Service name | `suvane-research-api` |
+| Runtime | `python` |
+| Plan | `free` (prototype/demo) |
+| Branch | `main` |
+| Build command | `pip install -r requirements.txt` |
+| Start command | `uvicorn app.main:app --host 0.0.0.0 --port $PORT` |
+| Health check path | `/health` |
+
+Set `CORS_ORIGINS` in the Render Dashboard or via the Blueprint `envVars` entry. Do not commit secrets.
+
+**Render Free note:** Free web services spin down after inactivity. The first request after sleep may be slow while the service cold-starts. This tier is suitable for prototype and demo use, not production SLA workloads. Render Free web services **do** support custom domains.
+
+### Custom domain deployment sequence (`api.suvane.org`)
+
+1. Deploy `suvane-research-api` to Render from `main`.
+2. In Render, add custom domain: `api.suvane.org`.
+3. In Cloudflare DNS, create:
+   - **Type:** CNAME
+   - **Name:** `api`
+   - **Target:** the assigned `suvane-research-api.onrender.com` hostname
+   - **Proxy status:** DNS only initially
+   - **TTL:** Auto
+4. Set Cloudflare SSL/TLS mode to **Full**.
+5. Verify `api.suvane.org` in Render and wait for its TLS certificate.
+6. Cloudflare proxying may optionally be enabled after verification.
+7. Do **not** modify the root `@` or `www` records used by the frontend.
+8. `api.suvane.org` does **not** need to be added to `CORS_ORIGINS` because it is the API destination, not a browser request origin.
+
+### Required CORS_ORIGINS value
+
+```text
+http://localhost:5173,https://suvane.org,https://www.suvane.org,https://suvane-research.oliviaralph89.chatgpt.site
+```
+
+The backend uses an exact-origin allowlist parsed from comma-separated `CORS_ORIGINS`. Wildcard origins are not used. `allow_credentials` is `false` because this public v0 API does not use cookies.
+
+### Deployed URLs
+
+After custom domain setup, use `api.suvane.org` as the production API host. Before that, replace `<service-host>` with your Render service hostname (for example `suvane-research-api.onrender.com`):
+
+| Purpose | URL |
+|---------|-----|
+| Health check | `https://<service-host>/health` |
+| Swagger docs | `https://<service-host>/docs` |
+| Evidence API | `https://<service-host>/api/evidence` |
+| Ask API | `https://<service-host>/api/ask` |
+
+Example after DNS verification: `https://api.suvane.org/health`
+
+### Verification commands
+
+```powershell
+python -m pytest -q
+git diff --check
+```
+
+After deploy, verify the health check:
+
+```powershell
+Invoke-RestMethod -Uri https://<service-host>/health
+```
+
+### What is implemented (Phase 2B)
+
+- `render.yaml` Blueprint for Render web service deployment
+- Production CORS allowlist via `CORS_ORIGINS`
+- `allow_credentials=False` for public API CORS
+- Deployment readiness tests (`tests/test_deployment.py`)
+
 ## License
 
 See [LICENSE](LICENSE).
