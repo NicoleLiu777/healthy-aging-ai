@@ -27,8 +27,31 @@ def _dedupe_preserve_order(values: list[str]) -> list[str]:
     return result
 
 
-def _best_strength(records: list[EvidenceRecord]) -> EvidenceStrength:
-    return max(records, key=lambda record: STRENGTH_RANK[record.evidence_strength]).evidence_strength
+def _aggregate_evidence_strength(records: list[EvidenceRecord]) -> EvidenceStrength:
+    """Conservative Phase 1 interim rule: use the weakest strength among retrieved records.
+
+    Example: strong + moderate + early => early.
+
+    This will be replaced by a formal evidence-grading framework in a later phase.
+    """
+    return min(records, key=lambda record: STRENGTH_RANK[record.evidence_strength]).evidence_strength
+
+
+def _build_pilot_metrics(records: list[EvidenceRecord]) -> list[str]:
+    return _dedupe_preserve_order(
+        [
+            *(
+                outcome
+                for record in records
+                for outcome in record.outcomes_improved
+            ),
+            *(
+                outcome
+                for record in records
+                for outcome in record.outcomes_not_improved
+            ),
+        ]
+    )
 
 
 def _build_conclusion(question: str, records: list[EvidenceRecord], strength: EvidenceStrength) -> str:
@@ -89,7 +112,7 @@ def synthesize_decision_brief(
             ),
         )
 
-    strength = _best_strength(records)
+    strength = _aggregate_evidence_strength(records)
     return DecisionBrief(
         question=question,
         conclusion=_build_conclusion(question, records, strength),
@@ -107,11 +130,7 @@ def synthesize_decision_brief(
             limitation for record in records for limitation in record.limitations
         ),
         pilot_recommendation=PILOT_BY_STRENGTH[strength],
-        pilot_metrics=_dedupe_preserve_order(
-            implication
-            for record in records
-            for implication in record.implementation_implications
-        ),
+        pilot_metrics=_build_pilot_metrics(records),
         citations=_build_citations(records),
         insufficient_evidence_reason=None,
     )

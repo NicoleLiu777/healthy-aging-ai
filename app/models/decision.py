@@ -1,6 +1,6 @@
 from typing import Literal
 
-from pydantic import BaseModel, HttpUrl
+from pydantic import BaseModel, Field, HttpUrl, field_validator
 
 DecisionEvidenceStrength = Literal[
     "strong", "moderate", "limited", "early", "insufficient"
@@ -18,7 +18,14 @@ class Citation(BaseModel):
 
 
 class AskRequest(BaseModel):
-    question: str
+    question: str = Field(min_length=5, max_length=500)
+
+    @field_validator("question", mode="before")
+    @classmethod
+    def strip_and_validate_question(cls, value: object) -> object:
+        if isinstance(value, str):
+            return value.strip()
+        return value
 
 
 class DecisionBrief(BaseModel):

@@ -137,10 +137,15 @@ STOP_WORDS = frozenset(
         "一个",
         "进行",
         "使用",
+        "什么",
+        "应该",
+        "注意",
     }
 )
 
 MIN_RELEVANCE_SCORE = 2
+MIN_DISTINCT_KEYWORD_MATCHES = 2
+DEFAULT_TOP_K = 5
 
 
 def tokenize(text: str) -> list[str]:
@@ -161,7 +166,7 @@ def tokenize(text: str) -> list[str]:
             if bigram not in STOP_WORDS:
                 tokens.append(bigram)
 
-    return tokens
+    return list(dict.fromkeys(tokens))
 
 
 def _record_search_text(record: EvidenceRecord) -> str:
@@ -180,36 +185,43 @@ def _record_search_text(record: EvidenceRecord) -> str:
     return " ".join(parts).lower()
 
 
-def score_record(record: EvidenceRecord, keywords: list[str]) -> int:
+def score_record(record: EvidenceRecord, keywords: list[str]) -> tuple[int, int]:
     if not keywords:
-        return 0
+        return 0, 0
 
     search_text = _record_search_text(record)
     topic_text = " ".join(record.topic).lower()
     score = 0
+    matched_keywords = 0
 
     for keyword in keywords:
         if keyword in topic_text:
             score += 3
+            matched_keywords += 1
         elif keyword in search_text:
             score += 1
+            matched_keywords += 1
 
-    return score
+    return score, matched_keywords
 
 
 def retrieve_relevant_evidence(
     question: str,
     records: list[EvidenceRecord],
+    top_k: int = DEFAULT_TOP_K,
 ) -> list[EvidenceRecord]:
+    if top_k < 1:
+        raise ValueError("top_k must be at least 1")
+
     keywords = tokenize(question)
     if not keywords or not records:
         return []
 
-    scored: list[tuple[int, EvidenceRecord]] = []
+    scored: list[tuple[int, int, str, EvidenceRecord]] = []
     for record in records:
-        score = score_record(record, keywords)
-        if score >= MIN_RELEVANCE_SCORE:
-            scored.append((score, record))
+        score, matched_keywords = score_record(record, keywords)
+        if score >= MIN_RELEVANCE_SCORE and matched_keywords >= MIN_DISTINCT_KEYWORD_MATCHES:
+            scored.append((score, record.year, record.id, record))
 
-    scored.sort(key=lambda item: (-item[0], item[1].year), reverse=False)
-    return [record for _, record in scored]
+    scored.sort(key=lambda item: (-item[0], -item[1], item[2]))
+    return [record for _, _, _, record in scored[:top_k]]
