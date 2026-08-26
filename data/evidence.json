@@ -1,1 +1,287 @@
-[]
+[
+  {
+    "id": "marziali-2024",
+    "title": "Reducing Loneliness and Social Isolation of Older Adults Through Voice Assistants: Literature Review and Bibliometric Analysis",
+    "authors": [
+      "Rachele Alessandra Marziali",
+      "Claudia Franceschetti",
+      "Adrian Dinculescu",
+      "Alexandru Nistorescu",
+      "Dominic Mircea Kristály",
+      "Adrian Alexandru Moșoi",
+      "Ronny Broekx",
+      "Mihaela Marin",
+      "Cristian Vizitiu",
+      "Sorin-Aurel Moraru",
+      "Lorena Rossi",
+      "Mirko Di Rosa"
+    ],
+    "year": 2024,
+    "url": "https://www.jmir.org/2024/1/e50534/",
+    "doi": "10.2196/50534",
+    "topic": [
+      "voice assistants",
+      "older adults",
+      "loneliness",
+      "social isolation",
+      "usability",
+      "acceptability"
+    ],
+    "population": "Older adults in studies of voice assistants for loneliness and social isolation",
+    "study_type": "Systematic literature review and bibliometric analysis",
+    "sample_size": null,
+    "included_studies": 16,
+    "intervention": "Voice assistants to reduce loneliness and social isolation in older adults",
+    "comparison": null,
+    "outcomes_improved": [],
+    "outcomes_not_improved": [],
+    "source_role": "effectiveness",
+    "decision_eligible": true,
+    "evidence_strength": "limited",
+    "evidence_strength_rationale": "Heterogeneous review; most studies assessed usability or acceptability and only a minority directly assessed loneliness/social isolation.",
+    "limitations": [
+      "Most included studies emphasized usability, acceptability, or user experience rather than loneliness/isolation outcomes directly",
+      "Voice assistant interventions and study designs were heterogeneous across included studies"
+    ],
+    "implementation_implications": [
+      "Separate usability/acceptability findings from loneliness or social isolation effectiveness evidence",
+      "Prioritize studies that directly measure social isolation or loneliness outcomes in pilot planning"
+    ],
+    "verification_status": "verified",
+    "verified_against": ["https://www.jmir.org/2024/1/e50534/"]
+  },
+  {
+    "id": "li-2023",
+    "title": "Systematic review and meta-analysis of AI-based conversational agents for promoting mental health and well-being",
+    "authors": [
+      "Han Li",
+      "Renwen Zhang",
+      "Yi-Chieh Lee",
+      "Robert E. Kraut",
+      "David C. Mohr"
+    ],
+    "year": 2023,
+    "url": "https://www.nature.com/articles/s41746-023-00979-5",
+    "doi": "10.1038/s41746-023-00979-5",
+    "topic": [
+      "AI conversational agents",
+      "mental health",
+      "depression",
+      "psychological distress",
+      "older adults"
+    ],
+    "population": "Mixed populations across 35 experimental studies, including older adults in subgroup analyses",
+    "study_type": "Systematic review and meta-analysis",
+    "sample_size": 17123,
+    "included_studies": 35,
+    "intervention": "AI-based conversational agents for mental health and well-being",
+    "comparison": null,
+    "outcomes_improved": [
+      "Depression symptoms",
+      "Psychological distress"
+    ],
+    "outcomes_not_improved": [
+      "Overall psychological well-being"
+    ],
+    "source_role": "effectiveness",
+    "decision_eligible": true,
+    "evidence_strength": "moderate",
+    "evidence_strength_rationale": "Systematic review with 15 RCTs in the meta-analysis, but heterogeneous interventions and populations and limited older-adult-specific certainty.",
+    "limitations": [
+      "Heterogeneous conversational agent designs and delivery platforms across included studies",
+      "Limited certainty for older-adult-specific applications despite subgroup findings"
+    ],
+    "implementation_implications": [
+      "Track depression symptoms and psychological distress separately from overall well-being",
+      "Account for heterogeneous agent designs and populations when interpreting pilot results"
+    ],
+    "verification_status": "verified",
+    "verified_against": ["https://www.nature.com/articles/s41746-023-00979-5"]
+  },
+  {
+    "id": "who-2025",
+    "title": "From loneliness to social connection: charting a path to healthier societies – Report of the WHO Commission on Social Connection",
+    "authors": [
+      "World Health Organization",
+      "WHO Commission on Social Connection"
+    ],
+    "year": 2025,
+    "url": "https://www.who.int/publications/i/item/978240112360",
+    "doi": null,
+    "topic": [
+      "social connection",
+      "loneliness",
+      "social isolation",
+      "policy",
+      "public health"
+    ],
+    "population": "General populations affected by social isolation and loneliness",
+    "study_type": "WHO commission policy report",
+    "sample_size": null,
+    "included_studies": null,
+    "intervention": "Policy and programmatic guidance on social connection",
+    "comparison": null,
+    "outcomes_improved": [],
+    "outcomes_not_improved": [],
+    "source_role": "context",
+    "decision_eligible": false,
+    "evidence_strength": null,
+    "evidence_strength_rationale": "Context source providing policy framing on social connection; not an effectiveness estimate.",
+    "limitations": [],
+    "implementation_implications": [
+      "Frame pilot decisions within broader social connection policy context",
+      "Do not treat policy guidance as intervention effectiveness evidence"
+    ],
+    "verification_status": "verified",
+    "verified_against": ["https://www.who.int/publications/i/item/978240112360"]
+  },
+  {
+    "id": "loveys-2019",
+    "title": "Reducing Patient Loneliness With Artificial Agents: Design Insights From Evolutionary Neuropsychiatry",
+    "authors": [
+      "Kate Loveys",
+      "Gregory Fricchione",
+      "Kavitha Kolappa",
+      "Mark Sagar",
+      "Elizabeth Broadbent"
+    ],
+    "year": 2019,
+    "url": "https://www.jmir.org/2019/7/e13664/",
+    "doi": "10.2196/13664",
+    "topic": [
+      "artificial agents",
+      "loneliness",
+      "design",
+      "evolutionary neuropsychiatry"
+    ],
+    "population": "Patients experiencing loneliness (design perspective)",
+    "study_type": "Viewpoint",
+    "sample_size": null,
+    "included_studies": null,
+    "intervention": "Artificial agents informed by evolutionary neuropsychiatry design principles",
+    "comparison": null,
+    "outcomes_improved": [],
+    "outcomes_not_improved": [],
+    "source_role": "design",
+    "decision_eligible": false,
+    "evidence_strength": null,
+    "evidence_strength_rationale": "Design viewpoint source; not an effectiveness trial or synthesis.",
+    "limitations": [
+      "Viewpoint article without empirical effectiveness outcomes"
+    ],
+    "implementation_implications": [
+      "Use design principles to inform agent interaction patterns, not as effectiveness proof",
+      "Plan for attachment and therapeutic relationship factors when designing agent pilots"
+    ],
+    "verification_status": "verified",
+    "verified_against": ["https://www.jmir.org/2019/7/e13664/"]
+  },
+  {
+    "id": "welch-2023-egm",
+    "title": "Digital interventions to reduce social isolation and loneliness in older adults: An evidence and gap map",
+    "authors": [
+      "Vivian Welch",
+      "Elizabeth T. Ghogomu",
+      "Victoria I. Barbeau",
+      "Sierra Dowling",
+      "Rebecca Doyle",
+      "Ella Beveridge",
+      "Elisabeth Boulton",
+      "Payaam Desai",
+      "Jimmy Huang",
+      "Nour Elmestekawy",
+      "Tarannum Hussain",
+      "Arpana Wadhwani",
+      "Sabrina Boutin",
+      "Niobe Haitas",
+      "Dylan Kneale",
+      "Douglas M. Salzwedel",
+      "Roger Simard",
+      "Paul Hébert",
+      "Christopher Mikton"
+    ],
+    "year": 2023,
+    "url": "https://www.campbellcollaboration.org/review/digital-interventions-social-isolation-loneliness-older-adults-egm/",
+    "doi": "10.1002/cl2.1369",
+    "topic": [
+      "digital interventions",
+      "social isolation",
+      "loneliness",
+      "older adults",
+      "evidence map"
+    ],
+    "population": "Older adults in non-hospital settings",
+    "study_type": "Evidence and gap map",
+    "sample_size": null,
+    "included_studies": 200,
+    "intervention": "Digital interventions to reduce social isolation and loneliness in older adults",
+    "comparison": null,
+    "outcomes_improved": [],
+    "outcomes_not_improved": [],
+    "source_role": "evidence_map",
+    "decision_eligible": false,
+    "evidence_strength": null,
+    "evidence_strength_rationale": "Evidence-map source summarizing review and study distribution; not a pooled effectiveness estimate.",
+    "limitations": [
+      "72% of included systematic reviews were critically low quality",
+      "Evidence was geographically uneven, with sparse reporting of community-level outcomes"
+    ],
+    "implementation_implications": [
+      "Treat mapped evidence as directional because underlying review quality is often critically low",
+      "Address geographic and equity gaps before scaling pilots broadly"
+    ],
+    "verification_status": "verified",
+    "verified_against": [
+      "https://www.campbellcollaboration.org/review/digital-interventions-social-isolation-loneliness-older-adults-egm/"
+    ]
+  },
+  {
+    "id": "dino-2025",
+    "title": "Remote Virtual Interactive Agents for Older Adults: Exploring Its Science via Network Analysis and Systematic Review",
+    "authors": [
+      "Michael Joseph Dino",
+      "Chloe Margalaux Villafuerte",
+      "Veronica A Decker",
+      "Janet Lopez",
+      "Luis Ezra D Cruz",
+      "Gerald C Dino",
+      "Jenica Ana Rivero",
+      "Patrick Tracy Balbin",
+      "Eloisa Mallo",
+      "Cheryl Briggs",
+      "Ladda Thiamwong",
+      "Mona Shattell"
+    ],
+    "year": 2025,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40941605/",
+    "doi": "10.3390/healthcare13172253",
+    "topic": [
+      "virtual interactive agents",
+      "older adults",
+      "systematic review",
+      "telehealth"
+    ],
+    "population": "Older adults in studies of remote virtual interactive agents",
+    "study_type": "Systematic review with network analysis",
+    "sample_size": null,
+    "included_studies": 15,
+    "intervention": "Remote virtual interactive agents for older adults",
+    "comparison": null,
+    "outcomes_improved": [],
+    "outcomes_not_improved": [],
+    "source_role": "effectiveness",
+    "decision_eligible": true,
+    "evidence_strength": "limited",
+    "evidence_strength_rationale": "13/15 studies reported broadly positive outcomes, but interventions, outcomes, and populations were heterogeneous and no pooled effectiveness estimate was reported.",
+    "limitations": [
+      "Interventions, outcomes, and populations were heterogeneous across included studies",
+      "No pooled effectiveness estimate was reported"
+    ],
+    "implementation_implications": [
+      "Expect heterogeneity across virtual interactive agent interventions and measured outcomes",
+      "Do not assume pooled effectiveness from narrative synthesis alone"
+    ],
+    "verification_status": "verified",
+    "verified_against": ["https://pubmed.ncbi.nlm.nih.gov/40941605/"]
+  }
+]
