@@ -4,7 +4,12 @@ from pathlib import Path
 import pytest
 
 from app.models.evidence import EvidenceRecord
-from app.services.retrieval import retrieve_relevant_evidence, score_record, tokenize
+from app.services.retrieval import (
+    detect_source_role_intent,
+    retrieve_relevant_evidence,
+    score_record,
+    tokenize,
+)
 
 PHASE2A_RECORD_FIELDS = {
     "doi": None,
@@ -249,6 +254,65 @@ def test_unmapped_chinese_health_questions_remain_insufficient(
         retrieve_relevant_evidence(question, production_repository.list_all())
         == []
     )
+
+
+@pytest.mark.parametrize(
+    ("question", "expected_role", "expected_id"),
+    [
+        (
+            "What is the WHO policy framing for loneliness and social connection?",
+            "context",
+            "who-2025",
+        ),
+        (
+            "What design principles are proposed for artificial agents addressing loneliness?",
+            "design",
+            "loveys-2019",
+        ),
+        (
+            "Where are the evidence gaps for digital interventions addressing loneliness?",
+            "evidence_map",
+            "welch-2023-egm",
+        ),
+    ],
+)
+def test_explicit_source_role_intent_retrieves_only_requested_role(
+    production_repository,
+    question,
+    expected_role,
+    expected_id,
+):
+    records = production_repository.list_all()
+    results = retrieve_relevant_evidence(question, records)
+
+    assert detect_source_role_intent(question) == expected_role
+    assert expected_id in {record.id for record in results}
+    assert {record.source_role for record in results} == {expected_role}
+
+
+@pytest.mark.parametrize(
+    "question",
+    [
+        "Do design principles improve loneliness outcomes?",
+        "Is the WHO policy effective at reducing loneliness?",
+        "Compare policy framing and design principles for artificial agents.",
+    ],
+)
+def test_conflicting_or_multi_role_questions_do_not_force_role_filter(question):
+    assert detect_source_role_intent(question) is None
+
+
+def test_source_role_filter_does_not_change_supported_effectiveness_retrieval(
+    production_repository,
+):
+    question = "Do AI conversational agents improve depression symptoms?"
+    results = retrieve_relevant_evidence(
+        question,
+        production_repository.list_all(),
+    )
+
+    assert detect_source_role_intent(question) is None
+    assert "li-2023" in {record.id for record in results}
 
 
 def test_empty_corpus_returns_insufficient(client, tmp_path: Path):

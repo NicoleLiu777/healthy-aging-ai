@@ -1,7 +1,7 @@
 import re
 import unicodedata
 
-from app.models.evidence import EvidenceRecord
+from app.models.evidence import EvidenceRecord, SourceRole
 
 STOP_WORDS = frozenset(
     {
@@ -162,9 +162,44 @@ QUERY_PHRASE_ALIASES: dict[str, tuple[str, ...]] = {
     "远程": ("remote",),
 }
 
+SOURCE_ROLE_INTENT_PHRASES: dict[SourceRole, tuple[str, ...]] = {
+    "context": ("policy framing", "policy context", "who policy"),
+    "design": ("design principles", "design insights", "interaction design"),
+    "evidence_map": ("evidence gap", "evidence gaps", "evidence map", "gap map"),
+}
+
+EFFECTIVENESS_INTENT_PHRASES = (
+    "effectiveness",
+    "effective",
+    "improve",
+    "improves",
+    "improved",
+    "outcome",
+    "outcomes",
+    "does it work",
+    "do they work",
+    "reduce",
+    "reduces",
+)
+
 MIN_RELEVANCE_SCORE = 2
 MIN_DISTINCT_KEYWORD_MATCHES = 2
 DEFAULT_TOP_K = 5
+
+
+def detect_source_role_intent(question: str) -> SourceRole | None:
+    normalized = unicodedata.normalize("NFKC", question.lower())
+    if any(phrase in normalized for phrase in EFFECTIVENESS_INTENT_PHRASES):
+        return None
+
+    matched_roles = {
+        role
+        for role, phrases in SOURCE_ROLE_INTENT_PHRASES.items()
+        if any(phrase in normalized for phrase in phrases)
+    }
+    if len(matched_roles) != 1:
+        return None
+    return matched_roles.pop()
 
 
 def tokenize(text: str) -> list[str]:
@@ -240,8 +275,15 @@ def retrieve_relevant_evidence(
     if not keywords or not records:
         return []
 
+    source_role_intent = detect_source_role_intent(question)
+    candidate_records = (
+        [record for record in records if record.source_role == source_role_intent]
+        if source_role_intent is not None
+        else records
+    )
+
     scored: list[tuple[int, int, str, EvidenceRecord]] = []
-    for record in records:
+    for record in candidate_records:
         score, matched_keywords = score_record(record, keywords)
         if score >= MIN_RELEVANCE_SCORE and matched_keywords >= MIN_DISTINCT_KEYWORD_MATCHES:
             scored.append((score, record.year, record.id, record))

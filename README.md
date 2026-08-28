@@ -62,6 +62,8 @@ The versioned [`evals/`](evals/) package freezes a 24-case gold set, machine-che
 
 Day 5 adds a [bounded multilingual decision contract](evals/decisions/day5_multilingual_contract.md) and [same-set comparison](evals/reports/day5_comparison_v0.1.md). It resolves the three frozen Chinese lexical failures without changing the gold set, corpus, synthesis, thresholds, or model-free boundary.
 
+Day 6 adds an [explicit source-role intent contract](evals/decisions/day6_source_role_intent_contract.md) and [same-set comparison](evals/reports/day6_comparison_v0.1.md). It resolves the remaining context/design/evidence-map cases while preserving effectiveness retrieval, bringing the frozen machine-checkable set to 24/24. This sample-limited result is not clinical validation or broad-domain coverage.
+
 ## Local setup (Windows PowerShell)
 
 ```powershell
