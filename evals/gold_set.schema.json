@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://suvane.org/schemas/evaluation-gold-set-v0.1.json",
+  "title": "SUVANÉ Research evaluation gold set v0.1",
+  "type": "object",
+  "required": ["dataset_version", "corpus_version", "top_k", "cases"],
+  "properties": {
+    "dataset_version": {"const": "0.1"},
+    "corpus_version": {"type": "string", "minLength": 1},
+    "top_k": {"type": "integer", "minimum": 1},
+    "cases": {
+      "type": "array",
+      "minItems": 20,
+      "maxItems": 30,
+      "items": {
+        "type": "object",
+        "required": ["id", "category", "question", "answerability", "expected_evidence_ids", "rationale", "failure_class"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^eval-[0-9]{3}$"},
+          "category": {"enum": ["supported", "context_only", "insufficient", "ambiguous", "multilingual", "adversarial", "malformed"]},
+          "question": {"type": "string"},
+          "answerability": {"enum": ["answerable", "context_only", "insufficient", "invalid"]},
+          "expected_evidence_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+          "rationale": {"type": "string", "minLength": 1},
+          "failure_class": {"enum": ["implementation_bug", "corpus_gap", "expected_limitation", "none"]}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

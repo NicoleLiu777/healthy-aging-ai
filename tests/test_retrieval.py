@@ -186,6 +186,22 @@ def test_unrelated_chinese_aging_question_does_not_match_companion_fixture(fixtu
     assert results == []
 
 
+@pytest.mark.parametrize(
+    "question",
+    [
+        "What nutritional diet should older adults follow?",
+        "Do fall-prevention wearables work for older adults?",
+        "What medication dose is appropriate for older adults?",
+        "Is this intervention effective for older adults?",
+    ],
+)
+def test_generic_population_and_effectiveness_words_do_not_create_relevance(
+    fixture_records,
+    question,
+):
+    assert retrieve_relevant_evidence(question, fixture_records) == []
+
+
 def test_chinese_companion_question_still_retrieves_companion_fixture(fixture_records):
     results = retrieve_relevant_evidence(
         "AI陪伴工具是否值得在独居老人中试点？",

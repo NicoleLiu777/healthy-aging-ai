@@ -56,6 +56,10 @@ data/evidence.json
 
 The dated [security and exposure review](docs/security-and-exposure.md) records the verified public surfaces, safeguards, dependency findings, limitations, and release blockers. It separates current evidence from controls that are required before authentication, stored user results, or a paid LLM are introduced.
 
+### Evaluation baseline v0.1
+
+The versioned [`evals/`](evals/) package freezes a 24-case gold set, machine-checkable scoring contract, offline runner, reviewer rubric, raw before/after results, comparison report, and failure backlog. The baseline uses the same six-record corpus and no model calls. Reported percentages apply only to that frozen sample and are not clinical or general-quality claims.
+
 ## Local setup (Windows PowerShell)
 
 ```powershell
