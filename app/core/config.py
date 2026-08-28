@@ -1,6 +1,7 @@
 from functools import lru_cache
 from pathlib import Path
 
+from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -17,6 +18,8 @@ class Settings(BaseSettings):
     app_name: str = "SUVANÉ Research RAG"
     app_version: str = "0.2.0"
     cors_origins: str = "http://localhost:5173"
+    api_docs_enabled: bool = True
+    max_request_body_bytes: int = Field(default=8192, gt=0)
     evidence_path: Path = DEFAULT_EVIDENCE_PATH
     openai_api_key: str = ""
     openai_model: str = ""

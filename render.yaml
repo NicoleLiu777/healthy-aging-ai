@@ -9,4 +9,8 @@ services:
     healthCheckPath: /health
     envVars:
       - key: CORS_ORIGINS
-        value: http://localhost:5173,https://suvane.org,https://www.suvane.org,https://suvane-research.oliviaralph89.chatgpt.site
+        value: https://suvane.org,https://www.suvane.org,https://suvane-research.oliviaralph89.chatgpt.site
+      - key: API_DOCS_ENABLED
+        value: "false"
+      - key: MAX_REQUEST_BODY_BYTES
+        value: "8192"
