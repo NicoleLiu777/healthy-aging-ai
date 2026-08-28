@@ -79,7 +79,7 @@ python -m pytest
 python -m uvicorn app.main:app --reload
 ```
 
-The API listens on `http://127.0.0.1:8000` by default. Interactive docs are at `http://127.0.0.1:8000/docs`. Local docs are enabled by default; Render sets `API_DOCS_ENABLED=false`, so `/docs` and `/openapi.json` are not public in production.
+The API listens on `http://127.0.0.1:8000` by default. After copying `.env.example` to `.env`, interactive docs are available at `http://127.0.0.1:8000/docs`. Docs are disabled by the code default and Render also sets `API_DOCS_ENABLED=false`, so `/docs` and `/openapi.json` are not public in production.
 
 ## Endpoint examples
 

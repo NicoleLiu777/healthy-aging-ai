@@ -152,6 +152,13 @@ def test_production_docs_can_be_disabled():
     assert client.get("/openapi.json").status_code == 404
 
 
+def test_docs_are_disabled_by_default():
+    client = TestClient(create_app(Settings()))
+
+    assert client.get("/docs").status_code == 404
+    assert client.get("/openapi.json").status_code == 404
+
+
 def test_local_docs_remain_available():
     client = TestClient(create_app(Settings(api_docs_enabled=True)))
 
