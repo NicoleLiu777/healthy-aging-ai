@@ -50,7 +50,11 @@ data/evidence.json
 | `app/services/` | Business logic: retrieval scoring and brief synthesis |
 | `app/repositories/` | Evidence corpus loading and filtering |
 | `app/core/config.py` | Environment-driven settings (CORS, paths, future LLM config) |
-| `data/evidence.json` | Production evidence corpus (currently empty) |
+| `data/evidence.json` | Small, human-verified production seed corpus (currently six records) |
+
+### Phase A production truth
+
+The dated [security and exposure review](docs/security-and-exposure.md) records the verified public surfaces, safeguards, dependency findings, limitations, and release blockers. It separates current evidence from controls that are required before authentication, stored user results, or a paid LLM are introduced.
 
 ## Local setup (Windows PowerShell)
 
