@@ -79,7 +79,7 @@ python -m pytest
 python -m uvicorn app.main:app --reload
 ```
 
-The API listens on `http://127.0.0.1:8000` by default. Interactive docs are at `http://127.0.0.1:8000/docs`.
+The API listens on `http://127.0.0.1:8000` by default. Interactive docs are at `http://127.0.0.1:8000/docs`. Local docs are enabled by default; Render sets `API_DOCS_ENABLED=false`, so `/docs` and `/openapi.json` are not public in production.
 
 ## Endpoint examples
 
@@ -106,6 +106,7 @@ Invoke-RestMethod -Uri "http://127.0.0.1:8000/api/evidence?strength=moderate"
 ```
 
 Returns an array of `EvidenceRecord` objects matching optional `q` (free-text) and `strength` filters.
+The `q` value is limited to 200 characters. Request bodies are capped at 8 KiB by default through `MAX_REQUEST_BODY_BYTES`.
 
 ### Ask a decision question
 
@@ -171,6 +172,7 @@ When the production corpus is empty, unrelated or unmatched questions return an 
 - **Insufficient evidence is explicit**: When retrieval finds no relevant records, the brief states `evidence_strength: insufficient` and explains why.
 - **Deterministic Phase 1**: No OpenAI or external LLM calls. Output is assembled from retrieved records only.
 - **Secrets excluded**: `.env` is gitignored and must never be committed.
+- **HTTP boundary**: Production CORS allows only known origins and required methods/headers; responses include safe security headers and `/api/ask` responses use `Cache-Control: no-store`.
 
 ## What is implemented (Phase 1)
 

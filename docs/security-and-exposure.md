@@ -100,6 +100,10 @@ Acceptance criteria:
 - Local docs remain available; production docs behavior matches the recorded decision.
 - No authentication, LLM, database, or product-scope expansion is introduced.
 
+### Day 3 implementation status
+
+Implemented in the HTTP-boundary hardening change set: the evidence query is capped at 200 characters, request bodies are capped at 8 KiB before parsing, CORS methods and headers are narrowed, security headers cover normal and error responses, `/api/ask` responses use `Cache-Control: no-store`, and production docs are disabled through Render configuration while local docs remain available. Automated tests cover each boundary. Authentication, rate limits, quotas, request IDs, and infrastructure log-retention verification remain deliberately out of scope.
+
 ## Phase A gate status
 
 Phase A is **not fully closed**. Ground truth and this exposure inventory are complete, but the following remain:
