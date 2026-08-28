@@ -212,6 +212,45 @@ def test_chinese_companion_question_still_retrieves_companion_fixture(fixture_re
     assert results[0].id == "fixture-companion-ai-001"
 
 
+@pytest.mark.parametrize(
+    ("question", "expected_id"),
+    [
+        ("语音助手能否减少老年人的孤独感？", "marziali-2024"),
+        ("AI对话代理对心理健康和抑郁有帮助吗？", "li-2023"),
+        ("远程虚拟互动代理适合老年人吗？", "dino-2025"),
+    ],
+)
+def test_bounded_chinese_phrases_retrieve_expected_production_record(
+    production_repository,
+    question,
+    expected_id,
+):
+    results = retrieve_relevant_evidence(
+        question,
+        production_repository.list_all(),
+    )
+
+    assert expected_id in {record.id for record in results}
+
+
+@pytest.mark.parametrize(
+    "question",
+    [
+        "老人饮食应该注意什么？",
+        "老年人应该吃什么药？",
+        "老年人如何预防跌倒？",
+    ],
+)
+def test_unmapped_chinese_health_questions_remain_insufficient(
+    production_repository,
+    question,
+):
+    assert (
+        retrieve_relevant_evidence(question, production_repository.list_all())
+        == []
+    )
+
+
 def test_empty_corpus_returns_insufficient(client, tmp_path: Path):
     empty_path = tmp_path / "empty-evidence.json"
     empty_path.write_text(json.dumps([]), encoding="utf-8")

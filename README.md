@@ -60,6 +60,8 @@ The dated [security and exposure review](docs/security-and-exposure.md) records 
 
 The versioned [`evals/`](evals/) package freezes a 24-case gold set, machine-checkable scoring contract, offline runner, reviewer rubric, raw before/after results, comparison report, and failure backlog. The baseline uses the same six-record corpus and no model calls. Reported percentages apply only to that frozen sample and are not clinical or general-quality claims.
 
+Day 5 adds a [bounded multilingual decision contract](evals/decisions/day5_multilingual_contract.md) and [same-set comparison](evals/reports/day5_comparison_v0.1.md). It resolves the three frozen Chinese lexical failures without changing the gold set, corpus, synthesis, thresholds, or model-free boundary.
+
 ## Local setup (Windows PowerShell)
 
 ```powershell

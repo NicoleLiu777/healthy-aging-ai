@@ -150,6 +150,18 @@ STOP_WORDS = frozenset(
     }
 )
 
+QUERY_PHRASE_ALIASES: dict[str, tuple[str, ...]] = {
+    "语音助手": ("voice", "assistants"),
+    "孤独感": ("loneliness",),
+    "孤独": ("loneliness",),
+    "社会隔离": ("social", "isolation"),
+    "对话代理": ("conversational", "agents"),
+    "心理健康": ("mental", "health"),
+    "抑郁": ("depression",),
+    "虚拟互动代理": ("virtual", "interactive", "agents"),
+    "远程": ("remote",),
+}
+
 MIN_RELEVANCE_SCORE = 2
 MIN_DISTINCT_KEYWORD_MATCHES = 2
 DEFAULT_TOP_K = 5
@@ -172,6 +184,10 @@ def tokenize(text: str) -> list[str]:
             bigram = segment[index : index + 2]
             if bigram not in STOP_WORDS:
                 tokens.append(bigram)
+
+    for phrase, aliases in QUERY_PHRASE_ALIASES.items():
+        if phrase in normalized:
+            tokens.extend(aliases)
 
     return list(dict.fromkeys(tokens))
 
