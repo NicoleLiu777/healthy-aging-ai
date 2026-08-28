@@ -1,0 +1,470 @@
+{
+  "evaluation_version": "0.1",
+  "label": "Day 5 after bounded Chinese phrase aliases",
+  "run_at_utc": "2026-08-28T20:36:55.713936+00:00",
+  "code_version": "candidate-bounded-chinese-aliases-v1",
+  "corpus_version": "six-record-seed-2026-08-28",
+  "corpus_record_count": 6,
+  "dataset_version": "0.1",
+  "case_count": 24,
+  "top_k": 5,
+  "metrics": {
+    "retrieval_hit_at_5": 1.0,
+    "citation_validity": 1.0,
+    "abstention_correctness": 0.8636,
+    "schema_validity": 1.0,
+    "case_pass_rate": 0.875
+  },
+  "failed_case_ids": [
+    "eval-007",
+    "eval-008",
+    "eval-009"
+  ],
+  "results": [
+    {
+      "id": "eval-001",
+      "category": "supported",
+      "answerability": "answerable",
+      "retrieved_ids": [
+        "li-2023"
+      ],
+      "citation_ids": [
+        "li-2023"
+      ],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": true,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    },
+    {
+      "id": "eval-002",
+      "category": "supported",
+      "answerability": "answerable",
+      "retrieved_ids": [
+        "li-2023",
+        "dino-2025",
+        "who-2025"
+      ],
+      "citation_ids": [
+        "li-2023",
+        "dino-2025",
+        "who-2025"
+      ],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": true,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    },
+    {
+      "id": "eval-003",
+      "category": "supported",
+      "answerability": "answerable",
+      "retrieved_ids": [
+        "marziali-2024",
+        "welch-2023-egm",
+        "who-2025"
+      ],
+      "citation_ids": [
+        "marziali-2024",
+        "welch-2023-egm",
+        "who-2025"
+      ],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": true,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    },
+    {
+      "id": "eval-004",
+      "category": "supported",
+      "answerability": "answerable",
+      "retrieved_ids": [
+        "marziali-2024"
+      ],
+      "citation_ids": [
+        "marziali-2024"
+      ],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": true,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    },
+    {
+      "id": "eval-005",
+      "category": "supported",
+      "answerability": "answerable",
+      "retrieved_ids": [
+        "dino-2025"
+      ],
+      "citation_ids": [
+        "dino-2025"
+      ],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": true,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    },
+    {
+      "id": "eval-006",
+      "category": "supported",
+      "answerability": "answerable",
+      "retrieved_ids": [
+        "dino-2025"
+      ],
+      "citation_ids": [
+        "dino-2025"
+      ],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": true,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    },
+    {
+      "id": "eval-007",
+      "category": "context_only",
+      "answerability": "context_only",
+      "retrieved_ids": [
+        "who-2025",
+        "marziali-2024",
+        "welch-2023-egm"
+      ],
+      "citation_ids": [
+        "who-2025",
+        "marziali-2024",
+        "welch-2023-egm"
+      ],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": false,
+      "schema_valid": true,
+      "passed": false,
+      "failure_class": "none",
+      "failures": [
+        "abstention"
+      ]
+    },
+    {
+      "id": "eval-008",
+      "category": "context_only",
+      "answerability": "context_only",
+      "retrieved_ids": [
+        "loveys-2019",
+        "marziali-2024",
+        "li-2023"
+      ],
+      "citation_ids": [
+        "loveys-2019",
+        "marziali-2024",
+        "li-2023"
+      ],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": false,
+      "schema_valid": true,
+      "passed": false,
+      "failure_class": "none",
+      "failures": [
+        "abstention"
+      ]
+    },
+    {
+      "id": "eval-009",
+      "category": "context_only",
+      "answerability": "context_only",
+      "retrieved_ids": [
+        "welch-2023-egm",
+        "who-2025",
+        "marziali-2024"
+      ],
+      "citation_ids": [
+        "welch-2023-egm",
+        "who-2025",
+        "marziali-2024"
+      ],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": false,
+      "schema_valid": true,
+      "passed": false,
+      "failure_class": "none",
+      "failures": [
+        "abstention"
+      ]
+    },
+    {
+      "id": "eval-010",
+      "category": "supported",
+      "answerability": "answerable",
+      "retrieved_ids": [
+        "li-2023",
+        "dino-2025",
+        "loveys-2019",
+        "marziali-2024"
+      ],
+      "citation_ids": [
+        "li-2023",
+        "dino-2025",
+        "loveys-2019",
+        "marziali-2024"
+      ],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": true,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    },
+    {
+      "id": "eval-011",
+      "category": "supported",
+      "answerability": "answerable",
+      "retrieved_ids": [
+        "dino-2025",
+        "li-2023",
+        "marziali-2024"
+      ],
+      "citation_ids": [
+        "dino-2025",
+        "li-2023",
+        "marziali-2024"
+      ],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": true,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    },
+    {
+      "id": "eval-012",
+      "category": "supported",
+      "answerability": "answerable",
+      "retrieved_ids": [
+        "marziali-2024",
+        "welch-2023-egm",
+        "loveys-2019",
+        "who-2025"
+      ],
+      "citation_ids": [
+        "marziali-2024",
+        "welch-2023-egm",
+        "loveys-2019",
+        "who-2025"
+      ],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": true,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    },
+    {
+      "id": "eval-013",
+      "category": "multilingual",
+      "answerability": "answerable",
+      "retrieved_ids": [
+        "marziali-2024"
+      ],
+      "citation_ids": [
+        "marziali-2024"
+      ],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": true,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    },
+    {
+      "id": "eval-014",
+      "category": "multilingual",
+      "answerability": "answerable",
+      "retrieved_ids": [
+        "li-2023",
+        "dino-2025"
+      ],
+      "citation_ids": [
+        "li-2023",
+        "dino-2025"
+      ],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": true,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    },
+    {
+      "id": "eval-015",
+      "category": "multilingual",
+      "answerability": "answerable",
+      "retrieved_ids": [
+        "dino-2025"
+      ],
+      "citation_ids": [
+        "dino-2025"
+      ],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": true,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    },
+    {
+      "id": "eval-016",
+      "category": "insufficient",
+      "answerability": "insufficient",
+      "retrieved_ids": [],
+      "citation_ids": [],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": true,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    },
+    {
+      "id": "eval-017",
+      "category": "insufficient",
+      "answerability": "insufficient",
+      "retrieved_ids": [],
+      "citation_ids": [],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": true,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    },
+    {
+      "id": "eval-018",
+      "category": "insufficient",
+      "answerability": "insufficient",
+      "retrieved_ids": [],
+      "citation_ids": [],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": true,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    },
+    {
+      "id": "eval-019",
+      "category": "insufficient",
+      "answerability": "insufficient",
+      "retrieved_ids": [],
+      "citation_ids": [],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": true,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    },
+    {
+      "id": "eval-020",
+      "category": "ambiguous",
+      "answerability": "insufficient",
+      "retrieved_ids": [],
+      "citation_ids": [],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": true,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    },
+    {
+      "id": "eval-021",
+      "category": "ambiguous",
+      "answerability": "insufficient",
+      "retrieved_ids": [],
+      "citation_ids": [],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": true,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    },
+    {
+      "id": "eval-022",
+      "category": "adversarial",
+      "answerability": "insufficient",
+      "retrieved_ids": [],
+      "citation_ids": [],
+      "retrieval_hit_at_5": true,
+      "citation_valid": true,
+      "abstention_correct": true,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    },
+    {
+      "id": "eval-023",
+      "category": "malformed",
+      "answerability": "invalid",
+      "retrieved_ids": [],
+      "citation_ids": [],
+      "retrieval_hit_at_5": null,
+      "citation_valid": null,
+      "abstention_correct": null,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    },
+    {
+      "id": "eval-024",
+      "category": "malformed",
+      "answerability": "invalid",
+      "retrieved_ids": [],
+      "citation_ids": [],
+      "retrieval_hit_at_5": null,
+      "citation_valid": null,
+      "abstention_correct": null,
+      "schema_valid": true,
+      "passed": true,
+      "failure_class": null,
+      "failures": []
+    }
+  ],
+  "limitations": [
+    "Metrics describe only this frozen 24-case set and six-record corpus.",
+    "No human usefulness review or clinical validation was performed.",
+    "No paid model, embeddings, or semantic retrieval were used."
+  ]
+}
