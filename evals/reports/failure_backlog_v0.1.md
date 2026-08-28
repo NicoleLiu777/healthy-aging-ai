@@ -4,8 +4,8 @@
 |---|---:|---|---|---|---|
 | EVAL-FAIL-01 | ✅ Resolved | Implementation bug | 016, 017, 019, 020, 021 | Prevent generic demographic/effectiveness words from establishing relevance. | Same five frozen cases retrieve nothing and abstain; supported cases do not regress. |
 | EVAL-FAIL-02 | ✅ Resolved | Expected implementation limitation | 013–015 | Add a documented deterministic bilingual vocabulary or another bounded multilingual strategy. | All three frozen Chinese cases retrieve their expected records; unrelated Chinese nutrition, medication, and falls questions remain empty. |
-| EVAL-FAIL-03 | ⬜ Open | Expected implementation limitation | 007–009 | Represent explicit source-role intent without letting context/design/map sources influence effectiveness conclusions. | Each frozen role-specific case retrieves its expected record and returns an insufficient-evidence brief. |
+| EVAL-FAIL-03 | ✅ Resolved | Expected implementation limitation | 007–009 | Represent explicit source-role intent without letting context/design/map sources influence effectiveness conclusions. | Each frozen role-specific case retrieves its expected record and returns an insufficient-evidence brief. |
 
 No Day 4 failure requires expanding the corpus. Questions on nutrition, falls, medication dosing, or vague interventions are negative controls, not invitations to turn the prototype into a general health system.
 
-Day 5 resolved only `EVAL-FAIL-02` through the bounded phrase contract. `EVAL-FAIL-03` remains open and unchanged.
+Day 6 resolved `EVAL-FAIL-03` through the explicit source-role intent contract. All machine-checkable failure tickets in the frozen 24-case set are now resolved. Human blinded usefulness review and broader corpus coverage remain separate, open validation gates.

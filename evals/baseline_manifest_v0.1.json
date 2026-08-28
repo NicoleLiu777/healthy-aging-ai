@@ -3,6 +3,7 @@
   "baseline_code_commit": "6c2d74e",
   "candidate_code_version": "generic-term-filter-v1",
   "day5_candidate_code_version": "bounded-chinese-aliases-v1",
+  "day6_candidate_code_version": "source-role-intent-v1",
   "production_environment": "https://api.suvane.org",
   "api_version": "0.2.0",
   "dataset": "evals/questions_v0.1.json",
