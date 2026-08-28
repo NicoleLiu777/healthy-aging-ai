@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     app_name: str = "SUVANÉ Research RAG"
     app_version: str = "0.2.0"
     cors_origins: str = "http://localhost:5173"
-    api_docs_enabled: bool = True
+    api_docs_enabled: bool = False
     max_request_body_bytes: int = Field(default=8192, gt=0)
     evidence_path: Path = DEFAULT_EVIDENCE_PATH
     openai_api_key: str = ""
