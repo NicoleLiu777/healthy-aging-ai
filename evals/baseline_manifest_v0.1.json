@@ -1,0 +1,16 @@
+{
+  "evaluation_version": "0.1",
+  "baseline_code_commit": "6c2d74e",
+  "candidate_code_version": "generic-term-filter-v1",
+  "production_environment": "https://api.suvane.org",
+  "api_version": "0.2.0",
+  "dataset": "evals/questions_v0.1.json",
+  "dataset_version": "0.1",
+  "corpus": "data/evidence.json",
+  "corpus_version": "six-record-seed-2026-08-28",
+  "corpus_record_count": 6,
+  "retrieval_top_k": 5,
+  "prompt_version": "none-deterministic-synthesis",
+  "model_version": "none",
+  "paid_model_calls": 0
+}
