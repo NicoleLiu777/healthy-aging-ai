@@ -1,0 +1,136 @@
+{
+  "input_version": "1.0.0",
+  "corpus_id": "corpus-structured-fixture-v1",
+  "generated_on": "2026-09-01",
+  "sources": [
+    {
+      "title": "Remote Virtual Interactive Agents for Older Adults: Exploring Its Science via Network Analysis and Systematic Review",
+      "authors": ["Michael Joseph Dino", "Chloe Margalaux Villafuerte", "Veronica A Decker"],
+      "primary_theme": "older_adult_digital_social_connection",
+      "secondary_themes": [],
+      "evidence_type": "systematic_review",
+      "source_role": "effectiveness",
+      "decision_eligible": true,
+      "evidence_strength": "limited",
+      "doi": "https://doi.org/10.3390/HEALTHCARE13172253",
+      "provenance": {
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/40941605/?b=2&a=1#fragment",
+        "publisher": "Healthcare",
+        "publication_date": "2025",
+        "retrieved_on": "2026-08-28",
+        "verified_on": "2026-08-28",
+        "verification_status": "verified",
+        "verification_urls": ["https://pubmed.ncbi.nlm.nih.gov/40941605/"],
+        "access_status": "abstract_only",
+        "access_note": "Verified against the PubMed record.",
+        "license_status": "unknown",
+        "license_note": "Review reuse terms before storing full text.",
+        "content_sha256": null
+      },
+      "references": [
+        {
+          "key": "abstract",
+          "locator_type": "abstract",
+          "locator": "PubMed abstract and seed verification notes",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/40941605/"
+        }
+      ],
+      "claims": [
+        {
+          "claim_type": "evidence_summary",
+          "text": "The systematic review included 15 studies.",
+          "source_role": "effectiveness",
+          "decision_eligible": false,
+          "direction": "not_applicable",
+          "population_scope": ["older adults"],
+          "outcomes": [],
+          "study_count": 15,
+          "sample_size": null,
+          "reference_keys": ["abstract"]
+        },
+        {
+          "claim_type": "evidence_summary",
+          "text": "Thirteen of 15 included studies reported broadly positive outcomes, but the review did not provide a pooled effectiveness estimate.",
+          "source_role": "effectiveness",
+          "decision_eligible": true,
+          "direction": "mixed",
+          "population_scope": ["older adults"],
+          "outcomes": ["heterogeneous outcomes across included studies"],
+          "study_count": 15,
+          "sample_size": null,
+          "reference_keys": ["abstract"]
+        }
+      ],
+      "limitations": [
+        {
+          "text": "Interventions, outcomes, and populations were heterogeneous across included studies.",
+          "reference_keys": ["abstract"]
+        },
+        {
+          "text": "No pooled effectiveness estimate was reported.",
+          "reference_keys": ["abstract"]
+        }
+      ],
+      "implementation_implications": [
+        {
+          "text": "Do not infer pooled effectiveness from narrative synthesis alone.",
+          "reference_keys": ["abstract"]
+        }
+      ]
+    },
+    {
+      "title": "From loneliness to social connection: charting a path to healthier societies",
+      "authors": ["World Health Organization", "WHO Commission on Social Connection"],
+      "primary_theme": "responsible_ai_companion_design",
+      "secondary_themes": ["older_adult_digital_social_connection"],
+      "evidence_type": "policy_guidance",
+      "source_role": "context",
+      "decision_eligible": false,
+      "evidence_strength": null,
+      "doi": null,
+      "provenance": {
+        "source_url": "https://www.who.int/publications/i/item/978240112360",
+        "publisher": "World Health Organization",
+        "publication_date": "2025",
+        "retrieved_on": "2026-08-28",
+        "verified_on": "2026-08-28",
+        "verification_status": "verified",
+        "verification_urls": ["https://www.who.int/publications/i/item/978240112360"],
+        "access_status": "open_access",
+        "access_note": "The publication page was available during verification.",
+        "license_status": "unknown",
+        "license_note": "Confirm reuse terms before storing report text.",
+        "content_sha256": null
+      },
+      "references": [
+        {
+          "key": "publication-record",
+          "locator_type": "record_metadata",
+          "locator": "Verified seed record and publication page",
+          "source_url": "https://www.who.int/publications/i/item/978240112360"
+        }
+      ],
+      "claims": [
+        {
+          "claim_type": "policy_framing",
+          "text": "Use this report as policy context for social connection and not as intervention-effectiveness evidence.",
+          "source_role": "context",
+          "decision_eligible": false,
+          "direction": "not_applicable",
+          "population_scope": ["general populations affected by loneliness and social isolation"],
+          "outcomes": [],
+          "study_count": null,
+          "sample_size": null,
+          "reference_keys": ["publication-record"]
+        }
+      ],
+      "limitations": [],
+      "implementation_implications": [
+        {
+          "text": "Do not treat policy guidance as proof that a specific intervention is effective.",
+          "reference_keys": ["publication-record"]
+        }
+      ]
+    }
+  ]
+}

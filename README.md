@@ -68,6 +68,8 @@ Day 7 completes the first [blinded human review](evals/reports/day7_human_review
 
 Phase B begins with the frozen [evidence and provenance schema v1](docs/evidence-provenance-schema-v1.md). It adds claim-level source roles, stable chunk/reference IDs, access and license notes, and traceable evidence summaries, gaps, policy framing, and design principles. The v1 examples are validation fixtures only; the active six-record production corpus has not been migrated or expanded.
 
+The [structured-source ingestion command](docs/structured-source-ingestion.md) validates reviewed JSON against schema v1, derives stable IDs, canonicalizes output, and writes only to staging paths. Repeated unchanged input is byte-identical, and direct writes to the active production corpus are rejected.
+
 ## Local setup (Windows PowerShell)
 
 ```powershell
