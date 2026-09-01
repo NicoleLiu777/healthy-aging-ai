@@ -1,0 +1,507 @@
+{
+  "$defs": {
+    "EvidenceClaimV1": {
+      "additionalProperties": false,
+      "properties": {
+        "claim_id": {
+          "pattern": "^claim-[a-z0-9][a-z0-9-]*$",
+          "title": "Claim Id",
+          "type": "string"
+        },
+        "claim_type": {
+          "enum": [
+            "outcome",
+            "evidence_summary",
+            "evidence_gap",
+            "policy_framing",
+            "design_principle",
+            "implementation_requirement"
+          ],
+          "title": "Claim Type",
+          "type": "string"
+        },
+        "text": {
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "source_role": {
+          "enum": [
+            "effectiveness",
+            "context",
+            "design",
+            "evidence_map"
+          ],
+          "title": "Source Role",
+          "type": "string"
+        },
+        "decision_eligible": {
+          "title": "Decision Eligible",
+          "type": "boolean"
+        },
+        "direction": {
+          "enum": [
+            "positive",
+            "negative",
+            "mixed",
+            "unclear",
+            "not_applicable"
+          ],
+          "title": "Direction",
+          "type": "string"
+        },
+        "population_scope": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Population Scope",
+          "type": "array"
+        },
+        "outcomes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Outcomes",
+          "type": "array"
+        },
+        "study_count": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Study Count"
+        },
+        "sample_size": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Sample Size"
+        },
+        "reference_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Reference Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "claim_id",
+        "claim_type",
+        "text",
+        "source_role",
+        "decision_eligible",
+        "direction",
+        "reference_ids"
+      ],
+      "title": "EvidenceClaimV1",
+      "type": "object"
+    },
+    "EvidenceRecordV1": {
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "record_id": {
+          "pattern": "^evidence-[a-z0-9][a-z0-9-]*$",
+          "title": "Record Id",
+          "type": "string"
+        },
+        "title": {
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "authors": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Authors",
+          "type": "array"
+        },
+        "primary_theme": {
+          "enum": [
+            "ai_conversational_agents_mental_health",
+            "older_adult_digital_social_connection",
+            "responsible_ai_companion_design"
+          ],
+          "title": "Primary Theme",
+          "type": "string"
+        },
+        "secondary_themes": {
+          "items": {
+            "enum": [
+              "ai_conversational_agents_mental_health",
+              "older_adult_digital_social_connection",
+              "responsible_ai_companion_design"
+            ],
+            "type": "string"
+          },
+          "title": "Secondary Themes",
+          "type": "array"
+        },
+        "evidence_type": {
+          "enum": [
+            "systematic_review",
+            "meta_analysis",
+            "systematic_review_meta_analysis",
+            "randomized_trial",
+            "controlled_trial",
+            "observational_study",
+            "qualitative_study",
+            "mixed_methods",
+            "evidence_gap_map",
+            "policy_guidance",
+            "viewpoint",
+            "other"
+          ],
+          "title": "Evidence Type",
+          "type": "string"
+        },
+        "source_role": {
+          "enum": [
+            "effectiveness",
+            "context",
+            "design",
+            "evidence_map"
+          ],
+          "title": "Source Role",
+          "type": "string"
+        },
+        "decision_eligible": {
+          "title": "Decision Eligible",
+          "type": "boolean"
+        },
+        "evidence_strength": {
+          "anyOf": [
+            {
+              "enum": [
+                "strong",
+                "moderate",
+                "limited",
+                "early"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Evidence Strength"
+        },
+        "doi": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Doi"
+        },
+        "provenance": {
+          "$ref": "#/$defs/SourceProvenanceV1"
+        },
+        "references": {
+          "items": {
+            "$ref": "#/$defs/SourceReferenceV1"
+          },
+          "minItems": 1,
+          "title": "References",
+          "type": "array"
+        },
+        "claims": {
+          "items": {
+            "$ref": "#/$defs/EvidenceClaimV1"
+          },
+          "minItems": 1,
+          "title": "Claims",
+          "type": "array"
+        },
+        "limitations": {
+          "items": {
+            "$ref": "#/$defs/TraceableStatementV1"
+          },
+          "title": "Limitations",
+          "type": "array"
+        },
+        "implementation_implications": {
+          "items": {
+            "$ref": "#/$defs/TraceableStatementV1"
+          },
+          "title": "Implementation Implications",
+          "type": "array"
+        }
+      },
+      "required": [
+        "schema_version",
+        "record_id",
+        "title",
+        "authors",
+        "primary_theme",
+        "evidence_type",
+        "source_role",
+        "decision_eligible",
+        "evidence_strength",
+        "provenance",
+        "references",
+        "claims"
+      ],
+      "title": "EvidenceRecordV1",
+      "type": "object"
+    },
+    "SourceProvenanceV1": {
+      "additionalProperties": false,
+      "properties": {
+        "source_url": {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "title": "Source Url",
+          "type": "string"
+        },
+        "publisher": {
+          "minLength": 1,
+          "title": "Publisher",
+          "type": "string"
+        },
+        "publication_date": {
+          "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$",
+          "title": "Publication Date",
+          "type": "string"
+        },
+        "retrieved_on": {
+          "format": "date",
+          "title": "Retrieved On",
+          "type": "string"
+        },
+        "verified_on": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Verified On"
+        },
+        "verification_status": {
+          "enum": [
+            "verified",
+            "needs_review"
+          ],
+          "title": "Verification Status",
+          "type": "string"
+        },
+        "verification_urls": {
+          "items": {
+            "format": "uri",
+            "maxLength": 2083,
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Verification Urls",
+          "type": "array"
+        },
+        "access_status": {
+          "enum": [
+            "open_access",
+            "abstract_only",
+            "subscription",
+            "unknown"
+          ],
+          "title": "Access Status",
+          "type": "string"
+        },
+        "access_note": {
+          "minLength": 1,
+          "title": "Access Note",
+          "type": "string"
+        },
+        "license_status": {
+          "enum": [
+            "permitted",
+            "restricted",
+            "unknown"
+          ],
+          "title": "License Status",
+          "type": "string"
+        },
+        "license_note": {
+          "minLength": 1,
+          "title": "License Note",
+          "type": "string"
+        },
+        "content_sha256": {
+          "anyOf": [
+            {
+              "pattern": "^[a-f0-9]{64}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Content Sha256"
+        }
+      },
+      "required": [
+        "source_url",
+        "publisher",
+        "publication_date",
+        "retrieved_on",
+        "verification_status",
+        "access_status",
+        "access_note",
+        "license_status",
+        "license_note"
+      ],
+      "title": "SourceProvenanceV1",
+      "type": "object"
+    },
+    "SourceReferenceV1": {
+      "additionalProperties": false,
+      "properties": {
+        "reference_id": {
+          "pattern": "^ref-[a-z0-9][a-z0-9-]*$",
+          "title": "Reference Id",
+          "type": "string"
+        },
+        "chunk_id": {
+          "pattern": "^chunk-[a-z0-9][a-z0-9-]*$",
+          "title": "Chunk Id",
+          "type": "string"
+        },
+        "locator_type": {
+          "enum": [
+            "abstract",
+            "full_text",
+            "page",
+            "section",
+            "table",
+            "figure",
+            "record_metadata"
+          ],
+          "title": "Locator Type",
+          "type": "string"
+        },
+        "locator": {
+          "minLength": 1,
+          "title": "Locator",
+          "type": "string"
+        },
+        "source_url": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Url"
+        }
+      },
+      "required": [
+        "reference_id",
+        "chunk_id",
+        "locator_type",
+        "locator"
+      ],
+      "title": "SourceReferenceV1",
+      "type": "object"
+    },
+    "TraceableStatementV1": {
+      "additionalProperties": false,
+      "properties": {
+        "statement_id": {
+          "pattern": "^(lim|impl)-[a-z0-9][a-z0-9-]*$",
+          "title": "Statement Id",
+          "type": "string"
+        },
+        "text": {
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "reference_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Reference Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "statement_id",
+        "text",
+        "reference_ids"
+      ],
+      "title": "TraceableStatementV1",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "corpus_id": {
+      "pattern": "^corpus-[a-z0-9][a-z0-9-]*$",
+      "title": "Corpus Id",
+      "type": "string"
+    },
+    "generated_on": {
+      "format": "date",
+      "title": "Generated On",
+      "type": "string"
+    },
+    "records": {
+      "items": {
+        "$ref": "#/$defs/EvidenceRecordV1"
+      },
+      "minItems": 1,
+      "title": "Records",
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema_version",
+    "corpus_id",
+    "generated_on",
+    "records"
+  ],
+  "title": "EvidenceCorpusV1",
+  "type": "object"
+}

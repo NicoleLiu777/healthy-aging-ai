@@ -66,6 +66,8 @@ Day 6 adds an [explicit source-role intent contract](evals/decisions/day6_source
 
 Day 7 completes the first [blinded human review](evals/reports/day7_human_review_v0.1.md) and the [exact three-theme Phase B decision](evals/decisions/day7_phase_b_theme_proposal.md). Nine fixed outputs received five accepts, three edits, and one reject with no risk flags. Risk control scored highest; completeness scored lowest. These single-reviewer results create a bounded improvement backlog and are not a user study or clinical validation.
 
+Phase B begins with the frozen [evidence and provenance schema v1](docs/evidence-provenance-schema-v1.md). It adds claim-level source roles, stable chunk/reference IDs, access and license notes, and traceable evidence summaries, gaps, policy framing, and design principles. The v1 examples are validation fixtures only; the active six-record production corpus has not been migrated or expanded.
+
 ## Local setup (Windows PowerShell)
 
 ```powershell

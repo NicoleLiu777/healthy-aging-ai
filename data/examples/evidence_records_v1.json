@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_id": "corpus-schema-examples-v1",
+  "generated_on": "2026-09-01",
+  "records": [
+    {
+      "schema_version": "1.0.0",
+      "record_id": "evidence-dino-2025-example",
+      "title": "Remote Virtual Interactive Agents for Older Adults: Exploring Its Science via Network Analysis and Systematic Review",
+      "authors": [
+        "Michael Joseph Dino",
+        "Chloe Margalaux Villafuerte",
+        "Veronica A Decker"
+      ],
+      "primary_theme": "older_adult_digital_social_connection",
+      "secondary_themes": [],
+      "evidence_type": "systematic_review",
+      "source_role": "effectiveness",
+      "decision_eligible": true,
+      "evidence_strength": "limited",
+      "doi": "10.3390/healthcare13172253",
+      "provenance": {
+        "source_url": "https://pubmed.ncbi.nlm.nih.gov/40941605/",
+        "publisher": "Healthcare",
+        "publication_date": "2025",
+        "retrieved_on": "2026-08-28",
+        "verified_on": "2026-08-28",
+        "verification_status": "verified",
+        "verification_urls": [
+          "https://pubmed.ncbi.nlm.nih.gov/40941605/"
+        ],
+        "access_status": "abstract_only",
+        "access_note": "The seed record was verified against the PubMed record; full-text extraction is not asserted by this example.",
+        "license_status": "unknown",
+        "license_note": "License and reuse terms require review before storing full text.",
+        "content_sha256": null
+      },
+      "references": [
+        {
+          "reference_id": "ref-dino-abstract",
+          "chunk_id": "chunk-dino-abstract-01",
+          "locator_type": "abstract",
+          "locator": "PubMed abstract and seed verification notes",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/40941605/"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "claim-dino-study-count",
+          "claim_type": "evidence_summary",
+          "text": "The systematic review included 15 studies.",
+          "source_role": "effectiveness",
+          "decision_eligible": false,
+          "direction": "not_applicable",
+          "population_scope": ["older adults"],
+          "outcomes": [],
+          "study_count": 15,
+          "sample_size": null,
+          "reference_ids": ["ref-dino-abstract"]
+        },
+        {
+          "claim_id": "claim-dino-narrative-finding",
+          "claim_type": "evidence_summary",
+          "text": "Thirteen of 15 included studies reported broadly positive outcomes, but the review did not provide a pooled effectiveness estimate.",
+          "source_role": "effectiveness",
+          "decision_eligible": true,
+          "direction": "mixed",
+          "population_scope": ["older adults"],
+          "outcomes": ["heterogeneous outcomes across included studies"],
+          "study_count": 15,
+          "sample_size": null,
+          "reference_ids": ["ref-dino-abstract"]
+        }
+      ],
+      "limitations": [
+        {
+          "statement_id": "lim-dino-heterogeneity",
+          "text": "Interventions, outcomes, and populations were heterogeneous across included studies.",
+          "reference_ids": ["ref-dino-abstract"]
+        },
+        {
+          "statement_id": "lim-dino-no-pooled-estimate",
+          "text": "No pooled effectiveness estimate was reported.",
+          "reference_ids": ["ref-dino-abstract"]
+        }
+      ],
+      "implementation_implications": [
+        {
+          "statement_id": "impl-dino-avoid-pooled-claim",
+          "text": "Do not infer pooled effectiveness from the narrative synthesis alone.",
+          "reference_ids": ["ref-dino-abstract"]
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "record_id": "evidence-who-2025-example",
+      "title": "From loneliness to social connection: charting a path to healthier societies",
+      "authors": ["World Health Organization", "WHO Commission on Social Connection"],
+      "primary_theme": "responsible_ai_companion_design",
+      "secondary_themes": ["older_adult_digital_social_connection"],
+      "evidence_type": "policy_guidance",
+      "source_role": "context",
+      "decision_eligible": false,
+      "evidence_strength": null,
+      "doi": null,
+      "provenance": {
+        "source_url": "https://www.who.int/publications/i/item/978240112360",
+        "publisher": "World Health Organization",
+        "publication_date": "2025",
+        "retrieved_on": "2026-08-28",
+        "verified_on": "2026-08-28",
+        "verification_status": "verified",
+        "verification_urls": [
+          "https://www.who.int/publications/i/item/978240112360"
+        ],
+        "access_status": "open_access",
+        "access_note": "The WHO publication page was available during seed verification.",
+        "license_status": "unknown",
+        "license_note": "Confirm reuse terms before storing report text or long quotations.",
+        "content_sha256": null
+      },
+      "references": [
+        {
+          "reference_id": "ref-who-record",
+          "chunk_id": "chunk-who-record-01",
+          "locator_type": "record_metadata",
+          "locator": "Verified seed record and publication page",
+          "source_url": "https://www.who.int/publications/i/item/978240112360"
+        }
+      ],
+      "claims": [
+        {
+          "claim_id": "claim-who-context-boundary",
+          "claim_type": "policy_framing",
+          "text": "Use this report as policy context for social connection and not as intervention-effectiveness evidence.",
+          "source_role": "context",
+          "decision_eligible": false,
+          "direction": "not_applicable",
+          "population_scope": ["general populations affected by loneliness and social isolation"],
+          "outcomes": [],
+          "study_count": null,
+          "sample_size": null,
+          "reference_ids": ["ref-who-record"]
+        }
+      ],
+      "limitations": [],
+      "implementation_implications": [
+        {
+          "statement_id": "impl-who-role-boundary",
+          "text": "Do not treat policy guidance as proof that a specific intervention is effective.",
+          "reference_ids": ["ref-who-record"]
+        }
+      ]
+    }
+  ]
+}
