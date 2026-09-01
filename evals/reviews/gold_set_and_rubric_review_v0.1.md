@@ -14,6 +14,6 @@
 - The qualitative rubric covers usefulness, traceability, completeness, risk control, and required edits on a consistent 1–5 scale.
 - No case, expectation, scoring rule, threshold, corpus record, or rubric dimension changed after viewing Day 4 results.
 
-## Remaining human step
+## Human-review follow-through
 
-The rubric is approved as a form, but no blinded human outputs have been scored yet. This review does not create usefulness, clinical, or user-validation evidence.
+Nicole completed the first nine-output blinded review on 2026-09-01 using the unchanged rubric. Results and limitations are published in `evals/reports/day7_human_review_v0.1.md`. This single-reviewer pilot creates usefulness and completeness tickets; it is not clinical validation, a user study, or inter-rater evidence.
