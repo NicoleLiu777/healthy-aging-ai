@@ -30,6 +30,10 @@ This directory freezes the evaluation contract for the six-record SUVANÉ Resear
 
 These are sample-set measurements, not general quality or clinical-performance claims. A before/after comparison is valid only when the same dataset and corpus are used.
 
+## Human review
+
+Machine checks do not establish usefulness. The frozen qualitative rubric scores usefulness, traceability, completeness, risk control, and required-edit burden from 1–5. Day 7 adds a fixed nine-output blinded packet and the first completed single-reviewer report. Human findings become tickets; they do not justify editing the gold set after results are seen.
+
 ## Run
 
 ```bash

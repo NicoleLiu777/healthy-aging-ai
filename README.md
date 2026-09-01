@@ -64,6 +64,8 @@ Day 5 adds a [bounded multilingual decision contract](evals/decisions/day5_multi
 
 Day 6 adds an [explicit source-role intent contract](evals/decisions/day6_source_role_intent_contract.md) and [same-set comparison](evals/reports/day6_comparison_v0.1.md). It resolves the remaining context/design/evidence-map cases while preserving effectiveness retrieval, bringing the frozen machine-checkable set to 24/24. This sample-limited result is not clinical validation or broad-domain coverage.
 
+Day 7 completes the first [blinded human review](evals/reports/day7_human_review_v0.1.md) and the [exact three-theme Phase B decision](evals/decisions/day7_phase_b_theme_proposal.md). Nine fixed outputs received five accepts, three edits, and one reject with no risk flags. Risk control scored highest; completeness scored lowest. These single-reviewer results create a bounded improvement backlog and are not a user study or clinical validation.
+
 ## Local setup (Windows PowerShell)
 
 ```powershell

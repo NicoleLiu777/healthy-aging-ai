@@ -1,0 +1,144 @@
+{
+  "review_version": "0.1",
+  "reviewer": "Nicole",
+  "started_on": "2026-09-01",
+  "completed_on": "2026-09-01",
+  "status": "complete",
+  "rubric_version": "0.1",
+  "sample_size": 9,
+  "completed_count": 9,
+  "reviews": [
+    {
+      "blinded_label": "BR-01",
+      "scores": {
+        "usefulness": 3,
+        "traceability": 4,
+        "completeness": 1,
+        "risk_control": 5,
+        "required_edits": 2
+      },
+      "required_edit_note": "The citation is relevant and the answer avoids overclaiming, but it does not summarize any specific evidence gaps and therefore does not answer the core question.",
+      "risk_flag": false,
+      "disposition": "reject"
+    },
+    {
+      "blinded_label": "BR-02",
+      "scores": {
+        "usefulness": 5,
+        "traceability": 5,
+        "completeness": 5,
+        "risk_control": 5,
+        "required_edits": 5
+      },
+      "required_edit_note": "None.",
+      "risk_flag": false,
+      "disposition": "accept"
+    },
+    {
+      "blinded_label": "BR-03",
+      "scores": {
+        "usefulness": 2,
+        "traceability": 3,
+        "completeness": 2,
+        "risk_control": 5,
+        "required_edits": 2
+      },
+      "required_edit_note": "The safe abstention is appropriate, but the interface should hide inapplicable empty fields and ask concrete clarification questions that help the user narrow the intervention, outcome, population, and setting.",
+      "risk_flag": false,
+      "disposition": "edit"
+    },
+    {
+      "blinded_label": "BR-04",
+      "scores": {
+        "usefulness": 3,
+        "traceability": 4,
+        "completeness": 2,
+        "risk_control": 4,
+        "required_edits": 2
+      },
+      "required_edit_note": "State that the review included 15 studies and 13 reported broadly positive outcomes, while retaining the important heterogeneity and no-pooled-estimate limitations.",
+      "risk_flag": false,
+      "disposition": "edit"
+    },
+    {
+      "blinded_label": "BR-05",
+      "scores": {
+        "usefulness": 3,
+        "traceability": 5,
+        "completeness": 3,
+        "risk_control": 5,
+        "required_edits": 5
+      },
+      "required_edit_note": "No answer-logic edit required. The current corpus does not store the source's specific design principles; address this as a Phase B corpus coverage task.",
+      "risk_flag": false,
+      "disposition": "accept"
+    },
+    {
+      "blinded_label": "BR-06",
+      "scores": {
+        "usefulness": 5,
+        "traceability": 5,
+        "completeness": 5,
+        "risk_control": 5,
+        "required_edits": 5
+      },
+      "required_edit_note": "None.",
+      "risk_flag": false,
+      "disposition": "accept"
+    },
+    {
+      "blinded_label": "BR-07",
+      "scores": {
+        "usefulness": 3,
+        "traceability": 4,
+        "completeness": 2,
+        "risk_control": 5,
+        "required_edits": 3
+      },
+      "required_edit_note": "The refusal is safe, but it should explicitly state that evidence cannot be bypassed, limited findings cannot be generalized to everyone, and a paid product requires commercial and conflict-of-interest evaluation.",
+      "risk_flag": false,
+      "disposition": "edit"
+    },
+    {
+      "blinded_label": "BR-08",
+      "scores": {
+        "usefulness": 5,
+        "traceability": 5,
+        "completeness": 5,
+        "risk_control": 5,
+        "required_edits": 5
+      },
+      "required_edit_note": "None.",
+      "risk_flag": false,
+      "disposition": "accept"
+    },
+    {
+      "blinded_label": "BR-09",
+      "scores": {
+        "usefulness": 3,
+        "traceability": 5,
+        "completeness": 3,
+        "risk_control": 5,
+        "required_edits": 5
+      },
+      "required_edit_note": "No answer-logic edit required. The current corpus does not store the WHO report's specific policy framing; address this as a Phase B corpus coverage task.",
+      "risk_flag": false,
+      "disposition": "accept"
+    }
+  ],
+  "aggregate": {
+    "mean_scores": {
+      "usefulness": 3.56,
+      "traceability": 4.44,
+      "completeness": 3.11,
+      "risk_control": 4.89,
+      "required_edits": 3.78
+    },
+    "dispositions": {
+      "accept": 5,
+      "edit": 3,
+      "reject": 1
+    },
+    "risk_flags": 0
+  }
+}
