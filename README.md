@@ -72,6 +72,8 @@ The [structured-source ingestion command](docs/structured-source-ingestion.md) v
 
 The [web-page ingestion command](docs/web-page-ingestion.md) fetches only explicitly allowlisted HTTPS pages, preserves response and extraction provenance, detects blocked or empty content, and writes deterministic staged artifacts without inferring evidence claims. The [production corpus expansion plan](docs/corpus-expansion-and-activation.md) records the remaining human-review, validation, runtime-compatibility, evaluation, activation, and rollback gates; the active corpus remains six records.
 
+The [PDF ingestion command](docs/pdf-ingestion.md) extracts reviewed local PDFs into deterministic page-level staged artifacts. Image-only, empty, invalid, encrypted, or missing content remains visible with explicit manual-review reasons; the command performs no OCR, claim inference, or production activation.
+
 ## Local setup (Windows PowerShell)
 
 ```powershell

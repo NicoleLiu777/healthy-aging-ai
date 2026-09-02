@@ -12,7 +12,7 @@ The first production expansion should occur only after all of these gates pass:
 
 | Gate | Required evidence |
 |---|---|
-| Pipeline safety | B-03 through B-08 complete: structured/web/PDF ingestion, deduplication, quarantine, and a versioned manifest. |
+| Pipeline safety | B-03 through B-08 complete: structured, [web](web-page-ingestion.md), and [PDF](pdf-ingestion.md) ingestion, deduplication, quarantine, and a versioned manifest. |
 | Human curation | B-09 provides 10–20 reviewed credible sources per approved theme, with source roles, claim locators, limitations, and access/license notes. |
 | Runtime compatibility | A tested activation adapter converts the frozen v1 corpus into the current API's runtime `EvidenceRecord` contract, or the runtime is migrated to read v1 directly. No lossy or implicit field mapping is allowed. |
 | Retrieval coverage | B-10 passes representative theme queries, role-specific queries, unrelated refusals, and regression cases against the exact candidate corpus. |
@@ -41,7 +41,7 @@ Build a reviewed register for exactly the three approved themes. Target 10–20 
 
 ### 2. Extract without inference
 
-Use B-04 for allowed HTML pages and B-05 for PDFs. Store raw response/document hashes and stable locators. Extraction is not claim generation.
+Use B-04 for allowed HTML pages and B-05 for reviewed local PDFs. Store raw response/document hashes and stable locators. PDF pages that are image-only, empty, encrypted, missing, invalid, or otherwise unextractable remain explicitly flagged for manual review. Extraction is not claim generation or OCR.
 
 ### 3. Review and normalize
 
