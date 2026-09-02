@@ -70,6 +70,8 @@ Phase B begins with the frozen [evidence and provenance schema v1](docs/evidence
 
 The [structured-source ingestion command](docs/structured-source-ingestion.md) validates reviewed JSON against schema v1, derives stable IDs, canonicalizes output, and writes only to staging paths. Repeated unchanged input is byte-identical, and direct writes to the active production corpus are rejected.
 
+The [web-page ingestion command](docs/web-page-ingestion.md) fetches only explicitly allowlisted HTTPS pages, preserves response and extraction provenance, detects blocked or empty content, and writes deterministic staged artifacts without inferring evidence claims. The [production corpus expansion plan](docs/corpus-expansion-and-activation.md) records the remaining human-review, validation, runtime-compatibility, evaluation, activation, and rollback gates; the active corpus remains six records.
+
 ## Local setup (Windows PowerShell)
 
 ```powershell
