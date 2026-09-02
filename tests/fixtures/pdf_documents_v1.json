@@ -1,0 +1,14 @@
+{
+  "documents": [
+    {
+      "expected_sha256": "9a8b921e485977b078da86d33f88922c6e9f3537857b1e8c35806b899daaf2bc",
+      "file": "mixed_text_image.pdf",
+      "key": "mixed-fixture",
+      "retrieved_on": "2026-09-02",
+      "source_url": "https://example.org/research/mixed-fixture.pdf?b=2&a=1#download"
+    }
+  ],
+  "extraction_id": "pdf-extraction-fixture-v1",
+  "generated_on": "2026-09-02",
+  "input_version": "1.0.0"
+}
