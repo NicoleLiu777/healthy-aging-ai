@@ -1,0 +1,15 @@
+{
+  "allowed_hosts": [
+    "example.org"
+  ],
+  "extraction_id": "web-extraction-fixture-v1",
+  "generated_on": "2026-09-02",
+  "input_version": "1.0.0",
+  "pages": [
+    {
+      "key": "example-article",
+      "retrieved_on": "2026-09-02",
+      "url": "https://example.org/research/article?b=2&a=1#results"
+    }
+  ]
+}
