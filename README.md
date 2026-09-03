@@ -74,6 +74,8 @@ The [web-page ingestion command](docs/web-page-ingestion.md) fetches only explic
 
 The [PDF ingestion command](docs/pdf-ingestion.md) extracts reviewed local PDFs into deterministic page-level staged artifacts. Image-only, empty, invalid, encrypted, or missing content remains visible with explicit manual-review reasons; the command performs no OCR, claim inference, or production activation.
 
+The [evidence deduplication command](docs/evidence-deduplication.md) applies documented exact and configurable near-title rules to a validated staged corpus. It emits stable entity mappings and a canonical candidate corpus so duplicates cannot inflate later retrieval, while preserving the original input and requiring review of every multi-record entity before activation.
+
 ## Local setup (Windows PowerShell)
 
 ```powershell
