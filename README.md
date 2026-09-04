@@ -76,6 +76,8 @@ The [PDF ingestion command](docs/pdf-ingestion.md) extracts reviewed local PDFs 
 
 The [evidence deduplication command](docs/evidence-deduplication.md) applies documented exact and configurable near-title rules to a validated staged corpus. It emits stable entity mappings and a canonical candidate corpus so duplicates cannot inflate later retrieval, while preserving the original input and requiring review of every multi-record entity before activation.
 
+The [validation and recoverable-quarantine commands](docs/evidence-validation-and-quarantine.md) produce a record-level report, accepted staged candidate, and full rejected-record store. Schema failures, unresolved provenance/access/license status, missing entity mappings, and unreviewed duplicate entities fail closed with visible reasons; reviewed corrections are revalidated or explicitly discarded without touching production.
+
 ## Local setup (Windows PowerShell)
 
 ```powershell
