@@ -121,7 +121,8 @@ For a merged change, use a revert PR rather than rewriting main history.
 
 ## Outstanding acceptance work
 
-The 30-source register is discovery material, not 30 reviewed records. Four separately labeled
-draft records illustrate traceable claims and are quarantined pending review. B-09 human source
-curation, B-10/B-11 evaluation on that approved corpus, renewed human review, and B-12 live
-activation/rollback sign-off remain release conditions. Software tests alone do not close them.
+The 30-source register is discovery material, not 30 reviewed records. Nicole reviewed eight
+draft records on 2026-09-06. The revised batch accepted four at the source-validation layer and
+quarantined four; none of the four effectiveness records is decision eligible until evidence
+strength is assigned. B-09 human source curation, B-10/B-11 evaluation on the approved corpus,
+renewed human answer review, and a hash-bound B-12 approval remain release conditions.

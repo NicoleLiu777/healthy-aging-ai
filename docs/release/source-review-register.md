@@ -1,6 +1,8 @@
 # Phase B source review register
 
-30 candidate sources: 10 per theme. Six are existing legacy seeds. **None has received new Phase B human claim approval in this run.** Search discovery and source access do not satisfy B-09. Relevance, duplication, provenance, claims, access/license and mapping must be reviewed before counting a record as accepted.
+30 candidate sources: 10 per theme. Six are existing legacy seeds. Nicole reviewed the first eight-source packet on 2026-09-06. After required edits, four records passed B-07 source validation and four remain quarantined. The four accepted effectiveness records still need evidence-strength grading before their claims can become decision eligible. Search discovery and source access do not satisfy B-09.
+
+See [Nicole source review](nicole-source-review-2026-09-06.md) for exact decisions and remaining gates.
 
 ## ai_conversational_agents_mental_health
 
