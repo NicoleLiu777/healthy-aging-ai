@@ -239,6 +239,7 @@ def _record_search_text(record: EvidenceRecord) -> str:
         " ".join(record.outcomes_not_improved),
         " ".join(record.limitations),
         " ".join(record.implementation_implications),
+        " ".join(claim.text for claim in getattr(getattr(record, "evidence_v1", None), "claims", [])),
     ]
     return " ".join(parts).lower()
 

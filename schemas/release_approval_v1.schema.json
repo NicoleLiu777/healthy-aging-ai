@@ -1,0 +1,71 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "release_sha256": {
+      "title": "Release Sha256",
+      "type": "string"
+    },
+    "code_sha256": {
+      "title": "Code Sha256",
+      "type": "string"
+    },
+    "coverage_suite_sha256": {
+      "title": "Coverage Suite Sha256",
+      "type": "string"
+    },
+    "gold_set_sha256": {
+      "title": "Gold Set Sha256",
+      "type": "string"
+    },
+    "reviewed_by": {
+      "minLength": 1,
+      "title": "Reviewed By",
+      "type": "string"
+    },
+    "reviewed_on": {
+      "format": "date",
+      "title": "Reviewed On",
+      "type": "string"
+    },
+    "human_case_dispositions": {
+      "additionalProperties": {
+        "enum": [
+          "accept",
+          "edit",
+          "reject"
+        ],
+        "type": "string"
+      },
+      "title": "Human Case Dispositions",
+      "type": "object"
+    },
+    "release_approved": {
+      "title": "Release Approved",
+      "type": "boolean"
+    },
+    "rollback_code_commit": {
+      "pattern": "^[a-f0-9]{40}$",
+      "title": "Rollback Code Commit",
+      "type": "string"
+    },
+    "rollback_corpus_sha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Rollback Corpus Sha256",
+      "type": "string"
+    }
+  },
+  "required": [
+    "release_sha256",
+    "code_sha256",
+    "coverage_suite_sha256",
+    "gold_set_sha256",
+    "reviewed_by",
+    "reviewed_on",
+    "human_case_dispositions",
+    "release_approved",
+    "rollback_code_commit",
+    "rollback_corpus_sha256"
+  ],
+  "title": "ReleaseApproval",
+  "type": "object"
+}

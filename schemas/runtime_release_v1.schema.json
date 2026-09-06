@@ -1,0 +1,1407 @@
+{
+  "$defs": {
+    "CandidateValidationBundleV1": {
+      "additionalProperties": false,
+      "properties": {
+        "bundle_version": {
+          "const": "1.0.0",
+          "title": "Bundle Version",
+          "type": "string"
+        },
+        "report": {
+          "$ref": "#/$defs/CandidateValidationReportV1"
+        },
+        "accepted_candidate": {
+          "$ref": "#/$defs/ValidatedCandidateV1"
+        },
+        "quarantine_store": {
+          "$ref": "#/$defs/QuarantineStoreV1"
+        }
+      },
+      "required": [
+        "bundle_version",
+        "report",
+        "accepted_candidate",
+        "quarantine_store"
+      ],
+      "title": "CandidateValidationBundleV1",
+      "type": "object"
+    },
+    "CandidateValidationConfigV1": {
+      "additionalProperties": false,
+      "properties": {
+        "config_version": {
+          "const": "1.0.0",
+          "default": "1.0.0",
+          "title": "Config Version",
+          "type": "string"
+        },
+        "require_verified_provenance": {
+          "default": true,
+          "title": "Require Verified Provenance",
+          "type": "boolean"
+        },
+        "quarantine_duplicate_entities": {
+          "default": true,
+          "title": "Quarantine Duplicate Entities",
+          "type": "boolean"
+        },
+        "quarantine_unknown_access": {
+          "default": true,
+          "title": "Quarantine Unknown Access",
+          "type": "boolean"
+        },
+        "quarantine_unknown_license": {
+          "default": true,
+          "title": "Quarantine Unknown License",
+          "type": "boolean"
+        }
+      },
+      "title": "CandidateValidationConfigV1",
+      "type": "object"
+    },
+    "CandidateValidationReportV1": {
+      "additionalProperties": false,
+      "properties": {
+        "report_version": {
+          "const": "1.0.0",
+          "title": "Report Version",
+          "type": "string"
+        },
+        "report_id": {
+          "pattern": "^validation-[a-f0-9]{20}$",
+          "title": "Report Id",
+          "type": "string"
+        },
+        "corpus_id": {
+          "pattern": "^corpus-[a-z0-9][a-z0-9-]*$",
+          "title": "Corpus Id",
+          "type": "string"
+        },
+        "generated_on": {
+          "format": "date",
+          "title": "Generated On",
+          "type": "string"
+        },
+        "configuration": {
+          "$ref": "#/$defs/CandidateValidationConfigV1"
+        },
+        "input_record_count": {
+          "minimum": 1,
+          "title": "Input Record Count",
+          "type": "integer"
+        },
+        "accepted_record_count": {
+          "minimum": 0,
+          "title": "Accepted Record Count",
+          "type": "integer"
+        },
+        "quarantined_record_count": {
+          "minimum": 0,
+          "title": "Quarantined Record Count",
+          "type": "integer"
+        },
+        "issue_counts": {
+          "additionalProperties": {
+            "type": "integer"
+          },
+          "title": "Issue Counts",
+          "type": "object"
+        },
+        "record_results": {
+          "items": {
+            "$ref": "#/$defs/RecordValidationResultV1"
+          },
+          "minItems": 1,
+          "title": "Record Results",
+          "type": "array"
+        }
+      },
+      "required": [
+        "report_version",
+        "report_id",
+        "corpus_id",
+        "generated_on",
+        "configuration",
+        "input_record_count",
+        "accepted_record_count",
+        "quarantined_record_count",
+        "issue_counts",
+        "record_results"
+      ],
+      "title": "CandidateValidationReportV1",
+      "type": "object"
+    },
+    "CorpusManifestV1": {
+      "additionalProperties": false,
+      "properties": {
+        "manifest_version": {
+          "const": "1.0.0",
+          "default": "1.0.0",
+          "title": "Manifest Version",
+          "type": "string"
+        },
+        "corpus_version": {
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+          "title": "Corpus Version",
+          "type": "string"
+        },
+        "corpus_id": {
+          "title": "Corpus Id",
+          "type": "string"
+        },
+        "generated_on": {
+          "title": "Generated On",
+          "type": "string"
+        },
+        "schema_version": {
+          "const": "1.0.0",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "previous_manifest_sha256": {
+          "anyOf": [
+            {
+              "pattern": "^[a-f0-9]{64}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Previous Manifest Sha256"
+        },
+        "accepted_record_sha256": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Accepted Record Sha256",
+          "type": "object"
+        },
+        "counts_by_theme": {
+          "additionalProperties": {
+            "type": "integer"
+          },
+          "title": "Counts By Theme",
+          "type": "object"
+        },
+        "counts_by_role": {
+          "additionalProperties": {
+            "type": "integer"
+          },
+          "title": "Counts By Role",
+          "type": "object"
+        },
+        "deduplication_configuration": {
+          "$ref": "#/$defs/DeduplicationConfigV1"
+        },
+        "validation_configuration": {
+          "$ref": "#/$defs/CandidateValidationConfigV1"
+        },
+        "validation_report_id": {
+          "title": "Validation Report Id",
+          "type": "string"
+        },
+        "unresolved_quarantine_count": {
+          "minimum": 0,
+          "title": "Unresolved Quarantine Count",
+          "type": "integer"
+        },
+        "deduplication_sha256": {
+          "title": "Deduplication Sha256",
+          "type": "string"
+        },
+        "validation_bundle_sha256": {
+          "title": "Validation Bundle Sha256",
+          "type": "string"
+        },
+        "candidate_sha256": {
+          "title": "Candidate Sha256",
+          "type": "string"
+        },
+        "integrity_sha256": {
+          "title": "Integrity Sha256",
+          "type": "string"
+        }
+      },
+      "required": [
+        "corpus_version",
+        "corpus_id",
+        "generated_on",
+        "schema_version",
+        "accepted_record_sha256",
+        "counts_by_theme",
+        "counts_by_role",
+        "deduplication_configuration",
+        "validation_configuration",
+        "validation_report_id",
+        "unresolved_quarantine_count",
+        "deduplication_sha256",
+        "validation_bundle_sha256",
+        "candidate_sha256",
+        "integrity_sha256"
+      ],
+      "title": "CorpusManifestV1",
+      "type": "object"
+    },
+    "DeduplicationConfigV1": {
+      "additionalProperties": false,
+      "properties": {
+        "config_version": {
+          "const": "1.0.0",
+          "default": "1.0.0",
+          "title": "Config Version",
+          "type": "string"
+        },
+        "enable_near_title": {
+          "default": true,
+          "title": "Enable Near Title",
+          "type": "boolean"
+        },
+        "title_similarity_threshold": {
+          "default": 0.94,
+          "maximum": 1.0,
+          "minimum": 0.8,
+          "title": "Title Similarity Threshold",
+          "type": "number"
+        },
+        "minimum_normalized_title_length": {
+          "default": 20,
+          "maximum": 500,
+          "minimum": 10,
+          "title": "Minimum Normalized Title Length",
+          "type": "integer"
+        },
+        "require_same_publication_year": {
+          "default": true,
+          "title": "Require Same Publication Year",
+          "type": "boolean"
+        },
+        "require_same_first_author": {
+          "default": true,
+          "title": "Require Same First Author",
+          "type": "boolean"
+        }
+      },
+      "title": "DeduplicationConfigV1",
+      "type": "object"
+    },
+    "EvidenceClaimV1": {
+      "additionalProperties": false,
+      "properties": {
+        "claim_id": {
+          "pattern": "^claim-[a-z0-9][a-z0-9-]*$",
+          "title": "Claim Id",
+          "type": "string"
+        },
+        "claim_type": {
+          "enum": [
+            "outcome",
+            "evidence_summary",
+            "evidence_gap",
+            "policy_framing",
+            "design_principle",
+            "implementation_requirement"
+          ],
+          "title": "Claim Type",
+          "type": "string"
+        },
+        "text": {
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "source_role": {
+          "enum": [
+            "effectiveness",
+            "context",
+            "design",
+            "evidence_map"
+          ],
+          "title": "Source Role",
+          "type": "string"
+        },
+        "decision_eligible": {
+          "title": "Decision Eligible",
+          "type": "boolean"
+        },
+        "direction": {
+          "enum": [
+            "positive",
+            "negative",
+            "mixed",
+            "unclear",
+            "not_applicable"
+          ],
+          "title": "Direction",
+          "type": "string"
+        },
+        "population_scope": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Population Scope",
+          "type": "array"
+        },
+        "outcomes": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Outcomes",
+          "type": "array"
+        },
+        "study_count": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Study Count"
+        },
+        "sample_size": {
+          "anyOf": [
+            {
+              "exclusiveMinimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Sample Size"
+        },
+        "reference_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Reference Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "claim_id",
+        "claim_type",
+        "text",
+        "source_role",
+        "decision_eligible",
+        "direction",
+        "reference_ids"
+      ],
+      "title": "EvidenceClaimV1",
+      "type": "object"
+    },
+    "EvidenceEntityV1": {
+      "additionalProperties": false,
+      "properties": {
+        "entity_id": {
+          "pattern": "^entity-[a-f0-9]{16}$",
+          "title": "Entity Id",
+          "type": "string"
+        },
+        "canonical_record_id": {
+          "pattern": "^evidence-[a-z0-9][a-z0-9-]*$",
+          "title": "Canonical Record Id",
+          "type": "string"
+        },
+        "member_record_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Member Record Ids",
+          "type": "array"
+        },
+        "match_rules": {
+          "items": {
+            "enum": [
+              "exact_doi",
+              "exact_content_sha256",
+              "exact_source_url",
+              "exact_bibliographic",
+              "near_title"
+            ],
+            "type": "string"
+          },
+          "title": "Match Rules",
+          "type": "array"
+        },
+        "review_required": {
+          "title": "Review Required",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "entity_id",
+        "canonical_record_id",
+        "member_record_ids",
+        "review_required"
+      ],
+      "title": "EvidenceEntityV1",
+      "type": "object"
+    },
+    "EvidenceRecord": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "authors": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Authors",
+          "type": "array"
+        },
+        "year": {
+          "title": "Year",
+          "type": "integer"
+        },
+        "url": {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "title": "Url",
+          "type": "string"
+        },
+        "doi": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Doi"
+        },
+        "topic": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Topic",
+          "type": "array"
+        },
+        "population": {
+          "title": "Population",
+          "type": "string"
+        },
+        "study_type": {
+          "title": "Study Type",
+          "type": "string"
+        },
+        "sample_size": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Sample Size"
+        },
+        "included_studies": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Included Studies"
+        },
+        "intervention": {
+          "title": "Intervention",
+          "type": "string"
+        },
+        "comparison": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Comparison"
+        },
+        "outcomes_improved": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Outcomes Improved",
+          "type": "array"
+        },
+        "outcomes_not_improved": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Outcomes Not Improved",
+          "type": "array"
+        },
+        "source_role": {
+          "enum": [
+            "effectiveness",
+            "context",
+            "design",
+            "evidence_map"
+          ],
+          "title": "Source Role",
+          "type": "string"
+        },
+        "decision_eligible": {
+          "title": "Decision Eligible",
+          "type": "boolean"
+        },
+        "evidence_strength": {
+          "anyOf": [
+            {
+              "enum": [
+                "strong",
+                "moderate",
+                "limited",
+                "early"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Evidence Strength"
+        },
+        "evidence_strength_rationale": {
+          "title": "Evidence Strength Rationale",
+          "type": "string"
+        },
+        "limitations": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Limitations",
+          "type": "array"
+        },
+        "implementation_implications": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Implementation Implications",
+          "type": "array"
+        },
+        "verification_status": {
+          "enum": [
+            "verified",
+            "needs_review"
+          ],
+          "title": "Verification Status",
+          "type": "string"
+        },
+        "verified_against": {
+          "items": {
+            "format": "uri",
+            "maxLength": 2083,
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Verified Against",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "authors",
+        "year",
+        "url",
+        "topic",
+        "population",
+        "study_type",
+        "sample_size",
+        "intervention",
+        "comparison",
+        "outcomes_improved",
+        "outcomes_not_improved",
+        "source_role",
+        "decision_eligible",
+        "evidence_strength",
+        "evidence_strength_rationale",
+        "limitations",
+        "verification_status",
+        "verified_against"
+      ],
+      "title": "EvidenceRecord",
+      "type": "object"
+    },
+    "EvidenceRecordV1": {
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "record_id": {
+          "pattern": "^evidence-[a-z0-9][a-z0-9-]*$",
+          "title": "Record Id",
+          "type": "string"
+        },
+        "title": {
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "authors": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Authors",
+          "type": "array"
+        },
+        "primary_theme": {
+          "enum": [
+            "ai_conversational_agents_mental_health",
+            "older_adult_digital_social_connection",
+            "responsible_ai_companion_design"
+          ],
+          "title": "Primary Theme",
+          "type": "string"
+        },
+        "secondary_themes": {
+          "items": {
+            "enum": [
+              "ai_conversational_agents_mental_health",
+              "older_adult_digital_social_connection",
+              "responsible_ai_companion_design"
+            ],
+            "type": "string"
+          },
+          "title": "Secondary Themes",
+          "type": "array"
+        },
+        "evidence_type": {
+          "enum": [
+            "systematic_review",
+            "meta_analysis",
+            "systematic_review_meta_analysis",
+            "randomized_trial",
+            "controlled_trial",
+            "observational_study",
+            "qualitative_study",
+            "mixed_methods",
+            "evidence_gap_map",
+            "policy_guidance",
+            "viewpoint",
+            "other"
+          ],
+          "title": "Evidence Type",
+          "type": "string"
+        },
+        "source_role": {
+          "enum": [
+            "effectiveness",
+            "context",
+            "design",
+            "evidence_map"
+          ],
+          "title": "Source Role",
+          "type": "string"
+        },
+        "decision_eligible": {
+          "title": "Decision Eligible",
+          "type": "boolean"
+        },
+        "evidence_strength": {
+          "anyOf": [
+            {
+              "enum": [
+                "strong",
+                "moderate",
+                "limited",
+                "early"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Evidence Strength"
+        },
+        "doi": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Doi"
+        },
+        "provenance": {
+          "$ref": "#/$defs/SourceProvenanceV1"
+        },
+        "references": {
+          "items": {
+            "$ref": "#/$defs/SourceReferenceV1"
+          },
+          "minItems": 1,
+          "title": "References",
+          "type": "array"
+        },
+        "claims": {
+          "items": {
+            "$ref": "#/$defs/EvidenceClaimV1"
+          },
+          "minItems": 1,
+          "title": "Claims",
+          "type": "array"
+        },
+        "limitations": {
+          "items": {
+            "$ref": "#/$defs/TraceableStatementV1"
+          },
+          "title": "Limitations",
+          "type": "array"
+        },
+        "implementation_implications": {
+          "items": {
+            "$ref": "#/$defs/TraceableStatementV1"
+          },
+          "title": "Implementation Implications",
+          "type": "array"
+        }
+      },
+      "required": [
+        "schema_version",
+        "record_id",
+        "title",
+        "authors",
+        "primary_theme",
+        "evidence_type",
+        "source_role",
+        "decision_eligible",
+        "evidence_strength",
+        "provenance",
+        "references",
+        "claims"
+      ],
+      "title": "EvidenceRecordV1",
+      "type": "object"
+    },
+    "QuarantineEntryV1": {
+      "additionalProperties": false,
+      "properties": {
+        "quarantine_id": {
+          "pattern": "^quarantine-[a-f0-9]{20}$",
+          "title": "Quarantine Id",
+          "type": "string"
+        },
+        "record_key": {
+          "minLength": 1,
+          "title": "Record Key",
+          "type": "string"
+        },
+        "entity_id": {
+          "anyOf": [
+            {
+              "pattern": "^entity-[a-f0-9]{16}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Entity Id"
+        },
+        "raw_record": {
+          "additionalProperties": true,
+          "title": "Raw Record",
+          "type": "object"
+        },
+        "issues": {
+          "items": {
+            "$ref": "#/$defs/ValidationIssueV1"
+          },
+          "minItems": 1,
+          "title": "Issues",
+          "type": "array"
+        },
+        "status": {
+          "const": "open",
+          "default": "open",
+          "title": "Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "quarantine_id",
+        "record_key",
+        "raw_record",
+        "issues"
+      ],
+      "title": "QuarantineEntryV1",
+      "type": "object"
+    },
+    "QuarantineStoreV1": {
+      "additionalProperties": false,
+      "properties": {
+        "store_version": {
+          "const": "1.0.0",
+          "title": "Store Version",
+          "type": "string"
+        },
+        "corpus_id": {
+          "pattern": "^corpus-[a-z0-9][a-z0-9-]*$",
+          "title": "Corpus Id",
+          "type": "string"
+        },
+        "generated_on": {
+          "format": "date",
+          "title": "Generated On",
+          "type": "string"
+        },
+        "entries": {
+          "items": {
+            "$ref": "#/$defs/QuarantineEntryV1"
+          },
+          "title": "Entries",
+          "type": "array"
+        }
+      },
+      "required": [
+        "store_version",
+        "corpus_id",
+        "generated_on"
+      ],
+      "title": "QuarantineStoreV1",
+      "type": "object"
+    },
+    "RawCorpusEnvelopeV1": {
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "corpus_id": {
+          "pattern": "^corpus-[a-z0-9][a-z0-9-]*$",
+          "title": "Corpus Id",
+          "type": "string"
+        },
+        "generated_on": {
+          "format": "date",
+          "title": "Generated On",
+          "type": "string"
+        },
+        "records": {
+          "items": {
+            "additionalProperties": true,
+            "type": "object"
+          },
+          "minItems": 1,
+          "title": "Records",
+          "type": "array"
+        }
+      },
+      "required": [
+        "schema_version",
+        "corpus_id",
+        "generated_on",
+        "records"
+      ],
+      "title": "RawCorpusEnvelopeV1",
+      "type": "object"
+    },
+    "RawDeduplicationResultV1": {
+      "additionalProperties": false,
+      "properties": {
+        "result_version": {
+          "const": "1.0.0",
+          "title": "Result Version",
+          "type": "string"
+        },
+        "input_corpus_id": {
+          "pattern": "^corpus-[a-z0-9][a-z0-9-]*$",
+          "title": "Input Corpus Id",
+          "type": "string"
+        },
+        "input_record_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Input Record Ids",
+          "type": "array"
+        },
+        "input_record_count": {
+          "minimum": 1,
+          "title": "Input Record Count",
+          "type": "integer"
+        },
+        "output_record_count": {
+          "minimum": 1,
+          "title": "Output Record Count",
+          "type": "integer"
+        },
+        "removed_duplicate_count": {
+          "minimum": 0,
+          "title": "Removed Duplicate Count",
+          "type": "integer"
+        },
+        "configuration": {
+          "$ref": "#/$defs/DeduplicationConfigV1"
+        },
+        "entities": {
+          "items": {
+            "$ref": "#/$defs/EvidenceEntityV1"
+          },
+          "minItems": 1,
+          "title": "Entities",
+          "type": "array"
+        },
+        "deduplicated_corpus": {
+          "$ref": "#/$defs/RawCorpusEnvelopeV1"
+        }
+      },
+      "required": [
+        "result_version",
+        "input_corpus_id",
+        "input_record_ids",
+        "input_record_count",
+        "output_record_count",
+        "removed_duplicate_count",
+        "configuration",
+        "entities",
+        "deduplicated_corpus"
+      ],
+      "title": "RawDeduplicationResultV1",
+      "type": "object"
+    },
+    "RecordValidationResultV1": {
+      "additionalProperties": false,
+      "properties": {
+        "record_key": {
+          "minLength": 1,
+          "title": "Record Key",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "accepted",
+            "quarantined"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "issue_codes": {
+          "items": {
+            "enum": [
+              "schema_validation_error",
+              "missing_entity_mapping",
+              "duplicate_review_required",
+              "provenance_not_verified",
+              "access_status_unknown",
+              "license_status_unknown",
+              "record_id_collision"
+            ],
+            "type": "string"
+          },
+          "title": "Issue Codes",
+          "type": "array"
+        }
+      },
+      "required": [
+        "record_key",
+        "status"
+      ],
+      "title": "RecordValidationResultV1",
+      "type": "object"
+    },
+    "ReviewedRuntimeMappingV1": {
+      "additionalProperties": false,
+      "properties": {
+        "record_id": {
+          "title": "Record Id",
+          "type": "string"
+        },
+        "source_record_sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Source Record Sha256",
+          "type": "string"
+        },
+        "reviewed_by": {
+          "minLength": 1,
+          "title": "Reviewed By",
+          "type": "string"
+        },
+        "reviewed_on": {
+          "format": "date",
+          "title": "Reviewed On",
+          "type": "string"
+        },
+        "review_note": {
+          "minLength": 1,
+          "title": "Review Note",
+          "type": "string"
+        },
+        "runtime": {
+          "$ref": "#/$defs/EvidenceRecord"
+        },
+        "field_reference_ids": {
+          "additionalProperties": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "title": "Field Reference Ids",
+          "type": "object"
+        },
+        "pilot_metrics": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Pilot Metrics",
+          "type": "array"
+        }
+      },
+      "required": [
+        "record_id",
+        "source_record_sha256",
+        "reviewed_by",
+        "reviewed_on",
+        "review_note",
+        "runtime",
+        "field_reference_ids",
+        "pilot_metrics"
+      ],
+      "title": "ReviewedRuntimeMappingV1",
+      "type": "object"
+    },
+    "SourceProvenanceV1": {
+      "additionalProperties": false,
+      "properties": {
+        "source_url": {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "title": "Source Url",
+          "type": "string"
+        },
+        "publisher": {
+          "minLength": 1,
+          "title": "Publisher",
+          "type": "string"
+        },
+        "publication_date": {
+          "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$",
+          "title": "Publication Date",
+          "type": "string"
+        },
+        "retrieved_on": {
+          "format": "date",
+          "title": "Retrieved On",
+          "type": "string"
+        },
+        "verified_on": {
+          "anyOf": [
+            {
+              "format": "date",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Verified On"
+        },
+        "verification_status": {
+          "enum": [
+            "verified",
+            "needs_review"
+          ],
+          "title": "Verification Status",
+          "type": "string"
+        },
+        "verification_urls": {
+          "items": {
+            "format": "uri",
+            "maxLength": 2083,
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Verification Urls",
+          "type": "array"
+        },
+        "access_status": {
+          "enum": [
+            "open_access",
+            "abstract_only",
+            "subscription",
+            "unknown"
+          ],
+          "title": "Access Status",
+          "type": "string"
+        },
+        "access_note": {
+          "minLength": 1,
+          "title": "Access Note",
+          "type": "string"
+        },
+        "license_status": {
+          "enum": [
+            "permitted",
+            "restricted",
+            "unknown"
+          ],
+          "title": "License Status",
+          "type": "string"
+        },
+        "license_note": {
+          "minLength": 1,
+          "title": "License Note",
+          "type": "string"
+        },
+        "content_sha256": {
+          "anyOf": [
+            {
+              "pattern": "^[a-f0-9]{64}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Content Sha256"
+        }
+      },
+      "required": [
+        "source_url",
+        "publisher",
+        "publication_date",
+        "retrieved_on",
+        "verification_status",
+        "access_status",
+        "access_note",
+        "license_status",
+        "license_note"
+      ],
+      "title": "SourceProvenanceV1",
+      "type": "object"
+    },
+    "SourceReferenceV1": {
+      "additionalProperties": false,
+      "properties": {
+        "reference_id": {
+          "pattern": "^ref-[a-z0-9][a-z0-9-]*$",
+          "title": "Reference Id",
+          "type": "string"
+        },
+        "chunk_id": {
+          "pattern": "^chunk-[a-z0-9][a-z0-9-]*$",
+          "title": "Chunk Id",
+          "type": "string"
+        },
+        "locator_type": {
+          "enum": [
+            "abstract",
+            "full_text",
+            "page",
+            "section",
+            "table",
+            "figure",
+            "record_metadata"
+          ],
+          "title": "Locator Type",
+          "type": "string"
+        },
+        "locator": {
+          "minLength": 1,
+          "title": "Locator",
+          "type": "string"
+        },
+        "source_url": {
+          "anyOf": [
+            {
+              "format": "uri",
+              "maxLength": 2083,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Source Url"
+        }
+      },
+      "required": [
+        "reference_id",
+        "chunk_id",
+        "locator_type",
+        "locator"
+      ],
+      "title": "SourceReferenceV1",
+      "type": "object"
+    },
+    "TraceableStatementV1": {
+      "additionalProperties": false,
+      "properties": {
+        "statement_id": {
+          "pattern": "^(lim|impl)-[a-z0-9][a-z0-9-]*$",
+          "title": "Statement Id",
+          "type": "string"
+        },
+        "text": {
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "reference_ids": {
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "title": "Reference Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "statement_id",
+        "text",
+        "reference_ids"
+      ],
+      "title": "TraceableStatementV1",
+      "type": "object"
+    },
+    "ValidatedCandidateV1": {
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": {
+          "const": "1.0.0",
+          "title": "Schema Version",
+          "type": "string"
+        },
+        "corpus_id": {
+          "pattern": "^corpus-[a-z0-9][a-z0-9-]*$",
+          "title": "Corpus Id",
+          "type": "string"
+        },
+        "generated_on": {
+          "format": "date",
+          "title": "Generated On",
+          "type": "string"
+        },
+        "records": {
+          "items": {
+            "$ref": "#/$defs/EvidenceRecordV1"
+          },
+          "title": "Records",
+          "type": "array"
+        }
+      },
+      "required": [
+        "schema_version",
+        "corpus_id",
+        "generated_on"
+      ],
+      "title": "ValidatedCandidateV1",
+      "type": "object"
+    },
+    "ValidationIssueV1": {
+      "additionalProperties": false,
+      "properties": {
+        "code": {
+          "enum": [
+            "schema_validation_error",
+            "missing_entity_mapping",
+            "duplicate_review_required",
+            "provenance_not_verified",
+            "access_status_unknown",
+            "license_status_unknown",
+            "record_id_collision"
+          ],
+          "title": "Code",
+          "type": "string"
+        },
+        "path": {
+          "minLength": 1,
+          "title": "Path",
+          "type": "string"
+        },
+        "message": {
+          "minLength": 1,
+          "title": "Message",
+          "type": "string"
+        }
+      },
+      "required": [
+        "code",
+        "path",
+        "message"
+      ],
+      "title": "ValidationIssueV1",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "release_version": {
+      "const": "1.0.0",
+      "default": "1.0.0",
+      "title": "Release Version",
+      "type": "string"
+    },
+    "manifest": {
+      "$ref": "#/$defs/CorpusManifestV1"
+    },
+    "deduplication": {
+      "$ref": "#/$defs/RawDeduplicationResultV1"
+    },
+    "validation": {
+      "$ref": "#/$defs/CandidateValidationBundleV1"
+    },
+    "mappings": {
+      "items": {
+        "$ref": "#/$defs/ReviewedRuntimeMappingV1"
+      },
+      "title": "Mappings",
+      "type": "array"
+    },
+    "release_sha256": {
+      "title": "Release Sha256",
+      "type": "string"
+    }
+  },
+  "required": [
+    "manifest",
+    "deduplication",
+    "validation",
+    "mappings",
+    "release_sha256"
+  ],
+  "title": "RuntimeReleaseV1",
+  "type": "object"
+}

@@ -1,0 +1,28 @@
+{
+  "checked_on": "2026-09-05",
+  "deployment_performed": false,
+  "checks": [
+    {
+      "url": "https://api.suvane.org/health",
+      "http_status": 200,
+      "response": {
+        "service": "SUVAN\u00c9 Research RAG",
+        "version": "0.2.0",
+        "status": "ok"
+      }
+    },
+    {
+      "url": "https://api.suvane.org/api/evidence",
+      "http_status": 200,
+      "record_count": 6,
+      "record_ids": [
+        "dino-2025",
+        "li-2023",
+        "loveys-2019",
+        "marziali-2024",
+        "welch-2023-egm",
+        "who-2025"
+      ]
+    }
+  ]
+}

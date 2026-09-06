@@ -1,0 +1,15 @@
+{
+  "code_sha256": "022eebd3c8a98d15c930dba30e5141dfbcfa547d467c1408e888bee8e5a8d0c5",
+  "seed_sha256": "a241826bb74757ef7b27320cd06dfba1a32a505497ad99d246d04e7397ddc781",
+  "manifest_file_sha256": "d3d4939e03159380369988a39b2c797f393931d211ff036d347c2cd35c1ba7ee",
+  "manifest_integrity_sha256": "6d34dba244935f48b0f735b9b02cd63ebf0449f87bb984d941276297d2f91cc9",
+  "repeated_manifest_byte_identical": true,
+  "frozen_cases": 24,
+  "frozen_case_pass_rate": 1.0,
+  "draft_accepted": 0,
+  "draft_quarantined": 4,
+  "human_approval_performed": false,
+  "production_activation_performed": false,
+  "pytest_passed": 186,
+  "pytest_warnings": 2
+}

@@ -78,6 +78,12 @@ The [evidence deduplication command](docs/evidence-deduplication.md) applies doc
 
 The [validation and recoverable-quarantine commands](docs/evidence-validation-and-quarantine.md) produce a record-level report, accepted staged candidate, and full rejected-record store. Schema failures, unresolved provenance/access/license status, missing entity mappings, and unreviewed duplicate entities fail closed with visible reasons; reviewed corrections are revalidated or explicitly discarded without touching production.
 
+The [Phase B release runbook](docs/release/phase-b-runbook.md) covers deterministic manifests,
+explicit reviewed runtime mappings, claim-aware synthesis, versioned release loading, coverage,
+comparison, sign-off, activation and rollback. A [30-source discovery register](docs/release/source-review-register.md)
+is provided for human curation. **These candidates are not an expanded production corpus.**
+The default corpus remains six legacy records; no release is automatically activated by these tools.
+
 ## Local setup (Windows PowerShell)
 
 ```powershell
@@ -204,9 +210,12 @@ When the production corpus is empty, unrelated or unmatched questions return an 
 - Deterministic keyword/topic retrieval for `/api/ask`
 - Deterministic decision brief synthesis from retrieved records
 - Pytest suite with isolated fixtures (no OpenAI key or internet required)
-- Empty production evidence corpus (`data/evidence.json`)
+- Initial empty-corpus support (the current production seed has six records)
 
-## Deliberately deferred to Phase 2
+## Original Phase 1 deferrals (historical)
+
+Ingestion and deployment preparation below have since been implemented as described above.
+Paid generation, embeddings and database migration remain outside the current scope.
 
 - PostgreSQL and pgvector storage
 - Embedding-based semantic retrieval

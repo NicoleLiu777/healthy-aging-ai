@@ -499,9 +499,11 @@ def render_artifact(model: StrictModel) -> str:
 
 
 def _atomic_write(output_path: Path, content: str, stage: str) -> None:
-    if output_path.resolve() == ACTIVE_CORPUS_PATH:
+    from app.core.config import Settings
+    active_paths = {ACTIVE_CORPUS_PATH, Settings().evidence_path.resolve()}
+    if output_path.resolve() in active_paths:
         raise ValueError(
-            f"{stage} refuses direct writes to data/evidence.json; use a staged output path"
+            f"{stage} refuses direct writes to data/evidence.json or the configured active corpus; use a staged output path"
         )
     output_path.parent.mkdir(parents=True, exist_ok=True)
     temporary_path: Path | None = None
