@@ -1,0 +1,41 @@
+{
+  "accepted_record_sha256": {},
+  "candidate_sha256": "4e04c2befcb69365288d9595ea3be8287bce90847413d5be5f7a73c303295cc6",
+  "corpus_id": "corpus-phase-b-unreviewed-batch2",
+  "corpus_version": "0.2.0",
+  "counts_by_role": {
+    "context": 0,
+    "design": 0,
+    "effectiveness": 0,
+    "evidence_map": 0
+  },
+  "counts_by_theme": {
+    "ai_conversational_agents_mental_health": 0,
+    "older_adult_digital_social_connection": 0,
+    "responsible_ai_companion_design": 0
+  },
+  "deduplication_configuration": {
+    "config_version": "1.0.0",
+    "enable_near_title": true,
+    "minimum_normalized_title_length": 20,
+    "require_same_first_author": true,
+    "require_same_publication_year": true,
+    "title_similarity_threshold": 0.94
+  },
+  "deduplication_sha256": "114ad8452c28ef067f11e306753308c1df4ec51a76b679b3a9e60869b86161d2",
+  "generated_on": "2026-09-06",
+  "integrity_sha256": "378082f6c0fae0b94af7ce36533db6a5a9ccd11613bc8e40ea442048d455a78c",
+  "manifest_version": "1.0.0",
+  "previous_manifest_sha256": null,
+  "schema_version": "1.0.0",
+  "unresolved_quarantine_count": 8,
+  "validation_bundle_sha256": "f4534e4208321984e871858b05d511c64cdf0c82cda8e6d6da44e132f02592ac",
+  "validation_configuration": {
+    "config_version": "1.0.0",
+    "quarantine_duplicate_entities": true,
+    "quarantine_unknown_access": true,
+    "quarantine_unknown_license": true,
+    "require_verified_provenance": true
+  },
+  "validation_report_id": "validation-e7c5ea9572c7e5c9a44b"
+}
