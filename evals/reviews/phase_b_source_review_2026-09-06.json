@@ -1,0 +1,104 @@
+{
+  "review_version": "1.0.0",
+  "reviewed_by": "Nicole",
+  "reviewed_on": "2026-09-06",
+  "recorded_from": "Nicole's submitted eight-source review in the project conversation",
+  "decisions": [
+    {
+      "candidate_id": "he-2023",
+      "disposition": "edit_then_accept",
+      "required_edits": [
+        "Keep short-term and long-term results separate",
+        "Attach the 8/11/13 risk-of-bias distribution to the claims",
+        "Add concrete intervention and follow-up timing anchors"
+      ],
+      "implementation_status": "completed",
+      "remaining_gate": "effectiveness evidence-strength grading"
+    },
+    {
+      "candidate_id": "welch-2023-egm",
+      "disposition": "edit_then_accept",
+      "required_edits": [
+        "Put the May 2021 search cutoff and September 2026 staleness warning before each coverage claim",
+        "Do not treat the 200-article map as an effectiveness synthesis",
+        "Confirm the source-specific licence instead of inferring it from publisher practice"
+      ],
+      "implementation_status": "content_edits_completed",
+      "remaining_gate": "source-specific licence confirmation"
+    },
+    {
+      "candidate_id": "who-2025",
+      "disposition": "quarantine",
+      "required_edits": [
+        "Obtain and review the full report",
+        "Add definitions, action details, and page locators",
+        "Confirm the publication-specific licence"
+      ],
+      "implementation_status": "quarantined",
+      "remaining_gate": "full-text and licence review"
+    },
+    {
+      "candidate_id": "skjuve-2021",
+      "disposition": "edit_then_accept",
+      "required_edits": [
+        "Put the narrow established-chatbot-relationship sample in the first claim",
+        "Retain the distinction between participant perceptions and clinical benefit",
+        "Confirm source-specific reuse terms"
+      ],
+      "implementation_status": "content_edits_completed",
+      "remaining_gate": "source-specific licence confirmation"
+    },
+    {
+      "candidate_id": "fitzpatrick-2017",
+      "disposition": "edit_then_accept",
+      "required_edits": [
+        "Put Woebot Labs affiliation in the main claim",
+        "Bind the unblinded design, university sample, 17% missing follow-up, and two-week window to the outcome",
+        "Do not imply long-term or older-adult effectiveness"
+      ],
+      "implementation_status": "completed",
+      "remaining_gate": "effectiveness evidence-strength grading"
+    },
+    {
+      "candidate_id": "fulmer-2018",
+      "disposition": "quarantine_priority",
+      "required_edits": [
+        "Audit downstream content for the response example deleted by the 2026-08-26 correction",
+        "Do not cite the deleted example",
+        "Put X2AI affiliations in a prominent location before reconsideration"
+      ],
+      "implementation_status": "downstream_audit_found_no_deleted_quote; record_remains_quarantined",
+      "remaining_gate": "Nicole post-correction acceptance decision"
+    },
+    {
+      "candidate_id": "inkster-2018",
+      "disposition": "edit_then_accept",
+      "required_edits": [
+        "State within the claim that groups were usage-defined rather than randomized",
+        "Include the 108 versus 21 group imbalance",
+        "Keep the self-selection and noncausal interpretation in the claim"
+      ],
+      "implementation_status": "completed",
+      "remaining_gate": "effectiveness evidence-strength grading"
+    },
+    {
+      "candidate_id": "youper-2021",
+      "disposition": "edit_then_accept",
+      "required_edits": [
+        "Put Youper affiliations in the main claim",
+        "Preserve the different anxiety and depression directions",
+        "Retain 42.66% week-four retention and the statement that retention and ratings do not prove effectiveness"
+      ],
+      "implementation_status": "completed",
+      "remaining_gate": "effectiveness evidence-strength grading"
+    }
+  ],
+  "release_authorization": {
+    "authorized_by": "Nicole",
+    "submitted_on": "2026-09-06",
+    "scope": "Activate a specified SUVANE Research corpus version under the B-12 runbook, with paired rollback to the original six-record corpus and its compatible code if acceptance fails.",
+    "bound_release_sha256": null,
+    "status": "conditional_future_authorization",
+    "reason_not_executable": "No exact release version or release hash exists yet, and B-09 through B-11 gates have not passed."
+  }
+}
