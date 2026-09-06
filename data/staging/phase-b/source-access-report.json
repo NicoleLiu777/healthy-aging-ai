@@ -1,0 +1,34 @@
+[
+  {
+    "candidate_id": "he-2023",
+    "url": "https://www.jmir.org/2023/1/e43862/",
+    "attempted_on": "2026-09-05",
+    "status": "manual_review",
+    "reason": "web page returned HTTP 202"
+  },
+  {
+    "candidate_id": "welch-2023-egm",
+    "url": "https://www.campbellcollaboration.org/review/digital-interventions-social-isolation-loneliness-older-adults-egm/",
+    "attempted_on": "2026-09-05",
+    "status": "manual_review",
+    "reason": "web page request was blocked with HTTP 403"
+  },
+  {
+    "candidate_id": "who-2025",
+    "url": "https://www.who.int/publications/i/item/978240112360",
+    "attempted_on": "2026-09-05",
+    "status": "extracted_for_review",
+    "response_sha256": "581d765e44ff37abb2193a648c35137f38c5ffda664859627ac5e1d6948060c0",
+    "content_sha256": "03a8109b5b858a0d315e0ba0b074c0300e2699bcffd57ea12382cd9e61d3e51a",
+    "block_count": 3
+  },
+  {
+    "candidate_id": "skjuve-2021",
+    "url": "https://www.sintef.no/en/publications/publication/0198cc8570c8-9e3222db-61c3-4a0e-a6a5-115f3f7b1a33/",
+    "attempted_on": "2026-09-05",
+    "status": "extracted_for_review",
+    "response_sha256": "16830592ba2dc2352ee492d401c59ae353a99cd47adfbd2b26f1d44085ce97c3",
+    "content_sha256": "676f77415f6fbc188bd24dcaafd5d235395004a2a5a65a57dbbecd5befb6313c",
+    "block_count": 28
+  }
+]

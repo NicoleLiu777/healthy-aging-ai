@@ -1,0 +1,190 @@
+{
+  "$defs": {
+    "CandidateValidationConfigV1": {
+      "additionalProperties": false,
+      "properties": {
+        "config_version": {
+          "const": "1.0.0",
+          "default": "1.0.0",
+          "title": "Config Version",
+          "type": "string"
+        },
+        "require_verified_provenance": {
+          "default": true,
+          "title": "Require Verified Provenance",
+          "type": "boolean"
+        },
+        "quarantine_duplicate_entities": {
+          "default": true,
+          "title": "Quarantine Duplicate Entities",
+          "type": "boolean"
+        },
+        "quarantine_unknown_access": {
+          "default": true,
+          "title": "Quarantine Unknown Access",
+          "type": "boolean"
+        },
+        "quarantine_unknown_license": {
+          "default": true,
+          "title": "Quarantine Unknown License",
+          "type": "boolean"
+        }
+      },
+      "title": "CandidateValidationConfigV1",
+      "type": "object"
+    },
+    "DeduplicationConfigV1": {
+      "additionalProperties": false,
+      "properties": {
+        "config_version": {
+          "const": "1.0.0",
+          "default": "1.0.0",
+          "title": "Config Version",
+          "type": "string"
+        },
+        "enable_near_title": {
+          "default": true,
+          "title": "Enable Near Title",
+          "type": "boolean"
+        },
+        "title_similarity_threshold": {
+          "default": 0.94,
+          "maximum": 1.0,
+          "minimum": 0.8,
+          "title": "Title Similarity Threshold",
+          "type": "number"
+        },
+        "minimum_normalized_title_length": {
+          "default": 20,
+          "maximum": 500,
+          "minimum": 10,
+          "title": "Minimum Normalized Title Length",
+          "type": "integer"
+        },
+        "require_same_publication_year": {
+          "default": true,
+          "title": "Require Same Publication Year",
+          "type": "boolean"
+        },
+        "require_same_first_author": {
+          "default": true,
+          "title": "Require Same First Author",
+          "type": "boolean"
+        }
+      },
+      "title": "DeduplicationConfigV1",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "manifest_version": {
+      "const": "1.0.0",
+      "default": "1.0.0",
+      "title": "Manifest Version",
+      "type": "string"
+    },
+    "corpus_version": {
+      "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$",
+      "title": "Corpus Version",
+      "type": "string"
+    },
+    "corpus_id": {
+      "title": "Corpus Id",
+      "type": "string"
+    },
+    "generated_on": {
+      "title": "Generated On",
+      "type": "string"
+    },
+    "schema_version": {
+      "const": "1.0.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "previous_manifest_sha256": {
+      "anyOf": [
+        {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Previous Manifest Sha256"
+    },
+    "accepted_record_sha256": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Accepted Record Sha256",
+      "type": "object"
+    },
+    "counts_by_theme": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "title": "Counts By Theme",
+      "type": "object"
+    },
+    "counts_by_role": {
+      "additionalProperties": {
+        "type": "integer"
+      },
+      "title": "Counts By Role",
+      "type": "object"
+    },
+    "deduplication_configuration": {
+      "$ref": "#/$defs/DeduplicationConfigV1"
+    },
+    "validation_configuration": {
+      "$ref": "#/$defs/CandidateValidationConfigV1"
+    },
+    "validation_report_id": {
+      "title": "Validation Report Id",
+      "type": "string"
+    },
+    "unresolved_quarantine_count": {
+      "minimum": 0,
+      "title": "Unresolved Quarantine Count",
+      "type": "integer"
+    },
+    "deduplication_sha256": {
+      "title": "Deduplication Sha256",
+      "type": "string"
+    },
+    "validation_bundle_sha256": {
+      "title": "Validation Bundle Sha256",
+      "type": "string"
+    },
+    "candidate_sha256": {
+      "title": "Candidate Sha256",
+      "type": "string"
+    },
+    "integrity_sha256": {
+      "title": "Integrity Sha256",
+      "type": "string"
+    }
+  },
+  "required": [
+    "corpus_version",
+    "corpus_id",
+    "generated_on",
+    "schema_version",
+    "accepted_record_sha256",
+    "counts_by_theme",
+    "counts_by_role",
+    "deduplication_configuration",
+    "validation_configuration",
+    "validation_report_id",
+    "unresolved_quarantine_count",
+    "deduplication_sha256",
+    "validation_bundle_sha256",
+    "candidate_sha256",
+    "integrity_sha256"
+  ],
+  "title": "CorpusManifestV1",
+  "type": "object"
+}

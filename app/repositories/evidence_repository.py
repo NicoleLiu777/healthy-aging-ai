@@ -13,7 +13,11 @@ class EvidenceRepository:
         if self._records is None:
             raw = self._evidence_path.read_text(encoding="utf-8")
             data = json.loads(raw)
-            self._records = [EvidenceRecord.model_validate(item) for item in data]
+            if isinstance(data, dict):
+                from app.ingestion.runtime import RuntimeReleaseV1, load_release
+                self._records = load_release(RuntimeReleaseV1.model_validate(data))
+            else:
+                self._records = [EvidenceRecord.model_validate(item) for item in data]
         return self._records
 
     def list_all(self) -> list[EvidenceRecord]:
@@ -58,6 +62,7 @@ class EvidenceRepository:
                 " ".join(record.limitations),
                 " ".join(record.implementation_implications),
                 record.evidence_strength_rationale,
+                " ".join(claim.text for claim in getattr(getattr(record, "evidence_v1", None), "claims", [])),
             ]
         ).lower()
         return query in searchable

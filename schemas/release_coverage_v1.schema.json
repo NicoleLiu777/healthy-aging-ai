@@ -1,0 +1,97 @@
+{
+  "$defs": {
+    "CoverageCase": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "category": {
+          "enum": [
+            "theme",
+            "context",
+            "design",
+            "evidence_map",
+            "unrelated",
+            "adversarial"
+          ],
+          "title": "Category",
+          "type": "string"
+        },
+        "theme": {
+          "anyOf": [
+            {
+              "enum": [
+                "ai_conversational_agents_mental_health",
+                "older_adult_digital_social_connection",
+                "responsible_ai_companion_design"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Theme"
+        },
+        "question": {
+          "maxLength": 500,
+          "minLength": 5,
+          "title": "Question",
+          "type": "string"
+        },
+        "expected_evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Expected Evidence Ids",
+          "type": "array"
+        },
+        "expected_claim_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Expected Claim Ids",
+          "type": "array"
+        },
+        "must_abstain": {
+          "title": "Must Abstain",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "category",
+        "question",
+        "expected_evidence_ids",
+        "expected_claim_ids",
+        "must_abstain"
+      ],
+      "title": "CoverageCase",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "suite_version": {
+      "const": "1.0.0",
+      "default": "1.0.0",
+      "title": "Suite Version",
+      "type": "string"
+    },
+    "cases": {
+      "items": {
+        "$ref": "#/$defs/CoverageCase"
+      },
+      "title": "Cases",
+      "type": "array"
+    }
+  },
+  "required": [
+    "cases"
+  ],
+  "title": "CoverageSuite",
+  "type": "object"
+}

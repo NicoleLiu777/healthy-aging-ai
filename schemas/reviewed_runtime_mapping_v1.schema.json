@@ -1,0 +1,263 @@
+{
+  "$defs": {
+    "EvidenceRecord": {
+      "properties": {
+        "id": {
+          "title": "Id",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "authors": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Authors",
+          "type": "array"
+        },
+        "year": {
+          "title": "Year",
+          "type": "integer"
+        },
+        "url": {
+          "format": "uri",
+          "maxLength": 2083,
+          "minLength": 1,
+          "title": "Url",
+          "type": "string"
+        },
+        "doi": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Doi"
+        },
+        "topic": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Topic",
+          "type": "array"
+        },
+        "population": {
+          "title": "Population",
+          "type": "string"
+        },
+        "study_type": {
+          "title": "Study Type",
+          "type": "string"
+        },
+        "sample_size": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Sample Size"
+        },
+        "included_studies": {
+          "anyOf": [
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Included Studies"
+        },
+        "intervention": {
+          "title": "Intervention",
+          "type": "string"
+        },
+        "comparison": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Comparison"
+        },
+        "outcomes_improved": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Outcomes Improved",
+          "type": "array"
+        },
+        "outcomes_not_improved": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Outcomes Not Improved",
+          "type": "array"
+        },
+        "source_role": {
+          "enum": [
+            "effectiveness",
+            "context",
+            "design",
+            "evidence_map"
+          ],
+          "title": "Source Role",
+          "type": "string"
+        },
+        "decision_eligible": {
+          "title": "Decision Eligible",
+          "type": "boolean"
+        },
+        "evidence_strength": {
+          "anyOf": [
+            {
+              "enum": [
+                "strong",
+                "moderate",
+                "limited",
+                "early"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Evidence Strength"
+        },
+        "evidence_strength_rationale": {
+          "title": "Evidence Strength Rationale",
+          "type": "string"
+        },
+        "limitations": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Limitations",
+          "type": "array"
+        },
+        "implementation_implications": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Implementation Implications",
+          "type": "array"
+        },
+        "verification_status": {
+          "enum": [
+            "verified",
+            "needs_review"
+          ],
+          "title": "Verification Status",
+          "type": "string"
+        },
+        "verified_against": {
+          "items": {
+            "format": "uri",
+            "maxLength": 2083,
+            "minLength": 1,
+            "type": "string"
+          },
+          "title": "Verified Against",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "authors",
+        "year",
+        "url",
+        "topic",
+        "population",
+        "study_type",
+        "sample_size",
+        "intervention",
+        "comparison",
+        "outcomes_improved",
+        "outcomes_not_improved",
+        "source_role",
+        "decision_eligible",
+        "evidence_strength",
+        "evidence_strength_rationale",
+        "limitations",
+        "verification_status",
+        "verified_against"
+      ],
+      "title": "EvidenceRecord",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "record_id": {
+      "title": "Record Id",
+      "type": "string"
+    },
+    "source_record_sha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Source Record Sha256",
+      "type": "string"
+    },
+    "reviewed_by": {
+      "minLength": 1,
+      "title": "Reviewed By",
+      "type": "string"
+    },
+    "reviewed_on": {
+      "format": "date",
+      "title": "Reviewed On",
+      "type": "string"
+    },
+    "review_note": {
+      "minLength": 1,
+      "title": "Review Note",
+      "type": "string"
+    },
+    "runtime": {
+      "$ref": "#/$defs/EvidenceRecord"
+    },
+    "field_reference_ids": {
+      "additionalProperties": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "title": "Field Reference Ids",
+      "type": "object"
+    },
+    "pilot_metrics": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Pilot Metrics",
+      "type": "array"
+    }
+  },
+  "required": [
+    "record_id",
+    "source_record_sha256",
+    "reviewed_by",
+    "reviewed_on",
+    "review_note",
+    "runtime",
+    "field_reference_ids",
+    "pilot_metrics"
+  ],
+  "title": "ReviewedRuntimeMappingV1",
+  "type": "object"
+}

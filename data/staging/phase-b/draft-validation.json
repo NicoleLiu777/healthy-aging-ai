@@ -1,0 +1,552 @@
+{
+  "accepted_candidate": {
+    "corpus_id": "corpus-phase-b-unreviewed-drafts",
+    "generated_on": "2026-09-05",
+    "records": [],
+    "schema_version": "1.0.0"
+  },
+  "bundle_version": "1.0.0",
+  "quarantine_store": {
+    "corpus_id": "corpus-phase-b-unreviewed-drafts",
+    "entries": [
+      {
+        "entity_id": "entity-09ef7b80eab3f182",
+        "issues": [
+          {
+            "code": "provenance_not_verified",
+            "message": "candidate provenance must be verified before acceptance",
+            "path": "provenance.verification_status"
+          },
+          {
+            "code": "license_status_unknown",
+            "message": "license status must be resolved before acceptance",
+            "path": "provenance.license_status"
+          }
+        ],
+        "quarantine_id": "quarantine-1dbffcf695212c4343a5",
+        "raw_record": {
+          "authors": [
+            "Yuhao He",
+            "Li Yang",
+            "Chunlian Qian",
+            "Tong Li",
+            "Zhengyuan Su",
+            "Qiang Zhang",
+            "Xiangqing Hou"
+          ],
+          "claims": [
+            {
+              "claim_id": "claim-e7b2dc9877f4b8da-241f7fcf3adc",
+              "claim_type": "outcome",
+              "decision_eligible": false,
+              "direction": "positive",
+              "outcomes": [
+                "short-term depressive symptoms"
+              ],
+              "population_scope": [
+                "Clinical, symptomatic and general samples; not an older-adult-only synthesis"
+              ],
+              "reference_ids": [
+                "ref-e7b2dc9877f4b8da-24bf6dd46229"
+              ],
+              "sample_size": null,
+              "source_role": "effectiveness",
+              "study_count": null,
+              "text": "Short-term depressive symptoms improved compared with control conditions (Hedges g 0.29, 95% CI 0.20–0.38)."
+            },
+            {
+              "claim_id": "claim-e7b2dc9877f4b8da-252f7384baef",
+              "claim_type": "evidence_summary",
+              "decision_eligible": false,
+              "direction": "mixed",
+              "outcomes": [],
+              "population_scope": [
+                "Clinical, symptomatic and general samples; not an older-adult-only synthesis"
+              ],
+              "reference_ids": [
+                "ref-e7b2dc9877f4b8da-24bf6dd46229"
+              ],
+              "sample_size": 6089,
+              "source_role": "effectiveness",
+              "study_count": 32,
+              "text": "The meta-analysis included 32 randomized studies with 6089 participants."
+            },
+            {
+              "claim_id": "claim-e7b2dc9877f4b8da-b6e73cb27e2b",
+              "claim_type": "evidence_summary",
+              "decision_eligible": false,
+              "direction": "mixed",
+              "outcomes": [],
+              "population_scope": [
+                "Clinical, symptomatic and general samples; not an older-adult-only synthesis"
+              ],
+              "reference_ids": [
+                "ref-e7b2dc9877f4b8da-24bf6dd46229"
+              ],
+              "sample_size": null,
+              "source_role": "effectiveness",
+              "study_count": null,
+              "text": "Most long-term mental-health outcomes did not show statistically significant effects; effects must be separated by outcome and follow-up."
+            }
+          ],
+          "decision_eligible": false,
+          "doi": "10.2196/43862",
+          "evidence_strength": null,
+          "evidence_type": "systematic_review_meta_analysis",
+          "implementation_implications": [],
+          "limitations": [
+            {
+              "reference_ids": [
+                "ref-e7b2dc9877f4b8da-24bf6dd46229"
+              ],
+              "statement_id": "lim-e7b2dc9877f4b8da-d158120ae474",
+              "text": "The synthesis covers different agent types, populations and comparators. It cannot establish universal suitability."
+            },
+            {
+              "reference_ids": [
+                "ref-e7b2dc9877f4b8da-24bf6dd46229"
+              ],
+              "statement_id": "lim-e7b2dc9877f4b8da-e66e78b04057",
+              "text": "Only eight studies were judged at low risk of bias; eleven had some risk and thirteen high risk."
+            }
+          ],
+          "primary_theme": "ai_conversational_agents_mental_health",
+          "provenance": {
+            "access_note": "AI-prepared paraphrase from accessible web research text; human claim review pending. Direct B-04 attempt: manual_review; web page returned HTTP 202",
+            "access_status": "open_access",
+            "content_sha256": null,
+            "license_note": "Reuse terms not yet reviewed. Only short paraphrases and source metadata are included; do not infer redistribution permission.",
+            "license_status": "unknown",
+            "publication_date": "2023-04-28",
+            "publisher": "Journal of Medical Internet Research",
+            "retrieved_on": "2026-09-05",
+            "source_url": "https://www.jmir.org/2023/1/e43862/",
+            "verification_status": "needs_review",
+            "verification_urls": [],
+            "verified_on": null
+          },
+          "record_id": "evidence-e7b2dc9877f4b8da",
+          "references": [
+            {
+              "chunk_id": "chunk-e7b2dc9877f4b8da-17d612f305ae",
+              "locator": "Abstract: Results; Methods: Participants; Results: Risk of Bias",
+              "locator_type": "section",
+              "reference_id": "ref-e7b2dc9877f4b8da-24bf6dd46229",
+              "source_url": "https://www.jmir.org/2023/1/e43862/"
+            }
+          ],
+          "schema_version": "1.0.0",
+          "secondary_themes": [],
+          "source_role": "effectiveness",
+          "title": "Conversational Agent Interventions for Mental Health Problems: Systematic Review and Meta-analysis of Randomized Controlled Trials"
+        },
+        "record_key": "evidence-e7b2dc9877f4b8da",
+        "status": "open"
+      },
+      {
+        "entity_id": "entity-0f6903dee75000bf",
+        "issues": [
+          {
+            "code": "provenance_not_verified",
+            "message": "candidate provenance must be verified before acceptance",
+            "path": "provenance.verification_status"
+          },
+          {
+            "code": "license_status_unknown",
+            "message": "license status must be resolved before acceptance",
+            "path": "provenance.license_status"
+          }
+        ],
+        "quarantine_id": "quarantine-2aaa7c78c528fe223e0d",
+        "raw_record": {
+          "authors": [
+            "World Health Organization",
+            "WHO Commission on Social Connection"
+          ],
+          "claims": [
+            {
+              "claim_id": "claim-802e500286bdde07-b1220936fa2c",
+              "claim_type": "policy_framing",
+              "decision_eligible": false,
+              "direction": "not_applicable",
+              "outcomes": [],
+              "population_scope": [
+                "General populations affected by loneliness and social isolation"
+              ],
+              "reference_ids": [
+                "ref-802e500286bdde07-f65e5541d204"
+              ],
+              "sample_size": null,
+              "source_role": "context",
+              "study_count": null,
+              "text": "The report calls for cross-sector action to strengthen social connection, addressing policy-makers, researchers and other sectors."
+            },
+            {
+              "claim_id": "claim-802e500286bdde07-d5c820f5bfce",
+              "claim_type": "policy_framing",
+              "decision_eligible": false,
+              "direction": "not_applicable",
+              "outcomes": [],
+              "population_scope": [
+                "General populations affected by loneliness and social isolation"
+              ],
+              "reference_ids": [
+                "ref-802e500286bdde07-f65e5541d204"
+              ],
+              "sample_size": null,
+              "source_role": "context",
+              "study_count": null,
+              "text": "WHO presents social isolation and loneliness as widespread problems with health, well-being and societal consequences, and calls for social health to receive urgency comparable to physical and mental health."
+            }
+          ],
+          "decision_eligible": false,
+          "doi": null,
+          "evidence_strength": null,
+          "evidence_type": "policy_guidance",
+          "implementation_implications": [],
+          "limitations": [
+            {
+              "reference_ids": [
+                "ref-802e500286bdde07-f65e5541d204"
+              ],
+              "statement_id": "lim-802e500286bdde07-8bbc099d6e04",
+              "text": "Policy framing does not establish the effectiveness of an AI companion."
+            },
+            {
+              "reference_ids": [
+                "ref-802e500286bdde07-f65e5541d204"
+              ],
+              "statement_id": "lim-802e500286bdde07-dcc6aa07302c",
+              "text": "This draft uses the publication overview, not the full report; definitions, action details and page locators remain to be extracted."
+            }
+          ],
+          "primary_theme": "responsible_ai_companion_design",
+          "provenance": {
+            "access_note": "AI-prepared paraphrase from accessible web research text; human claim review pending. Direct B-04 attempt: extracted_for_review",
+            "access_status": "open_access",
+            "content_sha256": "03a8109b5b858a0d315e0ba0b074c0300e2699bcffd57ea12382cd9e61d3e51a",
+            "license_note": "Reuse terms not yet reviewed. Only short paraphrases and source metadata are included; do not infer redistribution permission.",
+            "license_status": "unknown",
+            "publication_date": "2025-06-30",
+            "publisher": "World Health Organization",
+            "retrieved_on": "2026-09-05",
+            "source_url": "https://www.who.int/publications/i/item/978240112360",
+            "verification_status": "needs_review",
+            "verification_urls": [],
+            "verified_on": null
+          },
+          "record_id": "evidence-802e500286bdde07",
+          "references": [
+            {
+              "chunk_id": "chunk-802e500286bdde07-37e5cdfca5f4",
+              "locator": "Publication page: Overview, paragraphs 1–2",
+              "locator_type": "section",
+              "reference_id": "ref-802e500286bdde07-f65e5541d204",
+              "source_url": "https://www.who.int/publications/i/item/978240112360"
+            }
+          ],
+          "schema_version": "1.0.0",
+          "secondary_themes": [],
+          "source_role": "context",
+          "title": "From loneliness to social connection: charting a path to healthier societies"
+        },
+        "record_key": "evidence-802e500286bdde07",
+        "status": "open"
+      },
+      {
+        "entity_id": "entity-375ec1d1da638a4d",
+        "issues": [
+          {
+            "code": "provenance_not_verified",
+            "message": "candidate provenance must be verified before acceptance",
+            "path": "provenance.verification_status"
+          },
+          {
+            "code": "license_status_unknown",
+            "message": "license status must be resolved before acceptance",
+            "path": "provenance.license_status"
+          }
+        ],
+        "quarantine_id": "quarantine-4116479fb13a345e18e3",
+        "raw_record": {
+          "authors": [
+            "Campbell Collaboration"
+          ],
+          "claims": [
+            {
+              "claim_id": "claim-0ce0b5343616790c-bc7713fb39f4",
+              "claim_type": "evidence_gap",
+              "decision_eligible": false,
+              "direction": "not_applicable",
+              "outcomes": [],
+              "population_scope": [
+                "Older adults outside hospital settings"
+              ],
+              "reference_ids": [
+                "ref-0ce0b5343616790c-dd4356f0f1f6"
+              ],
+              "sample_size": null,
+              "source_role": "evidence_map",
+              "study_count": null,
+              "text": "Community-level outcomes and process measures are rarely reported. Included work does not assess affordability or lack of accessibility, and adverse effects are seldom reported."
+            },
+            {
+              "claim_id": "claim-0ce0b5343616790c-ee359e5d3dc5",
+              "claim_type": "evidence_gap",
+              "decision_eligible": false,
+              "direction": "not_applicable",
+              "outcomes": [],
+              "population_scope": [
+                "Older adults outside hospital settings"
+              ],
+              "reference_ids": [
+                "ref-0ce0b5343616790c-dd4356f0f1f6"
+              ],
+              "sample_size": null,
+              "source_role": "evidence_map",
+              "study_count": null,
+              "text": "More than 70% of the included systematic reviews were rated critically low quality."
+            },
+            {
+              "claim_id": "claim-0ce0b5343616790c-fb062a3b5964",
+              "claim_type": "evidence_gap",
+              "decision_eligible": false,
+              "direction": "not_applicable",
+              "outcomes": [],
+              "population_scope": [
+                "Older adults outside hospital settings"
+              ],
+              "reference_ids": [
+                "ref-0ce0b5343616790c-dd4356f0f1f6"
+              ],
+              "sample_size": null,
+              "source_role": "evidence_map",
+              "study_count": null,
+              "text": "The map contains 200 articles: 97 systematic reviews and 103 primary studies. Most evidence comes from high-income settings and none from low-income countries."
+            }
+          ],
+          "decision_eligible": false,
+          "doi": null,
+          "evidence_strength": null,
+          "evidence_type": "evidence_gap_map",
+          "implementation_implications": [],
+          "limitations": [
+            {
+              "reference_ids": [
+                "ref-0ce0b5343616790c-dd4356f0f1f6"
+              ],
+              "statement_id": "lim-0ce0b5343616790c-3097fd31ebe5",
+              "text": "A map describes coverage and gaps, not a pooled intervention effect."
+            },
+            {
+              "reference_ids": [
+                "ref-0ce0b5343616790c-dd4356f0f1f6"
+              ],
+              "statement_id": "lim-0ce0b5343616790c-ddc36a298f59",
+              "text": "Searches extended through May 2021; this is not a current exhaustive map."
+            }
+          ],
+          "primary_theme": "older_adult_digital_social_connection",
+          "provenance": {
+            "access_note": "AI-prepared paraphrase from accessible web research text; human claim review pending. Direct B-04 attempt: manual_review; web page request was blocked with HTTP 403",
+            "access_status": "open_access",
+            "content_sha256": null,
+            "license_note": "Reuse terms not yet reviewed. Only short paraphrases and source metadata are included; do not infer redistribution permission.",
+            "license_status": "unknown",
+            "publication_date": "2023-11-27",
+            "publisher": "Campbell Collaboration",
+            "retrieved_on": "2026-09-05",
+            "source_url": "https://www.campbellcollaboration.org/review/digital-interventions-social-isolation-loneliness-older-adults-egm/",
+            "verification_status": "needs_review",
+            "verification_urls": [],
+            "verified_on": null
+          },
+          "record_id": "evidence-0ce0b5343616790c",
+          "references": [
+            {
+              "chunk_id": "chunk-0ce0b5343616790c-1970556b1860",
+              "locator": "Plain-language summary: What studies are included?; What are the main findings?; How up-to-date is this EGM?",
+              "locator_type": "section",
+              "reference_id": "ref-0ce0b5343616790c-dd4356f0f1f6",
+              "source_url": "https://www.campbellcollaboration.org/review/digital-interventions-social-isolation-loneliness-older-adults-egm/"
+            }
+          ],
+          "schema_version": "1.0.0",
+          "secondary_themes": [],
+          "source_role": "evidence_map",
+          "title": "Digital interventions to reduce social isolation and loneliness in older adults: An evidence and gap map"
+        },
+        "record_key": "evidence-0ce0b5343616790c",
+        "status": "open"
+      },
+      {
+        "entity_id": "entity-3518cdd9f5525460",
+        "issues": [
+          {
+            "code": "provenance_not_verified",
+            "message": "candidate provenance must be verified before acceptance",
+            "path": "provenance.verification_status"
+          },
+          {
+            "code": "license_status_unknown",
+            "message": "license status must be resolved before acceptance",
+            "path": "provenance.license_status"
+          }
+        ],
+        "quarantine_id": "quarantine-da1d88530cc44bf0a71a",
+        "raw_record": {
+          "authors": [
+            "Marita Bjaaland Skjuve",
+            "Asbjørn Følstad",
+            "Knut Inge Fostervold",
+            "Petter Bae Brandtzæg"
+          ],
+          "claims": [
+            {
+              "claim_id": "claim-fd5e265f2e58d081-771b7699c660",
+              "claim_type": "design_principle",
+              "decision_eligible": false,
+              "direction": "not_applicable",
+              "outcomes": [],
+              "population_scope": [
+                "18 participants who had already developed a friendship with Replika"
+              ],
+              "reference_ids": [
+                "ref-fd5e265f2e58d081-25279d63ba32"
+              ],
+              "sample_size": null,
+              "source_role": "design",
+              "study_count": null,
+              "text": "Effects on users’ wider social context were mixed, and participants reported stigma associated with human–chatbot relationships."
+            },
+            {
+              "claim_id": "claim-fd5e265f2e58d081-899b6beaca52",
+              "claim_type": "design_principle",
+              "decision_eligible": false,
+              "direction": "not_applicable",
+              "outcomes": [],
+              "population_scope": [
+                "18 participants who had already developed a friendship with Replika"
+              ],
+              "reference_ids": [
+                "ref-fd5e265f2e58d081-25279d63ba32"
+              ],
+              "sample_size": 18,
+              "source_role": "design",
+              "study_count": null,
+              "text": "Interviewees described accepting, understanding and nonjudgmental responses as factors in relationship development; these are reported perceptions, not proven clinical benefits."
+            }
+          ],
+          "decision_eligible": false,
+          "doi": "10.1016/j.ijhcs.2021.102601",
+          "evidence_strength": null,
+          "evidence_type": "qualitative_study",
+          "implementation_implications": [],
+          "limitations": [
+            {
+              "reference_ids": [
+                "ref-fd5e265f2e58d081-25279d63ba32"
+              ],
+              "statement_id": "lim-fd5e265f2e58d081-39abed262161",
+              "text": "Participants were selected for an existing chatbot friendship; findings cannot represent all users or older adults."
+            },
+            {
+              "reference_ids": [
+                "ref-fd5e265f2e58d081-25279d63ba32"
+              ],
+              "statement_id": "lim-fd5e265f2e58d081-fb78d5e77f1a",
+              "text": "Qualitative self-reports do not establish causal improvements in mental health or loneliness."
+            }
+          ],
+          "primary_theme": "responsible_ai_companion_design",
+          "provenance": {
+            "access_note": "AI-prepared paraphrase from accessible web research text; human claim review pending. Direct B-04 attempt: extracted_for_review",
+            "access_status": "open_access",
+            "content_sha256": "676f77415f6fbc188bd24dcaafd5d235395004a2a5a65a57dbbecd5befb6313c",
+            "license_note": "Reuse terms not yet reviewed. Only short paraphrases and source metadata are included; do not infer redistribution permission.",
+            "license_status": "unknown",
+            "publication_date": "2021-01-23",
+            "publisher": "SINTEF institutional publication record; International Journal of Human-Computer Studies",
+            "retrieved_on": "2026-09-05",
+            "source_url": "https://www.sintef.no/en/publications/publication/0198cc8570c8-9e3222db-61c3-4a0e-a6a5-115f3f7b1a33/",
+            "verification_status": "needs_review",
+            "verification_urls": [],
+            "verified_on": null
+          },
+          "record_id": "evidence-fd5e265f2e58d081",
+          "references": [
+            {
+              "chunk_id": "chunk-fd5e265f2e58d081-9ca5491936d4",
+              "locator": "Institutional publication record: Abstract",
+              "locator_type": "section",
+              "reference_id": "ref-fd5e265f2e58d081-25279d63ba32",
+              "source_url": "https://www.sintef.no/en/publications/publication/0198cc8570c8-9e3222db-61c3-4a0e-a6a5-115f3f7b1a33/"
+            }
+          ],
+          "schema_version": "1.0.0",
+          "secondary_themes": [],
+          "source_role": "design",
+          "title": "My chatbot companion – a study of human-chatbot relationships"
+        },
+        "record_key": "evidence-fd5e265f2e58d081",
+        "status": "open"
+      }
+    ],
+    "generated_on": "2026-09-05",
+    "store_version": "1.0.0"
+  },
+  "report": {
+    "accepted_record_count": 0,
+    "configuration": {
+      "config_version": "1.0.0",
+      "quarantine_duplicate_entities": true,
+      "quarantine_unknown_access": true,
+      "quarantine_unknown_license": true,
+      "require_verified_provenance": true
+    },
+    "corpus_id": "corpus-phase-b-unreviewed-drafts",
+    "generated_on": "2026-09-05",
+    "input_record_count": 4,
+    "issue_counts": {
+      "license_status_unknown": 4,
+      "provenance_not_verified": 4
+    },
+    "quarantined_record_count": 4,
+    "record_results": [
+      {
+        "issue_codes": [
+          "license_status_unknown",
+          "provenance_not_verified"
+        ],
+        "record_key": "evidence-0ce0b5343616790c",
+        "status": "quarantined"
+      },
+      {
+        "issue_codes": [
+          "license_status_unknown",
+          "provenance_not_verified"
+        ],
+        "record_key": "evidence-802e500286bdde07",
+        "status": "quarantined"
+      },
+      {
+        "issue_codes": [
+          "license_status_unknown",
+          "provenance_not_verified"
+        ],
+        "record_key": "evidence-e7b2dc9877f4b8da",
+        "status": "quarantined"
+      },
+      {
+        "issue_codes": [
+          "license_status_unknown",
+          "provenance_not_verified"
+        ],
+        "record_key": "evidence-fd5e265f2e58d081",
+        "status": "quarantined"
+      }
+    ],
+    "report_id": "validation-7cbd7a3564fa3689d761",
+    "report_version": "1.0.0"
+  }
+}
