@@ -1,6 +1,6 @@
 # Phase B source review register
 
-30 candidate sources: 10 per theme. Six are existing legacy seeds. Nicole reviewed the first eight-source packet on 2026-09-06. After required edits, four records passed B-07 source validation and four remain quarantined. The four accepted effectiveness records still need evidence-strength grading before their claims can become decision eligible. Search discovery and source access do not satisfy B-09.
+30 candidate sources: 10 per theme. Six are existing legacy seeds. Nicole reviewed the first eight-source packet on 2026-09-06. After required edits, four records passed B-07 source validation and four remain quarantined. The four accepted effectiveness records still need evidence-strength grading before their claims can become decision eligible. Draft claims, limitations, locator checks, and licence checks are now prepared for all 22 remaining sources in the [Nicole completion checklist](nicole-completion-checklist.md). The machine-readable packet remains deliberately unsigned. Search discovery and source access do not satisfy B-09.
 
 See [Nicole source review](nicole-source-review-2026-09-06.md) for exact decisions and remaining gates.
 

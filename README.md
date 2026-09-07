@@ -81,7 +81,9 @@ The [validation and recoverable-quarantine commands](docs/evidence-validation-an
 The [Phase B release runbook](docs/release/phase-b-runbook.md) covers deterministic manifests,
 explicit reviewed runtime mappings, claim-aware synthesis, versioned release loading, coverage,
 comparison, sign-off, activation and rollback. A [30-source discovery register](docs/release/source-review-register.md)
-is provided for human curation. **These candidates are not an expanded production corpus.**
+and [Nicole completion checklist](docs/release/nicole-completion-checklist.md) are provided for human curation.
+The [current Phase B status](docs/release/status-2026-09-07.md) distinguishes completed tooling from
+the unsigned evidence and answer-review gates. **These candidates are not an expanded production corpus.**
 The default corpus remains six legacy records; no release is automatically activated by these tools.
 
 ## Local setup (Windows PowerShell)

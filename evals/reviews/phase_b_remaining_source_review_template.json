@@ -1,0 +1,229 @@
+{
+  "packet_version": "1.0.0",
+  "prepared_on": "2026-09-06",
+  "status": "draft_pending_human_review",
+  "reviewer": null,
+  "reviewed_on": null,
+  "decisions": [
+    {
+      "candidate_id": "li-2023",
+      "source_url": "https://www.nature.com/articles/s41746-023-00979-5",
+      "proposed_source_role": "effectiveness",
+      "draft_claims": ["Across 35 experimental studies (15 RCTs in meta-analysis; 17,123 participants), conversational agents reduced depression and distress, but did not significantly improve overall psychological well-being."],
+      "key_limitations": ["Interventions and populations were heterogeneous; older-adult certainty comes from subgroup evidence rather than an older-adult-only synthesis."],
+      "locator_to_check": "Abstract; Results; subgroup and risk-of-bias sections",
+      "licence_to_check": "Confirm the article-specific reuse licence on the publisher page.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Existing production seed; review the exact v1 mapping rather than treating production presence as renewed approval."
+    },
+    {
+      "candidate_id": "abd-alrazaq-2020",
+      "source_url": "https://www.jmir.org/2020/7/e16021/",
+      "proposed_source_role": "effectiveness",
+      "draft_claims": ["Twelve studies provided weak evidence of improvement in depression, distress, stress, and acrophobia; psychological well-being did not significantly improve, anxiety and affect findings conflicted, and only two studies assessed safety."],
+      "key_limitations": ["Few studies per outcome, high risk of bias, uncertain clinical importance, and sparse safety assessment prevent firm conclusions."],
+      "locator_to_check": "Abstract Methods/Results/Conclusions; full-text risk-of-bias and safety sections",
+      "licence_to_check": "Confirm the article footer and attribution requirements.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Review overlap with Li 2023 and He 2023; do not count overlapping primary studies as independent replication."
+    },
+    {
+      "candidate_id": "xiaoe-2022",
+      "source_url": "https://www.jmir.org/2022/11/e40719",
+      "proposed_source_role": "effectiveness",
+      "draft_claims": ["In a one-week, three-arm RCT of 148 Chinese university students, XiaoE produced lower PHQ-9 scores than an e-book and a general chatbot at one week (d=0.51) and one month (d=0.31); usability did not differ."],
+      "key_limitations": ["Average age was 18.78 years, the intervention was brief, the setting was the COVID-19 pandemic, and two authors had a commercial technology affiliation."],
+      "locator_to_check": "Abstract Methods/Results; affiliations; conflict-of-interest statement",
+      "licence_to_check": "Confirm the article footer and attribution requirements.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Do not generalize to older adults or durable outcomes."
+    },
+    {
+      "candidate_id": "heinz-2025",
+      "source_url": "https://ai.nejm.org/doi/full/10.1056/AIoa2400802",
+      "proposed_source_role": "effectiveness",
+      "draft_claims": ["A national wait-list RCT randomized 210 adults to four weeks of Therabot or control and reported greater symptom reductions for depression, anxiety, and high risk for feeding/eating disorders at four and eight weeks."],
+      "key_limitations": ["Wait-list comparison, possible selection toward younger technology-positive participants, paid assessments, only four weeks of postintervention follow-up, and intensive expert safety supervision limit transferability."],
+      "locator_to_check": "Abstract; Methods; Discussion limitations; disclosure and supplementary materials",
+      "licence_to_check": "Publisher PDF states personal use only and no other use without permission; confirm permissible corpus paraphrase/citation handling.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Publisher page was blocked during automated ingestion; verify against an authorized copy and inspect disclosures."
+    },
+    {
+      "candidate_id": "stress-chatbot-2024",
+      "source_url": "https://mental.jmir.org/2024/1/e50454",
+      "proposed_source_role": "effectiveness",
+      "draft_claims": ["In a three-week RCT of 118 stressed adults, ELME did not reduce perceived or momentary stress; mindfulness and reappraisal improved, while well-being and momentary interoception increased in both groups."],
+      "key_limitations": ["The primary stress outcome was null, the intervention was short, and improvements shared by both groups cannot be attributed to ELME."],
+      "locator_to_check": "Abstract Methods/Results/Conclusions; trial registration",
+      "licence_to_check": "Confirm the article footer and attribution requirements.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Keep stress, mindfulness, emotion regulation, and well-being outcomes separate."
+    },
+    {
+      "candidate_id": "marziali-2024",
+      "source_url": "https://www.jmir.org/2024/1/e50534/",
+      "proposed_source_role": "effectiveness",
+      "draft_claims": ["Among 16 voice-assistant studies, loneliness and social isolation were minor themes in most; the review primarily found preliminary positive usability and user-experience results."],
+      "key_limitations": ["The review is heterogeneous and only a minority of studies directly measured loneliness or social isolation."],
+      "locator_to_check": "Abstract Methods/Results/Conclusions; included-study table",
+      "licence_to_check": "Confirm the article footer and attribution requirements.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Existing production seed; usability must not be synthesized as loneliness effectiveness."
+    },
+    {
+      "candidate_id": "dino-2025",
+      "source_url": "https://www.mdpi.com/2227-9032/13/17/2253",
+      "proposed_source_role": "effectiveness",
+      "draft_claims": ["The systematic review reported broadly positive outcomes in 13 of 15 studies of remote virtual interactive agents for older adults, but did not report a pooled effectiveness estimate."],
+      "key_limitations": ["Interventions, outcomes, populations, and study purposes were heterogeneous; narrative positivity is not a pooled causal estimate."],
+      "locator_to_check": "Abstract; study table; synthesis and limitations sections",
+      "licence_to_check": "Confirm the article-specific MDPI licence and attribution requirements.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Existing production seed; retain 13/15 and no-pooled-estimate together."
+    },
+    {
+      "candidate_id": "technology-loneliness-2026",
+      "source_url": "https://www.jmir.org/2026/1/e80059",
+      "proposed_source_role": "effectiveness",
+      "draft_claims": ["Seven RCTs with 580 participants across the lifespan produced a small, nonsignificant pooled loneliness effect (SMD −0.21, 95% CI −0.59 to 0.17) with I²=57% and a wide prediction interval (−1.14 to 0.63)."],
+      "key_limitations": ["The review was not older-adult-only, intervention-type moderators could not be tested, and the prediction interval included benefit and harm."],
+      "locator_to_check": "Abstract Methods/Results/Conclusions; risk-of-bias assessment",
+      "licence_to_check": "Confirm the article footer and attribution requirements.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Eligibility for the older-adult theme needs an explicit decision."
+    },
+    {
+      "candidate_id": "prism-2018",
+      "source_url": "https://europepmc.org/article/PMC/PMC5946917",
+      "proposed_source_role": "effectiveness",
+      "draft_claims": ["In a 300-person multisite RCT of community-dwelling older adults at risk of isolation, PRISM reduced loneliness and increased perceived social support and well-being versus a paper binder at six months; between-group differences were not maintained at 12 months."],
+      "key_limitations": ["The bundled system included internet access, training, technical support, and multiple functions, so results cannot isolate one feature or an AI companion."],
+      "locator_to_check": "Article abstract; Methods; 6- and 12-month results tables",
+      "licence_to_check": "Confirm the free-full-text article's exact reuse licence.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Correct DOI is 10.1093/geront/gnw249; do not confuse with the separate PRISM technology-adoption paper."
+    },
+    {
+      "candidate_id": "noone-2020",
+      "source_url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD013632/abstract",
+      "proposed_source_role": "effectiveness",
+      "draft_claims": ["Three cluster quasi-randomized studies with 201 nursing-home participants provided very uncertain evidence that video calls made little or no difference to loneliness at three, six, or 12 months; social-isolation outcomes were not reported."],
+      "key_limitations": ["The evidence came from one study context, was very low certainty, and does not establish effects for other digital interventions."],
+      "locator_to_check": "Cochrane abstract Main results/Certainty/Conclusions; included-study characteristics",
+      "licence_to_check": "Confirm Cochrane abstract and full-review reuse terms.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Check overlap with Tsai 2020 before treating it as independent evidence."
+    },
+    {
+      "candidate_id": "digital-loneliness-2021",
+      "source_url": "https://www.jmir.org/2021/6/e24712",
+      "proposed_source_role": "effectiveness",
+      "draft_claims": ["Six studies with 646 participants (five trials in meta-analysis) found no statistically significant advantage of digital interventions over usual care or nondigital controls at three, four, or six months; evidence quality ranged from very low to moderate."],
+      "key_limitations": ["Only six heterogeneous studies were included, searches ended July 2019, and effect estimates were imprecise."],
+      "locator_to_check": "Abstract Methods/Results/Conclusions; forest plots and evidence-quality assessment",
+      "licence_to_check": "Confirm the article footer and attribution requirements.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Keep each follow-up result distinct; review overlap with PRISM and Tsai."
+    },
+    {
+      "candidate_id": "tsai-2020",
+      "source_url": "https://europepmc.org/article/MED/31992217",
+      "proposed_source_role": "effectiveness",
+      "draft_claims": ["In a seven-nursing-home quasi-experiment (32 intervention; 30 control), weekly family video calls for six months reduced loneliness versus control at one, three, and six months, but depression did not differ."],
+      "key_limitations": ["Sites rather than individual residents determined study groups, the sample was small and setting-specific, and the design was not an individually randomized trial."],
+      "locator_to_check": "Abstract Methods/Results; full-text allocation and adjusted analysis",
+      "licence_to_check": "Confirm the BMC article's exact reuse licence.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Check inclusion in Noone 2020 and later meta-analyses."
+    },
+    {
+      "candidate_id": "ict-2016",
+      "source_url": "https://www.jmir.org/2016/1/e18",
+      "proposed_source_role": "effectiveness",
+      "draft_claims": ["A 25-publication systematic review found generally positive effects on social support, connectedness, and isolation, while loneliness results were inconclusive and only four studies were judged rigorous."],
+      "key_limitations": ["Searches predated 2016, interventions and measures were heterogeneous, follow-up was often short, and the review cautioned that ICT was not suitable for every older adult."],
+      "locator_to_check": "Abstract; Results tables; methodological-quality and Discussion sections",
+      "licence_to_check": "Confirm the article footer and attribution requirements.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Treat as historical evidence and mark likely overlap with later reviews."
+    },
+    {
+      "candidate_id": "prism2-2024",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38854853/",
+      "proposed_source_role": "effectiveness",
+      "draft_claims": ["In a 245-person RCT of adults aged 64–99, both PRISM 2.0 and standard-tablet groups in rural and senior-housing settings improved loneliness, isolation, support, and quality of life at six months; the abstract does not show a PRISM-specific advantage."],
+      "key_limitations": ["Nine-month data were disrupted by COVID-19, outcomes varied by living context, and common training/contact may explain improvement in both groups."],
+      "locator_to_check": "PubMed abstract; full-text between-group models and 6-month tables",
+      "licence_to_check": "Confirm the Oxford/PMC article's exact reuse licence.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Distinct trial from PRISM 1; do not rephrase a both-groups result as PRISM efficacy."
+    },
+    {
+      "candidate_id": "loveys-2019",
+      "source_url": "https://www.jmir.org/2019/7/e13664/",
+      "proposed_source_role": "design",
+      "draft_claims": ["The viewpoint proposes design considerations for artificial agents grounded in attachment, social regulation, and therapeutic-relationship concepts; it is not empirical effectiveness evidence."],
+      "key_limitations": ["This is a conceptual viewpoint without intervention outcomes, so every design statement must be presented as a proposal rather than validated efficacy."],
+      "locator_to_check": "Article design-recommendation sections and conclusion",
+      "licence_to_check": "Confirm the article footer and attribution requirements.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Existing production seed; preserve role=design and decision_eligible=false."
+    },
+    {
+      "candidate_id": "who-ethics-2021",
+      "source_url": "https://www.who.int/publications/i/item/9789240029200",
+      "proposed_source_role": "context",
+      "draft_claims": ["WHO places ethics and human rights at the center of health-AI design, deployment, and use, and sets six consensus principles with governance and accountability recommendations."],
+      "key_limitations": ["General health-AI guidance does not establish companion effectiveness or a clinical standard of care."],
+      "locator_to_check": "Full report executive summary and six-principles section, with page numbers",
+      "licence_to_check": "Confirm the exact WHO publication licence and IGO attribution terms.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Keep role=context and decision_eligible=false."
+    },
+    {
+      "candidate_id": "who-lmm",
+      "source_url": "https://www.who.int/publications/i/item/9789240084759",
+      "proposed_source_role": "context",
+      "draft_claims": ["WHO's large multi-modal model guidance identifies health-specific governance needs and cautions that general-purpose model capability is not proof of safe or effective health use."],
+      "key_limitations": ["This is policy guidance, not an effectiveness evaluation; the publication page date and edition history require explicit version confirmation."],
+      "locator_to_check": "Full report executive summary, recommendations, and edition/publication history with page numbers",
+      "licence_to_check": "Confirm the exact WHO publication licence and IGO attribution terms.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Publisher page currently shows 25 March 2025; preserve the reviewed edition."
+    },
+    {
+      "candidate_id": "who-regulatory-2023",
+      "source_url": "https://www.who.int/publications/i/item/9789240078871",
+      "proposed_source_role": "context",
+      "draft_claims": ["WHO summarizes regulatory considerations for health AI, including documentation, lifecycle evaluation, risk management, intended use, data quality, privacy, and stakeholder collaboration."],
+      "key_limitations": ["WHO explicitly describes the document as a nonexclusive overview, not regulatory guidance, a framework, or an effectiveness source."],
+      "locator_to_check": "Full report scope statement and consideration sections with page numbers",
+      "licence_to_check": "Confirm the exact WHO publication licence and IGO attribution terms.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "The non-guidance disclaimer must travel with the claim."
+    },
+    {
+      "candidate_id": "nist-ai-rmf",
+      "source_url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "proposed_source_role": "context",
+      "draft_claims": ["NIST AI RMF 1.0 is a voluntary, rights-preserving risk-management framework organized around Govern, Map, Measure, and Manage."],
+      "key_limitations": ["It is cross-sector and voluntary, not companion-specific regulation or evidence of effectiveness."],
+      "locator_to_check": "NIST AI 100-1 overview and Core sections, with page numbers",
+      "licence_to_check": "Confirm federal-publication reuse status and attribution expectations.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Map companion controls explicitly rather than claiming automatic compliance."
+    },
+    {
+      "candidate_id": "nist-genai-profile",
+      "source_url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "proposed_source_role": "context",
+      "draft_claims": ["NIST's Generative AI Profile applies Govern, Map, Measure, and Manage to generative-AI risks, emphasizing governance, content provenance, predeployment testing, and incident disclosure."],
+      "key_limitations": ["The profile is voluntary and cross-sector; it identifies risks such as anthropomorphism, automation bias, overreliance, emotional entanglement, confabulation, and privacy without proving a product safe."],
+      "locator_to_check": "NIST AI 600-1 pp. iv–vii and relevant action tables",
+      "licence_to_check": "Confirm federal-publication reuse status and attribution expectations.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Useful for companion-risk design only; decision_eligible=false."
+    },
+    {
+      "candidate_id": "unesco-2021",
+      "source_url": "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
+      "proposed_source_role": "context",
+      "draft_claims": ["UNESCO's 2021 Recommendation asks Member States and AI actors to protect human rights, dignity, equality, cultural diversity, and the environment across the AI lifecycle, using ethical impact assessment and monitoring."],
+      "key_limitations": ["This is a general international normative instrument, not companion-specific law or effectiveness evidence; domestic implementation varies."],
+      "locator_to_check": "Recommendation scope, values/principles, ethical impact assessment, and monitoring sections",
+      "licence_to_check": "Confirm UNESCO legal-text reuse and attribution terms.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Record adoption/version and jurisdictional limits."
+    },
+    {
+      "candidate_id": "oecd-ai-principles",
+      "source_url": "https://oecd.ai/en/ai-principles",
+      "proposed_source_role": "context",
+      "draft_claims": ["The OECD AI Principles organize responsible AI around inclusive growth, human rights and democratic values, transparency and explainability, robustness/security/safety, and accountability."],
+      "key_limitations": ["The principles are general policy guidance, not companion effectiveness evidence; the 2019 recommendation was updated in May 2024 and the version must be preserved."],
+      "locator_to_check": "OECD Recommendation values-based principles and May 2024 update notice",
+      "licence_to_check": "Confirm OECD.AI page/document reuse and attribution terms.",
+      "disposition": null, "evidence_strength": null, "source_identity_confirmed": null, "claim_locators_confirmed": null, "licence_status": null, "edited_claims": [], "reviewer_notes": "Keep original adoption and reviewed update dates distinct."
+    }
+  ]
+}
