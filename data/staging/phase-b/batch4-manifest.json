@@ -1,0 +1,46 @@
+{
+  "accepted_record_sha256": {
+    "evidence-3f633497e9a9753a": "20cb160a46bc2bac9545737ad229143c282dff73961aa0f4431a2ee4683679ca",
+    "evidence-b296af051efc5813": "df61b0e2847360afbde7b7688b71fe78c1a3400154d9a50651dcbc35f09ae0b0",
+    "evidence-e7b2dc9877f4b8da": "79b27dd6799953d09349814b137c9967497da03e093be12409b5d78d74520912",
+    "evidence-fdc048737639a688": "dc3f2cacc05921e660af49c4a48bc7c58d1cd26718ea70ba952b38e0b4440c0f"
+  },
+  "candidate_sha256": "822410ec4e8657685f5efaf8af373068f7ea74cc78e2186c221625b67d82dbda",
+  "corpus_id": "corpus-phase-b-evidence-graded-2026-09-08",
+  "corpus_version": "0.4.0",
+  "counts_by_role": {
+    "context": 0,
+    "design": 0,
+    "effectiveness": 4,
+    "evidence_map": 0
+  },
+  "counts_by_theme": {
+    "ai_conversational_agents_mental_health": 4,
+    "older_adult_digital_social_connection": 0,
+    "responsible_ai_companion_design": 0
+  },
+  "deduplication_configuration": {
+    "config_version": "1.0.0",
+    "enable_near_title": true,
+    "minimum_normalized_title_length": 20,
+    "require_same_first_author": true,
+    "require_same_publication_year": true,
+    "title_similarity_threshold": 0.94
+  },
+  "deduplication_sha256": "fb3705dcfcbdf626a3b61b98706b63c739e391562cee8befd991237d618b672a",
+  "generated_on": "2026-09-08",
+  "integrity_sha256": "d6e9b64b99595b8830c049bbf2fc8c709090a60a4f62d6d036adca2ff9c998fd",
+  "manifest_version": "1.0.0",
+  "previous_manifest_sha256": null,
+  "schema_version": "1.0.0",
+  "unresolved_quarantine_count": 4,
+  "validation_bundle_sha256": "7ee95184cd3e5efd2eb6a8ae68822b3606593d868399bf757dc7a63af18c92bf",
+  "validation_configuration": {
+    "config_version": "1.0.0",
+    "quarantine_duplicate_entities": true,
+    "quarantine_unknown_access": true,
+    "quarantine_unknown_license": true,
+    "require_verified_provenance": true
+  },
+  "validation_report_id": "validation-38d6bb8210b66b32d0c2"
+}
