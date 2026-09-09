@@ -1,0 +1,83 @@
+{
+  "verification_version": "1.0.0",
+  "verified_on": "2026-09-09",
+  "scope": "Source-specific publisher licence notices verified after Nicole's 2026-09-08 review",
+  "records": [
+    {
+      "candidate_id": "li-2023",
+      "licence_status": "permitted",
+      "licence": "CC BY 4.0",
+      "evidence_url": "https://www.nature.com/articles/s41746-023-00979-5",
+      "verification_level": "publisher_page"
+    },
+    {
+      "candidate_id": "abd-alrazaq-2020",
+      "licence_status": "permitted",
+      "licence": "CC BY 4.0",
+      "evidence_url": "https://www.jmir.org/2020/7/e16021/",
+      "verification_level": "publisher_page"
+    },
+    {
+      "candidate_id": "xiaoe-2022",
+      "licence_status": "permitted",
+      "licence": "CC BY 4.0",
+      "evidence_url": "https://www.jmir.org/2022/11/e40719",
+      "verification_level": "publisher_page"
+    },
+    {
+      "candidate_id": "stress-chatbot-2024",
+      "licence_status": "permitted",
+      "licence": "CC BY 4.0",
+      "evidence_url": "https://mental.jmir.org/2024/1/e50454",
+      "verification_level": "publisher_page"
+    },
+    {
+      "candidate_id": "marziali-2024",
+      "licence_status": "permitted",
+      "licence": "CC BY 4.0",
+      "evidence_url": "https://www.jmir.org/2024/1/e50534/",
+      "verification_level": "publisher_page"
+    },
+    {
+      "candidate_id": "technology-loneliness-2026",
+      "licence_status": "permitted",
+      "licence": "CC BY 4.0",
+      "evidence_url": "https://www.jmir.org/2026/1/e80059",
+      "verification_level": "publisher_page"
+    },
+    {
+      "candidate_id": "digital-loneliness-2021",
+      "licence_status": "permitted",
+      "licence": "CC BY 4.0",
+      "evidence_url": "https://www.jmir.org/2021/6/e24712",
+      "verification_level": "publisher_page"
+    },
+    {
+      "candidate_id": "tsai-2020",
+      "licence_status": "permitted",
+      "licence": "CC BY 4.0",
+      "evidence_url": "https://link.springer.com/article/10.1186/s12877-020-1426-2",
+      "verification_level": "publisher_page"
+    },
+    {
+      "candidate_id": "ict-2016",
+      "licence_status": "permitted",
+      "licence": "CC BY 2.0",
+      "evidence_url": "https://www.jmir.org/2016/1/e18",
+      "verification_level": "publisher_page"
+    },
+    {
+      "candidate_id": "loveys-2019",
+      "licence_status": "permitted",
+      "licence": "CC BY 4.0",
+      "evidence_url": "https://www.jmir.org/2019/7/e13664/",
+      "verification_level": "publisher_page"
+    }
+  ],
+  "not_closed_by_this_report": [
+    "Claim locator confirmation",
+    "Review-overlap adjudication",
+    "The two missing Nicole dispositions",
+    "Publisher-specific licences not listed above"
+  ]
+}

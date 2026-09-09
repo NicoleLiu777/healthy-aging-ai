@@ -12,7 +12,17 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "Existing seed; retain legacy ID when reviewed mapping is created."
+      "notes": "Existing seed; retain legacy ID when reviewed mapping is created.",
+      "partial_review_status": "claims_reviewed_remaining_gates",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [
+        "Resolve review overlap"
+      ],
+      "licence_status": "permitted",
+      "licence": "CC BY 4.0",
+      "licence_verified_on": "2026-09-09",
+      "licence_evidence_url": "https://www.nature.com/articles/s41746-023-00979-5"
     },
     {
       "candidate_id": "he-2023",
@@ -60,7 +70,17 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "Assess overlap with other reviews and completeness of safety reporting."
+      "notes": "Assess overlap with other reviews and completeness of safety reporting.",
+      "partial_review_status": "claims_reviewed_remaining_gates",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [
+        "Resolve review overlap"
+      ],
+      "licence_status": "permitted",
+      "licence": "CC BY 4.0",
+      "licence_verified_on": "2026-09-09",
+      "licence_evidence_url": "https://www.jmir.org/2020/7/e16021/"
     },
     {
       "candidate_id": "inkster-2018",
@@ -96,7 +116,15 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "Young adults and pandemic setting; document transferability."
+      "notes": "Young adults and pandemic setting; document transferability.",
+      "partial_review_status": "claims_reviewed_remaining_gates",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [],
+      "licence_status": "permitted",
+      "licence": "CC BY 4.0",
+      "licence_verified_on": "2026-09-09",
+      "licence_evidence_url": "https://www.jmir.org/2022/11/e40719"
     },
     {
       "candidate_id": "heinz-2025",
@@ -108,7 +136,15 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "Publisher returned HTTP 403 on 2026-09-05; no extracted claims. Retrieve a permitted authoritative copy."
+      "notes": "Publisher returned HTTP 403 on 2026-09-05; no extracted claims. Retrieve a permitted authoritative copy.",
+      "partial_review_status": "claims_reviewed_remaining_gates",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [
+        "Use original paraphrase only",
+        "Review two 2025 critical letters and author response",
+        "Re-audit existing paraphrase against the restriction"
+      ]
     },
     {
       "candidate_id": "stress-chatbot-2024",
@@ -120,19 +156,39 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "Review stress outcomes separately from loneliness and depression."
+      "notes": "Review stress outcomes separately from loneliness and depression.",
+      "partial_review_status": "claims_reviewed_remaining_gates",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [
+        "Keep the primary stress outcome null"
+      ],
+      "licence_status": "permitted",
+      "licence": "CC BY 4.0",
+      "licence_verified_on": "2026-09-09",
+      "licence_evidence_url": "https://mental.jmir.org/2024/1/e50454"
     },
     {
       "candidate_id": "marziali-2024",
       "primary_theme": "older_adult_digital_social_connection",
       "title": "Reducing Loneliness and Social Isolation of Older Adults Through Voice Assistants: Literature Review and Bibliometric Analysis",
       "source_url": "https://www.jmir.org/2024/1/e50534/",
-      "proposed_source_role": "effectiveness",
+      "proposed_source_role": "evidence_map",
       "review_status": "pending",
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "Existing seed; publisher challenge page encountered; usability is not loneliness effectiveness."
+      "notes": "Existing seed; publisher challenge page encountered; usability is not loneliness effectiveness.",
+      "partial_review_status": "claims_reviewed_remaining_gates",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [
+        "Keep decision_eligible false"
+      ],
+      "licence_status": "permitted",
+      "licence": "CC BY 4.0",
+      "licence_verified_on": "2026-09-09",
+      "licence_evidence_url": "https://www.jmir.org/2024/1/e50534/"
     },
     {
       "candidate_id": "dino-2025",
@@ -144,7 +200,14 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "Existing seed; verify 13/15 narrative finding and absence of pooled estimate against accessible text."
+      "notes": "Existing seed; verify 13/15 narrative finding and absence of pooled estimate against accessible text.",
+      "partial_review_status": "claims_reviewed_remaining_gates",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [
+        "Confirm source-specific licence and claim locators",
+        "Keep narrative positivity paired with no pooled estimate"
+      ]
     },
     {
       "candidate_id": "welch-2023-egm",
@@ -168,7 +231,17 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "Candidate only; confirm older-adult eligibility and overlap before inclusion."
+      "notes": "Candidate only; confirm older-adult eligibility and overlap before inclusion.",
+      "partial_review_status": "pending_explicit_decision",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [
+        "Explicitly decide whether an all-ages synthesis belongs in the older-adult theme"
+      ],
+      "licence_status": "permitted",
+      "licence": "CC BY 4.0",
+      "licence_verified_on": "2026-09-09",
+      "licence_evidence_url": "https://www.jmir.org/2026/1/e80059"
     },
     {
       "candidate_id": "prism-2018",
@@ -180,7 +253,14 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "PRISM trial; separate social support, isolation and loneliness outcomes."
+      "notes": "PRISM trial; separate social support, isolation and loneliness outcomes.",
+      "partial_review_status": "claims_reviewed_remaining_gates",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [
+        "Confirm source-specific licence and claim locators",
+        "Keep six-month benefit and 12-month null between-group result separate"
+      ]
     },
     {
       "candidate_id": "noone-2020",
@@ -192,7 +272,14 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "Review certainty of evidence and included trial overlap."
+      "notes": "Review certainty of evidence and included trial overlap.",
+      "partial_review_status": "claims_reviewed_remaining_gates",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [
+        "Confirm source-specific licence and claim locators",
+        "Resolve review overlap"
+      ]
     },
     {
       "candidate_id": "digital-loneliness-2021",
@@ -204,7 +291,17 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "Document intervention heterogeneity and uncertainty."
+      "notes": "Document intervention heterogeneity and uncertainty.",
+      "partial_review_status": "claims_reviewed_remaining_gates",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [
+        "Resolve review overlap"
+      ],
+      "licence_status": "permitted",
+      "licence": "CC BY 4.0",
+      "licence_verified_on": "2026-09-09",
+      "licence_evidence_url": "https://www.jmir.org/2021/6/e24712"
     },
     {
       "candidate_id": "tsai-2020",
@@ -216,7 +313,17 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "Nursing-home setting; quasi-experimental design must be retained."
+      "notes": "Nursing-home setting; quasi-experimental design must be retained.",
+      "partial_review_status": "claims_reviewed_remaining_gates",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [
+        "Resolve review overlap"
+      ],
+      "licence_status": "permitted",
+      "licence": "CC BY 4.0",
+      "licence_verified_on": "2026-09-09",
+      "licence_evidence_url": "https://link.springer.com/article/10.1186/s12877-020-1426-2"
     },
     {
       "candidate_id": "ict-2016",
@@ -228,7 +335,17 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "Older review; assess overlap and technology transferability."
+      "notes": "Older review; assess overlap and technology transferability.",
+      "partial_review_status": "claims_reviewed_remaining_gates",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [
+        "Label as historical evidence and resolve review overlap"
+      ],
+      "licence_status": "permitted",
+      "licence": "CC BY 2.0",
+      "licence_verified_on": "2026-09-09",
+      "licence_evidence_url": "https://www.jmir.org/2016/1/e18"
     },
     {
       "candidate_id": "prism2-2024",
@@ -240,7 +357,15 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "Distinct PRISM 2.0 trial; verify cohorts do not duplicate PRISM 1."
+      "notes": "Distinct PRISM 2.0 trial; verify cohorts do not duplicate PRISM 1.",
+      "partial_review_status": "pending_explicit_decision",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [
+        "Provide final disposition and evidence strength",
+        "Confirm source-specific licence and claim locators",
+        "Keep both-arm improvement distinct from PRISM 1"
+      ]
     },
     {
       "candidate_id": "who-2025",
@@ -264,7 +389,15 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "Existing seed; publisher and PMC challenge pages encountered; do not infer design claims."
+      "notes": "Existing seed; publisher and PMC challenge pages encountered; do not infer design claims.",
+      "partial_review_status": "claims_reviewed_remaining_gates",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [],
+      "licence_status": "permitted",
+      "licence": "CC BY 4.0",
+      "licence_verified_on": "2026-09-09",
+      "licence_evidence_url": "https://www.jmir.org/2019/7/e13664/"
     },
     {
       "candidate_id": "who-ethics-2021",
@@ -276,7 +409,13 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "Authoritative general health-AI guidance, not companion effectiveness evidence."
+      "notes": "Authoritative general health-AI guidance, not companion effectiveness evidence.",
+      "partial_review_status": "claims_reviewed_remaining_gates",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [
+        "Confirm title-specific WHO licence and page locators"
+      ]
     },
     {
       "candidate_id": "who-lmm",
@@ -288,7 +427,14 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "Publication page currently dated 25 March 2025; verify edition versus earlier 2024 announcement."
+      "notes": "Publication page currently dated 25 March 2025; verify edition versus earlier 2024 announcement.",
+      "partial_review_status": "claims_reviewed_remaining_gates",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [
+        "Confirm title-specific WHO licence and page locators",
+        "Preserve 25 March 2025 edition"
+      ]
     },
     {
       "candidate_id": "who-regulatory-2023",
@@ -300,7 +446,14 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "WHO explicitly calls this an overview of considerations, not regulatory guidance or a framework."
+      "notes": "WHO explicitly calls this an overview of considerations, not regulatory guidance or a framework.",
+      "partial_review_status": "claims_reviewed_remaining_gates",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [
+        "Confirm title-specific WHO licence and page locators",
+        "Keep non-guidance disclaimer"
+      ]
     },
     {
       "candidate_id": "nist-ai-rmf",
@@ -312,7 +465,13 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "General risk-management framework; companion-specific applicability must be explained."
+      "notes": "General risk-management framework; companion-specific applicability must be explained.",
+      "partial_review_status": "claims_reviewed_remaining_gates",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [
+        "Confirm federal-document reuse status and page locators"
+      ]
     },
     {
       "candidate_id": "nist-genai-profile",
@@ -324,7 +483,13 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "General generative-AI risk profile; no effectiveness claim."
+      "notes": "General generative-AI risk profile; no effectiveness claim.",
+      "partial_review_status": "claims_reviewed_remaining_gates",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [
+        "Confirm federal-document reuse status and page locators"
+      ]
     },
     {
       "candidate_id": "unesco-2021",
@@ -336,7 +501,13 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "General ethical instrument; record 2021 adoption and applicability limits."
+      "notes": "General ethical instrument; record 2021 adoption and applicability limits.",
+      "partial_review_status": "claims_reviewed_remaining_gates",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [
+        "Confirm UNESCO reuse terms and locators"
+      ]
     },
     {
       "candidate_id": "oecd-ai-principles",
@@ -348,7 +519,14 @@
       "reviewed_by": null,
       "reviewed_on": null,
       "discovered_on": "2026-09-05",
-      "notes": "Overview read; originally 2019, updated May 2024. Preserve version."
+      "notes": "Overview read; originally 2019, updated May 2024. Preserve version.",
+      "partial_review_status": "claims_reviewed_remaining_gates",
+      "partially_reviewed_by": "Nicole",
+      "partially_reviewed_on": "2026-09-08",
+      "remaining_gates": [
+        "Confirm OECD reuse terms and locators",
+        "Preserve May 2024 update"
+      ]
     },
     {
       "candidate_id": "skjuve-2021",

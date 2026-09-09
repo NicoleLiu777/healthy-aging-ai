@@ -4,18 +4,18 @@ Prepared 2026-09-06; refreshed 2026-09-07. This is the complete remaining named-
 
 ## A. Close the eight-source first review
 
-Return these eight lines. Use only `strong`, `moderate`, `limited`, or `early` for evidence strength.
+Nicole's 2026-09-08 follow-up is recorded below. Items 5–8 remain gated exactly as stated.
 
-1. `he-2023` evidence strength: ______
-2. `fitzpatrick-2017` evidence strength: ______
-3. `inkster-2018` evidence strength: ______
-4. `youper-2021` evidence strength: ______
-5. `welch-2023-egm` source-specific licence: permitted / restricted / unknown; evidence: ______
-6. `skjuve-2021` source-specific licence: permitted / restricted / unknown; evidence: ______
-7. `who-2025`: keep quarantined, or provide full-text page locators plus verified licence: ______
-8. `fulmer-2018`: keep quarantined, or explicitly reaccept after the 2026 correction audit: ______
+1. `he-2023` evidence strength: **moderate** — complete.
+2. `fitzpatrick-2017` evidence strength: **limited** — complete.
+3. `inkster-2018` evidence strength: **early** — complete.
+4. `youper-2021` evidence strength: **early** — complete.
+5. `welch-2023-egm`: claims accepted; specific-page CC BY 4.0 confirmation remains required.
+6. `skjuve-2021`: claims accepted; licence remains unknown and requires direct confirmation.
+7. `who-2025`: **keep quarantined** pending full-text page locators and title-specific licence.
+8. `fulmer-2018`: **keep quarantined** pending explicit reacceptance after correction review.
 
-The existing conditional B-12 authorization also needs a date. Do not fill it until the exact release version and hashes are presented: `Nicole approval date: ______`.
+Nicole's conditional activation authorization date is recorded as **2026-09-08**. It remains conditional until the exact release version and hashes are presented and signed.
 
 ## B. Review the remaining 22 registered sources
 
@@ -39,7 +39,9 @@ Locator to check: Abstract; Results; subgroup and risk-of-bias sections
 
 Licence to check: Confirm the article-specific reuse licence on the publisher page.
 
-Preparation note: Existing production seed; review the exact v1 mapping rather than treating production presence as renewed approval.
+Preparation note: Existing production seed; review the exact v1 mapping rather than treating production presence as renewed approval. Nicole 2026-09-08: Confirm source-specific licence and claim locators; Resolve review overlap Publisher licence verified 2026-09-09: CC BY 4.0 (https://www.nature.com/articles/s41746-023-00979-5).
+
+Recorded partial decision: accept; strength: moderate; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -69,7 +71,9 @@ Locator to check: Abstract Methods/Results/Conclusions; full-text risk-of-bias a
 
 Licence to check: Confirm the article footer and attribution requirements.
 
-Preparation note: Review overlap with Li 2023 and He 2023; do not count overlapping primary studies as independent replication.
+Preparation note: Review overlap with Li 2023 and He 2023; do not count overlapping primary studies as independent replication. Nicole 2026-09-08: Confirm source-specific licence and claim locators; Resolve review overlap Publisher licence verified 2026-09-09: CC BY 4.0 (https://www.jmir.org/2020/7/e16021/).
+
+Recorded partial decision: accept; strength: limited; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -99,7 +103,9 @@ Locator to check: Abstract Methods/Results; affiliations; conflict-of-interest s
 
 Licence to check: Confirm the article footer and attribution requirements.
 
-Preparation note: Do not generalize to older adults or durable outcomes.
+Preparation note: Do not generalize to older adults or durable outcomes. Nicole 2026-09-08: Confirm source-specific licence and claim locators Publisher licence verified 2026-09-09: CC BY 4.0 (https://www.jmir.org/2022/11/e40719).
+
+Recorded partial decision: accept; strength: limited; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -129,7 +135,9 @@ Locator to check: Abstract; Methods; Discussion limitations; disclosure and supp
 
 Licence to check: Publisher PDF states personal use only and no other use without permission; confirm permissible corpus paraphrase/citation handling.
 
-Preparation note: Publisher page was blocked during automated ingestion; verify against an authorized copy and inspect disclosures.
+Preparation note: Publisher page was blocked during automated ingestion; verify against an authorized copy and inspect disclosures. Nicole 2026-09-08: Use original paraphrase only; Review two 2025 critical letters and author response; Re-audit existing paraphrase against the restriction
+
+Recorded partial decision: accept; strength: moderate; licence: restricted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -159,7 +167,9 @@ Locator to check: Abstract Methods/Results/Conclusions; trial registration
 
 Licence to check: Confirm the article footer and attribution requirements.
 
-Preparation note: Keep stress, mindfulness, emotion regulation, and well-being outcomes separate.
+Preparation note: Keep stress, mindfulness, emotion regulation, and well-being outcomes separate. Nicole 2026-09-08: Confirm source-specific licence and claim locators; Keep the primary stress outcome null Publisher licence verified 2026-09-09: CC BY 4.0 (https://mental.jmir.org/2024/1/e50454).
+
+Recorded partial decision: accept; strength: early; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -175,7 +185,7 @@ Reviewer note: ______
 
 Source: https://www.jmir.org/2024/1/e50534/
 
-Role: `effectiveness`
+Role: `evidence_map`
 
 Draft claim(s):
 
@@ -189,7 +199,9 @@ Locator to check: Abstract Methods/Results/Conclusions; included-study table
 
 Licence to check: Confirm the article footer and attribution requirements.
 
-Preparation note: Existing production seed; usability must not be synthesized as loneliness effectiveness.
+Preparation note: Existing production seed; usability must not be synthesized as loneliness effectiveness. Nicole 2026-09-08: Confirm source-specific licence and claim locators; Keep decision_eligible false Publisher licence verified 2026-09-09: CC BY 4.0 (https://www.jmir.org/2024/1/e50534/).
+
+Recorded partial decision: accept; strength: pending/n/a; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -219,7 +231,9 @@ Locator to check: Abstract; study table; synthesis and limitations sections
 
 Licence to check: Confirm the article-specific MDPI licence and attribution requirements.
 
-Preparation note: Existing production seed; retain 13/15 and no-pooled-estimate together.
+Preparation note: Existing production seed; retain 13/15 and no-pooled-estimate together. Nicole 2026-09-08: Confirm source-specific licence and claim locators; Keep narrative positivity paired with no pooled estimate
+
+Recorded partial decision: accept; strength: early; licence: unknown
 
 Decision: accept / edit / exclude / quarantine
 
@@ -249,7 +263,9 @@ Locator to check: Abstract Methods/Results/Conclusions; risk-of-bias assessment
 
 Licence to check: Confirm the article footer and attribution requirements.
 
-Preparation note: Eligibility for the older-adult theme needs an explicit decision.
+Preparation note: Eligibility for the older-adult theme needs an explicit decision. Nicole 2026-09-08: Explicitly decide whether an all-ages synthesis belongs in the older-adult theme; Confirm source-specific licence and claim locators Publisher licence verified 2026-09-09: CC BY 4.0 (https://www.jmir.org/2026/1/e80059).
+
+Recorded partial decision: pending; strength: limited; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -279,7 +295,9 @@ Locator to check: Article abstract; Methods; 6- and 12-month results tables
 
 Licence to check: Confirm the free-full-text article's exact reuse licence.
 
-Preparation note: Correct DOI is 10.1093/geront/gnw249; do not confuse with the separate PRISM technology-adoption paper.
+Preparation note: Correct DOI is 10.1093/geront/gnw249; do not confuse with the separate PRISM technology-adoption paper. Nicole 2026-09-08: Confirm source-specific licence and claim locators; Keep six-month benefit and 12-month null between-group result separate
+
+Recorded partial decision: accept; strength: moderate; licence: unknown
 
 Decision: accept / edit / exclude / quarantine
 
@@ -309,7 +327,9 @@ Locator to check: Cochrane abstract Main results/Certainty/Conclusions; included
 
 Licence to check: Confirm Cochrane abstract and full-review reuse terms.
 
-Preparation note: Check overlap with Tsai 2020 before treating it as independent evidence.
+Preparation note: Check overlap with Tsai 2020 before treating it as independent evidence. Nicole 2026-09-08: Confirm source-specific licence and claim locators; Resolve review overlap
+
+Recorded partial decision: accept; strength: early; licence: unknown
 
 Decision: accept / edit / exclude / quarantine
 
@@ -339,7 +359,9 @@ Locator to check: Abstract Methods/Results/Conclusions; forest plots and evidenc
 
 Licence to check: Confirm the article footer and attribution requirements.
 
-Preparation note: Keep each follow-up result distinct; review overlap with PRISM and Tsai.
+Preparation note: Keep each follow-up result distinct; review overlap with PRISM and Tsai. Nicole 2026-09-08: Confirm source-specific licence and claim locators; Resolve review overlap Publisher licence verified 2026-09-09: CC BY 4.0 (https://www.jmir.org/2021/6/e24712).
+
+Recorded partial decision: accept; strength: limited; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -369,7 +391,9 @@ Locator to check: Abstract Methods/Results; full-text allocation and adjusted an
 
 Licence to check: Confirm the BMC article's exact reuse licence.
 
-Preparation note: Check inclusion in Noone 2020 and later meta-analyses.
+Preparation note: Check inclusion in Noone 2020 and later meta-analyses. Nicole 2026-09-08: Confirm source-specific licence and claim locators; Resolve review overlap Publisher licence verified 2026-09-09: CC BY 4.0 (https://link.springer.com/article/10.1186/s12877-020-1426-2).
+
+Recorded partial decision: accept; strength: limited; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -399,7 +423,9 @@ Locator to check: Abstract; Results tables; methodological-quality and Discussio
 
 Licence to check: Confirm the article footer and attribution requirements.
 
-Preparation note: Treat as historical evidence and mark likely overlap with later reviews.
+Preparation note: Treat as historical evidence and mark likely overlap with later reviews. Nicole 2026-09-08: Confirm source-specific licence and claim locators; Label as historical evidence and resolve review overlap Publisher licence verified 2026-09-09: CC BY 2.0 (https://www.jmir.org/2016/1/e18).
+
+Recorded partial decision: accept; strength: early; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -429,7 +455,9 @@ Locator to check: PubMed abstract; full-text between-group models and 6-month ta
 
 Licence to check: Confirm the Oxford/PMC article's exact reuse licence.
 
-Preparation note: Distinct trial from PRISM 1; do not rephrase a both-groups result as PRISM efficacy.
+Preparation note: Distinct trial from PRISM 1; do not rephrase a both-groups result as PRISM efficacy. Nicole 2026-09-08: Provide final disposition and evidence strength; Confirm source-specific licence and claim locators; Keep both-arm improvement distinct from PRISM 1
+
+Recorded partial decision: pending; strength: pending/n/a; licence: unknown
 
 Decision: accept / edit / exclude / quarantine
 
@@ -459,7 +487,9 @@ Locator to check: Article design-recommendation sections and conclusion
 
 Licence to check: Confirm the article footer and attribution requirements.
 
-Preparation note: Existing production seed; preserve role=design and decision_eligible=false.
+Preparation note: Existing production seed; preserve role=design and decision_eligible=false. Nicole 2026-09-08: Confirm source-specific licence and claim locators Publisher licence verified 2026-09-09: CC BY 4.0 (https://www.jmir.org/2019/7/e13664/).
+
+Recorded partial decision: accept; strength: pending/n/a; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -489,7 +519,9 @@ Locator to check: Full report executive summary and six-principles section, with
 
 Licence to check: Confirm the exact WHO publication licence and IGO attribution terms.
 
-Preparation note: Keep role=context and decision_eligible=false.
+Preparation note: Keep role=context and decision_eligible=false. Nicole 2026-09-08: Confirm title-specific WHO licence and page locators
+
+Recorded partial decision: accept; strength: pending/n/a; licence: unknown
 
 Decision: accept / edit / exclude / quarantine
 
@@ -519,7 +551,9 @@ Locator to check: Full report executive summary, recommendations, and edition/pu
 
 Licence to check: Confirm the exact WHO publication licence and IGO attribution terms.
 
-Preparation note: Publisher page currently shows 25 March 2025; preserve the reviewed edition.
+Preparation note: Publisher page currently shows 25 March 2025; preserve the reviewed edition. Nicole 2026-09-08: Confirm title-specific WHO licence and page locators; Preserve 25 March 2025 edition
+
+Recorded partial decision: accept; strength: pending/n/a; licence: unknown
 
 Decision: accept / edit / exclude / quarantine
 
@@ -549,7 +583,9 @@ Locator to check: Full report scope statement and consideration sections with pa
 
 Licence to check: Confirm the exact WHO publication licence and IGO attribution terms.
 
-Preparation note: The non-guidance disclaimer must travel with the claim.
+Preparation note: The non-guidance disclaimer must travel with the claim. Nicole 2026-09-08: Confirm title-specific WHO licence and page locators; Keep non-guidance disclaimer
+
+Recorded partial decision: accept; strength: pending/n/a; licence: unknown
 
 Decision: accept / edit / exclude / quarantine
 
@@ -579,7 +615,9 @@ Locator to check: NIST AI 100-1 overview and Core sections, with page numbers
 
 Licence to check: Confirm federal-publication reuse status and attribution expectations.
 
-Preparation note: Map companion controls explicitly rather than claiming automatic compliance.
+Preparation note: Map companion controls explicitly rather than claiming automatic compliance. Nicole 2026-09-08: Confirm federal-document reuse status and page locators
+
+Recorded partial decision: accept; strength: pending/n/a; licence: unknown
 
 Decision: accept / edit / exclude / quarantine
 
@@ -609,7 +647,9 @@ Locator to check: NIST AI 600-1 pp. iv–vii and relevant action tables
 
 Licence to check: Confirm federal-publication reuse status and attribution expectations.
 
-Preparation note: Useful for companion-risk design only; decision_eligible=false.
+Preparation note: Useful for companion-risk design only; decision_eligible=false. Nicole 2026-09-08: Confirm federal-document reuse status and page locators
+
+Recorded partial decision: accept; strength: pending/n/a; licence: unknown
 
 Decision: accept / edit / exclude / quarantine
 
@@ -639,7 +679,9 @@ Locator to check: Recommendation scope, values/principles, ethical impact assess
 
 Licence to check: Confirm UNESCO legal-text reuse and attribution terms.
 
-Preparation note: Record adoption/version and jurisdictional limits.
+Preparation note: Record adoption/version and jurisdictional limits. Nicole 2026-09-08: Confirm UNESCO reuse terms and locators
+
+Recorded partial decision: accept; strength: pending/n/a; licence: unknown
 
 Decision: accept / edit / exclude / quarantine
 
@@ -669,7 +711,9 @@ Locator to check: OECD Recommendation values-based principles and May 2024 updat
 
 Licence to check: Confirm OECD.AI page/document reuse and attribution terms.
 
-Preparation note: Keep original adoption and reviewed update dates distinct.
+Preparation note: Keep original adoption and reviewed update dates distinct. Nicole 2026-09-08: Confirm OECD reuse terms and locators; Preserve May 2024 update
+
+Recorded partial decision: accept; strength: pending/n/a; licence: unknown
 
 Decision: accept / edit / exclude / quarantine
 

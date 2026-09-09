@@ -1,0 +1,55 @@
+{
+  "review_version": "1.0.0",
+  "reviewed_by": "Nicole",
+  "reviewed_on": "2026-09-08",
+  "recorded_from": "Nicole's submitted Phase B follow-up review in the project conversation",
+  "first_batch": [
+    {"candidate_id": "he-2023", "evidence_strength": "moderate", "disposition": "accept"},
+    {"candidate_id": "fitzpatrick-2017", "evidence_strength": "limited", "disposition": "accept"},
+    {"candidate_id": "inkster-2018", "evidence_strength": "early", "disposition": "accept"},
+    {"candidate_id": "youper-2021", "evidence_strength": "early", "disposition": "accept"},
+    {"candidate_id": "welch-2023-egm", "evidence_strength": null, "disposition": "accept_claims", "remaining_gates": ["Confirm CC BY 4.0 on this specific source page"]},
+    {"candidate_id": "skjuve-2021", "evidence_strength": null, "disposition": "accept_claims", "remaining_gates": ["Confirm source-specific licence"]},
+    {"candidate_id": "who-2025", "evidence_strength": null, "disposition": "quarantine", "remaining_gates": ["Review full text", "Add page locators", "Confirm title-specific licence"]},
+    {"candidate_id": "fulmer-2018", "evidence_strength": null, "disposition": "quarantine", "remaining_gates": ["Explicitly reaccept after correction review", "Rebuild any downstream IDs and hashes derived from the old version"]}
+  ],
+  "remaining_packet": {
+    "status": "partial_two_source_decisions_and_source_specific_checks_remain",
+    "decisions": [
+      {"candidate_id": "li-2023", "disposition": "accept", "evidence_strength": "moderate", "licence_status": "unknown", "remaining_gates": ["Confirm source-specific licence and claim locators", "Resolve review overlap"]},
+      {"candidate_id": "abd-alrazaq-2020", "disposition": "accept", "evidence_strength": "limited", "licence_status": "unknown", "remaining_gates": ["Confirm source-specific licence and claim locators", "Resolve review overlap"]},
+      {"candidate_id": "xiaoe-2022", "disposition": "accept", "evidence_strength": "limited", "licence_status": "unknown", "remaining_gates": ["Confirm source-specific licence and claim locators"]},
+      {"candidate_id": "heinz-2025", "disposition": "accept", "evidence_strength": "moderate", "licence_status": "restricted", "remaining_gates": ["Use original paraphrase only", "Review two 2025 critical letters and author response", "Re-audit existing paraphrase against the restriction"]},
+      {"candidate_id": "stress-chatbot-2024", "disposition": "accept", "evidence_strength": "early", "licence_status": "unknown", "remaining_gates": ["Confirm source-specific licence and claim locators", "Keep the primary stress outcome null"]},
+      {"candidate_id": "marziali-2024", "disposition": "accept", "evidence_strength": null, "licence_status": "unknown", "source_role_override": "evidence_map", "remaining_gates": ["Confirm source-specific licence and claim locators", "Keep decision_eligible false"]},
+      {"candidate_id": "dino-2025", "disposition": "accept", "evidence_strength": "early", "licence_status": "unknown", "remaining_gates": ["Confirm source-specific licence and claim locators", "Keep narrative positivity paired with no pooled estimate"]},
+      {"candidate_id": "technology-loneliness-2026", "disposition": null, "evidence_strength": "limited", "licence_status": "unknown", "remaining_gates": ["Explicitly decide whether an all-ages synthesis belongs in the older-adult theme", "Confirm source-specific licence and claim locators"]},
+      {"candidate_id": "prism-2018", "disposition": "accept", "evidence_strength": "moderate", "licence_status": "unknown", "remaining_gates": ["Confirm source-specific licence and claim locators", "Keep six-month benefit and 12-month null between-group result separate"]},
+      {"candidate_id": "noone-2020", "disposition": "accept", "evidence_strength": "early", "licence_status": "unknown", "remaining_gates": ["Confirm source-specific licence and claim locators", "Resolve review overlap"]},
+      {"candidate_id": "digital-loneliness-2021", "disposition": "accept", "evidence_strength": "limited", "licence_status": "unknown", "remaining_gates": ["Confirm source-specific licence and claim locators", "Resolve review overlap"]},
+      {"candidate_id": "tsai-2020", "disposition": "accept", "evidence_strength": "limited", "licence_status": "unknown", "remaining_gates": ["Confirm source-specific licence and claim locators", "Resolve review overlap"]},
+      {"candidate_id": "ict-2016", "disposition": "accept", "evidence_strength": "early", "licence_status": "unknown", "remaining_gates": ["Confirm source-specific licence and claim locators", "Label as historical evidence and resolve review overlap"]},
+      {"candidate_id": "prism2-2024", "disposition": null, "evidence_strength": null, "licence_status": "unknown", "remaining_gates": ["Provide final disposition and evidence strength", "Confirm source-specific licence and claim locators", "Keep both-arm improvement distinct from PRISM 1"]},
+      {"candidate_id": "loveys-2019", "disposition": "accept", "evidence_strength": null, "licence_status": "unknown", "remaining_gates": ["Confirm source-specific licence and claim locators"]},
+      {"candidate_id": "who-ethics-2021", "disposition": "accept", "evidence_strength": null, "licence_status": "unknown", "remaining_gates": ["Confirm title-specific WHO licence and page locators"]},
+      {"candidate_id": "who-lmm", "disposition": "accept", "evidence_strength": null, "licence_status": "unknown", "remaining_gates": ["Confirm title-specific WHO licence and page locators", "Preserve 25 March 2025 edition"]},
+      {"candidate_id": "who-regulatory-2023", "disposition": "accept", "evidence_strength": null, "licence_status": "unknown", "remaining_gates": ["Confirm title-specific WHO licence and page locators", "Keep non-guidance disclaimer"]},
+      {"candidate_id": "nist-ai-rmf", "disposition": "accept", "evidence_strength": null, "licence_status": "unknown", "remaining_gates": ["Confirm federal-document reuse status and page locators"]},
+      {"candidate_id": "nist-genai-profile", "disposition": "accept", "evidence_strength": null, "licence_status": "unknown", "remaining_gates": ["Confirm federal-document reuse status and page locators"]},
+      {"candidate_id": "unesco-2021", "disposition": "accept", "evidence_strength": null, "licence_status": "unknown", "remaining_gates": ["Confirm UNESCO reuse terms and locators"]},
+      {"candidate_id": "oecd-ai-principles", "disposition": "accept", "evidence_strength": null, "licence_status": "unknown", "remaining_gates": ["Confirm OECD reuse terms and locators", "Preserve May 2024 update"]}
+    ]
+  },
+  "heinz_correspondence": [
+    {"doi": "10.1056/AIP2500390", "title": "A Letter about Randomized Trial of a Generative AI Chatbot for Mental Health Treatment", "published_on": "2025-08-28"},
+    {"doi": "10.1056/AIP2500453", "title": "A Generative AI Chatbot for Mental Health Treatment: A Step in the Right Direction?", "published_on": "2025-08-28"},
+    {"doi": "10.1056/AIP2500680", "title": "Response to Letters about Randomized Trial of a Generative AI Chatbot for Mental Health Treatment", "published_on": "2025-08-28"}
+  ],
+  "release_authorization": {
+    "authorized_by": "Nicole",
+    "authorization_date": "2026-09-08",
+    "status": "conditional_future_authorization",
+    "bound_release_sha256": null,
+    "reason_not_executable": "The date is now recorded, but no exact candidate release/hash exists and B-09 through B-11 remain incomplete."
+  }
+}

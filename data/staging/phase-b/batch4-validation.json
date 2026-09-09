@@ -1,0 +1,938 @@
+{
+  "accepted_candidate": {
+    "corpus_id": "corpus-phase-b-evidence-graded-2026-09-08",
+    "generated_on": "2026-09-08",
+    "records": [
+      {
+        "authors": [
+          "Ashish Mehta",
+          "Andrea Nicole Niles",
+          "Jose Hamilton Vargas",
+          "Thiago Marafon",
+          "Diego Dotta Couto",
+          "James Jonathan Gross"
+        ],
+        "claims": [
+          {
+            "claim_id": "claim-3f633497e9a9753a-2189e49bd76e",
+            "claim_type": "outcome",
+            "decision_eligible": true,
+            "direction": "mixed",
+            "outcomes": [
+              "anxiety symptoms",
+              "depressive symptoms"
+            ],
+            "population_scope": [
+              "Paying Youper users who consented to research use of their data"
+            ],
+            "reference_ids": [
+              "ref-3f633497e9a9753a-bc19aaf68e80"
+            ],
+            "sample_size": 4517,
+            "source_role": "effectiveness",
+            "study_count": null,
+            "text": "Commercial-conflict disclosure: several authors were affiliated with Youper. Among 4517 paying users, anxiety and depression scores fell during the first two weeks; anxiety gains persisted over the next two weeks while depression scores rose slightly. This must not be summarized as uniform overall improvement."
+          },
+          {
+            "claim_id": "claim-3f633497e9a9753a-250d6c548fa3",
+            "claim_type": "outcome",
+            "decision_eligible": true,
+            "direction": "unclear",
+            "outcomes": [
+              "four-week retention"
+            ],
+            "population_scope": [
+              "Paying Youper users who consented to research use of their data"
+            ],
+            "reference_ids": [
+              "ref-3f633497e9a9753a-bc19aaf68e80"
+            ],
+            "sample_size": 4517,
+            "source_role": "effectiveness",
+            "study_count": null,
+            "text": "Week-four retention was 1927 of 4517 users (42.66%). Retention and app ratings do not establish clinical effectiveness."
+          }
+        ],
+        "decision_eligible": true,
+        "doi": "10.2196/26771",
+        "evidence_strength": "early",
+        "evidence_type": "observational_study",
+        "implementation_implications": [],
+        "limitations": [
+          {
+            "reference_ids": [
+              "ref-3f633497e9a9753a-bc19aaf68e80"
+            ],
+            "statement_id": "lim-3f633497e9a9753a-9783136a1c80",
+            "text": "Paying-user selection, attrition and lack of randomized comparison limit causal conclusions."
+          },
+          {
+            "reference_ids": [
+              "ref-3f633497e9a9753a-bc19aaf68e80"
+            ],
+            "statement_id": "lim-3f633497e9a9753a-a9d436b29c6c",
+            "text": "Several authors were affiliated with Youper; older-adult applicability requires separate assessment."
+          }
+        ],
+        "primary_theme": "ai_conversational_agents_mental_health",
+        "provenance": {
+          "access_note": "Publisher abstract, author affiliations and copyright notice read via web research on 2026-09-06. Claims and limitations reviewed by Nicole on 2026-09-06. Evidence strength early assigned by Nicole on 2026-09-08.",
+          "access_status": "open_access",
+          "content_sha256": null,
+          "license_note": "Publisher article footer states CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Attribution: Ashish Mehta, Andrea Nicole Niles, Jose Hamilton Vargas, Thiago Marafon, Diego Dotta Couto, James Jonathan Gross. Acceptability and Effectiveness of Artificial Intelligence Therapy for Anxiety and Depression (Youper): Longitudinal Observational Study. JMIR Publications, 2021-06-22. DOI 10.2196/26771. This record contains new paraphrases, not verbatim full text.",
+          "license_status": "permitted",
+          "publication_date": "2021-06-22",
+          "publisher": "JMIR Publications",
+          "retrieved_on": "2026-09-06",
+          "source_url": "https://www.jmir.org/2021/6/e26771",
+          "verification_status": "verified",
+          "verification_urls": [
+            "https://creativecommons.org/licenses/by/4.0/",
+            "https://www.jmir.org/2021/6/e26771"
+          ],
+          "verified_on": "2026-09-06"
+        },
+        "record_id": "evidence-3f633497e9a9753a",
+        "references": [
+          {
+            "chunk_id": "chunk-3f633497e9a9753a-0adfde13345d",
+            "locator": "Abstract: Methods and Results; author affiliations and study limitations",
+            "locator_type": "abstract",
+            "reference_id": "ref-3f633497e9a9753a-bc19aaf68e80",
+            "source_url": "https://www.jmir.org/2021/6/e26771"
+          }
+        ],
+        "schema_version": "1.0.0",
+        "secondary_themes": [],
+        "source_role": "effectiveness",
+        "title": "Acceptability and Effectiveness of Artificial Intelligence Therapy for Anxiety and Depression (Youper): Longitudinal Observational Study"
+      },
+      {
+        "authors": [
+          "Kathleen Kara Fitzpatrick",
+          "Alison Darcy",
+          "Molly Vierhile"
+        ],
+        "claims": [
+          {
+            "claim_id": "claim-b296af051efc5813-78e2b93e8b98",
+            "claim_type": "outcome",
+            "decision_eligible": true,
+            "direction": "unclear",
+            "outcomes": [
+              "anxiety symptoms (GAD-7)"
+            ],
+            "population_scope": [
+              "Adults aged 18–28 recruited from a university community"
+            ],
+            "reference_ids": [
+              "ref-b296af051efc5813-5c0be3789e49"
+            ],
+            "sample_size": 70,
+            "source_role": "effectiveness",
+            "study_count": null,
+            "text": "Anxiety decreased in both groups in the completer analysis; this does not establish a differential anxiety benefit for Woebot."
+          },
+          {
+            "claim_id": "claim-b296af051efc5813-d942fc4d2512",
+            "claim_type": "outcome",
+            "decision_eligible": true,
+            "direction": "positive",
+            "outcomes": [
+              "depressive symptoms (PHQ-9)"
+            ],
+            "population_scope": [
+              "Adults aged 18–28 recruited from a university community"
+            ],
+            "reference_ids": [
+              "ref-b296af051efc5813-5c0be3789e49"
+            ],
+            "sample_size": 70,
+            "source_role": "effectiveness",
+            "study_count": null,
+            "text": "Commercial-conflict disclosure: Alison Darcy was affiliated with Woebot Labs. In this unblinded two-week randomized study of 70 university-community young adults, with 17% missing follow-up, the Woebot arm showed a greater PHQ-9 reduction than the information-only control. This does not support a long-term or older-adult conclusion."
+          }
+        ],
+        "decision_eligible": true,
+        "doi": "10.2196/mental.7785",
+        "evidence_strength": "limited",
+        "evidence_type": "randomized_trial",
+        "implementation_implications": [],
+        "limitations": [
+          {
+            "reference_ids": [
+              "ref-b296af051efc5813-5c0be3789e49"
+            ],
+            "statement_id": "lim-b296af051efc5813-4068edccea27",
+            "text": "Seventeen percent did not provide follow-up data; a study author was affiliated with Woebot Labs."
+          },
+          {
+            "reference_ids": [
+              "ref-b296af051efc5813-5c0be3789e49"
+            ],
+            "statement_id": "lim-b296af051efc5813-e60c55e49e15",
+            "text": "Short follow-up, unblinded allocation and a university sample limit transferability to older adults."
+          }
+        ],
+        "primary_theme": "ai_conversational_agents_mental_health",
+        "provenance": {
+          "access_note": "Publisher abstract, author affiliations and copyright notice read via web research on 2026-09-06. Claims and limitations reviewed by Nicole on 2026-09-06. Evidence strength limited assigned by Nicole on 2026-09-08.",
+          "access_status": "open_access",
+          "content_sha256": null,
+          "license_note": "Publisher article footer states CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Attribution: Kathleen Kara Fitzpatrick, Alison Darcy, Molly Vierhile. Delivering Cognitive Behavior Therapy to Young Adults With Symptoms of Depression and Anxiety Using a Fully Automated Conversational Agent (Woebot): A Randomized Controlled Trial. JMIR Publications, 2017-06-06. DOI 10.2196/mental.7785. This record contains new paraphrases, not verbatim full text.",
+          "license_status": "permitted",
+          "publication_date": "2017-06-06",
+          "publisher": "JMIR Publications",
+          "retrieved_on": "2026-09-06",
+          "source_url": "https://mental.jmir.org/2017/2/e19/",
+          "verification_status": "verified",
+          "verification_urls": [
+            "https://creativecommons.org/licenses/by/4.0/",
+            "https://mental.jmir.org/2017/2/e19/"
+          ],
+          "verified_on": "2026-09-06"
+        },
+        "record_id": "evidence-b296af051efc5813",
+        "references": [
+          {
+            "chunk_id": "chunk-b296af051efc5813-b9f65486c23b",
+            "locator": "Abstract: Methods and Results; author affiliations and study limitations",
+            "locator_type": "abstract",
+            "reference_id": "ref-b296af051efc5813-5c0be3789e49",
+            "source_url": "https://mental.jmir.org/2017/2/e19/"
+          }
+        ],
+        "schema_version": "1.0.0",
+        "secondary_themes": [],
+        "source_role": "effectiveness",
+        "title": "Delivering Cognitive Behavior Therapy to Young Adults With Symptoms of Depression and Anxiety Using a Fully Automated Conversational Agent (Woebot): A Randomized Controlled Trial"
+      },
+      {
+        "authors": [
+          "Yuhao He",
+          "Li Yang",
+          "Chunlian Qian",
+          "Tong Li",
+          "Zhengyuan Su",
+          "Qiang Zhang",
+          "Xiangqing Hou"
+        ],
+        "claims": [
+          {
+            "claim_id": "claim-e7b2dc9877f4b8da-39c53bc266ad",
+            "claim_type": "outcome",
+            "decision_eligible": true,
+            "direction": "mixed",
+            "outcomes": [
+              "long-term mental-health outcomes"
+            ],
+            "population_scope": [],
+            "reference_ids": [
+              "ref-e7b2dc9877f4b8da-a5f88ad1bc09"
+            ],
+            "sample_size": null,
+            "source_role": "effectiveness",
+            "study_count": null,
+            "text": "Long-term results were follow-up measurements rather than postintervention measurements: 17 studies had no follow-up, 7 followed participants for 0–8 weeks, and 8 for 9 weeks or longer. Most long-term mental-health outcomes were not statistically significant, and the review rated 8 studies low risk, 11 some risk, and 13 high risk of bias."
+          },
+          {
+            "claim_id": "claim-e7b2dc9877f4b8da-763e3c6b6460",
+            "claim_type": "outcome",
+            "decision_eligible": true,
+            "direction": "positive",
+            "outcomes": [
+              "depressive symptoms"
+            ],
+            "population_scope": [],
+            "reference_ids": [
+              "ref-e7b2dc9877f4b8da-a5f88ad1bc09"
+            ],
+            "sample_size": null,
+            "source_role": "effectiveness",
+            "study_count": null,
+            "text": "At postintervention—the review's short-term endpoint—depressive symptoms improved versus controls (Hedges g 0.29, 95% CI 0.20–0.38). The result must be read with the review's risk-of-bias distribution: 8 low-risk, 11 some-risk, and 13 high-risk studies."
+          },
+          {
+            "claim_id": "claim-e7b2dc9877f4b8da-fef8efebdf71",
+            "claim_type": "evidence_summary",
+            "decision_eligible": true,
+            "direction": "mixed",
+            "outcomes": [],
+            "population_scope": [],
+            "reference_ids": [
+              "ref-e7b2dc9877f4b8da-a5f88ad1bc09"
+            ],
+            "sample_size": 6089,
+            "source_role": "effectiveness",
+            "study_count": 32,
+            "text": "The meta-analysis included 32 randomized studies with 6089 participants. Intervention durations were 0–4 weeks (11 studies), 5–8 weeks (10), or more than 9 weeks (11). Eight studies were rated low risk of bias, 11 some risk, and 13 high risk."
+          }
+        ],
+        "decision_eligible": true,
+        "doi": "10.2196/43862",
+        "evidence_strength": "moderate",
+        "evidence_type": "systematic_review_meta_analysis",
+        "implementation_implications": [],
+        "limitations": [
+          {
+            "reference_ids": [
+              "ref-e7b2dc9877f4b8da-a5f88ad1bc09"
+            ],
+            "statement_id": "lim-e7b2dc9877f4b8da-372abbfb5a59",
+            "text": "Only eight studies were judged at low risk of bias; eleven had some risk and thirteen high risk."
+          },
+          {
+            "reference_ids": [
+              "ref-e7b2dc9877f4b8da-a5f88ad1bc09"
+            ],
+            "statement_id": "lim-e7b2dc9877f4b8da-947a79cb7935",
+            "text": "The synthesis covers different agent types, populations and comparators. It cannot establish universal suitability."
+          }
+        ],
+        "primary_theme": "ai_conversational_agents_mental_health",
+        "provenance": {
+          "access_note": "AI-prepared paraphrase from accessible web research text; human claim review pending. Direct B-04 attempt: manual_review; web page returned HTTP 202 Claims and limitations reviewed by Nicole on 2026-09-06. Evidence strength moderate assigned by Nicole on 2026-09-08.",
+          "access_status": "open_access",
+          "content_sha256": null,
+          "license_note": "The article footer identifies CC BY 4.0 and requires attribution to He et al., JMIR 2023;25:e43862, DOI 10.2196/43862.",
+          "license_status": "permitted",
+          "publication_date": "2023-04-28",
+          "publisher": "Journal of Medical Internet Research",
+          "retrieved_on": "2026-09-05",
+          "source_url": "https://www.jmir.org/2023/1/e43862/",
+          "verification_status": "verified",
+          "verification_urls": [
+            "https://creativecommons.org/licenses/by/4.0/",
+            "https://www.jmir.org/2023/1/e43862/"
+          ],
+          "verified_on": "2026-09-06"
+        },
+        "record_id": "evidence-e7b2dc9877f4b8da",
+        "references": [
+          {
+            "chunk_id": "chunk-e7b2dc9877f4b8da-7ced3dc3f539",
+            "locator": "Methods: Meta-analysis (short term=postintervention; long term=follow-up); Results: Study Characteristics paragraphs 1 and 6; Risk of Bias; Efficacy",
+            "locator_type": "section",
+            "reference_id": "ref-e7b2dc9877f4b8da-a5f88ad1bc09",
+            "source_url": "https://www.jmir.org/2023/1/e43862/"
+          }
+        ],
+        "schema_version": "1.0.0",
+        "secondary_themes": [],
+        "source_role": "effectiveness",
+        "title": "Conversational Agent Interventions for Mental Health Problems: Systematic Review and Meta-analysis of Randomized Controlled Trials"
+      },
+      {
+        "authors": [
+          "Becky Inkster",
+          "Shubhankar Sarda",
+          "Vinod Subramanian"
+        ],
+        "claims": [
+          {
+            "claim_id": "claim-fdc048737639a688-e1c12f80f8dc",
+            "claim_type": "outcome",
+            "decision_eligible": true,
+            "direction": "mixed",
+            "outcomes": [
+              "depressive symptoms (PHQ-9)"
+            ],
+            "population_scope": [
+              "Voluntary anonymous Wysa users with self-reported depressive symptoms"
+            ],
+            "reference_ids": [
+              "ref-fdc048737639a688-adff913520f6"
+            ],
+            "sample_size": 129,
+            "source_role": "effectiveness",
+            "study_count": null,
+            "text": "This was a usage-defined association, not random allocation: 108 high-use users showed larger average PHQ-9 improvement than 21 low-use users. The unequal groups and self-selection prevent a causal benefit conclusion."
+          }
+        ],
+        "decision_eligible": true,
+        "doi": "10.2196/12106",
+        "evidence_strength": "early",
+        "evidence_type": "mixed_methods",
+        "implementation_implications": [],
+        "limitations": [
+          {
+            "reference_ids": [
+              "ref-fdc048737639a688-adff913520f6"
+            ],
+            "statement_id": "lim-fdc048737639a688-07b2f7be7cd3",
+            "text": "Wysa affiliations and the small low-use group require attention during evidence grading."
+          },
+          {
+            "reference_ids": [
+              "ref-fdc048737639a688-adff913520f6"
+            ],
+            "statement_id": "lim-fdc048737639a688-bb55d1a9874d",
+            "text": "App engagement and symptom change are associated in this design; causal benefit cannot be isolated from self-selection and other differences."
+          }
+        ],
+        "primary_theme": "ai_conversational_agents_mental_health",
+        "provenance": {
+          "access_note": "Publisher abstract, author affiliations and copyright notice read via web research on 2026-09-06. Claims and limitations reviewed by Nicole on 2026-09-06. Evidence strength early assigned by Nicole on 2026-09-08.",
+          "access_status": "open_access",
+          "content_sha256": null,
+          "license_note": "Publisher article footer states CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Attribution: Becky Inkster, Shubhankar Sarda, Vinod Subramanian. An Empathy-Driven, Conversational Artificial Intelligence Agent (Wysa) for Digital Mental Well-Being: Real-World Data Evaluation Mixed-Methods Study. JMIR Publications, 2018-11-23. DOI 10.2196/12106. This record contains new paraphrases, not verbatim full text.",
+          "license_status": "permitted",
+          "publication_date": "2018-11-23",
+          "publisher": "JMIR Publications",
+          "retrieved_on": "2026-09-06",
+          "source_url": "https://mhealth.jmir.org/2018/11/e12106",
+          "verification_status": "verified",
+          "verification_urls": [
+            "https://creativecommons.org/licenses/by/4.0/",
+            "https://mhealth.jmir.org/2018/11/e12106"
+          ],
+          "verified_on": "2026-09-06"
+        },
+        "record_id": "evidence-fdc048737639a688",
+        "references": [
+          {
+            "chunk_id": "chunk-fdc048737639a688-25868cb7f1ed",
+            "locator": "Abstract: Methods and Results; author affiliations and study limitations",
+            "locator_type": "abstract",
+            "reference_id": "ref-fdc048737639a688-adff913520f6",
+            "source_url": "https://mhealth.jmir.org/2018/11/e12106"
+          }
+        ],
+        "schema_version": "1.0.0",
+        "secondary_themes": [],
+        "source_role": "effectiveness",
+        "title": "An Empathy-Driven, Conversational Artificial Intelligence Agent (Wysa) for Digital Mental Well-Being: Real-World Data Evaluation Mixed-Methods Study"
+      }
+    ],
+    "schema_version": "1.0.0"
+  },
+  "bundle_version": "1.0.0",
+  "quarantine_store": {
+    "corpus_id": "corpus-phase-b-evidence-graded-2026-09-08",
+    "entries": [
+      {
+        "entity_id": "entity-37a3c1fb16dc4c71",
+        "issues": [
+          {
+            "code": "provenance_not_verified",
+            "message": "candidate provenance must be verified before acceptance",
+            "path": "provenance.verification_status"
+          }
+        ],
+        "quarantine_id": "quarantine-0cac2df347e3d6cbcb64",
+        "raw_record": {
+          "authors": [
+            "Russell Fulmer",
+            "Angela Joerin",
+            "Breanna Gentile",
+            "Lysanne Lakerink",
+            "Michiel Rauws"
+          ],
+          "claims": [
+            {
+              "claim_id": "claim-b97d1341cc9b4f93-49dff4243862",
+              "claim_type": "outcome",
+              "decision_eligible": false,
+              "direction": "mixed",
+              "outcomes": [
+                "anxiety symptoms (GAD-7)",
+                "depressive symptoms (PHQ-9)"
+              ],
+              "population_scope": [
+                "University students; mean age 22.9 among completers"
+              ],
+              "reference_ids": [
+                "ref-b97d1341cc9b4f93-343361751f77"
+              ],
+              "sample_size": 74,
+              "source_role": "effectiveness",
+              "study_count": null,
+              "text": "Seventy-five participants were recruited and 74 completed the study. The two-week Tess group improved depression relative to control; both Tess groups reported anxiety reductions relative to control."
+            }
+          ],
+          "decision_eligible": false,
+          "doi": "10.2196/mental.9782",
+          "evidence_strength": null,
+          "evidence_type": "randomized_trial",
+          "implementation_implications": [],
+          "limitations": [
+            {
+              "reference_ids": [
+                "ref-b97d1341cc9b4f93-a322e86cab64"
+              ],
+              "statement_id": "lim-b97d1341cc9b4f93-24f0f4e97c8e",
+              "text": "A correction published 2026-08-26 removed an unverified chatbot-response example and clarified methodological alignment with the Woebot trial. Original chat transcripts were no longer available."
+            },
+            {
+              "reference_ids": [
+                "ref-b97d1341cc9b4f93-343361751f77"
+              ],
+              "statement_id": "lim-b97d1341cc9b4f93-b428f61dd036",
+              "text": "University sample and short follow-up limit generalization. Several authors were affiliated with X2AI."
+            },
+            {
+              "reference_ids": [
+                "ref-b97d1341cc9b4f93-a322e86cab64"
+              ],
+              "statement_id": "lim-b97d1341cc9b4f93-f08a058837df",
+              "text": "Commercial-conflict disclosure: three authors were affiliated with X2AI. The deleted response example must not be used downstream."
+            }
+          ],
+          "primary_theme": "ai_conversational_agents_mental_health",
+          "provenance": {
+            "access_note": "Publisher abstract, author affiliations and copyright notice read via web research on 2026-09-06. AI-prepared draft; named human source approval pending. Repository-wide downstream audit on 2026-09-06 found no occurrence of the deleted Tess response example; the record remains quarantined pending a post-correction acceptance decision.",
+            "access_status": "open_access",
+            "content_sha256": null,
+            "license_note": "Publisher article footer states CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Attribution: Russell Fulmer, Angela Joerin, Breanna Gentile, Lysanne Lakerink, Michiel Rauws. Using Psychological Artificial Intelligence (Tess) to Relieve Symptoms of Depression and Anxiety: Randomized Controlled Trial. JMIR Publications, 2018-12-13. DOI 10.2196/mental.9782. This record contains new paraphrases, not verbatim full text.",
+            "license_status": "permitted",
+            "publication_date": "2018-12-13",
+            "publisher": "JMIR Publications",
+            "retrieved_on": "2026-09-06",
+            "source_url": "https://mental.jmir.org/2018/4/e64/",
+            "verification_status": "needs_review",
+            "verification_urls": [],
+            "verified_on": null
+          },
+          "record_id": "evidence-b97d1341cc9b4f93",
+          "references": [
+            {
+              "chunk_id": "chunk-b97d1341cc9b4f93-4b6cd1364355",
+              "locator": "Abstract: Methods and Results; author affiliations and study limitations",
+              "locator_type": "abstract",
+              "reference_id": "ref-b97d1341cc9b4f93-343361751f77",
+              "source_url": "https://mental.jmir.org/2018/4/e64/"
+            },
+            {
+              "chunk_id": "chunk-b97d1341cc9b4f93-d38b08f1dd7f",
+              "locator": "2026 correction: removed response example and added Methods statement",
+              "locator_type": "section",
+              "reference_id": "ref-b97d1341cc9b4f93-a322e86cab64",
+              "source_url": "https://mental.jmir.org/2026/1/e108162"
+            }
+          ],
+          "schema_version": "1.0.0",
+          "secondary_themes": [],
+          "source_role": "effectiveness",
+          "title": "Using Psychological Artificial Intelligence (Tess) to Relieve Symptoms of Depression and Anxiety: Randomized Controlled Trial"
+        },
+        "record_key": "evidence-b97d1341cc9b4f93",
+        "status": "open"
+      },
+      {
+        "entity_id": "entity-0f6903dee75000bf",
+        "issues": [
+          {
+            "code": "provenance_not_verified",
+            "message": "candidate provenance must be verified before acceptance",
+            "path": "provenance.verification_status"
+          },
+          {
+            "code": "license_status_unknown",
+            "message": "license status must be resolved before acceptance",
+            "path": "provenance.license_status"
+          }
+        ],
+        "quarantine_id": "quarantine-6fe947fd9b08c6ec2595",
+        "raw_record": {
+          "authors": [
+            "World Health Organization",
+            "WHO Commission on Social Connection"
+          ],
+          "claims": [
+            {
+              "claim_id": "claim-802e500286bdde07-b1220936fa2c",
+              "claim_type": "policy_framing",
+              "decision_eligible": false,
+              "direction": "not_applicable",
+              "outcomes": [],
+              "population_scope": [
+                "General populations affected by loneliness and social isolation"
+              ],
+              "reference_ids": [
+                "ref-802e500286bdde07-f65e5541d204"
+              ],
+              "sample_size": null,
+              "source_role": "context",
+              "study_count": null,
+              "text": "The report calls for cross-sector action to strengthen social connection, addressing policy-makers, researchers and other sectors."
+            },
+            {
+              "claim_id": "claim-802e500286bdde07-d5c820f5bfce",
+              "claim_type": "policy_framing",
+              "decision_eligible": false,
+              "direction": "not_applicable",
+              "outcomes": [],
+              "population_scope": [
+                "General populations affected by loneliness and social isolation"
+              ],
+              "reference_ids": [
+                "ref-802e500286bdde07-f65e5541d204"
+              ],
+              "sample_size": null,
+              "source_role": "context",
+              "study_count": null,
+              "text": "WHO presents social isolation and loneliness as widespread problems with health, well-being and societal consequences, and calls for social health to receive urgency comparable to physical and mental health."
+            }
+          ],
+          "decision_eligible": false,
+          "doi": null,
+          "evidence_strength": null,
+          "evidence_type": "policy_guidance",
+          "implementation_implications": [],
+          "limitations": [
+            {
+              "reference_ids": [
+                "ref-802e500286bdde07-f65e5541d204"
+              ],
+              "statement_id": "lim-802e500286bdde07-8bbc099d6e04",
+              "text": "Policy framing does not establish the effectiveness of an AI companion."
+            },
+            {
+              "reference_ids": [
+                "ref-802e500286bdde07-f65e5541d204"
+              ],
+              "statement_id": "lim-802e500286bdde07-dcc6aa07302c",
+              "text": "This draft uses the publication overview, not the full report; definitions, action details and page locators remain to be extracted."
+            }
+          ],
+          "primary_theme": "responsible_ai_companion_design",
+          "provenance": {
+            "access_note": "AI-prepared paraphrase from accessible web research text; human claim review pending. Direct B-04 attempt: extracted_for_review Nicole directed continued quarantine until the full report, definitions, action details, and page locators are reviewed.",
+            "access_status": "open_access",
+            "content_sha256": "03a8109b5b858a0d315e0ba0b074c0300e2699bcffd57ea12382cd9e61d3e51a",
+            "license_note": "Reuse terms not yet reviewed. Only short paraphrases and source metadata are included; do not infer redistribution permission.",
+            "license_status": "unknown",
+            "publication_date": "2025-06-30",
+            "publisher": "World Health Organization",
+            "retrieved_on": "2026-09-05",
+            "source_url": "https://www.who.int/publications/i/item/978240112360",
+            "verification_status": "needs_review",
+            "verification_urls": [],
+            "verified_on": null
+          },
+          "record_id": "evidence-802e500286bdde07",
+          "references": [
+            {
+              "chunk_id": "chunk-802e500286bdde07-37e5cdfca5f4",
+              "locator": "Publication page: Overview, paragraphs 1–2",
+              "locator_type": "section",
+              "reference_id": "ref-802e500286bdde07-f65e5541d204",
+              "source_url": "https://www.who.int/publications/i/item/978240112360"
+            }
+          ],
+          "schema_version": "1.0.0",
+          "secondary_themes": [],
+          "source_role": "context",
+          "title": "From loneliness to social connection: charting a path to healthier societies"
+        },
+        "record_key": "evidence-802e500286bdde07",
+        "status": "open"
+      },
+      {
+        "entity_id": "entity-3518cdd9f5525460",
+        "issues": [
+          {
+            "code": "license_status_unknown",
+            "message": "license status must be resolved before acceptance",
+            "path": "provenance.license_status"
+          }
+        ],
+        "quarantine_id": "quarantine-eefb085740753c228a44",
+        "raw_record": {
+          "authors": [
+            "Marita Bjaaland Skjuve",
+            "Asbjørn Følstad",
+            "Knut Inge Fostervold",
+            "Petter Bae Brandtzæg"
+          ],
+          "claims": [
+            {
+              "claim_id": "claim-fd5e265f2e58d081-071284f2b2d5",
+              "claim_type": "design_principle",
+              "decision_eligible": false,
+              "direction": "not_applicable",
+              "outcomes": [],
+              "population_scope": [
+                "18 participants who had already developed a friendship with Replika"
+              ],
+              "reference_ids": [
+                "ref-fd5e265f2e58d081-25279d63ba32"
+              ],
+              "sample_size": 18,
+              "source_role": "design",
+              "study_count": null,
+              "text": "Among 18 interviewees selected because they already had an established chatbot friendship, participants described accepting, understanding, and nonjudgmental responses as factors in relationship development; these are reported perceptions, not proven clinical benefits."
+            },
+            {
+              "claim_id": "claim-fd5e265f2e58d081-771b7699c660",
+              "claim_type": "design_principle",
+              "decision_eligible": false,
+              "direction": "not_applicable",
+              "outcomes": [],
+              "population_scope": [
+                "18 participants who had already developed a friendship with Replika"
+              ],
+              "reference_ids": [
+                "ref-fd5e265f2e58d081-25279d63ba32"
+              ],
+              "sample_size": null,
+              "source_role": "design",
+              "study_count": null,
+              "text": "Effects on users’ wider social context were mixed, and participants reported stigma associated with human–chatbot relationships."
+            }
+          ],
+          "decision_eligible": false,
+          "doi": "10.1016/j.ijhcs.2021.102601",
+          "evidence_strength": null,
+          "evidence_type": "qualitative_study",
+          "implementation_implications": [],
+          "limitations": [
+            {
+              "reference_ids": [
+                "ref-fd5e265f2e58d081-25279d63ba32"
+              ],
+              "statement_id": "lim-fd5e265f2e58d081-39abed262161",
+              "text": "Participants were selected for an existing chatbot friendship; findings cannot represent all users or older adults."
+            },
+            {
+              "reference_ids": [
+                "ref-fd5e265f2e58d081-25279d63ba32"
+              ],
+              "statement_id": "lim-fd5e265f2e58d081-fb78d5e77f1a",
+              "text": "Qualitative self-reports do not establish causal improvements in mental health or loneliness."
+            }
+          ],
+          "primary_theme": "responsible_ai_companion_design",
+          "provenance": {
+            "access_note": "AI-prepared paraphrase from accessible web research text; human claim review pending. Direct B-04 attempt: extracted_for_review Claims and limitations reviewed by Nicole on 2026-09-06.",
+            "access_status": "open_access",
+            "content_sha256": "676f77415f6fbc188bd24dcaafd5d235395004a2a5a65a57dbbecd5befb6313c",
+            "license_note": "Nicole accepted the revised claims but required source-specific reuse terms; no licence is inferred from general SINTEF practice.",
+            "license_status": "unknown",
+            "publication_date": "2021-01-23",
+            "publisher": "SINTEF institutional publication record; International Journal of Human-Computer Studies",
+            "retrieved_on": "2026-09-05",
+            "source_url": "https://www.sintef.no/en/publications/publication/0198cc8570c8-9e3222db-61c3-4a0e-a6a5-115f3f7b1a33/",
+            "verification_status": "verified",
+            "verification_urls": [
+              "https://www.sintef.no/en/publications/publication/0198cc8570c8-9e3222db-61c3-4a0e-a6a5-115f3f7b1a33/"
+            ],
+            "verified_on": "2026-09-06"
+          },
+          "record_id": "evidence-fd5e265f2e58d081",
+          "references": [
+            {
+              "chunk_id": "chunk-fd5e265f2e58d081-9ca5491936d4",
+              "locator": "Institutional publication record: Abstract",
+              "locator_type": "section",
+              "reference_id": "ref-fd5e265f2e58d081-25279d63ba32",
+              "source_url": "https://www.sintef.no/en/publications/publication/0198cc8570c8-9e3222db-61c3-4a0e-a6a5-115f3f7b1a33/"
+            }
+          ],
+          "schema_version": "1.0.0",
+          "secondary_themes": [],
+          "source_role": "design",
+          "title": "My chatbot companion – a study of human-chatbot relationships"
+        },
+        "record_key": "evidence-fd5e265f2e58d081",
+        "status": "open"
+      },
+      {
+        "entity_id": "entity-375ec1d1da638a4d",
+        "issues": [
+          {
+            "code": "license_status_unknown",
+            "message": "license status must be resolved before acceptance",
+            "path": "provenance.license_status"
+          }
+        ],
+        "quarantine_id": "quarantine-fecfb7de39eb816aed25",
+        "raw_record": {
+          "authors": [
+            "Campbell Collaboration"
+          ],
+          "claims": [
+            {
+              "claim_id": "claim-0ce0b5343616790c-39757bd4efe9",
+              "claim_type": "evidence_gap",
+              "decision_eligible": false,
+              "direction": "not_applicable",
+              "outcomes": [],
+              "population_scope": [
+                "Older adults outside hospital settings"
+              ],
+              "reference_ids": [
+                "ref-0ce0b5343616790c-dd4356f0f1f6"
+              ],
+              "sample_size": null,
+              "source_role": "evidence_map",
+              "study_count": null,
+              "text": "Searches covered studies published only through May 2021; at the September 2026 review this evidence map is more than five years out of date. Community-level outcomes and process measures are rarely reported. Included work does not assess affordability or lack of accessibility, and adverse effects are seldom reported."
+            },
+            {
+              "claim_id": "claim-0ce0b5343616790c-c99fb6bdf65e",
+              "claim_type": "evidence_gap",
+              "decision_eligible": false,
+              "direction": "not_applicable",
+              "outcomes": [],
+              "population_scope": [
+                "Older adults outside hospital settings"
+              ],
+              "reference_ids": [
+                "ref-0ce0b5343616790c-dd4356f0f1f6"
+              ],
+              "sample_size": null,
+              "source_role": "evidence_map",
+              "study_count": null,
+              "text": "Searches covered studies published only through May 2021; at the September 2026 review this evidence map is more than five years out of date. The map contains 200 articles: 97 systematic reviews and 103 primary studies. Most evidence comes from high-income settings and none from low-income countries."
+            },
+            {
+              "claim_id": "claim-0ce0b5343616790c-f05c35ba1b03",
+              "claim_type": "evidence_gap",
+              "decision_eligible": false,
+              "direction": "not_applicable",
+              "outcomes": [],
+              "population_scope": [
+                "Older adults outside hospital settings"
+              ],
+              "reference_ids": [
+                "ref-0ce0b5343616790c-dd4356f0f1f6"
+              ],
+              "sample_size": null,
+              "source_role": "evidence_map",
+              "study_count": null,
+              "text": "Searches covered studies published only through May 2021; at the September 2026 review this evidence map is more than five years out of date. More than 70% of the included systematic reviews were rated critically low quality."
+            }
+          ],
+          "decision_eligible": false,
+          "doi": null,
+          "evidence_strength": null,
+          "evidence_type": "evidence_gap_map",
+          "implementation_implications": [],
+          "limitations": [
+            {
+              "reference_ids": [
+                "ref-0ce0b5343616790c-dd4356f0f1f6"
+              ],
+              "statement_id": "lim-0ce0b5343616790c-3097fd31ebe5",
+              "text": "A map describes coverage and gaps, not a pooled intervention effect."
+            },
+            {
+              "reference_ids": [
+                "ref-0ce0b5343616790c-dd4356f0f1f6"
+              ],
+              "statement_id": "lim-0ce0b5343616790c-ddc36a298f59",
+              "text": "Searches extended through May 2021; this is not a current exhaustive map."
+            }
+          ],
+          "primary_theme": "older_adult_digital_social_connection",
+          "provenance": {
+            "access_note": "AI-prepared paraphrase from accessible web research text; human claim review pending. Direct B-04 attempt: manual_review; web page request was blocked with HTTP 403 Claims and limitations reviewed by Nicole on 2026-09-06.",
+            "access_status": "open_access",
+            "content_sha256": null,
+            "license_note": "Nicole accepted the revised claims but required source-specific licence confirmation; no licence is inferred from Campbell's usual practice.",
+            "license_status": "unknown",
+            "publication_date": "2023-11-27",
+            "publisher": "Campbell Collaboration",
+            "retrieved_on": "2026-09-05",
+            "source_url": "https://www.campbellcollaboration.org/review/digital-interventions-social-isolation-loneliness-older-adults-egm/",
+            "verification_status": "verified",
+            "verification_urls": [
+              "https://www.campbellcollaboration.org/review/digital-interventions-social-isolation-loneliness-older-adults-egm/"
+            ],
+            "verified_on": "2026-09-06"
+          },
+          "record_id": "evidence-0ce0b5343616790c",
+          "references": [
+            {
+              "chunk_id": "chunk-0ce0b5343616790c-1970556b1860",
+              "locator": "Plain-language summary: What studies are included?; What are the main findings?; How up-to-date is this EGM?",
+              "locator_type": "section",
+              "reference_id": "ref-0ce0b5343616790c-dd4356f0f1f6",
+              "source_url": "https://www.campbellcollaboration.org/review/digital-interventions-social-isolation-loneliness-older-adults-egm/"
+            }
+          ],
+          "schema_version": "1.0.0",
+          "secondary_themes": [],
+          "source_role": "evidence_map",
+          "title": "Digital interventions to reduce social isolation and loneliness in older adults: An evidence and gap map"
+        },
+        "record_key": "evidence-0ce0b5343616790c",
+        "status": "open"
+      }
+    ],
+    "generated_on": "2026-09-08",
+    "store_version": "1.0.0"
+  },
+  "report": {
+    "accepted_record_count": 4,
+    "configuration": {
+      "config_version": "1.0.0",
+      "quarantine_duplicate_entities": true,
+      "quarantine_unknown_access": true,
+      "quarantine_unknown_license": true,
+      "require_verified_provenance": true
+    },
+    "corpus_id": "corpus-phase-b-evidence-graded-2026-09-08",
+    "generated_on": "2026-09-08",
+    "input_record_count": 8,
+    "issue_counts": {
+      "license_status_unknown": 3,
+      "provenance_not_verified": 2
+    },
+    "quarantined_record_count": 4,
+    "record_results": [
+      {
+        "issue_codes": [
+          "license_status_unknown"
+        ],
+        "record_key": "evidence-0ce0b5343616790c",
+        "status": "quarantined"
+      },
+      {
+        "issue_codes": [],
+        "record_key": "evidence-3f633497e9a9753a",
+        "status": "accepted"
+      },
+      {
+        "issue_codes": [
+          "license_status_unknown",
+          "provenance_not_verified"
+        ],
+        "record_key": "evidence-802e500286bdde07",
+        "status": "quarantined"
+      },
+      {
+        "issue_codes": [],
+        "record_key": "evidence-b296af051efc5813",
+        "status": "accepted"
+      },
+      {
+        "issue_codes": [
+          "provenance_not_verified"
+        ],
+        "record_key": "evidence-b97d1341cc9b4f93",
+        "status": "quarantined"
+      },
+      {
+        "issue_codes": [],
+        "record_key": "evidence-e7b2dc9877f4b8da",
+        "status": "accepted"
+      },
+      {
+        "issue_codes": [
+          "license_status_unknown"
+        ],
+        "record_key": "evidence-fd5e265f2e58d081",
+        "status": "quarantined"
+      },
+      {
+        "issue_codes": [],
+        "record_key": "evidence-fdc048737639a688",
+        "status": "accepted"
+      }
+    ],
+    "report_id": "validation-38d6bb8210b66b32d0c2",
+    "report_version": "1.0.0"
+  }
+}

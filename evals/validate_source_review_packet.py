@@ -48,7 +48,7 @@ class SourceReviewDecision(StrictModel):
 class SourceReviewPacket(StrictModel):
     packet_version: Literal["1.0.0"] = "1.0.0"
     prepared_on: date
-    status: Literal["draft_pending_human_review", "complete"]
+    status: Literal["draft_pending_human_review", "partially_reviewed", "complete"]
     reviewer: str | None = None
     reviewed_on: date | None = None
     decisions: list[SourceReviewDecision] = Field(min_length=1)
