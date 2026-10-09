@@ -22,18 +22,17 @@ def load():
 
 def test_review_packet_covers_every_registered_batch_candidate():
     packet, register = load()
-    validate_packet(packet, register, final=False)
+    validate_packet(packet, register, final=True)
     assert len(packet.decisions) == 22
-    assert packet.status == "partially_reviewed"
-    assert sum(item.disposition is not None for item in packet.decisions) == 20
-    assert {item.candidate_id for item in packet.decisions if item.disposition is None} == {
-        "technology-loneliness-2026",
-        "prism2-2024",
-    }
+    assert packet.status == "complete"
+    assert all(item.disposition is not None for item in packet.decisions)
+    assert all(item.source_identity_confirmed is True for item in packet.decisions)
+    assert all(item.claim_locators_confirmed is True for item in packet.decisions)
 
 
 def test_draft_packet_cannot_pass_final_gate():
     packet, register = load()
+    packet.status = "partially_reviewed"
     with pytest.raises(ValueError, match="complete status"):
         validate_packet(packet, register, final=True)
 
