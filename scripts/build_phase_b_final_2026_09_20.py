@@ -18,6 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 STAGING = ROOT / "data/staging/phase-b"
 PACKET = ROOT / "evals/reviews/phase_b_remaining_source_review_template.json"
 PREFIX = STAGING / "final-2026-09-20"
+IMMUTABLE_RELEASE = ROOT / "data/releases/1.0.0/release.json"
 REVIEWER = "Nicole"
 REVIEW_DATE = "2026-09-20"
 
@@ -288,6 +289,8 @@ def main() -> None:
         (Path(f"{PREFIX}-{name}.json")).write_text(render_artifact(model), encoding="utf-8")
     (Path(f"{PREFIX}-mappings.json")).write_text(json.dumps([m.model_dump(mode="json") for m in mappings], ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     (Path(f"{PREFIX}-release.json")).write_text(render_artifact(release), encoding="utf-8")
+    IMMUTABLE_RELEASE.parent.mkdir(parents=True, exist_ok=True)
+    IMMUTABLE_RELEASE.write_text(render_artifact(release), encoding="utf-8")
 
     approval = {
         "approval_version": "1.0.0", "reviewed_by": REVIEWER, "reviewed_on": REVIEW_DATE,

@@ -2,6 +2,7 @@ import pytest
 from fastapi.testclient import TestClient
 
 from app.core.config import DEFAULT_EVIDENCE_PATH, Settings
+from app.ingestion.runtime import RuntimeReleaseV1, load_release
 from app.main import create_app
 from app.repositories.evidence_repository import EvidenceRepository
 
@@ -81,6 +82,26 @@ def test_production_evidence_corpus_still_loads():
     records = repository.list_all()
 
     assert len(records) == 6
+
+
+def test_immutable_phase_b_release_loads_thirty_records():
+    release_path = (
+        DEFAULT_EVIDENCE_PATH.parents[1]
+        / "data"
+        / "releases"
+        / "1.0.0"
+        / "release.json"
+    )
+    release = RuntimeReleaseV1.model_validate_json(
+        release_path.read_text(encoding="utf-8")
+    )
+
+    records = load_release(release)
+
+    assert len(records) == 30
+    assert release.release_sha256 == (
+        "c8c9b8c05d2ca660a1d0bd729856906bf68afb23297440bb0e459fc48cc9aff6"
+    )
 
 
 def test_ask_returns_decision_brief(production_client):

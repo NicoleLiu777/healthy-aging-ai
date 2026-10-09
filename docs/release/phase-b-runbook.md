@@ -1,8 +1,10 @@
 # Phase B build, review, activate, and rollback
 
-Status: engineering workflow implemented; expanded corpus and production activation pending.
-Baseline: `488e398c77cf6a073a1e8b085eeee122eaf4f777`, six legacy records.
-The default `EVIDENCE_PATH` still points to `data/evidence.json`.
+Status: 30-source release approved; B-12 production activation in progress.
+Rollback baseline: commit `46584a361ce85279b9533a20e2524545ea14b4cd`, six legacy records,
+corpus SHA-256 `a241826bb74757ef7b27320cd06dfba1a32a505497ad99d246d04e7397ddc781`.
+The code default remains `data/evidence.json`; Render sets `EVIDENCE_PATH` to the immutable
+`data/releases/1.0.0/release.json` artifact.
 
 ## Build a candidate
 
@@ -119,10 +121,10 @@ For a merged change, use a revert PR rather than rewriting main history.
   source. Do not store a challenge page as article text or call it verified.
 - All quarantined: a manifest may record zero accepted sources; release building must fail.
 
-## Outstanding acceptance work
+## Current release state
 
-The 30-source register is discovery material, not 30 reviewed records. Nicole reviewed eight
-draft records on 2026-09-06. The revised batch accepted four at the source-validation layer and
-quarantined four; none of the four effectiveness records is decision eligible until evidence
-strength is assigned. B-09 human source curation, B-10/B-11 evaluation on the approved corpus,
-renewed human answer review, and a hash-bound B-12 approval remain release conditions.
+The 30-source corpus, source review, gold v0.2, eight-case coverage suite, renewed nine-answer
+human review, and exact hash-bound release approval are complete. The approval is recorded in
+`evals/reviews/phase_b_release_approval_2026-10-09.json`; the final evaluator reports
+`ready_for_release=true`. B-12 is complete only after the approved PR is merged, Render loads
+the immutable release, live checks pass, and the deployment identifier/time are recorded.

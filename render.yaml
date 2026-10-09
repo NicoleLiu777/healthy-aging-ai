@@ -14,3 +14,5 @@ services:
         value: "false"
       - key: MAX_REQUEST_BODY_BYTES
         value: "8192"
+      - key: EVIDENCE_PATH
+        value: data/releases/1.0.0/release.json
