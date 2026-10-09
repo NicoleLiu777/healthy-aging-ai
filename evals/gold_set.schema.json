@@ -1,11 +1,11 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://suvane.org/schemas/evaluation-gold-set-v0.1.json",
-  "title": "SUVANÉ Research evaluation gold set v0.1",
+  "$id": "https://suvane.org/schemas/evaluation-gold-set.json",
+  "title": "SUVANÉ Research evaluation gold set",
   "type": "object",
   "required": ["dataset_version", "corpus_version", "top_k", "cases"],
   "properties": {
-    "dataset_version": {"const": "0.1"},
+    "dataset_version": {"enum": ["0.1", "0.2"]},
     "corpus_version": {"type": "string", "minLength": 1},
     "top_k": {"type": "integer", "minimum": 1},
     "cases": {

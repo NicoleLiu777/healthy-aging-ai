@@ -1,0 +1,72 @@
+{
+  "accepted_record_sha256": {
+    "evidence-023cba444f7c3685": "16b646ca303241481efd3aa4a771db8b7c116ec0cd21114ecbe9cfd0c2b86b20",
+    "evidence-085c14e8610af65c": "790089b8eff1f408de073f75a7927ef3c5251fa1377878fa315ef8261c004fd6",
+    "evidence-0ce0b5343616790c": "cf500209926463a82b4edf2f027e4657b0bdadc63943f89bb519062c2677bfb8",
+    "evidence-249fb6a6bad4ca01": "cfc9632336b82f7f8553bb09eb6cf7127caccb87885dd9364cb3102bf8aa475b",
+    "evidence-2731334318920e5b": "991da56ca04e9002bcba8f77e8242a0fb2b166349884c0e7c37dc13b19fc1131",
+    "evidence-39cf6db9644f7fc5": "99edf30d7c272e6b564f91b62262c742a1bd3b309f6f9d202bfd11423c84a50c",
+    "evidence-3f633497e9a9753a": "77bcd1d16b22c55f683dd79bede2c925ab2068907b810e38330305c7dd1e1936",
+    "evidence-4280b88bb9c4adf4": "eda1b28b0749c07973b2db724e40f56cf2e4534509cfb9071b28ddb80ba6c758",
+    "evidence-4b9be15aa77067b6": "79a6e12d466fbcd6bc4500d07e3c17f6e968c2182bd4683c0887e4cbc19b8bba",
+    "evidence-5eff0e010c4727a6": "bca72031acd41423584b16d63efc2c4078fd18e4b3e3e521ea5c125409a9ce46",
+    "evidence-6ac9000aff5779fe": "284e2113e0eca88a3556ee6a2d02ab1971313ad5527062ab4c233d54345463d1",
+    "evidence-71b47a75ffc17711": "bf13089ae7c779c91fae22ee29b3326b6d81d9056cddee4db9802d7dc92b9387",
+    "evidence-95e466ab0863bae5": "90fc484774563d1692db20ced9136ef71713eb4c5d951a4d0000731c847ffde0",
+    "evidence-a26046f743e871cd": "11d906ffc3b694c05649d05a51eb1338e37730388c67d5a97f2ca241a6f0c9fa",
+    "evidence-a6cdee4f3b6508d0": "4ffe548827a9d03ae2b64a814549363332a046e1ec2f3c44cde401baa424f7c4",
+    "evidence-a830652ed1694166": "8f4601cf3b1459ef6f6c1e387420f25df1cf5daff959e57eeeeec5ed868e5909",
+    "evidence-aae61d08b361a906": "bb5b7790465d6332a5bebc6d1f68e196e5bc66001bd320f6027a88a4cdc48284",
+    "evidence-b296af051efc5813": "82482452032aff1290a346240d1133852d55e8979dcf14ccd77aa07b70f48456",
+    "evidence-b97d1341cc9b4f93": "302a7d4d101f4a1246a58c288e868f429e853c1949bb86b539bf7db9cddd25e0",
+    "evidence-bb540ec0a627850d": "64aa95715a3e183bde91e10ab2f44a5572f04d78522f8cd965db39033bc67b98",
+    "evidence-ca0356fcd68e0c7e": "3111b3b9ab719607793189c138319caff3c15a095bc0929e6d17248622ef6d7f",
+    "evidence-cabd92ac6dff9fbf": "a6ba8454cfbd272e4d2dddb641c72e0729f0520e8ed6ef0889f9e1e6f527ca6f",
+    "evidence-cac2a09c737a0739": "4a5e390b47f76dbb8f9b6efb70a47c0c9b0e89c1a9340d4d72485be8c618395f",
+    "evidence-d9eeae0c176c59dc": "763915c47b0e3ba6cf94a46412ed1b36529258947ee5897388daf90bfbc22245",
+    "evidence-e7b2dc9877f4b8da": "50c89ad627808863e39123ffee5059054cf3c55540dc24a6498f3efebc54f279",
+    "evidence-f0d27f84ba98b269": "1b99944ce470db5b48210a36daba3d521872bbfaf9c6b1a759b01d26f9590bd5",
+    "evidence-f157b7a0b1a144ad": "fe8baede587f3d8bd8d3c95e1fabe7b2d1dfd31330875678316c2cb9f600f491",
+    "evidence-f4ed86a62421f6ea": "5f0aa11307e5cc92a7f48a47d2cdfce63838f6edc21112081c4b83beefd3d02a",
+    "evidence-fd5e265f2e58d081": "dca08eb0695d5be4414e9570526f713d4a0b94e0231975ad915cb68eb5e4c557",
+    "evidence-fdc048737639a688": "3f6b77eafaf84bebc34acf88364eacccfa3774bd79ceaa78159d197866a356c3"
+  },
+  "candidate_sha256": "444a30143b8505ae805dfe79caf38ece3d0df4464c3bffc3bad6b507eed4b198",
+  "corpus_id": "corpus-phase-b-reviewed-30-2026-09-20",
+  "corpus_version": "1.0.0",
+  "counts_by_role": {
+    "context": 8,
+    "design": 2,
+    "effectiveness": 18,
+    "evidence_map": 2
+  },
+  "counts_by_theme": {
+    "ai_conversational_agents_mental_health": 10,
+    "older_adult_digital_social_connection": 10,
+    "responsible_ai_companion_design": 10
+  },
+  "deduplication_configuration": {
+    "config_version": "1.0.0",
+    "enable_near_title": true,
+    "minimum_normalized_title_length": 20,
+    "require_same_first_author": true,
+    "require_same_publication_year": true,
+    "title_similarity_threshold": 0.94
+  },
+  "deduplication_sha256": "0fcdfdca8bb392a4e61d58d0b4d9e675dc8aadf99976ea81be6f3199f3004fb5",
+  "generated_on": "2026-09-20",
+  "integrity_sha256": "6c261882a2c6c91b87d9b03581dd864d9c4befd146e1b1d6e677eea0621bd62e",
+  "manifest_version": "1.0.0",
+  "previous_manifest_sha256": null,
+  "schema_version": "1.0.0",
+  "unresolved_quarantine_count": 0,
+  "validation_bundle_sha256": "64537cb71ced0c625c4fc6b241c08f8ec7991be66fa62293436ebff2f105931c",
+  "validation_configuration": {
+    "config_version": "1.0.0",
+    "quarantine_duplicate_entities": true,
+    "quarantine_unknown_access": true,
+    "quarantine_unknown_license": true,
+    "require_verified_provenance": true
+  },
+  "validation_report_id": "validation-bc10c26148aee33bcbc4"
+}

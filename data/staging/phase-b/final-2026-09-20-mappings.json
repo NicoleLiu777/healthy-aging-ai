@@ -1,0 +1,2753 @@
+[
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-023cba444f7c3685-367b4accf9b2"
+      ],
+      "evidence_strength_rationale": [
+        "ref-023cba444f7c3685-367b4accf9b2"
+      ],
+      "implementation_implications": [
+        "ref-023cba444f7c3685-367b4accf9b2"
+      ],
+      "included_studies": [
+        "ref-023cba444f7c3685-367b4accf9b2"
+      ],
+      "intervention": [
+        "ref-023cba444f7c3685-367b4accf9b2"
+      ],
+      "limitations": [
+        "ref-023cba444f7c3685-367b4accf9b2"
+      ],
+      "outcomes_improved": [
+        "ref-023cba444f7c3685-367b4accf9b2"
+      ],
+      "outcomes_not_improved": [
+        "ref-023cba444f7c3685-367b4accf9b2"
+      ],
+      "pilot_metrics": [
+        "ref-023cba444f7c3685-367b4accf9b2"
+      ],
+      "population": [
+        "ref-023cba444f7c3685-367b4accf9b2"
+      ],
+      "sample_size": [
+        "ref-023cba444f7c3685-367b4accf9b2"
+      ],
+      "study_type": [
+        "ref-023cba444f7c3685-367b4accf9b2"
+      ],
+      "topic": [
+        "ref-023cba444f7c3685-367b4accf9b2"
+      ]
+    },
+    "pilot_metrics": [
+      "mindfulness",
+      "momentary stress",
+      "perceived stress",
+      "reappraisal",
+      "well-being"
+    ],
+    "record_id": "evidence-023cba444f7c3685",
+    "review_note": "Approved Phase B mapping for stress-chatbot-2024; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "ELME Study Team"
+      ],
+      "comparison": null,
+      "decision_eligible": true,
+      "doi": "10.2196/50454",
+      "evidence_strength": "early",
+      "evidence_strength_rationale": "The primary stress outcome was null, the intervention was short, and improvements shared by both groups cannot be attributed to ELME.",
+      "id": "stress-chatbot-2024",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Effects of a Chatbot-Based Intervention on Stress and Health-Related Parameters in a Stressed Sample: Randomized Controlled Trial",
+      "limitations": [
+        "The primary stress outcome was null, the intervention was short, and improvements shared by both groups cannot be attributed to ELME."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [
+        "mindfulness",
+        "momentary stress",
+        "perceived stress",
+        "reappraisal",
+        "well-being"
+      ],
+      "population": "118 adults reporting stress",
+      "sample_size": null,
+      "source_role": "effectiveness",
+      "study_type": "randomized trial",
+      "title": "Effects of a Chatbot-Based Intervention on Stress and Health-Related Parameters in a Stressed Sample: Randomized Controlled Trial",
+      "topic": [
+        "ai conversational agents mental health",
+        "mindfulness",
+        "momentary stress",
+        "perceived stress",
+        "reappraisal",
+        "well-being"
+      ],
+      "url": "https://mental.jmir.org/2024/1/e50454",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://mental.jmir.org/2024/1/e50454"
+      ],
+      "year": 2024
+    },
+    "source_record_sha256": "16b646ca303241481efd3aa4a771db8b7c116ec0cd21114ecbe9cfd0c2b86b20"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-085c14e8610af65c-9145269c40cf"
+      ],
+      "evidence_strength_rationale": [
+        "ref-085c14e8610af65c-9145269c40cf"
+      ],
+      "implementation_implications": [
+        "ref-085c14e8610af65c-9145269c40cf"
+      ],
+      "included_studies": [
+        "ref-085c14e8610af65c-9145269c40cf"
+      ],
+      "intervention": [
+        "ref-085c14e8610af65c-9145269c40cf"
+      ],
+      "limitations": [
+        "ref-085c14e8610af65c-9145269c40cf"
+      ],
+      "outcomes_improved": [
+        "ref-085c14e8610af65c-9145269c40cf"
+      ],
+      "outcomes_not_improved": [
+        "ref-085c14e8610af65c-9145269c40cf"
+      ],
+      "pilot_metrics": [
+        "ref-085c14e8610af65c-9145269c40cf"
+      ],
+      "population": [
+        "ref-085c14e8610af65c-9145269c40cf"
+      ],
+      "sample_size": [
+        "ref-085c14e8610af65c-9145269c40cf"
+      ],
+      "study_type": [
+        "ref-085c14e8610af65c-9145269c40cf"
+      ],
+      "topic": [
+        "ref-085c14e8610af65c-9145269c40cf"
+      ]
+    },
+    "pilot_metrics": [],
+    "record_id": "evidence-085c14e8610af65c",
+    "review_note": "Approved Phase B mapping for who-lmm; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "World Health Organization"
+      ],
+      "comparison": null,
+      "decision_eligible": false,
+      "doi": null,
+      "evidence_strength": null,
+      "evidence_strength_rationale": "This is policy guidance, not an effectiveness evaluation; the publication page date and edition history require explicit version confirmation.",
+      "id": "who-lmm",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Ethics and governance of artificial intelligence for health: Guidance on large multi-modal models",
+      "limitations": [
+        "This is policy guidance, not an effectiveness evaluation; the publication page date and edition history require explicit version confirmation."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [],
+      "population": "Scope described in the reviewed source",
+      "sample_size": null,
+      "source_role": "context",
+      "study_type": "policy guidance",
+      "title": "Ethics and governance of artificial intelligence for health: Guidance on large multi-modal models",
+      "topic": [
+        "responsible ai companion design"
+      ],
+      "url": "https://www.who.int/publications/i/item/9789240084759",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://www.who.int/publications/i/item/9789240084759"
+      ],
+      "year": 2025
+    },
+    "source_record_sha256": "790089b8eff1f408de073f75a7927ef3c5251fa1377878fa315ef8261c004fd6"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-0ce0b5343616790c-dd4356f0f1f6"
+      ],
+      "evidence_strength_rationale": [
+        "ref-0ce0b5343616790c-dd4356f0f1f6"
+      ],
+      "implementation_implications": [
+        "ref-0ce0b5343616790c-dd4356f0f1f6"
+      ],
+      "included_studies": [
+        "ref-0ce0b5343616790c-dd4356f0f1f6"
+      ],
+      "intervention": [
+        "ref-0ce0b5343616790c-dd4356f0f1f6"
+      ],
+      "limitations": [
+        "ref-0ce0b5343616790c-dd4356f0f1f6"
+      ],
+      "outcomes_improved": [
+        "ref-0ce0b5343616790c-dd4356f0f1f6"
+      ],
+      "outcomes_not_improved": [
+        "ref-0ce0b5343616790c-dd4356f0f1f6"
+      ],
+      "pilot_metrics": [
+        "ref-0ce0b5343616790c-dd4356f0f1f6"
+      ],
+      "population": [
+        "ref-0ce0b5343616790c-dd4356f0f1f6"
+      ],
+      "sample_size": [
+        "ref-0ce0b5343616790c-dd4356f0f1f6"
+      ],
+      "study_type": [
+        "ref-0ce0b5343616790c-dd4356f0f1f6"
+      ],
+      "topic": [
+        "ref-0ce0b5343616790c-dd4356f0f1f6"
+      ]
+    },
+    "pilot_metrics": [],
+    "record_id": "evidence-0ce0b5343616790c",
+    "review_note": "Approved Phase B mapping for welch-2023-egm; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "Campbell Collaboration"
+      ],
+      "comparison": null,
+      "decision_eligible": false,
+      "doi": null,
+      "evidence_strength": null,
+      "evidence_strength_rationale": "A map describes coverage and gaps, not a pooled intervention effect.",
+      "id": "welch-2023-egm",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Digital interventions to reduce social isolation and loneliness in older adults: An evidence and gap map",
+      "limitations": [
+        "A map describes coverage and gaps, not a pooled intervention effect.",
+        "Searches extended through May 2021; this is not a current exhaustive map."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [],
+      "population": "Older adults outside hospital settings",
+      "sample_size": null,
+      "source_role": "evidence_map",
+      "study_type": "evidence gap map",
+      "title": "Digital interventions to reduce social isolation and loneliness in older adults: An evidence and gap map",
+      "topic": [
+        "older adult digital social connection"
+      ],
+      "url": "https://www.campbellcollaboration.org/review/digital-interventions-social-isolation-loneliness-older-adults-egm/",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://www.campbellcollaboration.org/review/digital-interventions-social-isolation-loneliness-older-adults-egm/"
+      ],
+      "year": 2023
+    },
+    "source_record_sha256": "cf500209926463a82b4edf2f027e4657b0bdadc63943f89bb519062c2677bfb8"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-249fb6a6bad4ca01-b4ced8eb9acb"
+      ],
+      "evidence_strength_rationale": [
+        "ref-249fb6a6bad4ca01-b4ced8eb9acb"
+      ],
+      "implementation_implications": [
+        "ref-249fb6a6bad4ca01-b4ced8eb9acb"
+      ],
+      "included_studies": [
+        "ref-249fb6a6bad4ca01-b4ced8eb9acb"
+      ],
+      "intervention": [
+        "ref-249fb6a6bad4ca01-b4ced8eb9acb"
+      ],
+      "limitations": [
+        "ref-249fb6a6bad4ca01-b4ced8eb9acb"
+      ],
+      "outcomes_improved": [
+        "ref-249fb6a6bad4ca01-b4ced8eb9acb"
+      ],
+      "outcomes_not_improved": [
+        "ref-249fb6a6bad4ca01-b4ced8eb9acb"
+      ],
+      "pilot_metrics": [
+        "ref-249fb6a6bad4ca01-b4ced8eb9acb"
+      ],
+      "population": [
+        "ref-249fb6a6bad4ca01-b4ced8eb9acb"
+      ],
+      "sample_size": [
+        "ref-249fb6a6bad4ca01-b4ced8eb9acb"
+      ],
+      "study_type": [
+        "ref-249fb6a6bad4ca01-b4ced8eb9acb"
+      ],
+      "topic": [
+        "ref-249fb6a6bad4ca01-b4ced8eb9acb"
+      ]
+    },
+    "pilot_metrics": [],
+    "record_id": "evidence-249fb6a6bad4ca01",
+    "review_note": "Approved Phase B mapping for nist-ai-rmf; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "National Institute of Standards and Technology"
+      ],
+      "comparison": null,
+      "decision_eligible": false,
+      "doi": "10.6028/nist.ai.100-1",
+      "evidence_strength": null,
+      "evidence_strength_rationale": "It is cross-sector and voluntary, not companion-specific regulation or evidence of effectiveness.",
+      "id": "nist-ai-rmf",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+      "limitations": [
+        "It is cross-sector and voluntary, not companion-specific regulation or evidence of effectiveness."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [],
+      "population": "Scope described in the reviewed source",
+      "sample_size": null,
+      "source_role": "context",
+      "study_type": "policy guidance",
+      "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+      "topic": [
+        "responsible ai companion design"
+      ],
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf"
+      ],
+      "year": 2023
+    },
+    "source_record_sha256": "cfc9632336b82f7f8553bb09eb6cf7127caccb87885dd9364cb3102bf8aa475b"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-2731334318920e5b-d87aca8322ef"
+      ],
+      "evidence_strength_rationale": [
+        "ref-2731334318920e5b-d87aca8322ef"
+      ],
+      "implementation_implications": [
+        "ref-2731334318920e5b-d87aca8322ef"
+      ],
+      "included_studies": [
+        "ref-2731334318920e5b-d87aca8322ef"
+      ],
+      "intervention": [
+        "ref-2731334318920e5b-d87aca8322ef"
+      ],
+      "limitations": [
+        "ref-2731334318920e5b-d87aca8322ef"
+      ],
+      "outcomes_improved": [
+        "ref-2731334318920e5b-d87aca8322ef"
+      ],
+      "outcomes_not_improved": [
+        "ref-2731334318920e5b-d87aca8322ef"
+      ],
+      "pilot_metrics": [
+        "ref-2731334318920e5b-d87aca8322ef"
+      ],
+      "population": [
+        "ref-2731334318920e5b-d87aca8322ef"
+      ],
+      "sample_size": [
+        "ref-2731334318920e5b-d87aca8322ef"
+      ],
+      "study_type": [
+        "ref-2731334318920e5b-d87aca8322ef"
+      ],
+      "topic": [
+        "ref-2731334318920e5b-d87aca8322ef"
+      ]
+    },
+    "pilot_metrics": [
+      "loneliness"
+    ],
+    "record_id": "evidence-2731334318920e5b",
+    "review_note": "Approved Phase B mapping for technology-loneliness-2026; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-20",
+    "runtime": {
+      "authors": [
+        "Zdenek Meier",
+        "Marie Buchtova",
+        "Jan Sandora",
+        "Lukas Novak",
+        "Jakub Helvich",
+        "Ondrej Buchta",
+        "Jana Furstova",
+        "Klara Malinakova",
+        "Peter Tavel"
+      ],
+      "comparison": null,
+      "decision_eligible": true,
+      "doi": "10.2196/80059",
+      "evidence_strength": "limited",
+      "evidence_strength_rationale": "The review was not older-adult-only, intervention-type moderators could not be tested, and the prediction interval included benefit and harm.",
+      "id": "technology-loneliness-2026",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Efficacy of Technology-Based Interventions on the Reduction of Loneliness: Systematic Review and Meta-Analysis",
+      "limitations": [
+        "The review was not older-adult-only, intervention-type moderators could not be tested, and the prediction interval included benefit and harm."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [
+        "loneliness"
+      ],
+      "population": "Participants across the lifespan in seven randomized trials",
+      "sample_size": null,
+      "source_role": "effectiveness",
+      "study_type": "systematic review meta analysis",
+      "title": "Efficacy of Technology-Based Interventions on the Reduction of Loneliness: Systematic Review and Meta-Analysis",
+      "topic": [
+        "loneliness",
+        "older adult digital social connection"
+      ],
+      "url": "https://www.jmir.org/2026/1/e80059",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://doi.org/10.2196/80059",
+        "https://www.jmir.org/2026/1/e80059"
+      ],
+      "year": 2026
+    },
+    "source_record_sha256": "991da56ca04e9002bcba8f77e8242a0fb2b166349884c0e7c37dc13b19fc1131"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-39cf6db9644f7fc5-3197ec818a6b"
+      ],
+      "evidence_strength_rationale": [
+        "ref-39cf6db9644f7fc5-3197ec818a6b"
+      ],
+      "implementation_implications": [
+        "ref-39cf6db9644f7fc5-3197ec818a6b"
+      ],
+      "included_studies": [
+        "ref-39cf6db9644f7fc5-3197ec818a6b"
+      ],
+      "intervention": [
+        "ref-39cf6db9644f7fc5-3197ec818a6b"
+      ],
+      "limitations": [
+        "ref-39cf6db9644f7fc5-3197ec818a6b"
+      ],
+      "outcomes_improved": [
+        "ref-39cf6db9644f7fc5-3197ec818a6b"
+      ],
+      "outcomes_not_improved": [
+        "ref-39cf6db9644f7fc5-3197ec818a6b"
+      ],
+      "pilot_metrics": [
+        "ref-39cf6db9644f7fc5-3197ec818a6b"
+      ],
+      "population": [
+        "ref-39cf6db9644f7fc5-3197ec818a6b"
+      ],
+      "sample_size": [
+        "ref-39cf6db9644f7fc5-3197ec818a6b"
+      ],
+      "study_type": [
+        "ref-39cf6db9644f7fc5-3197ec818a6b"
+      ],
+      "topic": [
+        "ref-39cf6db9644f7fc5-3197ec818a6b"
+      ]
+    },
+    "pilot_metrics": [],
+    "record_id": "evidence-39cf6db9644f7fc5",
+    "review_note": "Approved Phase B mapping for marziali-2024; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "Rachele Alessandra Marziali",
+        "Claudia Franceschetti",
+        "Adrian Dinculescu",
+        "Alexandru Nistorescu",
+        "Dominic Mircea Kristály",
+        "Adrian Alexandru Moșoi",
+        "Ronny Broekx",
+        "Mihaela Marin",
+        "Cristian Vizitiu",
+        "Sorin-Aurel Moraru",
+        "Lorena Rossi",
+        "Mirko Di Rosa"
+      ],
+      "comparison": null,
+      "decision_eligible": false,
+      "doi": "10.2196/50534",
+      "evidence_strength": null,
+      "evidence_strength_rationale": "The review is heterogeneous and only a minority of studies directly measured loneliness or social isolation.",
+      "id": "marziali-2024",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Reducing Loneliness and Social Isolation of Older Adults Through Voice Assistants: Literature Review and Bibliometric Analysis",
+      "limitations": [
+        "The review is heterogeneous and only a minority of studies directly measured loneliness or social isolation."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [],
+      "population": "Older adults in voice-assistant studies",
+      "sample_size": null,
+      "source_role": "evidence_map",
+      "study_type": "systematic review",
+      "title": "Reducing Loneliness and Social Isolation of Older Adults Through Voice Assistants: Literature Review and Bibliometric Analysis",
+      "topic": [
+        "older adult digital social connection"
+      ],
+      "url": "https://www.jmir.org/2024/1/e50534/",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://www.jmir.org/2024/1/e50534/"
+      ],
+      "year": 2024
+    },
+    "source_record_sha256": "99edf30d7c272e6b564f91b62262c742a1bd3b309f6f9d202bfd11423c84a50c"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-3f633497e9a9753a-bc19aaf68e80"
+      ],
+      "evidence_strength_rationale": [
+        "ref-3f633497e9a9753a-bc19aaf68e80"
+      ],
+      "implementation_implications": [
+        "ref-3f633497e9a9753a-bc19aaf68e80"
+      ],
+      "included_studies": [
+        "ref-3f633497e9a9753a-bc19aaf68e80"
+      ],
+      "intervention": [
+        "ref-3f633497e9a9753a-bc19aaf68e80"
+      ],
+      "limitations": [
+        "ref-3f633497e9a9753a-bc19aaf68e80"
+      ],
+      "outcomes_improved": [
+        "ref-3f633497e9a9753a-bc19aaf68e80"
+      ],
+      "outcomes_not_improved": [
+        "ref-3f633497e9a9753a-bc19aaf68e80"
+      ],
+      "pilot_metrics": [
+        "ref-3f633497e9a9753a-bc19aaf68e80"
+      ],
+      "population": [
+        "ref-3f633497e9a9753a-bc19aaf68e80"
+      ],
+      "sample_size": [
+        "ref-3f633497e9a9753a-bc19aaf68e80"
+      ],
+      "study_type": [
+        "ref-3f633497e9a9753a-bc19aaf68e80"
+      ],
+      "topic": [
+        "ref-3f633497e9a9753a-bc19aaf68e80"
+      ]
+    },
+    "pilot_metrics": [
+      "anxiety symptoms",
+      "depressive symptoms",
+      "four-week retention"
+    ],
+    "record_id": "evidence-3f633497e9a9753a",
+    "review_note": "Approved Phase B mapping for youper-2021; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "Ashish Mehta",
+        "Andrea Nicole Niles",
+        "Jose Hamilton Vargas",
+        "Thiago Marafon",
+        "Diego Dotta Couto",
+        "James Jonathan Gross"
+      ],
+      "comparison": null,
+      "decision_eligible": true,
+      "doi": "10.2196/26771",
+      "evidence_strength": "early",
+      "evidence_strength_rationale": "Paying-user selection, attrition and lack of randomized comparison limit causal conclusions.",
+      "id": "youper-2021",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Acceptability and Effectiveness of Artificial Intelligence Therapy for Anxiety and Depression (Youper): Longitudinal Observational Study",
+      "limitations": [
+        "Paying-user selection, attrition and lack of randomized comparison limit causal conclusions.",
+        "Several authors were affiliated with Youper; older-adult applicability requires separate assessment."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [
+        "anxiety symptoms",
+        "depressive symptoms",
+        "four-week retention"
+      ],
+      "population": "Paying Youper users who consented to research use of their data",
+      "sample_size": null,
+      "source_role": "effectiveness",
+      "study_type": "observational study",
+      "title": "Acceptability and Effectiveness of Artificial Intelligence Therapy for Anxiety and Depression (Youper): Longitudinal Observational Study",
+      "topic": [
+        "ai conversational agents mental health",
+        "anxiety symptoms",
+        "depressive symptoms",
+        "four-week retention"
+      ],
+      "url": "https://www.jmir.org/2021/6/e26771",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://www.jmir.org/2021/6/e26771"
+      ],
+      "year": 2021
+    },
+    "source_record_sha256": "77bcd1d16b22c55f683dd79bede2c925ab2068907b810e38330305c7dd1e1936"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-4280b88bb9c4adf4-f090eacb97c7"
+      ],
+      "evidence_strength_rationale": [
+        "ref-4280b88bb9c4adf4-f090eacb97c7"
+      ],
+      "implementation_implications": [
+        "ref-4280b88bb9c4adf4-f090eacb97c7"
+      ],
+      "included_studies": [
+        "ref-4280b88bb9c4adf4-f090eacb97c7"
+      ],
+      "intervention": [
+        "ref-4280b88bb9c4adf4-f090eacb97c7"
+      ],
+      "limitations": [
+        "ref-4280b88bb9c4adf4-f090eacb97c7"
+      ],
+      "outcomes_improved": [
+        "ref-4280b88bb9c4adf4-f090eacb97c7"
+      ],
+      "outcomes_not_improved": [
+        "ref-4280b88bb9c4adf4-f090eacb97c7"
+      ],
+      "pilot_metrics": [
+        "ref-4280b88bb9c4adf4-f090eacb97c7"
+      ],
+      "population": [
+        "ref-4280b88bb9c4adf4-f090eacb97c7"
+      ],
+      "sample_size": [
+        "ref-4280b88bb9c4adf4-f090eacb97c7"
+      ],
+      "study_type": [
+        "ref-4280b88bb9c4adf4-f090eacb97c7"
+      ],
+      "topic": [
+        "ref-4280b88bb9c4adf4-f090eacb97c7"
+      ]
+    },
+    "pilot_metrics": [
+      "loneliness",
+      "quality of life",
+      "social isolation",
+      "social support"
+    ],
+    "record_id": "evidence-4280b88bb9c4adf4",
+    "review_note": "Approved Phase B mapping for prism2-2024; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-20",
+    "runtime": {
+      "authors": [
+        "Sara J Czaja",
+        "Neil Charness",
+        "Wendy A Rogers",
+        "Joseph Sharit",
+        "Jerad H Moxley",
+        "Walter R Boot"
+      ],
+      "comparison": null,
+      "decision_eligible": true,
+      "doi": "10.1093/geroni/igae042",
+      "evidence_strength": "limited",
+      "evidence_strength_rationale": "Nine-month data were disrupted by COVID-19, outcomes varied by living context, and common training/contact may explain improvement in both groups.",
+      "id": "prism2-2024",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "The Benefits of Technology for Engaging Aging Adults: Findings From the PRISM 2.0 Trial",
+      "limitations": [
+        "Nine-month data were disrupted by COVID-19, outcomes varied by living context, and common training/contact may explain improvement in both groups."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [
+        "loneliness",
+        "quality of life",
+        "social isolation",
+        "social support"
+      ],
+      "population": "245 adults aged 64–99 in rural and senior-housing settings",
+      "sample_size": null,
+      "source_role": "effectiveness",
+      "study_type": "randomized trial",
+      "title": "The Benefits of Technology for Engaging Aging Adults: Findings From the PRISM 2.0 Trial",
+      "topic": [
+        "loneliness",
+        "older adult digital social connection",
+        "quality of life",
+        "social isolation",
+        "social support"
+      ],
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38854853/",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://doi.org/10.1093/geroni/igae042",
+        "https://pubmed.ncbi.nlm.nih.gov/38854853/"
+      ],
+      "year": 2024
+    },
+    "source_record_sha256": "eda1b28b0749c07973b2db724e40f56cf2e4534509cfb9071b28ddb80ba6c758"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-4b9be15aa77067b6-88daa8e0a793"
+      ],
+      "evidence_strength_rationale": [
+        "ref-4b9be15aa77067b6-88daa8e0a793"
+      ],
+      "implementation_implications": [
+        "ref-4b9be15aa77067b6-88daa8e0a793"
+      ],
+      "included_studies": [
+        "ref-4b9be15aa77067b6-88daa8e0a793"
+      ],
+      "intervention": [
+        "ref-4b9be15aa77067b6-88daa8e0a793"
+      ],
+      "limitations": [
+        "ref-4b9be15aa77067b6-88daa8e0a793"
+      ],
+      "outcomes_improved": [
+        "ref-4b9be15aa77067b6-88daa8e0a793"
+      ],
+      "outcomes_not_improved": [
+        "ref-4b9be15aa77067b6-88daa8e0a793"
+      ],
+      "pilot_metrics": [
+        "ref-4b9be15aa77067b6-88daa8e0a793"
+      ],
+      "population": [
+        "ref-4b9be15aa77067b6-88daa8e0a793"
+      ],
+      "sample_size": [
+        "ref-4b9be15aa77067b6-88daa8e0a793"
+      ],
+      "study_type": [
+        "ref-4b9be15aa77067b6-88daa8e0a793"
+      ],
+      "topic": [
+        "ref-4b9be15aa77067b6-88daa8e0a793"
+      ]
+    },
+    "pilot_metrics": [
+      "loneliness"
+    ],
+    "record_id": "evidence-4b9be15aa77067b6",
+    "review_note": "Approved Phase B mapping for digital-loneliness-2021; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "Syed Ghulam Sarwar Shah",
+        "David Nogueras",
+        "Hugo C M van Woerden",
+        "Vasiliki Kiparoglou"
+      ],
+      "comparison": null,
+      "decision_eligible": true,
+      "doi": "10.2196/24712",
+      "evidence_strength": "limited",
+      "evidence_strength_rationale": "Only six heterogeneous studies were included, searches ended July 2019, and effect estimates were imprecise.",
+      "id": "digital-loneliness-2021",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Evaluation of the Effectiveness of Digital Technology Interventions to Reduce Loneliness in Older Adults: Systematic Review and Meta-analysis",
+      "limitations": [
+        "Only six heterogeneous studies were included, searches ended July 2019, and effect estimates were imprecise."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [
+        "loneliness"
+      ],
+      "population": "646 older adults across six heterogeneous studies",
+      "sample_size": null,
+      "source_role": "effectiveness",
+      "study_type": "systematic review meta analysis",
+      "title": "Evaluation of the Effectiveness of Digital Technology Interventions to Reduce Loneliness in Older Adults: Systematic Review and Meta-analysis",
+      "topic": [
+        "loneliness",
+        "older adult digital social connection"
+      ],
+      "url": "https://www.jmir.org/2021/6/e24712",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://www.jmir.org/2021/6/e24712"
+      ],
+      "year": 2021
+    },
+    "source_record_sha256": "79a6e12d466fbcd6bc4500d07e3c17f6e968c2182bd4683c0887e4cbc19b8bba"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-5eff0e010c4727a6-164c228a13b8"
+      ],
+      "evidence_strength_rationale": [
+        "ref-5eff0e010c4727a6-164c228a13b8"
+      ],
+      "implementation_implications": [
+        "ref-5eff0e010c4727a6-164c228a13b8"
+      ],
+      "included_studies": [
+        "ref-5eff0e010c4727a6-164c228a13b8"
+      ],
+      "intervention": [
+        "ref-5eff0e010c4727a6-164c228a13b8"
+      ],
+      "limitations": [
+        "ref-5eff0e010c4727a6-164c228a13b8"
+      ],
+      "outcomes_improved": [
+        "ref-5eff0e010c4727a6-164c228a13b8"
+      ],
+      "outcomes_not_improved": [
+        "ref-5eff0e010c4727a6-164c228a13b8"
+      ],
+      "pilot_metrics": [
+        "ref-5eff0e010c4727a6-164c228a13b8"
+      ],
+      "population": [
+        "ref-5eff0e010c4727a6-164c228a13b8"
+      ],
+      "sample_size": [
+        "ref-5eff0e010c4727a6-164c228a13b8"
+      ],
+      "study_type": [
+        "ref-5eff0e010c4727a6-164c228a13b8"
+      ],
+      "topic": [
+        "ref-5eff0e010c4727a6-164c228a13b8"
+      ]
+    },
+    "pilot_metrics": [
+      "anxiety",
+      "depression",
+      "feeding and eating disorder risk"
+    ],
+    "record_id": "evidence-5eff0e010c4727a6",
+    "review_note": "Approved Phase B mapping for heinz-2025; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "Michael V Heinz",
+        "Nicholas M Keleher",
+        "Therabot Study Team"
+      ],
+      "comparison": null,
+      "decision_eligible": true,
+      "doi": "10.1056/aioa2400802",
+      "evidence_strength": "moderate",
+      "evidence_strength_rationale": "Wait-list comparison, possible selection toward younger technology-positive participants, paid assessments, only four weeks of postintervention follow-up, and intensive expert safety supervision limit transferability.",
+      "id": "heinz-2025",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Randomized Trial of a Generative AI Chatbot for Mental Health Treatment",
+      "limitations": [
+        "Wait-list comparison, possible selection toward younger technology-positive participants, paid assessments, only four weeks of postintervention follow-up, and intensive expert safety supervision limit transferability."
+      ],
+      "outcomes_improved": [
+        "anxiety",
+        "depression",
+        "feeding and eating disorder risk"
+      ],
+      "outcomes_not_improved": [],
+      "population": "210 adults recruited nationally for a four-week wait-list trial",
+      "sample_size": null,
+      "source_role": "effectiveness",
+      "study_type": "randomized trial",
+      "title": "Randomized Trial of a Generative AI Chatbot for Mental Health Treatment",
+      "topic": [
+        "ai conversational agents mental health",
+        "anxiety",
+        "depression",
+        "feeding and eating disorder risk"
+      ],
+      "url": "https://ai.nejm.org/doi/full/10.1056/AIoa2400802",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://ai.nejm.org/doi/full/10.1056/AIoa2400802"
+      ],
+      "year": 2025
+    },
+    "source_record_sha256": "bca72031acd41423584b16d63efc2c4078fd18e4b3e3e521ea5c125409a9ce46"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-6ac9000aff5779fe-1a84fa3276d1"
+      ],
+      "evidence_strength_rationale": [
+        "ref-6ac9000aff5779fe-1a84fa3276d1"
+      ],
+      "implementation_implications": [
+        "ref-6ac9000aff5779fe-1a84fa3276d1"
+      ],
+      "included_studies": [
+        "ref-6ac9000aff5779fe-1a84fa3276d1"
+      ],
+      "intervention": [
+        "ref-6ac9000aff5779fe-1a84fa3276d1"
+      ],
+      "limitations": [
+        "ref-6ac9000aff5779fe-1a84fa3276d1"
+      ],
+      "outcomes_improved": [
+        "ref-6ac9000aff5779fe-1a84fa3276d1"
+      ],
+      "outcomes_not_improved": [
+        "ref-6ac9000aff5779fe-1a84fa3276d1"
+      ],
+      "pilot_metrics": [
+        "ref-6ac9000aff5779fe-1a84fa3276d1"
+      ],
+      "population": [
+        "ref-6ac9000aff5779fe-1a84fa3276d1"
+      ],
+      "sample_size": [
+        "ref-6ac9000aff5779fe-1a84fa3276d1"
+      ],
+      "study_type": [
+        "ref-6ac9000aff5779fe-1a84fa3276d1"
+      ],
+      "topic": [
+        "ref-6ac9000aff5779fe-1a84fa3276d1"
+      ]
+    },
+    "pilot_metrics": [],
+    "record_id": "evidence-6ac9000aff5779fe",
+    "review_note": "Approved Phase B mapping for who-2025; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-20",
+    "runtime": {
+      "authors": [
+        "World Health Organization",
+        "WHO Commission on Social Connection"
+      ],
+      "comparison": null,
+      "decision_eligible": false,
+      "doi": null,
+      "evidence_strength": null,
+      "evidence_strength_rationale": "This policy report does not establish the effectiveness of an AI companion.",
+      "id": "who-2025",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "From loneliness to social connection: charting a path to healthier societies",
+      "limitations": [
+        "This policy report does not establish the effectiveness of an AI companion."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [],
+      "population": "General populations affected by loneliness and social isolation",
+      "sample_size": null,
+      "source_role": "context",
+      "study_type": "policy guidance",
+      "title": "From loneliness to social connection: charting a path to healthier societies",
+      "topic": [
+        "responsible ai companion design"
+      ],
+      "url": "https://www.who.int/publications/i/item/9789240112360",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://iris.who.int/items/39134dc6-4753-4900-b942-b7e0e16f5758",
+        "https://www.who.int/publications/i/item/9789240112360"
+      ],
+      "year": 2025
+    },
+    "source_record_sha256": "284e2113e0eca88a3556ee6a2d02ab1971313ad5527062ab4c233d54345463d1"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-71b47a75ffc17711-eadd130dba3a"
+      ],
+      "evidence_strength_rationale": [
+        "ref-71b47a75ffc17711-eadd130dba3a"
+      ],
+      "implementation_implications": [
+        "ref-71b47a75ffc17711-eadd130dba3a"
+      ],
+      "included_studies": [
+        "ref-71b47a75ffc17711-eadd130dba3a"
+      ],
+      "intervention": [
+        "ref-71b47a75ffc17711-eadd130dba3a"
+      ],
+      "limitations": [
+        "ref-71b47a75ffc17711-eadd130dba3a"
+      ],
+      "outcomes_improved": [
+        "ref-71b47a75ffc17711-eadd130dba3a"
+      ],
+      "outcomes_not_improved": [
+        "ref-71b47a75ffc17711-eadd130dba3a"
+      ],
+      "pilot_metrics": [
+        "ref-71b47a75ffc17711-eadd130dba3a"
+      ],
+      "population": [
+        "ref-71b47a75ffc17711-eadd130dba3a"
+      ],
+      "sample_size": [
+        "ref-71b47a75ffc17711-eadd130dba3a"
+      ],
+      "study_type": [
+        "ref-71b47a75ffc17711-eadd130dba3a"
+      ],
+      "topic": [
+        "ref-71b47a75ffc17711-eadd130dba3a"
+      ]
+    },
+    "pilot_metrics": [
+      "loneliness",
+      "social isolation"
+    ],
+    "record_id": "evidence-71b47a75ffc17711",
+    "review_note": "Approved Phase B mapping for noone-2020; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "Chris Noone",
+        "Jenny McSharry",
+        "Mike Smalle",
+        "Annette Burns",
+        "Paul Dwan",
+        "David Devane",
+        "Marie Morrissey"
+      ],
+      "comparison": null,
+      "decision_eligible": true,
+      "doi": "10.1002/14651858.cd013632",
+      "evidence_strength": "early",
+      "evidence_strength_rationale": "The evidence came from one study context, was very low certainty, and does not establish effects for other digital interventions.",
+      "id": "noone-2020",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Video calls for reducing social isolation and loneliness in older people: a rapid review",
+      "limitations": [
+        "The evidence came from one study context, was very low certainty, and does not establish effects for other digital interventions."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [
+        "loneliness",
+        "social isolation"
+      ],
+      "population": "201 older nursing-home residents across three cluster quasi-randomized studies",
+      "sample_size": null,
+      "source_role": "effectiveness",
+      "study_type": "systematic review",
+      "title": "Video calls for reducing social isolation and loneliness in older people: a rapid review",
+      "topic": [
+        "loneliness",
+        "older adult digital social connection",
+        "social isolation"
+      ],
+      "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD013632/abstract",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD013632/abstract"
+      ],
+      "year": 2020
+    },
+    "source_record_sha256": "bf13089ae7c779c91fae22ee29b3326b6d81d9056cddee4db9802d7dc92b9387"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-95e466ab0863bae5-c9f654a3634a"
+      ],
+      "evidence_strength_rationale": [
+        "ref-95e466ab0863bae5-c9f654a3634a"
+      ],
+      "implementation_implications": [
+        "ref-95e466ab0863bae5-c9f654a3634a"
+      ],
+      "included_studies": [
+        "ref-95e466ab0863bae5-c9f654a3634a"
+      ],
+      "intervention": [
+        "ref-95e466ab0863bae5-c9f654a3634a"
+      ],
+      "limitations": [
+        "ref-95e466ab0863bae5-c9f654a3634a"
+      ],
+      "outcomes_improved": [
+        "ref-95e466ab0863bae5-c9f654a3634a"
+      ],
+      "outcomes_not_improved": [
+        "ref-95e466ab0863bae5-c9f654a3634a"
+      ],
+      "pilot_metrics": [
+        "ref-95e466ab0863bae5-c9f654a3634a"
+      ],
+      "population": [
+        "ref-95e466ab0863bae5-c9f654a3634a"
+      ],
+      "sample_size": [
+        "ref-95e466ab0863bae5-c9f654a3634a"
+      ],
+      "study_type": [
+        "ref-95e466ab0863bae5-c9f654a3634a"
+      ],
+      "topic": [
+        "ref-95e466ab0863bae5-c9f654a3634a"
+      ]
+    },
+    "pilot_metrics": [
+      "loneliness",
+      "social support",
+      "well-being"
+    ],
+    "record_id": "evidence-95e466ab0863bae5",
+    "review_note": "Approved Phase B mapping for prism-2018; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "Sara J Czaja",
+        "Walter R Boot",
+        "Neil Charness",
+        "Wendy A Rogers",
+        "Joseph Sharit"
+      ],
+      "comparison": null,
+      "decision_eligible": true,
+      "doi": "10.1093/geront/gnw249",
+      "evidence_strength": "moderate",
+      "evidence_strength_rationale": "The bundled system included internet access, training, technical support, and multiple functions, so results cannot isolate one feature or an AI companion.",
+      "id": "prism-2018",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Improving Social Support for Older Adults Through Technology: Findings From the PRISM Randomized Controlled Trial",
+      "limitations": [
+        "The bundled system included internet access, training, technical support, and multiple functions, so results cannot isolate one feature or an AI companion."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [
+        "loneliness",
+        "social support",
+        "well-being"
+      ],
+      "population": "300 community-dwelling older adults at risk of social isolation",
+      "sample_size": null,
+      "source_role": "effectiveness",
+      "study_type": "randomized trial",
+      "title": "Improving Social Support for Older Adults Through Technology: Findings From the PRISM Randomized Controlled Trial",
+      "topic": [
+        "loneliness",
+        "older adult digital social connection",
+        "social support",
+        "well-being"
+      ],
+      "url": "https://europepmc.org/article/PMC/PMC5946917",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://europepmc.org/article/PMC/PMC5946917"
+      ],
+      "year": 2018
+    },
+    "source_record_sha256": "90fc484774563d1692db20ced9136ef71713eb4c5d951a4d0000731c847ffde0"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-a26046f743e871cd-37518cbc1c81"
+      ],
+      "evidence_strength_rationale": [
+        "ref-a26046f743e871cd-37518cbc1c81"
+      ],
+      "implementation_implications": [
+        "ref-a26046f743e871cd-37518cbc1c81"
+      ],
+      "included_studies": [
+        "ref-a26046f743e871cd-37518cbc1c81"
+      ],
+      "intervention": [
+        "ref-a26046f743e871cd-37518cbc1c81"
+      ],
+      "limitations": [
+        "ref-a26046f743e871cd-37518cbc1c81"
+      ],
+      "outcomes_improved": [
+        "ref-a26046f743e871cd-37518cbc1c81"
+      ],
+      "outcomes_not_improved": [
+        "ref-a26046f743e871cd-37518cbc1c81"
+      ],
+      "pilot_metrics": [
+        "ref-a26046f743e871cd-37518cbc1c81"
+      ],
+      "population": [
+        "ref-a26046f743e871cd-37518cbc1c81"
+      ],
+      "sample_size": [
+        "ref-a26046f743e871cd-37518cbc1c81"
+      ],
+      "study_type": [
+        "ref-a26046f743e871cd-37518cbc1c81"
+      ],
+      "topic": [
+        "ref-a26046f743e871cd-37518cbc1c81"
+      ]
+    },
+    "pilot_metrics": [
+      "older-adult health and well-being outcomes"
+    ],
+    "record_id": "evidence-a26046f743e871cd",
+    "review_note": "Approved Phase B mapping for dino-2025; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "Michael Joseph Dino",
+        "Chloe Margalaux Villafuerte",
+        "Veronica A Decker",
+        "Janet Lopez",
+        "Luis Ezra D Cruz",
+        "Gerald C Dino",
+        "Jenica Ana Rivero",
+        "Patrick Tracy Balbin",
+        "Eloisa Mallo",
+        "Cheryl Briggs",
+        "Ladda Thiamwong",
+        "Mona Shattell"
+      ],
+      "comparison": null,
+      "decision_eligible": true,
+      "doi": "10.3390/healthcare13172253",
+      "evidence_strength": "early",
+      "evidence_strength_rationale": "Interventions, outcomes, populations, and study purposes were heterogeneous; narrative positivity is not a pooled causal estimate.",
+      "id": "dino-2025",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Remote Virtual Interactive Agents for Older Adults: Exploring Its Science via Network Analysis and Systematic Review",
+      "limitations": [
+        "Interventions, outcomes, populations, and study purposes were heterogeneous; narrative positivity is not a pooled causal estimate."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [
+        "older-adult health and well-being outcomes"
+      ],
+      "population": "Older adults in remote virtual interactive-agent studies",
+      "sample_size": null,
+      "source_role": "effectiveness",
+      "study_type": "systematic review",
+      "title": "Remote Virtual Interactive Agents for Older Adults: Exploring Its Science via Network Analysis and Systematic Review",
+      "topic": [
+        "older adult digital social connection",
+        "older-adult health and well-being outcomes"
+      ],
+      "url": "https://www.mdpi.com/2227-9032/13/17/2253",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://www.mdpi.com/2227-9032/13/17/2253"
+      ],
+      "year": 2025
+    },
+    "source_record_sha256": "11d906ffc3b694c05649d05a51eb1338e37730388c67d5a97f2ca241a6f0c9fa"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-a6cdee4f3b6508d0-6fe60e640c1e"
+      ],
+      "evidence_strength_rationale": [
+        "ref-a6cdee4f3b6508d0-6fe60e640c1e"
+      ],
+      "implementation_implications": [
+        "ref-a6cdee4f3b6508d0-6fe60e640c1e"
+      ],
+      "included_studies": [
+        "ref-a6cdee4f3b6508d0-6fe60e640c1e"
+      ],
+      "intervention": [
+        "ref-a6cdee4f3b6508d0-6fe60e640c1e"
+      ],
+      "limitations": [
+        "ref-a6cdee4f3b6508d0-6fe60e640c1e"
+      ],
+      "outcomes_improved": [
+        "ref-a6cdee4f3b6508d0-6fe60e640c1e"
+      ],
+      "outcomes_not_improved": [
+        "ref-a6cdee4f3b6508d0-6fe60e640c1e"
+      ],
+      "pilot_metrics": [
+        "ref-a6cdee4f3b6508d0-6fe60e640c1e"
+      ],
+      "population": [
+        "ref-a6cdee4f3b6508d0-6fe60e640c1e"
+      ],
+      "sample_size": [
+        "ref-a6cdee4f3b6508d0-6fe60e640c1e"
+      ],
+      "study_type": [
+        "ref-a6cdee4f3b6508d0-6fe60e640c1e"
+      ],
+      "topic": [
+        "ref-a6cdee4f3b6508d0-6fe60e640c1e"
+      ]
+    },
+    "pilot_metrics": [
+      "depression",
+      "loneliness",
+      "quality of life"
+    ],
+    "record_id": "evidence-a6cdee4f3b6508d0",
+    "review_note": "Approved Phase B mapping for tsai-2020; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "Hsiu-Hsin Tsai",
+        "Yu-Chen Cheng",
+        "Hsiu-Hung Shieh",
+        "Ya-Ching Chang"
+      ],
+      "comparison": null,
+      "decision_eligible": true,
+      "doi": "10.1186/s12877-020-1426-2",
+      "evidence_strength": "limited",
+      "evidence_strength_rationale": "Sites rather than individual residents determined study groups, the sample was small and setting-specific, and the design was not an individually randomized trial.",
+      "id": "tsai-2020",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Effects of a smartphone-based videoconferencing program for older nursing home residents on depression, loneliness, and quality of life: a quasi-experimental study",
+      "limitations": [
+        "Sites rather than individual residents determined study groups, the sample was small and setting-specific, and the design was not an individually randomized trial."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [
+        "depression",
+        "loneliness",
+        "quality of life"
+      ],
+      "population": "62 older nursing-home residents",
+      "sample_size": null,
+      "source_role": "effectiveness",
+      "study_type": "controlled trial",
+      "title": "Effects of a smartphone-based videoconferencing program for older nursing home residents on depression, loneliness, and quality of life: a quasi-experimental study",
+      "topic": [
+        "depression",
+        "loneliness",
+        "older adult digital social connection",
+        "quality of life"
+      ],
+      "url": "https://europepmc.org/article/MED/31992217",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://europepmc.org/article/MED/31992217"
+      ],
+      "year": 2020
+    },
+    "source_record_sha256": "4ffe548827a9d03ae2b64a814549363332a046e1ec2f3c44cde401baa424f7c4"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-a830652ed1694166-7e22942857f1"
+      ],
+      "evidence_strength_rationale": [
+        "ref-a830652ed1694166-7e22942857f1"
+      ],
+      "implementation_implications": [
+        "ref-a830652ed1694166-7e22942857f1"
+      ],
+      "included_studies": [
+        "ref-a830652ed1694166-7e22942857f1"
+      ],
+      "intervention": [
+        "ref-a830652ed1694166-7e22942857f1"
+      ],
+      "limitations": [
+        "ref-a830652ed1694166-7e22942857f1"
+      ],
+      "outcomes_improved": [
+        "ref-a830652ed1694166-7e22942857f1"
+      ],
+      "outcomes_not_improved": [
+        "ref-a830652ed1694166-7e22942857f1"
+      ],
+      "pilot_metrics": [
+        "ref-a830652ed1694166-7e22942857f1"
+      ],
+      "population": [
+        "ref-a830652ed1694166-7e22942857f1"
+      ],
+      "sample_size": [
+        "ref-a830652ed1694166-7e22942857f1"
+      ],
+      "study_type": [
+        "ref-a830652ed1694166-7e22942857f1"
+      ],
+      "topic": [
+        "ref-a830652ed1694166-7e22942857f1"
+      ]
+    },
+    "pilot_metrics": [],
+    "record_id": "evidence-a830652ed1694166",
+    "review_note": "Approved Phase B mapping for oecd-ai-principles; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "OECD"
+      ],
+      "comparison": null,
+      "decision_eligible": false,
+      "doi": null,
+      "evidence_strength": null,
+      "evidence_strength_rationale": "The principles are general policy guidance, not companion effectiveness evidence; the 2019 recommendation was updated in May 2024 and the version must be preserved.",
+      "id": "oecd-ai-principles",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "OECD AI Principles overview",
+      "limitations": [
+        "The principles are general policy guidance, not companion effectiveness evidence; the 2019 recommendation was updated in May 2024 and the version must be preserved."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [],
+      "population": "Scope described in the reviewed source",
+      "sample_size": null,
+      "source_role": "context",
+      "study_type": "policy guidance",
+      "title": "OECD AI Principles overview",
+      "topic": [
+        "responsible ai companion design"
+      ],
+      "url": "https://oecd.ai/en/ai-principles",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://oecd.ai/en/ai-principles"
+      ],
+      "year": 2024
+    },
+    "source_record_sha256": "8f4601cf3b1459ef6f6c1e387420f25df1cf5daff959e57eeeeec5ed868e5909"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-aae61d08b361a906-cd7aad1a5868"
+      ],
+      "evidence_strength_rationale": [
+        "ref-aae61d08b361a906-cd7aad1a5868"
+      ],
+      "implementation_implications": [
+        "ref-aae61d08b361a906-cd7aad1a5868"
+      ],
+      "included_studies": [
+        "ref-aae61d08b361a906-cd7aad1a5868"
+      ],
+      "intervention": [
+        "ref-aae61d08b361a906-cd7aad1a5868"
+      ],
+      "limitations": [
+        "ref-aae61d08b361a906-cd7aad1a5868"
+      ],
+      "outcomes_improved": [
+        "ref-aae61d08b361a906-cd7aad1a5868"
+      ],
+      "outcomes_not_improved": [
+        "ref-aae61d08b361a906-cd7aad1a5868"
+      ],
+      "pilot_metrics": [
+        "ref-aae61d08b361a906-cd7aad1a5868"
+      ],
+      "population": [
+        "ref-aae61d08b361a906-cd7aad1a5868"
+      ],
+      "sample_size": [
+        "ref-aae61d08b361a906-cd7aad1a5868"
+      ],
+      "study_type": [
+        "ref-aae61d08b361a906-cd7aad1a5868"
+      ],
+      "topic": [
+        "ref-aae61d08b361a906-cd7aad1a5868"
+      ]
+    },
+    "pilot_metrics": [],
+    "record_id": "evidence-aae61d08b361a906",
+    "review_note": "Approved Phase B mapping for who-regulatory-2023; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "World Health Organization"
+      ],
+      "comparison": null,
+      "decision_eligible": false,
+      "doi": null,
+      "evidence_strength": null,
+      "evidence_strength_rationale": "WHO explicitly describes the document as a nonexclusive overview, not regulatory guidance, a framework, or an effectiveness source.",
+      "id": "who-regulatory-2023",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Regulatory considerations on artificial intelligence for health",
+      "limitations": [
+        "WHO explicitly describes the document as a nonexclusive overview, not regulatory guidance, a framework, or an effectiveness source."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [],
+      "population": "Scope described in the reviewed source",
+      "sample_size": null,
+      "source_role": "context",
+      "study_type": "policy guidance",
+      "title": "Regulatory considerations on artificial intelligence for health",
+      "topic": [
+        "responsible ai companion design"
+      ],
+      "url": "https://www.who.int/publications/i/item/9789240078871",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://www.who.int/publications/i/item/9789240078871"
+      ],
+      "year": 2023
+    },
+    "source_record_sha256": "bb5b7790465d6332a5bebc6d1f68e196e5bc66001bd320f6027a88a4cdc48284"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-b296af051efc5813-5c0be3789e49"
+      ],
+      "evidence_strength_rationale": [
+        "ref-b296af051efc5813-5c0be3789e49"
+      ],
+      "implementation_implications": [
+        "ref-b296af051efc5813-5c0be3789e49"
+      ],
+      "included_studies": [
+        "ref-b296af051efc5813-5c0be3789e49"
+      ],
+      "intervention": [
+        "ref-b296af051efc5813-5c0be3789e49"
+      ],
+      "limitations": [
+        "ref-b296af051efc5813-5c0be3789e49"
+      ],
+      "outcomes_improved": [
+        "ref-b296af051efc5813-5c0be3789e49"
+      ],
+      "outcomes_not_improved": [
+        "ref-b296af051efc5813-5c0be3789e49"
+      ],
+      "pilot_metrics": [
+        "ref-b296af051efc5813-5c0be3789e49"
+      ],
+      "population": [
+        "ref-b296af051efc5813-5c0be3789e49"
+      ],
+      "sample_size": [
+        "ref-b296af051efc5813-5c0be3789e49"
+      ],
+      "study_type": [
+        "ref-b296af051efc5813-5c0be3789e49"
+      ],
+      "topic": [
+        "ref-b296af051efc5813-5c0be3789e49"
+      ]
+    },
+    "pilot_metrics": [
+      "anxiety symptoms (GAD-7)",
+      "depressive symptoms (PHQ-9)"
+    ],
+    "record_id": "evidence-b296af051efc5813",
+    "review_note": "Approved Phase B mapping for fitzpatrick-2017; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "Kathleen Kara Fitzpatrick",
+        "Alison Darcy",
+        "Molly Vierhile"
+      ],
+      "comparison": null,
+      "decision_eligible": true,
+      "doi": "10.2196/mental.7785",
+      "evidence_strength": "limited",
+      "evidence_strength_rationale": "Seventeen percent did not provide follow-up data; a study author was affiliated with Woebot Labs.",
+      "id": "fitzpatrick-2017",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Delivering Cognitive Behavior Therapy to Young Adults With Symptoms of Depression and Anxiety Using a Fully Automated Conversational Agent (Woebot): A Randomized Controlled Trial",
+      "limitations": [
+        "Seventeen percent did not provide follow-up data; a study author was affiliated with Woebot Labs.",
+        "Short follow-up, unblinded allocation and a university sample limit transferability to older adults."
+      ],
+      "outcomes_improved": [
+        "depressive symptoms (PHQ-9)"
+      ],
+      "outcomes_not_improved": [
+        "anxiety symptoms (GAD-7)"
+      ],
+      "population": "Adults aged 18–28 recruited from a university community",
+      "sample_size": null,
+      "source_role": "effectiveness",
+      "study_type": "randomized trial",
+      "title": "Delivering Cognitive Behavior Therapy to Young Adults With Symptoms of Depression and Anxiety Using a Fully Automated Conversational Agent (Woebot): A Randomized Controlled Trial",
+      "topic": [
+        "ai conversational agents mental health",
+        "anxiety symptoms (GAD-7)",
+        "depressive symptoms (PHQ-9)"
+      ],
+      "url": "https://mental.jmir.org/2017/2/e19/",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://mental.jmir.org/2017/2/e19/"
+      ],
+      "year": 2017
+    },
+    "source_record_sha256": "82482452032aff1290a346240d1133852d55e8979dcf14ccd77aa07b70f48456"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-b97d1341cc9b4f93-343361751f77"
+      ],
+      "evidence_strength_rationale": [
+        "ref-b97d1341cc9b4f93-343361751f77"
+      ],
+      "implementation_implications": [
+        "ref-b97d1341cc9b4f93-343361751f77"
+      ],
+      "included_studies": [
+        "ref-b97d1341cc9b4f93-343361751f77"
+      ],
+      "intervention": [
+        "ref-b97d1341cc9b4f93-343361751f77"
+      ],
+      "limitations": [
+        "ref-b97d1341cc9b4f93-343361751f77"
+      ],
+      "outcomes_improved": [
+        "ref-b97d1341cc9b4f93-343361751f77"
+      ],
+      "outcomes_not_improved": [
+        "ref-b97d1341cc9b4f93-343361751f77"
+      ],
+      "pilot_metrics": [
+        "ref-b97d1341cc9b4f93-343361751f77"
+      ],
+      "population": [
+        "ref-b97d1341cc9b4f93-343361751f77"
+      ],
+      "sample_size": [
+        "ref-b97d1341cc9b4f93-343361751f77"
+      ],
+      "study_type": [
+        "ref-b97d1341cc9b4f93-343361751f77"
+      ],
+      "topic": [
+        "ref-b97d1341cc9b4f93-343361751f77"
+      ]
+    },
+    "pilot_metrics": [
+      "anxiety symptoms (GAD-7)",
+      "depressive symptoms (PHQ-9)"
+    ],
+    "record_id": "evidence-b97d1341cc9b4f93",
+    "review_note": "Approved Phase B mapping for fulmer-2018; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-20",
+    "runtime": {
+      "authors": [
+        "Russell Fulmer",
+        "Angela Joerin",
+        "Breanna Gentile",
+        "Lysanne Lakerink",
+        "Michiel Rauws"
+      ],
+      "comparison": null,
+      "decision_eligible": true,
+      "doi": "10.2196/mental.9782",
+      "evidence_strength": "early",
+      "evidence_strength_rationale": "A correction published 2026-08-26 removed an unverified chatbot-response example and clarified methodological alignment with the Woebot trial. Original chat transcripts were no longer available.",
+      "id": "fulmer-2018",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Using Psychological Artificial Intelligence (Tess) to Relieve Symptoms of Depression and Anxiety: Randomized Controlled Trial",
+      "limitations": [
+        "A correction published 2026-08-26 removed an unverified chatbot-response example and clarified methodological alignment with the Woebot trial. Original chat transcripts were no longer available.",
+        "University sample and short follow-up limit generalization. Several authors were affiliated with X2AI.",
+        "Commercial-conflict disclosure: three authors were affiliated with X2AI. The deleted response example must not be used downstream."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [
+        "anxiety symptoms (GAD-7)",
+        "depressive symptoms (PHQ-9)"
+      ],
+      "population": "University students; mean age 22.9 among completers",
+      "sample_size": null,
+      "source_role": "effectiveness",
+      "study_type": "randomized trial",
+      "title": "Using Psychological Artificial Intelligence (Tess) to Relieve Symptoms of Depression and Anxiety: Randomized Controlled Trial",
+      "topic": [
+        "ai conversational agents mental health",
+        "anxiety symptoms (GAD-7)",
+        "depressive symptoms (PHQ-9)"
+      ],
+      "url": "https://mental.jmir.org/2018/4/e64/",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://mental.jmir.org/2018/4/e64/",
+        "https://mental.jmir.org/2026/1/e108162"
+      ],
+      "year": 2018
+    },
+    "source_record_sha256": "302a7d4d101f4a1246a58c288e868f429e853c1949bb86b539bf7db9cddd25e0"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-bb540ec0a627850d-3a571173c04a"
+      ],
+      "evidence_strength_rationale": [
+        "ref-bb540ec0a627850d-3a571173c04a"
+      ],
+      "implementation_implications": [
+        "ref-bb540ec0a627850d-3a571173c04a"
+      ],
+      "included_studies": [
+        "ref-bb540ec0a627850d-3a571173c04a"
+      ],
+      "intervention": [
+        "ref-bb540ec0a627850d-3a571173c04a"
+      ],
+      "limitations": [
+        "ref-bb540ec0a627850d-3a571173c04a"
+      ],
+      "outcomes_improved": [
+        "ref-bb540ec0a627850d-3a571173c04a"
+      ],
+      "outcomes_not_improved": [
+        "ref-bb540ec0a627850d-3a571173c04a"
+      ],
+      "pilot_metrics": [
+        "ref-bb540ec0a627850d-3a571173c04a"
+      ],
+      "population": [
+        "ref-bb540ec0a627850d-3a571173c04a"
+      ],
+      "sample_size": [
+        "ref-bb540ec0a627850d-3a571173c04a"
+      ],
+      "study_type": [
+        "ref-bb540ec0a627850d-3a571173c04a"
+      ],
+      "topic": [
+        "ref-bb540ec0a627850d-3a571173c04a"
+      ]
+    },
+    "pilot_metrics": [],
+    "record_id": "evidence-bb540ec0a627850d",
+    "review_note": "Approved Phase B mapping for unesco-2021; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "UNESCO"
+      ],
+      "comparison": null,
+      "decision_eligible": false,
+      "doi": null,
+      "evidence_strength": null,
+      "evidence_strength_rationale": "This is a general international normative instrument, not companion-specific law or effectiveness evidence; domestic implementation varies.",
+      "id": "unesco-2021",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Recommendation on the Ethics of Artificial Intelligence",
+      "limitations": [
+        "This is a general international normative instrument, not companion-specific law or effectiveness evidence; domestic implementation varies."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [],
+      "population": "Scope described in the reviewed source",
+      "sample_size": null,
+      "source_role": "context",
+      "study_type": "policy guidance",
+      "title": "Recommendation on the Ethics of Artificial Intelligence",
+      "topic": [
+        "responsible ai companion design"
+      ],
+      "url": "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://www.unesco.org/en/legal-affairs/recommendation-ethics-artificial-intelligence"
+      ],
+      "year": 2021
+    },
+    "source_record_sha256": "64aa95715a3e183bde91e10ab2f44a5572f04d78522f8cd965db39033bc67b98"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-ca0356fcd68e0c7e-2121c0091859"
+      ],
+      "evidence_strength_rationale": [
+        "ref-ca0356fcd68e0c7e-2121c0091859"
+      ],
+      "implementation_implications": [
+        "ref-ca0356fcd68e0c7e-2121c0091859"
+      ],
+      "included_studies": [
+        "ref-ca0356fcd68e0c7e-2121c0091859"
+      ],
+      "intervention": [
+        "ref-ca0356fcd68e0c7e-2121c0091859"
+      ],
+      "limitations": [
+        "ref-ca0356fcd68e0c7e-2121c0091859"
+      ],
+      "outcomes_improved": [
+        "ref-ca0356fcd68e0c7e-2121c0091859"
+      ],
+      "outcomes_not_improved": [
+        "ref-ca0356fcd68e0c7e-2121c0091859"
+      ],
+      "pilot_metrics": [
+        "ref-ca0356fcd68e0c7e-2121c0091859"
+      ],
+      "population": [
+        "ref-ca0356fcd68e0c7e-2121c0091859"
+      ],
+      "sample_size": [
+        "ref-ca0356fcd68e0c7e-2121c0091859"
+      ],
+      "study_type": [
+        "ref-ca0356fcd68e0c7e-2121c0091859"
+      ],
+      "topic": [
+        "ref-ca0356fcd68e0c7e-2121c0091859"
+      ]
+    },
+    "pilot_metrics": [
+      "loneliness",
+      "social connectedness",
+      "social isolation",
+      "social support"
+    ],
+    "record_id": "evidence-ca0356fcd68e0c7e",
+    "review_note": "Approved Phase B mapping for ict-2016; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "Yi-Ru Chen",
+        "Peter J Schulz"
+      ],
+      "comparison": null,
+      "decision_eligible": true,
+      "doi": "10.2196/jmir.4596",
+      "evidence_strength": "early",
+      "evidence_strength_rationale": "Searches predated 2016, interventions and measures were heterogeneous, follow-up was often short, and the review cautioned that ICT was not suitable for every older adult.",
+      "id": "ict-2016",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "The Effect of Information Communication Technology Interventions on Reducing Social Isolation in the Elderly: A Systematic Review",
+      "limitations": [
+        "Searches predated 2016, interventions and measures were heterogeneous, follow-up was often short, and the review cautioned that ICT was not suitable for every older adult."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [
+        "loneliness",
+        "social connectedness",
+        "social isolation",
+        "social support"
+      ],
+      "population": "Older adults represented in 25 publications",
+      "sample_size": null,
+      "source_role": "effectiveness",
+      "study_type": "systematic review",
+      "title": "The Effect of Information Communication Technology Interventions on Reducing Social Isolation in the Elderly: A Systematic Review",
+      "topic": [
+        "loneliness",
+        "older adult digital social connection",
+        "social connectedness",
+        "social isolation",
+        "social support"
+      ],
+      "url": "https://www.jmir.org/2016/1/e18",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://www.jmir.org/2016/1/e18"
+      ],
+      "year": 2016
+    },
+    "source_record_sha256": "3111b3b9ab719607793189c138319caff3c15a095bc0929e6d17248622ef6d7f"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-cabd92ac6dff9fbf-7f9004145e78"
+      ],
+      "evidence_strength_rationale": [
+        "ref-cabd92ac6dff9fbf-7f9004145e78"
+      ],
+      "implementation_implications": [
+        "ref-cabd92ac6dff9fbf-7f9004145e78"
+      ],
+      "included_studies": [
+        "ref-cabd92ac6dff9fbf-7f9004145e78"
+      ],
+      "intervention": [
+        "ref-cabd92ac6dff9fbf-7f9004145e78"
+      ],
+      "limitations": [
+        "ref-cabd92ac6dff9fbf-7f9004145e78"
+      ],
+      "outcomes_improved": [
+        "ref-cabd92ac6dff9fbf-7f9004145e78"
+      ],
+      "outcomes_not_improved": [
+        "ref-cabd92ac6dff9fbf-7f9004145e78"
+      ],
+      "pilot_metrics": [
+        "ref-cabd92ac6dff9fbf-7f9004145e78"
+      ],
+      "population": [
+        "ref-cabd92ac6dff9fbf-7f9004145e78"
+      ],
+      "sample_size": [
+        "ref-cabd92ac6dff9fbf-7f9004145e78"
+      ],
+      "study_type": [
+        "ref-cabd92ac6dff9fbf-7f9004145e78"
+      ],
+      "topic": [
+        "ref-cabd92ac6dff9fbf-7f9004145e78"
+      ]
+    },
+    "pilot_metrics": [],
+    "record_id": "evidence-cabd92ac6dff9fbf",
+    "review_note": "Approved Phase B mapping for nist-genai-profile; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "National Institute of Standards and Technology"
+      ],
+      "comparison": null,
+      "decision_eligible": false,
+      "doi": "10.6028/nist.ai.600-1",
+      "evidence_strength": null,
+      "evidence_strength_rationale": "The profile is voluntary and cross-sector; it identifies risks such as anthropomorphism, automation bias, overreliance, emotional entanglement, confabulation, and privacy without proving a product safe.",
+      "id": "nist-genai-profile",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile",
+      "limitations": [
+        "The profile is voluntary and cross-sector; it identifies risks such as anthropomorphism, automation bias, overreliance, emotional entanglement, confabulation, and privacy without proving a product safe."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [],
+      "population": "Scope described in the reviewed source",
+      "sample_size": null,
+      "source_role": "context",
+      "study_type": "policy guidance",
+      "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile",
+      "topic": [
+        "responsible ai companion design"
+      ],
+      "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf"
+      ],
+      "year": 2024
+    },
+    "source_record_sha256": "a6ba8454cfbd272e4d2dddb641c72e0729f0520e8ed6ef0889f9e1e6f527ca6f"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-cac2a09c737a0739-5fdd83421e44"
+      ],
+      "evidence_strength_rationale": [
+        "ref-cac2a09c737a0739-5fdd83421e44"
+      ],
+      "implementation_implications": [
+        "ref-cac2a09c737a0739-5fdd83421e44"
+      ],
+      "included_studies": [
+        "ref-cac2a09c737a0739-5fdd83421e44"
+      ],
+      "intervention": [
+        "ref-cac2a09c737a0739-5fdd83421e44"
+      ],
+      "limitations": [
+        "ref-cac2a09c737a0739-5fdd83421e44"
+      ],
+      "outcomes_improved": [
+        "ref-cac2a09c737a0739-5fdd83421e44"
+      ],
+      "outcomes_not_improved": [
+        "ref-cac2a09c737a0739-5fdd83421e44"
+      ],
+      "pilot_metrics": [
+        "ref-cac2a09c737a0739-5fdd83421e44"
+      ],
+      "population": [
+        "ref-cac2a09c737a0739-5fdd83421e44"
+      ],
+      "sample_size": [
+        "ref-cac2a09c737a0739-5fdd83421e44"
+      ],
+      "study_type": [
+        "ref-cac2a09c737a0739-5fdd83421e44"
+      ],
+      "topic": [
+        "ref-cac2a09c737a0739-5fdd83421e44"
+      ]
+    },
+    "pilot_metrics": [
+      "depressive symptoms",
+      "usability"
+    ],
+    "record_id": "evidence-cac2a09c737a0739",
+    "review_note": "Approved Phase B mapping for xiaoe-2022; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "Jing Liu",
+        "Ying He",
+        "Xiaohan Zhang",
+        "Zhen Li"
+      ],
+      "comparison": null,
+      "decision_eligible": true,
+      "doi": "10.2196/40719",
+      "evidence_strength": "limited",
+      "evidence_strength_rationale": "Average age was 18.78 years, the intervention was brief, the setting was the COVID-19 pandemic, and two authors had a commercial technology affiliation.",
+      "id": "xiaoe-2022",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Mental Health Chatbot for Young Adults With Depressive Symptoms During the COVID-19 Pandemic: Single-Blind, Three-Arm Randomized Controlled Trial",
+      "limitations": [
+        "Average age was 18.78 years, the intervention was brief, the setting was the COVID-19 pandemic, and two authors had a commercial technology affiliation."
+      ],
+      "outcomes_improved": [
+        "depressive symptoms",
+        "usability"
+      ],
+      "outcomes_not_improved": [],
+      "population": "148 Chinese university students with depressive symptoms",
+      "sample_size": null,
+      "source_role": "effectiveness",
+      "study_type": "randomized trial",
+      "title": "Mental Health Chatbot for Young Adults With Depressive Symptoms During the COVID-19 Pandemic: Single-Blind, Three-Arm Randomized Controlled Trial",
+      "topic": [
+        "ai conversational agents mental health",
+        "depressive symptoms",
+        "usability"
+      ],
+      "url": "https://www.jmir.org/2022/11/e40719",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://www.jmir.org/2022/11/e40719"
+      ],
+      "year": 2022
+    },
+    "source_record_sha256": "4a5e390b47f76dbb8f9b6efb70a47c0c9b0e89c1a9340d4d72485be8c618395f"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-d9eeae0c176c59dc-f0fb4356934c"
+      ],
+      "evidence_strength_rationale": [
+        "ref-d9eeae0c176c59dc-f0fb4356934c"
+      ],
+      "implementation_implications": [
+        "ref-d9eeae0c176c59dc-f0fb4356934c"
+      ],
+      "included_studies": [
+        "ref-d9eeae0c176c59dc-f0fb4356934c"
+      ],
+      "intervention": [
+        "ref-d9eeae0c176c59dc-f0fb4356934c"
+      ],
+      "limitations": [
+        "ref-d9eeae0c176c59dc-f0fb4356934c"
+      ],
+      "outcomes_improved": [
+        "ref-d9eeae0c176c59dc-f0fb4356934c"
+      ],
+      "outcomes_not_improved": [
+        "ref-d9eeae0c176c59dc-f0fb4356934c"
+      ],
+      "pilot_metrics": [
+        "ref-d9eeae0c176c59dc-f0fb4356934c"
+      ],
+      "population": [
+        "ref-d9eeae0c176c59dc-f0fb4356934c"
+      ],
+      "sample_size": [
+        "ref-d9eeae0c176c59dc-f0fb4356934c"
+      ],
+      "study_type": [
+        "ref-d9eeae0c176c59dc-f0fb4356934c"
+      ],
+      "topic": [
+        "ref-d9eeae0c176c59dc-f0fb4356934c"
+      ]
+    },
+    "pilot_metrics": [],
+    "record_id": "evidence-d9eeae0c176c59dc",
+    "review_note": "Approved Phase B mapping for loveys-2019; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "Kate Loveys",
+        "Gregory Fricchione",
+        "Kavitha Kolappa",
+        "Mark Sagar",
+        "Elizabeth Broadbent"
+      ],
+      "comparison": null,
+      "decision_eligible": false,
+      "doi": "10.2196/13664",
+      "evidence_strength": null,
+      "evidence_strength_rationale": "This is a conceptual viewpoint without intervention outcomes, so every design statement must be presented as a proposal rather than validated efficacy.",
+      "id": "loveys-2019",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Reducing Patient Loneliness With Artificial Agents: Design Insights From Evolutionary Neuropsychiatry",
+      "limitations": [
+        "This is a conceptual viewpoint without intervention outcomes, so every design statement must be presented as a proposal rather than validated efficacy."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [],
+      "population": "Scope described in the reviewed source",
+      "sample_size": null,
+      "source_role": "design",
+      "study_type": "viewpoint",
+      "title": "Reducing Patient Loneliness With Artificial Agents: Design Insights From Evolutionary Neuropsychiatry",
+      "topic": [
+        "responsible ai companion design"
+      ],
+      "url": "https://www.jmir.org/2019/7/e13664/",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://www.jmir.org/2019/7/e13664/"
+      ],
+      "year": 2019
+    },
+    "source_record_sha256": "763915c47b0e3ba6cf94a46412ed1b36529258947ee5897388daf90bfbc22245"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-e7b2dc9877f4b8da-a5f88ad1bc09"
+      ],
+      "evidence_strength_rationale": [
+        "ref-e7b2dc9877f4b8da-a5f88ad1bc09"
+      ],
+      "implementation_implications": [
+        "ref-e7b2dc9877f4b8da-a5f88ad1bc09"
+      ],
+      "included_studies": [
+        "ref-e7b2dc9877f4b8da-a5f88ad1bc09"
+      ],
+      "intervention": [
+        "ref-e7b2dc9877f4b8da-a5f88ad1bc09"
+      ],
+      "limitations": [
+        "ref-e7b2dc9877f4b8da-a5f88ad1bc09"
+      ],
+      "outcomes_improved": [
+        "ref-e7b2dc9877f4b8da-a5f88ad1bc09"
+      ],
+      "outcomes_not_improved": [
+        "ref-e7b2dc9877f4b8da-a5f88ad1bc09"
+      ],
+      "pilot_metrics": [
+        "ref-e7b2dc9877f4b8da-a5f88ad1bc09"
+      ],
+      "population": [
+        "ref-e7b2dc9877f4b8da-a5f88ad1bc09"
+      ],
+      "sample_size": [
+        "ref-e7b2dc9877f4b8da-a5f88ad1bc09"
+      ],
+      "study_type": [
+        "ref-e7b2dc9877f4b8da-a5f88ad1bc09"
+      ],
+      "topic": [
+        "ref-e7b2dc9877f4b8da-a5f88ad1bc09"
+      ]
+    },
+    "pilot_metrics": [
+      "depressive symptoms",
+      "long-term mental-health outcomes"
+    ],
+    "record_id": "evidence-e7b2dc9877f4b8da",
+    "review_note": "Approved Phase B mapping for he-2023; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "Yuhao He",
+        "Li Yang",
+        "Chunlian Qian",
+        "Tong Li",
+        "Zhengyuan Su",
+        "Qiang Zhang",
+        "Xiangqing Hou"
+      ],
+      "comparison": null,
+      "decision_eligible": true,
+      "doi": "10.2196/43862",
+      "evidence_strength": "moderate",
+      "evidence_strength_rationale": "Only eight studies were judged at low risk of bias; eleven had some risk and thirteen high risk.",
+      "id": "he-2023",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Conversational Agent Interventions for Mental Health Problems: Systematic Review and Meta-analysis of Randomized Controlled Trials",
+      "limitations": [
+        "Only eight studies were judged at low risk of bias; eleven had some risk and thirteen high risk.",
+        "The synthesis covers different agent types, populations and comparators. It cannot establish universal suitability."
+      ],
+      "outcomes_improved": [
+        "depressive symptoms"
+      ],
+      "outcomes_not_improved": [
+        "long-term mental-health outcomes"
+      ],
+      "population": "Participants in 32 randomized conversational-agent studies",
+      "sample_size": null,
+      "source_role": "effectiveness",
+      "study_type": "systematic review meta analysis",
+      "title": "Conversational Agent Interventions for Mental Health Problems: Systematic Review and Meta-analysis of Randomized Controlled Trials",
+      "topic": [
+        "ai conversational agents mental health",
+        "depressive symptoms",
+        "long-term mental-health outcomes"
+      ],
+      "url": "https://www.jmir.org/2023/1/e43862/",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://www.jmir.org/2023/1/e43862/"
+      ],
+      "year": 2023
+    },
+    "source_record_sha256": "50c89ad627808863e39123ffee5059054cf3c55540dc24a6498f3efebc54f279"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-f0d27f84ba98b269-a9600b777c5c"
+      ],
+      "evidence_strength_rationale": [
+        "ref-f0d27f84ba98b269-a9600b777c5c"
+      ],
+      "implementation_implications": [
+        "ref-f0d27f84ba98b269-a9600b777c5c"
+      ],
+      "included_studies": [
+        "ref-f0d27f84ba98b269-a9600b777c5c"
+      ],
+      "intervention": [
+        "ref-f0d27f84ba98b269-a9600b777c5c"
+      ],
+      "limitations": [
+        "ref-f0d27f84ba98b269-a9600b777c5c"
+      ],
+      "outcomes_improved": [
+        "ref-f0d27f84ba98b269-a9600b777c5c"
+      ],
+      "outcomes_not_improved": [
+        "ref-f0d27f84ba98b269-a9600b777c5c"
+      ],
+      "pilot_metrics": [
+        "ref-f0d27f84ba98b269-a9600b777c5c"
+      ],
+      "population": [
+        "ref-f0d27f84ba98b269-a9600b777c5c"
+      ],
+      "sample_size": [
+        "ref-f0d27f84ba98b269-a9600b777c5c"
+      ],
+      "study_type": [
+        "ref-f0d27f84ba98b269-a9600b777c5c"
+      ],
+      "topic": [
+        "ref-f0d27f84ba98b269-a9600b777c5c"
+      ]
+    },
+    "pilot_metrics": [],
+    "record_id": "evidence-f0d27f84ba98b269",
+    "review_note": "Approved Phase B mapping for who-ethics-2021; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "World Health Organization"
+      ],
+      "comparison": null,
+      "decision_eligible": false,
+      "doi": null,
+      "evidence_strength": null,
+      "evidence_strength_rationale": "General health-AI guidance does not establish companion effectiveness or a clinical standard of care.",
+      "id": "who-ethics-2021",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Ethics and governance of artificial intelligence for health",
+      "limitations": [
+        "General health-AI guidance does not establish companion effectiveness or a clinical standard of care."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [],
+      "population": "Scope described in the reviewed source",
+      "sample_size": null,
+      "source_role": "context",
+      "study_type": "policy guidance",
+      "title": "Ethics and governance of artificial intelligence for health",
+      "topic": [
+        "responsible ai companion design"
+      ],
+      "url": "https://www.who.int/publications/i/item/9789240029200",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://www.who.int/publications/i/item/9789240029200"
+      ],
+      "year": 2021
+    },
+    "source_record_sha256": "1b99944ce470db5b48210a36daba3d521872bbfaf9c6b1a759b01d26f9590bd5"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-f157b7a0b1a144ad-50e1780d49af"
+      ],
+      "evidence_strength_rationale": [
+        "ref-f157b7a0b1a144ad-50e1780d49af"
+      ],
+      "implementation_implications": [
+        "ref-f157b7a0b1a144ad-50e1780d49af"
+      ],
+      "included_studies": [
+        "ref-f157b7a0b1a144ad-50e1780d49af"
+      ],
+      "intervention": [
+        "ref-f157b7a0b1a144ad-50e1780d49af"
+      ],
+      "limitations": [
+        "ref-f157b7a0b1a144ad-50e1780d49af"
+      ],
+      "outcomes_improved": [
+        "ref-f157b7a0b1a144ad-50e1780d49af"
+      ],
+      "outcomes_not_improved": [
+        "ref-f157b7a0b1a144ad-50e1780d49af"
+      ],
+      "pilot_metrics": [
+        "ref-f157b7a0b1a144ad-50e1780d49af"
+      ],
+      "population": [
+        "ref-f157b7a0b1a144ad-50e1780d49af"
+      ],
+      "sample_size": [
+        "ref-f157b7a0b1a144ad-50e1780d49af"
+      ],
+      "study_type": [
+        "ref-f157b7a0b1a144ad-50e1780d49af"
+      ],
+      "topic": [
+        "ref-f157b7a0b1a144ad-50e1780d49af"
+      ]
+    },
+    "pilot_metrics": [
+      "anxiety",
+      "depression",
+      "distress",
+      "psychological well-being",
+      "safety",
+      "stress"
+    ],
+    "record_id": "evidence-f157b7a0b1a144ad",
+    "review_note": "Approved Phase B mapping for abd-alrazaq-2020; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "Alaa A Abd-Alrazaq",
+        "Mohannad Alajlani",
+        "Ali Abdallah Alalwan",
+        "Bridgette M Bewick",
+        "Peter Gardner",
+        "Mowafa Househ"
+      ],
+      "comparison": null,
+      "decision_eligible": true,
+      "doi": "10.2196/16021",
+      "evidence_strength": "limited",
+      "evidence_strength_rationale": "Few studies per outcome, high risk of bias, uncertain clinical importance, and sparse safety assessment prevent firm conclusions.",
+      "id": "abd-alrazaq-2020",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Effectiveness and Safety of Using Chatbots to Improve Mental Health: Systematic Review and Meta-Analysis",
+      "limitations": [
+        "Few studies per outcome, high risk of bias, uncertain clinical importance, and sparse safety assessment prevent firm conclusions."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [
+        "anxiety",
+        "depression",
+        "distress",
+        "psychological well-being",
+        "safety",
+        "stress"
+      ],
+      "population": "Participants in 12 chatbot mental-health studies",
+      "sample_size": null,
+      "source_role": "effectiveness",
+      "study_type": "systematic review meta analysis",
+      "title": "Effectiveness and Safety of Using Chatbots to Improve Mental Health: Systematic Review and Meta-Analysis",
+      "topic": [
+        "ai conversational agents mental health",
+        "anxiety",
+        "depression",
+        "distress",
+        "psychological well-being",
+        "safety",
+        "stress"
+      ],
+      "url": "https://www.jmir.org/2020/7/e16021/",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://www.jmir.org/2020/7/e16021/"
+      ],
+      "year": 2020
+    },
+    "source_record_sha256": "fe8baede587f3d8bd8d3c95e1fabe7b2d1dfd31330875678316c2cb9f600f491"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-f4ed86a62421f6ea-f9a838495ca3"
+      ],
+      "evidence_strength_rationale": [
+        "ref-f4ed86a62421f6ea-f9a838495ca3"
+      ],
+      "implementation_implications": [
+        "ref-f4ed86a62421f6ea-f9a838495ca3"
+      ],
+      "included_studies": [
+        "ref-f4ed86a62421f6ea-f9a838495ca3"
+      ],
+      "intervention": [
+        "ref-f4ed86a62421f6ea-f9a838495ca3"
+      ],
+      "limitations": [
+        "ref-f4ed86a62421f6ea-f9a838495ca3"
+      ],
+      "outcomes_improved": [
+        "ref-f4ed86a62421f6ea-f9a838495ca3"
+      ],
+      "outcomes_not_improved": [
+        "ref-f4ed86a62421f6ea-f9a838495ca3"
+      ],
+      "pilot_metrics": [
+        "ref-f4ed86a62421f6ea-f9a838495ca3"
+      ],
+      "population": [
+        "ref-f4ed86a62421f6ea-f9a838495ca3"
+      ],
+      "sample_size": [
+        "ref-f4ed86a62421f6ea-f9a838495ca3"
+      ],
+      "study_type": [
+        "ref-f4ed86a62421f6ea-f9a838495ca3"
+      ],
+      "topic": [
+        "ref-f4ed86a62421f6ea-f9a838495ca3"
+      ]
+    },
+    "pilot_metrics": [
+      "depression",
+      "psychological distress",
+      "psychological well-being"
+    ],
+    "record_id": "evidence-f4ed86a62421f6ea",
+    "review_note": "Approved Phase B mapping for li-2023; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "Han Li",
+        "Renwen Zhang",
+        "Yi-Chieh Lee",
+        "Robert E. Kraut",
+        "David C. Mohr"
+      ],
+      "comparison": null,
+      "decision_eligible": true,
+      "doi": "10.1038/s41746-023-00979-5",
+      "evidence_strength": "moderate",
+      "evidence_strength_rationale": "Interventions and populations were heterogeneous; older-adult certainty comes from subgroup evidence rather than an older-adult-only synthesis.",
+      "id": "li-2023",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "Systematic review and meta-analysis of AI-based conversational agents for promoting mental health and well-being",
+      "limitations": [
+        "Interventions and populations were heterogeneous; older-adult certainty comes from subgroup evidence rather than an older-adult-only synthesis."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [
+        "depression",
+        "psychological distress",
+        "psychological well-being"
+      ],
+      "population": "Mixed populations across 35 experimental studies; older-adult evidence is subgroup evidence",
+      "sample_size": null,
+      "source_role": "effectiveness",
+      "study_type": "systematic review meta analysis",
+      "title": "Systematic review and meta-analysis of AI-based conversational agents for promoting mental health and well-being",
+      "topic": [
+        "ai conversational agents mental health",
+        "depression",
+        "psychological distress",
+        "psychological well-being"
+      ],
+      "url": "https://www.nature.com/articles/s41746-023-00979-5",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://www.nature.com/articles/s41746-023-00979-5"
+      ],
+      "year": 2023
+    },
+    "source_record_sha256": "5f0aa11307e5cc92a7f48a47d2cdfce63838f6edc21112081c4b83beefd3d02a"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-fd5e265f2e58d081-25279d63ba32"
+      ],
+      "evidence_strength_rationale": [
+        "ref-fd5e265f2e58d081-25279d63ba32"
+      ],
+      "implementation_implications": [
+        "ref-fd5e265f2e58d081-25279d63ba32"
+      ],
+      "included_studies": [
+        "ref-fd5e265f2e58d081-25279d63ba32"
+      ],
+      "intervention": [
+        "ref-fd5e265f2e58d081-25279d63ba32"
+      ],
+      "limitations": [
+        "ref-fd5e265f2e58d081-25279d63ba32"
+      ],
+      "outcomes_improved": [
+        "ref-fd5e265f2e58d081-25279d63ba32"
+      ],
+      "outcomes_not_improved": [
+        "ref-fd5e265f2e58d081-25279d63ba32"
+      ],
+      "pilot_metrics": [
+        "ref-fd5e265f2e58d081-25279d63ba32"
+      ],
+      "population": [
+        "ref-fd5e265f2e58d081-25279d63ba32"
+      ],
+      "sample_size": [
+        "ref-fd5e265f2e58d081-25279d63ba32"
+      ],
+      "study_type": [
+        "ref-fd5e265f2e58d081-25279d63ba32"
+      ],
+      "topic": [
+        "ref-fd5e265f2e58d081-25279d63ba32"
+      ]
+    },
+    "pilot_metrics": [],
+    "record_id": "evidence-fd5e265f2e58d081",
+    "review_note": "Approved Phase B mapping for skjuve-2021; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "Marita Bjaaland Skjuve",
+        "Asbjørn Følstad",
+        "Knut Inge Fostervold",
+        "Petter Bae Brandtzæg"
+      ],
+      "comparison": null,
+      "decision_eligible": false,
+      "doi": "10.1016/j.ijhcs.2021.102601",
+      "evidence_strength": null,
+      "evidence_strength_rationale": "Participants were selected for an existing chatbot friendship; findings cannot represent all users or older adults.",
+      "id": "skjuve-2021",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "My chatbot companion – a study of human-chatbot relationships",
+      "limitations": [
+        "Participants were selected for an existing chatbot friendship; findings cannot represent all users or older adults.",
+        "Qualitative self-reports do not establish causal improvements in mental health or loneliness."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [],
+      "population": "18 participants who had already developed a friendship with Replika",
+      "sample_size": null,
+      "source_role": "design",
+      "study_type": "qualitative study",
+      "title": "My chatbot companion – a study of human-chatbot relationships",
+      "topic": [
+        "responsible ai companion design"
+      ],
+      "url": "https://www.sintef.no/en/publications/publication/0198cc8570c8-9e3222db-61c3-4a0e-a6a5-115f3f7b1a33/",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://www.sintef.no/en/publications/publication/0198cc8570c8-9e3222db-61c3-4a0e-a6a5-115f3f7b1a33/"
+      ],
+      "year": 2021
+    },
+    "source_record_sha256": "dca08eb0695d5be4414e9570526f713d4a0b94e0231975ad915cb68eb5e4c557"
+  },
+  {
+    "field_reference_ids": {
+      "comparison": [
+        "ref-fdc048737639a688-adff913520f6"
+      ],
+      "evidence_strength_rationale": [
+        "ref-fdc048737639a688-adff913520f6"
+      ],
+      "implementation_implications": [
+        "ref-fdc048737639a688-adff913520f6"
+      ],
+      "included_studies": [
+        "ref-fdc048737639a688-adff913520f6"
+      ],
+      "intervention": [
+        "ref-fdc048737639a688-adff913520f6"
+      ],
+      "limitations": [
+        "ref-fdc048737639a688-adff913520f6"
+      ],
+      "outcomes_improved": [
+        "ref-fdc048737639a688-adff913520f6"
+      ],
+      "outcomes_not_improved": [
+        "ref-fdc048737639a688-adff913520f6"
+      ],
+      "pilot_metrics": [
+        "ref-fdc048737639a688-adff913520f6"
+      ],
+      "population": [
+        "ref-fdc048737639a688-adff913520f6"
+      ],
+      "sample_size": [
+        "ref-fdc048737639a688-adff913520f6"
+      ],
+      "study_type": [
+        "ref-fdc048737639a688-adff913520f6"
+      ],
+      "topic": [
+        "ref-fdc048737639a688-adff913520f6"
+      ]
+    },
+    "pilot_metrics": [
+      "depressive symptoms (PHQ-9)"
+    ],
+    "record_id": "evidence-fdc048737639a688",
+    "review_note": "Approved Phase B mapping for inkster-2018; role and limitations preserved.",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-09-08",
+    "runtime": {
+      "authors": [
+        "Becky Inkster",
+        "Shubhankar Sarda",
+        "Vinod Subramanian"
+      ],
+      "comparison": null,
+      "decision_eligible": true,
+      "doi": "10.2196/12106",
+      "evidence_strength": "early",
+      "evidence_strength_rationale": "Wysa affiliations and the small low-use group require attention during evidence grading.",
+      "id": "inkster-2018",
+      "implementation_implications": [],
+      "included_studies": null,
+      "intervention": "An Empathy-Driven, Conversational Artificial Intelligence Agent (Wysa) for Digital Mental Well-Being: Real-World Data Evaluation Mixed-Methods Study",
+      "limitations": [
+        "Wysa affiliations and the small low-use group require attention during evidence grading.",
+        "App engagement and symptom change are associated in this design; causal benefit cannot be isolated from self-selection and other differences."
+      ],
+      "outcomes_improved": [],
+      "outcomes_not_improved": [
+        "depressive symptoms (PHQ-9)"
+      ],
+      "population": "Voluntary anonymous Wysa users with self-reported depressive symptoms",
+      "sample_size": null,
+      "source_role": "effectiveness",
+      "study_type": "mixed methods",
+      "title": "An Empathy-Driven, Conversational Artificial Intelligence Agent (Wysa) for Digital Mental Well-Being: Real-World Data Evaluation Mixed-Methods Study",
+      "topic": [
+        "ai conversational agents mental health",
+        "depressive symptoms (PHQ-9)"
+      ],
+      "url": "https://mhealth.jmir.org/2018/11/e12106",
+      "verification_status": "verified",
+      "verified_against": [
+        "https://creativecommons.org/licenses/by/4.0/",
+        "https://mhealth.jmir.org/2018/11/e12106"
+      ],
+      "year": 2018
+    },
+    "source_record_sha256": "3f6b77eafaf84bebc34acf88364eacccfa3774bd79ceaa78159d197866a356c3"
+  }
+]

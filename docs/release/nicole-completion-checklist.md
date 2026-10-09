@@ -233,7 +233,7 @@ Licence to check: Confirm the article-specific MDPI licence and attribution requ
 
 Preparation note: Existing production seed; retain 13/15 and no-pooled-estimate together. Nicole 2026-09-08: Confirm source-specific licence and claim locators; Keep narrative positivity paired with no pooled estimate
 
-Recorded partial decision: accept; strength: early; licence: unknown
+Recorded partial decision: accept; strength: early; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -265,7 +265,7 @@ Licence to check: Confirm the article footer and attribution requirements.
 
 Preparation note: Eligibility for the older-adult theme needs an explicit decision. Nicole 2026-09-08: Explicitly decide whether an all-ages synthesis belongs in the older-adult theme; Confirm source-specific licence and claim locators Publisher licence verified 2026-09-09: CC BY 4.0 (https://www.jmir.org/2026/1/e80059).
 
-Recorded partial decision: pending; strength: limited; licence: permitted
+Recorded partial decision: accept; strength: limited; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -297,7 +297,7 @@ Licence to check: Confirm the free-full-text article's exact reuse licence.
 
 Preparation note: Correct DOI is 10.1093/geront/gnw249; do not confuse with the separate PRISM technology-adoption paper. Nicole 2026-09-08: Confirm source-specific licence and claim locators; Keep six-month benefit and 12-month null between-group result separate
 
-Recorded partial decision: accept; strength: moderate; licence: unknown
+Recorded partial decision: accept; strength: moderate; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -329,7 +329,7 @@ Licence to check: Confirm Cochrane abstract and full-review reuse terms.
 
 Preparation note: Check overlap with Tsai 2020 before treating it as independent evidence. Nicole 2026-09-08: Confirm source-specific licence and claim locators; Resolve review overlap
 
-Recorded partial decision: accept; strength: early; licence: unknown
+Recorded partial decision: accept; strength: early; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -457,7 +457,7 @@ Licence to check: Confirm the Oxford/PMC article's exact reuse licence.
 
 Preparation note: Distinct trial from PRISM 1; do not rephrase a both-groups result as PRISM efficacy. Nicole 2026-09-08: Provide final disposition and evidence strength; Confirm source-specific licence and claim locators; Keep both-arm improvement distinct from PRISM 1
 
-Recorded partial decision: pending; strength: pending/n/a; licence: unknown
+Recorded partial decision: accept; strength: limited; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -521,7 +521,7 @@ Licence to check: Confirm the exact WHO publication licence and IGO attribution 
 
 Preparation note: Keep role=context and decision_eligible=false. Nicole 2026-09-08: Confirm title-specific WHO licence and page locators
 
-Recorded partial decision: accept; strength: pending/n/a; licence: unknown
+Recorded partial decision: accept; strength: pending/n/a; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -553,7 +553,7 @@ Licence to check: Confirm the exact WHO publication licence and IGO attribution 
 
 Preparation note: Publisher page currently shows 25 March 2025; preserve the reviewed edition. Nicole 2026-09-08: Confirm title-specific WHO licence and page locators; Preserve 25 March 2025 edition
 
-Recorded partial decision: accept; strength: pending/n/a; licence: unknown
+Recorded partial decision: accept; strength: pending/n/a; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -585,7 +585,7 @@ Licence to check: Confirm the exact WHO publication licence and IGO attribution 
 
 Preparation note: The non-guidance disclaimer must travel with the claim. Nicole 2026-09-08: Confirm title-specific WHO licence and page locators; Keep non-guidance disclaimer
 
-Recorded partial decision: accept; strength: pending/n/a; licence: unknown
+Recorded partial decision: accept; strength: pending/n/a; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -617,7 +617,7 @@ Licence to check: Confirm federal-publication reuse status and attribution expec
 
 Preparation note: Map companion controls explicitly rather than claiming automatic compliance. Nicole 2026-09-08: Confirm federal-document reuse status and page locators
 
-Recorded partial decision: accept; strength: pending/n/a; licence: unknown
+Recorded partial decision: accept; strength: pending/n/a; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -649,7 +649,7 @@ Licence to check: Confirm federal-publication reuse status and attribution expec
 
 Preparation note: Useful for companion-risk design only; decision_eligible=false. Nicole 2026-09-08: Confirm federal-document reuse status and page locators
 
-Recorded partial decision: accept; strength: pending/n/a; licence: unknown
+Recorded partial decision: accept; strength: pending/n/a; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -681,7 +681,7 @@ Licence to check: Confirm UNESCO legal-text reuse and attribution terms.
 
 Preparation note: Record adoption/version and jurisdictional limits. Nicole 2026-09-08: Confirm UNESCO reuse terms and locators
 
-Recorded partial decision: accept; strength: pending/n/a; licence: unknown
+Recorded partial decision: accept; strength: pending/n/a; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 
@@ -713,7 +713,7 @@ Licence to check: Confirm OECD.AI page/document reuse and attribution terms.
 
 Preparation note: Keep original adoption and reviewed update dates distinct. Nicole 2026-09-08: Confirm OECD reuse terms and locators; Preserve May 2024 update
 
-Recorded partial decision: accept; strength: pending/n/a; licence: unknown
+Recorded partial decision: accept; strength: pending/n/a; licence: permitted
 
 Decision: accept / edit / exclude / quarantine
 

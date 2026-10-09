@@ -34,7 +34,7 @@ class GoldCase(BaseModel):
 
 
 class GoldSet(BaseModel):
-    dataset_version: Literal["0.1"]
+    dataset_version: Literal["0.1", "0.2"]
     corpus_version: str
     top_k: int = Field(ge=1)
     cases: list[GoldCase] = Field(min_length=20, max_length=30)

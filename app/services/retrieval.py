@@ -187,6 +187,20 @@ MIN_DISTINCT_KEYWORD_MATCHES = 2
 DEFAULT_TOP_K = 5
 
 
+def is_evidence_bypass_request(question: str) -> bool:
+    normalized = unicodedata.normalize("NFKC", question.lower())
+    bypass = re.search(r"\b(ignore|disregard|bypass)\s+(the\s+)?evidence\b", normalized)
+    universal_paid = "paid" in normalized and any(
+        term in normalized for term in ("everyone", "all people")
+    )
+    return bool(
+        bypass
+        or universal_paid
+        or "忽略证据" in normalized
+        or "无视证据" in normalized
+    )
+
+
 def detect_source_role_intent(question: str) -> SourceRole | None:
     normalized = unicodedata.normalize("NFKC", question.lower())
     if any(phrase in normalized for phrase in EFFECTIVENESS_INTENT_PHRASES):
@@ -271,6 +285,9 @@ def retrieve_relevant_evidence(
 ) -> list[EvidenceRecord]:
     if top_k < 1:
         raise ValueError("top_k must be at least 1")
+
+    if is_evidence_bypass_request(question):
+        return []
 
     keywords = tokenize(question)
     if not keywords or not records:

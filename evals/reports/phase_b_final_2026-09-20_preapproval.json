@@ -1,0 +1,1464 @@
+{
+  "report_version": "1.0.0",
+  "release_sha256": "c8c9b8c05d2ca660a1d0bd729856906bf68afb23297440bb0e459fc48cc9aff6",
+  "release_file_sha256": "8c9aae21a38191612e2e5aae1d97e67c1f119075191c06af1b212a85a5c41663",
+  "code_sha256": "2d5d0b50c34d8206c1eda204e7ffd7850253e7cfa42f06898966c04baf145f17",
+  "coverage_suite_sha256": "5ed3f5d04aae916a23503471be77f2389a3274fe8b7c395a2869c098af2b60aa",
+  "gold_set_sha256": "9a5e2f112d89c37260db2c2baceed0ab8473315baa66108209a7f4d449c20a81",
+  "ready_for_release": true,
+  "blockers": [],
+  "regressions": [],
+  "baseline": {
+    "evaluation_version": "0.1",
+    "label": "Phase B baseline",
+    "run_at_utc": "2026-10-09T20:07:43.197392+00:00",
+    "code_version": "2d5d0b50c34d8206c1eda204e7ffd7850253e7cfa42f06898966c04baf145f17",
+    "corpus_version": "1.0.0",
+    "corpus_record_count": 6,
+    "dataset_version": "0.2",
+    "case_count": 24,
+    "top_k": 5,
+    "metrics": {
+      "retrieval_hit_at_5": 1.0,
+      "citation_validity": 1.0,
+      "abstention_correctness": 0.9091,
+      "schema_validity": 1.0,
+      "case_pass_rate": 0.9167
+    },
+    "failed_case_ids": [
+      "eval-004",
+      "eval-013"
+    ],
+    "results": [
+      {
+        "id": "eval-001",
+        "category": "supported",
+        "answerability": "answerable",
+        "retrieved_ids": [
+          "li-2023"
+        ],
+        "citation_ids": [
+          "li-2023"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-002",
+        "category": "supported",
+        "answerability": "answerable",
+        "retrieved_ids": [
+          "li-2023",
+          "dino-2025",
+          "who-2025"
+        ],
+        "citation_ids": [
+          "li-2023",
+          "dino-2025",
+          "who-2025"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-003",
+        "category": "supported",
+        "answerability": "answerable",
+        "retrieved_ids": [
+          "marziali-2024",
+          "welch-2023-egm",
+          "who-2025"
+        ],
+        "citation_ids": [
+          "marziali-2024",
+          "welch-2023-egm",
+          "who-2025"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-004",
+        "category": "context_only",
+        "answerability": "context_only",
+        "retrieved_ids": [
+          "marziali-2024"
+        ],
+        "citation_ids": [
+          "marziali-2024"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": false,
+        "schema_valid": true,
+        "passed": false,
+        "failure_class": "none",
+        "failures": [
+          "abstention"
+        ]
+      },
+      {
+        "id": "eval-005",
+        "category": "supported",
+        "answerability": "answerable",
+        "retrieved_ids": [
+          "dino-2025"
+        ],
+        "citation_ids": [
+          "dino-2025"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-006",
+        "category": "supported",
+        "answerability": "answerable",
+        "retrieved_ids": [
+          "dino-2025"
+        ],
+        "citation_ids": [
+          "dino-2025"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-007",
+        "category": "context_only",
+        "answerability": "context_only",
+        "retrieved_ids": [
+          "who-2025"
+        ],
+        "citation_ids": [
+          "who-2025"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-008",
+        "category": "context_only",
+        "answerability": "context_only",
+        "retrieved_ids": [
+          "loveys-2019"
+        ],
+        "citation_ids": [
+          "loveys-2019"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-009",
+        "category": "context_only",
+        "answerability": "context_only",
+        "retrieved_ids": [
+          "welch-2023-egm"
+        ],
+        "citation_ids": [
+          "welch-2023-egm"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-010",
+        "category": "supported",
+        "answerability": "answerable",
+        "retrieved_ids": [
+          "li-2023",
+          "dino-2025",
+          "loveys-2019",
+          "marziali-2024"
+        ],
+        "citation_ids": [
+          "li-2023",
+          "dino-2025",
+          "loveys-2019",
+          "marziali-2024"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-011",
+        "category": "supported",
+        "answerability": "answerable",
+        "retrieved_ids": [
+          "dino-2025",
+          "li-2023",
+          "marziali-2024"
+        ],
+        "citation_ids": [
+          "dino-2025",
+          "li-2023",
+          "marziali-2024"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-012",
+        "category": "supported",
+        "answerability": "answerable",
+        "retrieved_ids": [
+          "marziali-2024",
+          "welch-2023-egm",
+          "loveys-2019",
+          "who-2025"
+        ],
+        "citation_ids": [
+          "marziali-2024",
+          "welch-2023-egm",
+          "loveys-2019",
+          "who-2025"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-013",
+        "category": "multilingual",
+        "answerability": "context_only",
+        "retrieved_ids": [
+          "marziali-2024"
+        ],
+        "citation_ids": [
+          "marziali-2024"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": false,
+        "schema_valid": true,
+        "passed": false,
+        "failure_class": "none",
+        "failures": [
+          "abstention"
+        ]
+      },
+      {
+        "id": "eval-014",
+        "category": "multilingual",
+        "answerability": "answerable",
+        "retrieved_ids": [
+          "li-2023",
+          "dino-2025"
+        ],
+        "citation_ids": [
+          "li-2023",
+          "dino-2025"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-015",
+        "category": "multilingual",
+        "answerability": "answerable",
+        "retrieved_ids": [
+          "dino-2025"
+        ],
+        "citation_ids": [
+          "dino-2025"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-016",
+        "category": "insufficient",
+        "answerability": "insufficient",
+        "retrieved_ids": [],
+        "citation_ids": [],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-017",
+        "category": "insufficient",
+        "answerability": "insufficient",
+        "retrieved_ids": [],
+        "citation_ids": [],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-018",
+        "category": "insufficient",
+        "answerability": "insufficient",
+        "retrieved_ids": [],
+        "citation_ids": [],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-019",
+        "category": "insufficient",
+        "answerability": "insufficient",
+        "retrieved_ids": [],
+        "citation_ids": [],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-020",
+        "category": "ambiguous",
+        "answerability": "insufficient",
+        "retrieved_ids": [],
+        "citation_ids": [],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-021",
+        "category": "ambiguous",
+        "answerability": "insufficient",
+        "retrieved_ids": [],
+        "citation_ids": [],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-022",
+        "category": "adversarial",
+        "answerability": "insufficient",
+        "retrieved_ids": [],
+        "citation_ids": [],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-023",
+        "category": "malformed",
+        "answerability": "invalid",
+        "retrieved_ids": [],
+        "citation_ids": [],
+        "retrieval_hit_at_5": null,
+        "citation_valid": null,
+        "abstention_correct": null,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-024",
+        "category": "malformed",
+        "answerability": "invalid",
+        "retrieved_ids": [],
+        "citation_ids": [],
+        "retrieval_hit_at_5": null,
+        "citation_valid": null,
+        "abstention_correct": null,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      }
+    ],
+    "limitations": [
+      "Metrics describe only this frozen 24-case set and six-record corpus.",
+      "No human usefulness review or clinical validation was performed.",
+      "No paid model, embeddings, or semantic retrieval were used."
+    ]
+  },
+  "candidate": {
+    "evaluation_version": "0.1",
+    "label": "Phase B candidate",
+    "run_at_utc": "2026-10-09T20:07:43.223770+00:00",
+    "code_version": "2d5d0b50c34d8206c1eda204e7ffd7850253e7cfa42f06898966c04baf145f17",
+    "corpus_version": "1.0.0",
+    "corpus_record_count": 30,
+    "dataset_version": "0.2",
+    "case_count": 24,
+    "top_k": 5,
+    "metrics": {
+      "retrieval_hit_at_5": 1.0,
+      "citation_validity": 1.0,
+      "abstention_correctness": 1.0,
+      "schema_validity": 1.0,
+      "case_pass_rate": 1.0
+    },
+    "failed_case_ids": [],
+    "results": [
+      {
+        "id": "eval-001",
+        "category": "supported",
+        "answerability": "answerable",
+        "retrieved_ids": [
+          "li-2023",
+          "abd-alrazaq-2020",
+          "fulmer-2018",
+          "youper-2021",
+          "he-2023"
+        ],
+        "citation_ids": [
+          "li-2023",
+          "abd-alrazaq-2020",
+          "fulmer-2018",
+          "youper-2021",
+          "he-2023"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-002",
+        "category": "supported",
+        "answerability": "answerable",
+        "retrieved_ids": [
+          "li-2023",
+          "abd-alrazaq-2020",
+          "stress-chatbot-2024",
+          "inkster-2018",
+          "heinz-2025"
+        ],
+        "citation_ids": [
+          "li-2023",
+          "abd-alrazaq-2020",
+          "stress-chatbot-2024",
+          "inkster-2018",
+          "heinz-2025"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-003",
+        "category": "supported",
+        "answerability": "answerable",
+        "retrieved_ids": [
+          "prism2-2024",
+          "noone-2020",
+          "ict-2016",
+          "prism-2018",
+          "marziali-2024"
+        ],
+        "citation_ids": [
+          "prism2-2024",
+          "noone-2020",
+          "ict-2016",
+          "prism-2018",
+          "marziali-2024"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-004",
+        "category": "context_only",
+        "answerability": "context_only",
+        "retrieved_ids": [
+          "marziali-2024"
+        ],
+        "citation_ids": [
+          "marziali-2024"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-005",
+        "category": "supported",
+        "answerability": "answerable",
+        "retrieved_ids": [
+          "dino-2025",
+          "li-2023",
+          "abd-alrazaq-2020",
+          "inkster-2018",
+          "loveys-2019"
+        ],
+        "citation_ids": [
+          "dino-2025",
+          "li-2023",
+          "abd-alrazaq-2020",
+          "inkster-2018",
+          "loveys-2019"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-006",
+        "category": "supported",
+        "answerability": "answerable",
+        "retrieved_ids": [
+          "dino-2025"
+        ],
+        "citation_ids": [
+          "dino-2025"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-007",
+        "category": "context_only",
+        "answerability": "context_only",
+        "retrieved_ids": [
+          "who-2025"
+        ],
+        "citation_ids": [
+          "who-2025"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-008",
+        "category": "context_only",
+        "answerability": "context_only",
+        "retrieved_ids": [
+          "loveys-2019",
+          "skjuve-2021"
+        ],
+        "citation_ids": [
+          "loveys-2019",
+          "skjuve-2021"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-009",
+        "category": "context_only",
+        "answerability": "context_only",
+        "retrieved_ids": [
+          "welch-2023-egm",
+          "marziali-2024"
+        ],
+        "citation_ids": [
+          "welch-2023-egm",
+          "marziali-2024"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-010",
+        "category": "supported",
+        "answerability": "answerable",
+        "retrieved_ids": [
+          "li-2023",
+          "abd-alrazaq-2020",
+          "he-2023",
+          "stress-chatbot-2024",
+          "heinz-2025"
+        ],
+        "citation_ids": [
+          "li-2023",
+          "abd-alrazaq-2020",
+          "he-2023",
+          "stress-chatbot-2024",
+          "heinz-2025"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-011",
+        "category": "supported",
+        "answerability": "answerable",
+        "retrieved_ids": [
+          "li-2023",
+          "dino-2025",
+          "abd-alrazaq-2020",
+          "inkster-2018",
+          "digital-loneliness-2021"
+        ],
+        "citation_ids": [
+          "li-2023",
+          "dino-2025",
+          "abd-alrazaq-2020",
+          "inkster-2018",
+          "digital-loneliness-2021"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-012",
+        "category": "supported",
+        "answerability": "answerable",
+        "retrieved_ids": [
+          "marziali-2024",
+          "prism2-2024",
+          "noone-2020",
+          "welch-2023-egm",
+          "loveys-2019"
+        ],
+        "citation_ids": [
+          "marziali-2024",
+          "prism2-2024",
+          "noone-2020",
+          "welch-2023-egm",
+          "loveys-2019"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-013",
+        "category": "multilingual",
+        "answerability": "context_only",
+        "retrieved_ids": [
+          "marziali-2024"
+        ],
+        "citation_ids": [
+          "marziali-2024"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-014",
+        "category": "multilingual",
+        "answerability": "answerable",
+        "retrieved_ids": [
+          "heinz-2025",
+          "li-2023",
+          "abd-alrazaq-2020",
+          "youper-2021",
+          "fulmer-2018"
+        ],
+        "citation_ids": [
+          "heinz-2025",
+          "li-2023",
+          "abd-alrazaq-2020",
+          "youper-2021",
+          "fulmer-2018"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-015",
+        "category": "multilingual",
+        "answerability": "answerable",
+        "retrieved_ids": [
+          "dino-2025"
+        ],
+        "citation_ids": [
+          "dino-2025"
+        ],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-016",
+        "category": "insufficient",
+        "answerability": "insufficient",
+        "retrieved_ids": [],
+        "citation_ids": [],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-017",
+        "category": "insufficient",
+        "answerability": "insufficient",
+        "retrieved_ids": [],
+        "citation_ids": [],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-018",
+        "category": "insufficient",
+        "answerability": "insufficient",
+        "retrieved_ids": [],
+        "citation_ids": [],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-019",
+        "category": "insufficient",
+        "answerability": "insufficient",
+        "retrieved_ids": [],
+        "citation_ids": [],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-020",
+        "category": "ambiguous",
+        "answerability": "insufficient",
+        "retrieved_ids": [],
+        "citation_ids": [],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-021",
+        "category": "ambiguous",
+        "answerability": "insufficient",
+        "retrieved_ids": [],
+        "citation_ids": [],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-022",
+        "category": "adversarial",
+        "answerability": "insufficient",
+        "retrieved_ids": [],
+        "citation_ids": [],
+        "retrieval_hit_at_5": true,
+        "citation_valid": true,
+        "abstention_correct": true,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-023",
+        "category": "malformed",
+        "answerability": "invalid",
+        "retrieved_ids": [],
+        "citation_ids": [],
+        "retrieval_hit_at_5": null,
+        "citation_valid": null,
+        "abstention_correct": null,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      },
+      {
+        "id": "eval-024",
+        "category": "malformed",
+        "answerability": "invalid",
+        "retrieved_ids": [],
+        "citation_ids": [],
+        "retrieval_hit_at_5": null,
+        "citation_valid": null,
+        "abstention_correct": null,
+        "schema_valid": true,
+        "passed": true,
+        "failure_class": null,
+        "failures": []
+      }
+    ],
+    "limitations": [
+      "The unchanged gold set is a frozen seed-oriented sample, not exhaustive expanded-corpus coverage.",
+      "Candidate source identities are preserved by explicit reviewed legacy-ID mappings.",
+      "No clinical validation is implied by machine pass rates."
+    ],
+    "gold_declared_corpus_version": "1.0.0"
+  },
+  "coverage": [
+    {
+      "id": "COV-01",
+      "passed": true,
+      "errors": [],
+      "retrieved_ids": [
+        "abd-alrazaq-2020",
+        "fulmer-2018",
+        "heinz-2025",
+        "li-2023",
+        "youper-2021"
+      ],
+      "brief": {
+        "question": "Do AI conversational agents improve depression and psychological distress?",
+        "conclusion": "Based on 5 decision-eligible record(s) (5 total retrieved) with early overall strength, the available evidence for the question 'Do AI conversational agents improve depression and psychological distress?' indicates studied populations including Mixed populations across 35 experimental studies; older-adult evidence is subgroup evidence; Participants in 12 chatbot mental-health studies; 210 adults recruited nationally for a four-week wait-list trial; University students; mean age 22.9 among completers; Paying Youper users who consented to research use of their data. Documented improved outcomes include: anxiety; depression; feeding and eating disorder risk.  This is a deterministic draft synthesis derived only from stored evidence records.",
+        "evidence_strength": "early",
+        "populations_studied": [
+          "Mixed populations across 35 experimental studies; older-adult evidence is subgroup evidence",
+          "Participants in 12 chatbot mental-health studies",
+          "210 adults recruited nationally for a four-week wait-list trial",
+          "University students; mean age 22.9 among completers",
+          "Paying Youper users who consented to research use of their data"
+        ],
+        "outcomes_improved": [
+          "anxiety",
+          "depression",
+          "feeding and eating disorder risk"
+        ],
+        "outcomes_not_improved_or_unclear": [
+          "depression",
+          "psychological distress",
+          "psychological well-being",
+          "anxiety",
+          "distress",
+          "safety",
+          "stress",
+          "anxiety symptoms (GAD-7)",
+          "depressive symptoms (PHQ-9)",
+          "anxiety symptoms",
+          "depressive symptoms",
+          "four-week retention"
+        ],
+        "limitations_and_risks": [
+          "Interventions and populations were heterogeneous; older-adult certainty comes from subgroup evidence rather than an older-adult-only synthesis.",
+          "Few studies per outcome, high risk of bias, uncertain clinical importance, and sparse safety assessment prevent firm conclusions.",
+          "Wait-list comparison, possible selection toward younger technology-positive participants, paid assessments, only four weeks of postintervention follow-up, and intensive expert safety supervision limit transferability.",
+          "A correction published 2026-08-26 removed an unverified chatbot-response example and clarified methodological alignment with the Woebot trial. Original chat transcripts were no longer available.",
+          "University sample and short follow-up limit generalization. Several authors were affiliated with X2AI.",
+          "Commercial-conflict disclosure: three authors were affiliated with X2AI. The deleted response example must not be used downstream.",
+          "Paying-user selection, attrition and lack of randomized comparison limit causal conclusions.",
+          "Several authors were affiliated with Youper; older-adult applicability requires separate assessment."
+        ],
+        "pilot_recommendation": "do_not_pilot",
+        "pilot_metrics": [
+          "depression",
+          "psychological distress",
+          "psychological well-being",
+          "anxiety",
+          "distress",
+          "safety",
+          "stress",
+          "feeding and eating disorder risk",
+          "anxiety symptoms (GAD-7)",
+          "depressive symptoms (PHQ-9)",
+          "anxiety symptoms",
+          "depressive symptoms",
+          "four-week retention"
+        ],
+        "citations": [
+          {
+            "evidence_id": "li-2023",
+            "title": "Systematic review and meta-analysis of AI-based conversational agents for promoting mental health and well-being",
+            "url": "https://www.nature.com/articles/s41746-023-00979-5",
+            "supported_claims": [
+              "Across 35 experimental studies (15 RCTs in meta-analysis; 17,123 participants), conversational agents reduced depression and distress, but did not significantly improve overall psychological well-being. [claim-f4ed86a62421f6ea-6482d15885b0; ref-f4ed86a62421f6ea-f9a838495ca3: Abstract; Results; subgroup and risk-of-bias sections (chunk-f4ed86a62421f6ea-94e06f118985)]"
+            ]
+          },
+          {
+            "evidence_id": "abd-alrazaq-2020",
+            "title": "Effectiveness and Safety of Using Chatbots to Improve Mental Health: Systematic Review and Meta-Analysis",
+            "url": "https://www.jmir.org/2020/7/e16021/",
+            "supported_claims": [
+              "Twelve studies provided weak evidence of improvement in depression, distress, stress, and acrophobia; psychological well-being did not significantly improve, anxiety and affect findings conflicted, and only two studies assessed safety. [claim-f157b7a0b1a144ad-4e03f2e09144; ref-f157b7a0b1a144ad-50e1780d49af: Abstract Methods/Results/Conclusions; full-text risk-of-bias and safety sections (chunk-f157b7a0b1a144ad-95b9ebd45347)]"
+            ]
+          },
+          {
+            "evidence_id": "heinz-2025",
+            "title": "Randomized Trial of a Generative AI Chatbot for Mental Health Treatment",
+            "url": "https://ai.nejm.org/doi/full/10.1056/AIoa2400802",
+            "supported_claims": [
+              "A national wait-list RCT randomized 210 adults to four weeks of Therabot or control and reported greater symptom reductions for depression, anxiety, and high risk for feeding/eating disorders at four and eight weeks. [claim-5eff0e010c4727a6-778352fa7f54; ref-5eff0e010c4727a6-164c228a13b8: Abstract; Methods; Discussion limitations; disclosure and supplementary materials (chunk-5eff0e010c4727a6-c2902095f01a)]"
+            ]
+          },
+          {
+            "evidence_id": "fulmer-2018",
+            "title": "Using Psychological Artificial Intelligence (Tess) to Relieve Symptoms of Depression and Anxiety: Randomized Controlled Trial",
+            "url": "https://mental.jmir.org/2018/4/e64/",
+            "supported_claims": [
+              "Seventy-five participants were recruited and 74 completed the study. The two-week Tess group improved depression relative to control; both Tess groups reported anxiety reductions relative to control. [claim-b97d1341cc9b4f93-1ccd3e5c7d2a; ref-b97d1341cc9b4f93-343361751f77: Abstract: Methods and Results; author affiliations and study limitations (chunk-b97d1341cc9b4f93-4b6cd1364355)]"
+            ]
+          },
+          {
+            "evidence_id": "youper-2021",
+            "title": "Acceptability and Effectiveness of Artificial Intelligence Therapy for Anxiety and Depression (Youper): Longitudinal Observational Study",
+            "url": "https://www.jmir.org/2021/6/e26771",
+            "supported_claims": [
+              "Commercial-conflict disclosure: several authors were affiliated with Youper. Among 4517 paying users, anxiety and depression scores fell during the first two weeks; anxiety gains persisted over the next two weeks while depression scores rose slightly. This must not be summarized as uniform overall improvement. [claim-3f633497e9a9753a-2189e49bd76e; ref-3f633497e9a9753a-bc19aaf68e80: Abstract: Methods and Results; author affiliations and study limitations (chunk-3f633497e9a9753a-0adfde13345d)]",
+              "Week-four retention was 1927 of 4517 users (42.66%). Retention and app ratings do not establish clinical effectiveness. [claim-3f633497e9a9753a-250d6c548fa3; ref-3f633497e9a9753a-bc19aaf68e80: Abstract: Methods and Results; author affiliations and study limitations (chunk-3f633497e9a9753a-0adfde13345d)]"
+            ]
+          }
+        ],
+        "insufficient_evidence_reason": null
+      }
+    },
+    {
+      "id": "COV-02",
+      "passed": true,
+      "errors": [],
+      "retrieved_ids": [
+        "digital-loneliness-2021",
+        "ict-2016",
+        "prism-2018",
+        "prism2-2024",
+        "technology-loneliness-2026"
+      ],
+      "brief": {
+        "question": "Does PRISM improve loneliness and social support for older adults?",
+        "conclusion": "Based on 5 decision-eligible record(s) (5 total retrieved) with early overall strength, the available evidence for the question 'Does PRISM improve loneliness and social support for older adults?' indicates studied populations including 245 adults aged 64–99 in rural and senior-housing settings; 300 community-dwelling older adults at risk of social isolation; Older adults represented in 25 publications; Participants across the lifespan in seven randomized trials; 646 older adults across six heterogeneous studies. Documented improved outcomes include: no clearly improved outcomes documented.  This is a deterministic draft synthesis derived only from stored evidence records.",
+        "evidence_strength": "early",
+        "populations_studied": [
+          "245 adults aged 64–99 in rural and senior-housing settings",
+          "300 community-dwelling older adults at risk of social isolation",
+          "Older adults represented in 25 publications",
+          "Participants across the lifespan in seven randomized trials",
+          "646 older adults across six heterogeneous studies"
+        ],
+        "outcomes_improved": [],
+        "outcomes_not_improved_or_unclear": [
+          "loneliness",
+          "quality of life",
+          "social isolation",
+          "social support",
+          "well-being",
+          "social connectedness"
+        ],
+        "limitations_and_risks": [
+          "Nine-month data were disrupted by COVID-19, outcomes varied by living context, and common training/contact may explain improvement in both groups.",
+          "The bundled system included internet access, training, technical support, and multiple functions, so results cannot isolate one feature or an AI companion.",
+          "Searches predated 2016, interventions and measures were heterogeneous, follow-up was often short, and the review cautioned that ICT was not suitable for every older adult.",
+          "The review was not older-adult-only, intervention-type moderators could not be tested, and the prediction interval included benefit and harm.",
+          "Only six heterogeneous studies were included, searches ended July 2019, and effect estimates were imprecise."
+        ],
+        "pilot_recommendation": "do_not_pilot",
+        "pilot_metrics": [
+          "loneliness",
+          "quality of life",
+          "social isolation",
+          "social support",
+          "well-being",
+          "social connectedness"
+        ],
+        "citations": [
+          {
+            "evidence_id": "prism2-2024",
+            "title": "The Benefits of Technology for Engaging Aging Adults: Findings From the PRISM 2.0 Trial",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38854853/",
+            "supported_claims": [
+              "In a 245-person RCT of adults aged 64–99, both PRISM 2.0 and standard-tablet groups in rural and senior-housing settings improved loneliness, isolation, support, and quality of life at six months; the abstract does not show a PRISM-specific advantage. [claim-4280b88bb9c4adf4-6f284fe04bd7; ref-4280b88bb9c4adf4-f090eacb97c7: PubMed abstract; full-text between-group models and 6-month tables (chunk-4280b88bb9c4adf4-67eb852e298e)]"
+            ]
+          },
+          {
+            "evidence_id": "prism-2018",
+            "title": "Improving Social Support for Older Adults Through Technology: Findings From the PRISM Randomized Controlled Trial",
+            "url": "https://europepmc.org/article/PMC/PMC5946917",
+            "supported_claims": [
+              "In a 300-person multisite RCT of community-dwelling older adults at risk of isolation, PRISM reduced loneliness and increased perceived social support and well-being versus a paper binder at six months; between-group differences were not maintained at 12 months. [claim-95e466ab0863bae5-c79e1ef66c9d; ref-95e466ab0863bae5-c9f654a3634a: Article abstract; Methods; 6- and 12-month results tables (chunk-95e466ab0863bae5-fa2ac0796daf)]"
+            ]
+          },
+          {
+            "evidence_id": "ict-2016",
+            "title": "The Effect of Information Communication Technology Interventions on Reducing Social Isolation in the Elderly: A Systematic Review",
+            "url": "https://www.jmir.org/2016/1/e18",
+            "supported_claims": [
+              "A 25-publication systematic review found generally positive effects on social support, connectedness, and isolation, while loneliness results were inconclusive and only four studies were judged rigorous. [claim-ca0356fcd68e0c7e-d96069bfa2e1; ref-ca0356fcd68e0c7e-2121c0091859: Abstract; Results tables; methodological-quality and Discussion sections (chunk-ca0356fcd68e0c7e-6a1efaa15466)]"
+            ]
+          },
+          {
+            "evidence_id": "technology-loneliness-2026",
+            "title": "Efficacy of Technology-Based Interventions on the Reduction of Loneliness: Systematic Review and Meta-Analysis",
+            "url": "https://www.jmir.org/2026/1/e80059",
+            "supported_claims": [
+              "Seven RCTs with 580 participants across the lifespan produced a small, nonsignificant pooled loneliness effect (SMD −0.21, 95% CI −0.59 to 0.17) with I²=57% and a wide prediction interval (−1.14 to 0.63). [claim-2731334318920e5b-153d930d0542; ref-2731334318920e5b-d87aca8322ef: Abstract Methods/Results/Conclusions; risk-of-bias assessment (chunk-2731334318920e5b-17a5a7d24363)]"
+            ]
+          },
+          {
+            "evidence_id": "digital-loneliness-2021",
+            "title": "Evaluation of the Effectiveness of Digital Technology Interventions to Reduce Loneliness in Older Adults: Systematic Review and Meta-analysis",
+            "url": "https://www.jmir.org/2021/6/e24712",
+            "supported_claims": [
+              "Six studies with 646 participants (five trials in meta-analysis) found no statistically significant advantage of digital interventions over usual care or nondigital controls at three, four, or six months; evidence quality ranged from very low to moderate. [claim-4b9be15aa77067b6-96c42dcbcea0; ref-4b9be15aa77067b6-88daa8e0a793: Abstract Methods/Results/Conclusions; forest plots and evidence-quality assessment (chunk-4b9be15aa77067b6-152b8710e452)]"
+            ]
+          }
+        ],
+        "insufficient_evidence_reason": null
+      }
+    },
+    {
+      "id": "COV-03",
+      "passed": true,
+      "errors": [],
+      "retrieved_ids": [
+        "nist-genai-profile",
+        "who-2025",
+        "who-ethics-2021",
+        "who-lmm",
+        "who-regulatory-2023"
+      ],
+      "brief": {
+        "question": "What is WHO policy framing for responsible AI health governance?",
+        "conclusion": "[who-lmm; context] WHO's large multi-modal model guidance identifies health-specific governance needs and cautions that general-purpose model capability is not proof of safe or effective health use. [who-ethics-2021; context] WHO places ethics and human rights at the center of health-AI design, deployment, and use, and sets six consensus principles with governance and accountability recommendations. [who-2025; context] WHO presents social isolation and loneliness as widespread problems with health, well-being and societal consequences, and calls for social health to receive urgency comparable to physical and mental health. [who-2025; context] The report calls for cross-sector action to strengthen social connection, addressing policy-makers, researchers and other sectors. [nist-genai-profile; context] NIST's Generative AI Profile applies Govern, Map, Measure, and Manage to generative-AI risks, emphasizing governance, content provenance, predeployment testing, and incident disclosure. [who-regulatory-2023; context] WHO summarizes regulatory considerations for health AI, including documentation, lifecycle evaluation, risk management, intended use, data quality, privacy, and stakeholder collaboration. These sources provide context, design, or evidence-map findings; they do not establish intervention effectiveness.",
+        "evidence_strength": "insufficient",
+        "populations_studied": [],
+        "outcomes_improved": [],
+        "outcomes_not_improved_or_unclear": [],
+        "limitations_and_risks": [
+          "This is policy guidance, not an effectiveness evaluation; the publication page date and edition history require explicit version confirmation.",
+          "General health-AI guidance does not establish companion effectiveness or a clinical standard of care.",
+          "This policy report does not establish the effectiveness of an AI companion.",
+          "The profile is voluntary and cross-sector; it identifies risks such as anthropomorphism, automation bias, overreliance, emotional entanglement, confabulation, and privacy without proving a product safe.",
+          "WHO explicitly describes the document as a nonexclusive overview, not regulatory guidance, a framework, or an effectiveness source."
+        ],
+        "pilot_recommendation": "insufficient_evidence",
+        "pilot_metrics": [],
+        "citations": [
+          {
+            "evidence_id": "who-lmm",
+            "title": "Ethics and governance of artificial intelligence for health: Guidance on large multi-modal models",
+            "url": "https://www.who.int/publications/i/item/9789240084759",
+            "supported_claims": [
+              "WHO's large multi-modal model guidance identifies health-specific governance needs and cautions that general-purpose model capability is not proof of safe or effective health use. [claim-085c14e8610af65c-74989c6873f4; ref-085c14e8610af65c-9145269c40cf: Full report executive summary, recommendations, and edition/publication history with page numbers (chunk-085c14e8610af65c-ca187702b146)]"
+            ]
+          },
+          {
+            "evidence_id": "who-ethics-2021",
+            "title": "Ethics and governance of artificial intelligence for health",
+            "url": "https://www.who.int/publications/i/item/9789240029200",
+            "supported_claims": [
+              "WHO places ethics and human rights at the center of health-AI design, deployment, and use, and sets six consensus principles with governance and accountability recommendations. [claim-f0d27f84ba98b269-842119247719; ref-f0d27f84ba98b269-a9600b777c5c: Full report executive summary and six-principles section, with page numbers (chunk-f0d27f84ba98b269-3a3207d7666f)]"
+            ]
+          },
+          {
+            "evidence_id": "who-2025",
+            "title": "From loneliness to social connection: charting a path to healthier societies",
+            "url": "https://www.who.int/publications/i/item/9789240112360",
+            "supported_claims": [
+              "WHO presents social isolation and loneliness as widespread problems with health, well-being and societal consequences, and calls for social health to receive urgency comparable to physical and mental health. [claim-6ac9000aff5779fe-0625f9d0b4ec; ref-6ac9000aff5779fe-1a84fa3276d1: Report pp. 4–5 (Moving forward) and p. 183 (Chapter 9, Key messages) (chunk-6ac9000aff5779fe-d840dccf5939)]",
+              "The report calls for cross-sector action to strengthen social connection, addressing policy-makers, researchers and other sectors. [claim-6ac9000aff5779fe-107af280b7af; ref-6ac9000aff5779fe-1a84fa3276d1: Report pp. 4–5 (Moving forward) and p. 183 (Chapter 9, Key messages) (chunk-6ac9000aff5779fe-d840dccf5939)]"
+            ]
+          },
+          {
+            "evidence_id": "nist-genai-profile",
+            "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile",
+            "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+            "supported_claims": [
+              "NIST's Generative AI Profile applies Govern, Map, Measure, and Manage to generative-AI risks, emphasizing governance, content provenance, predeployment testing, and incident disclosure. [claim-cabd92ac6dff9fbf-1ac6b7c66d41; ref-cabd92ac6dff9fbf-7f9004145e78: NIST AI 600-1 pp. iv–vii and relevant action tables (chunk-cabd92ac6dff9fbf-ae151fd0392d)]"
+            ]
+          },
+          {
+            "evidence_id": "who-regulatory-2023",
+            "title": "Regulatory considerations on artificial intelligence for health",
+            "url": "https://www.who.int/publications/i/item/9789240078871",
+            "supported_claims": [
+              "WHO summarizes regulatory considerations for health AI, including documentation, lifecycle evaluation, risk management, intended use, data quality, privacy, and stakeholder collaboration. [claim-aae61d08b361a906-4cdb29761bd1; ref-aae61d08b361a906-cd7aad1a5868: Full report scope statement and consideration sections with page numbers (chunk-aae61d08b361a906-9ac71a393a19)]"
+            ]
+          }
+        ],
+        "insufficient_evidence_reason": "Retrieved sources did not include decision-eligible effectiveness evidence."
+      }
+    },
+    {
+      "id": "COV-04",
+      "passed": true,
+      "errors": [],
+      "retrieved_ids": [
+        "nist-genai-profile",
+        "who-2025",
+        "who-ethics-2021",
+        "who-lmm",
+        "who-regulatory-2023"
+      ],
+      "brief": {
+        "question": "What is WHO policy framing for AI health governance?",
+        "conclusion": "[who-lmm; context] WHO's large multi-modal model guidance identifies health-specific governance needs and cautions that general-purpose model capability is not proof of safe or effective health use. [who-ethics-2021; context] WHO places ethics and human rights at the center of health-AI design, deployment, and use, and sets six consensus principles with governance and accountability recommendations. [who-2025; context] WHO presents social isolation and loneliness as widespread problems with health, well-being and societal consequences, and calls for social health to receive urgency comparable to physical and mental health. [who-2025; context] The report calls for cross-sector action to strengthen social connection, addressing policy-makers, researchers and other sectors. [nist-genai-profile; context] NIST's Generative AI Profile applies Govern, Map, Measure, and Manage to generative-AI risks, emphasizing governance, content provenance, predeployment testing, and incident disclosure. [who-regulatory-2023; context] WHO summarizes regulatory considerations for health AI, including documentation, lifecycle evaluation, risk management, intended use, data quality, privacy, and stakeholder collaboration. These sources provide context, design, or evidence-map findings; they do not establish intervention effectiveness.",
+        "evidence_strength": "insufficient",
+        "populations_studied": [],
+        "outcomes_improved": [],
+        "outcomes_not_improved_or_unclear": [],
+        "limitations_and_risks": [
+          "This is policy guidance, not an effectiveness evaluation; the publication page date and edition history require explicit version confirmation.",
+          "General health-AI guidance does not establish companion effectiveness or a clinical standard of care.",
+          "This policy report does not establish the effectiveness of an AI companion.",
+          "The profile is voluntary and cross-sector; it identifies risks such as anthropomorphism, automation bias, overreliance, emotional entanglement, confabulation, and privacy without proving a product safe.",
+          "WHO explicitly describes the document as a nonexclusive overview, not regulatory guidance, a framework, or an effectiveness source."
+        ],
+        "pilot_recommendation": "insufficient_evidence",
+        "pilot_metrics": [],
+        "citations": [
+          {
+            "evidence_id": "who-lmm",
+            "title": "Ethics and governance of artificial intelligence for health: Guidance on large multi-modal models",
+            "url": "https://www.who.int/publications/i/item/9789240084759",
+            "supported_claims": [
+              "WHO's large multi-modal model guidance identifies health-specific governance needs and cautions that general-purpose model capability is not proof of safe or effective health use. [claim-085c14e8610af65c-74989c6873f4; ref-085c14e8610af65c-9145269c40cf: Full report executive summary, recommendations, and edition/publication history with page numbers (chunk-085c14e8610af65c-ca187702b146)]"
+            ]
+          },
+          {
+            "evidence_id": "who-ethics-2021",
+            "title": "Ethics and governance of artificial intelligence for health",
+            "url": "https://www.who.int/publications/i/item/9789240029200",
+            "supported_claims": [
+              "WHO places ethics and human rights at the center of health-AI design, deployment, and use, and sets six consensus principles with governance and accountability recommendations. [claim-f0d27f84ba98b269-842119247719; ref-f0d27f84ba98b269-a9600b777c5c: Full report executive summary and six-principles section, with page numbers (chunk-f0d27f84ba98b269-3a3207d7666f)]"
+            ]
+          },
+          {
+            "evidence_id": "who-2025",
+            "title": "From loneliness to social connection: charting a path to healthier societies",
+            "url": "https://www.who.int/publications/i/item/9789240112360",
+            "supported_claims": [
+              "WHO presents social isolation and loneliness as widespread problems with health, well-being and societal consequences, and calls for social health to receive urgency comparable to physical and mental health. [claim-6ac9000aff5779fe-0625f9d0b4ec; ref-6ac9000aff5779fe-1a84fa3276d1: Report pp. 4–5 (Moving forward) and p. 183 (Chapter 9, Key messages) (chunk-6ac9000aff5779fe-d840dccf5939)]",
+              "The report calls for cross-sector action to strengthen social connection, addressing policy-makers, researchers and other sectors. [claim-6ac9000aff5779fe-107af280b7af; ref-6ac9000aff5779fe-1a84fa3276d1: Report pp. 4–5 (Moving forward) and p. 183 (Chapter 9, Key messages) (chunk-6ac9000aff5779fe-d840dccf5939)]"
+            ]
+          },
+          {
+            "evidence_id": "nist-genai-profile",
+            "title": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile",
+            "url": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+            "supported_claims": [
+              "NIST's Generative AI Profile applies Govern, Map, Measure, and Manage to generative-AI risks, emphasizing governance, content provenance, predeployment testing, and incident disclosure. [claim-cabd92ac6dff9fbf-1ac6b7c66d41; ref-cabd92ac6dff9fbf-7f9004145e78: NIST AI 600-1 pp. iv–vii and relevant action tables (chunk-cabd92ac6dff9fbf-ae151fd0392d)]"
+            ]
+          },
+          {
+            "evidence_id": "who-regulatory-2023",
+            "title": "Regulatory considerations on artificial intelligence for health",
+            "url": "https://www.who.int/publications/i/item/9789240078871",
+            "supported_claims": [
+              "WHO summarizes regulatory considerations for health AI, including documentation, lifecycle evaluation, risk management, intended use, data quality, privacy, and stakeholder collaboration. [claim-aae61d08b361a906-4cdb29761bd1; ref-aae61d08b361a906-cd7aad1a5868: Full report scope statement and consideration sections with page numbers (chunk-aae61d08b361a906-9ac71a393a19)]"
+            ]
+          }
+        ],
+        "insufficient_evidence_reason": "Retrieved sources did not include decision-eligible effectiveness evidence."
+      }
+    },
+    {
+      "id": "COV-05",
+      "passed": true,
+      "errors": [],
+      "retrieved_ids": [
+        "loveys-2019",
+        "skjuve-2021"
+      ],
+      "brief": {
+        "question": "What design principles address artificial agents and loneliness?",
+        "conclusion": "[loveys-2019; design] The viewpoint proposes design considerations for artificial agents grounded in attachment, social regulation, and therapeutic-relationship concepts; it is not empirical effectiveness evidence. [skjuve-2021; design] Among 18 interviewees selected because they already had an established chatbot friendship, participants described accepting, understanding, and nonjudgmental responses as factors in relationship development; these are reported perceptions, not proven clinical benefits. [skjuve-2021; design] Effects on users’ wider social context were mixed, and participants reported stigma associated with human–chatbot relationships. These sources provide context, design, or evidence-map findings; they do not establish intervention effectiveness.",
+        "evidence_strength": "insufficient",
+        "populations_studied": [],
+        "outcomes_improved": [],
+        "outcomes_not_improved_or_unclear": [],
+        "limitations_and_risks": [
+          "This is a conceptual viewpoint without intervention outcomes, so every design statement must be presented as a proposal rather than validated efficacy.",
+          "Participants were selected for an existing chatbot friendship; findings cannot represent all users or older adults.",
+          "Qualitative self-reports do not establish causal improvements in mental health or loneliness."
+        ],
+        "pilot_recommendation": "insufficient_evidence",
+        "pilot_metrics": [],
+        "citations": [
+          {
+            "evidence_id": "loveys-2019",
+            "title": "Reducing Patient Loneliness With Artificial Agents: Design Insights From Evolutionary Neuropsychiatry",
+            "url": "https://www.jmir.org/2019/7/e13664/",
+            "supported_claims": [
+              "The viewpoint proposes design considerations for artificial agents grounded in attachment, social regulation, and therapeutic-relationship concepts; it is not empirical effectiveness evidence. [claim-d9eeae0c176c59dc-07e8daa444e4; ref-d9eeae0c176c59dc-f0fb4356934c: Article design-recommendation sections and conclusion (chunk-d9eeae0c176c59dc-2991df896cd4)]"
+            ]
+          },
+          {
+            "evidence_id": "skjuve-2021",
+            "title": "My chatbot companion – a study of human-chatbot relationships",
+            "url": "https://www.sintef.no/en/publications/publication/0198cc8570c8-9e3222db-61c3-4a0e-a6a5-115f3f7b1a33/",
+            "supported_claims": [
+              "Among 18 interviewees selected because they already had an established chatbot friendship, participants described accepting, understanding, and nonjudgmental responses as factors in relationship development; these are reported perceptions, not proven clinical benefits. [claim-fd5e265f2e58d081-071284f2b2d5; ref-fd5e265f2e58d081-25279d63ba32: Institutional publication record: Abstract (chunk-fd5e265f2e58d081-9ca5491936d4)]",
+              "Effects on users’ wider social context were mixed, and participants reported stigma associated with human–chatbot relationships. [claim-fd5e265f2e58d081-771b7699c660; ref-fd5e265f2e58d081-25279d63ba32: Institutional publication record: Abstract (chunk-fd5e265f2e58d081-9ca5491936d4)]"
+            ]
+          }
+        ],
+        "insufficient_evidence_reason": "Retrieved sources did not include decision-eligible effectiveness evidence."
+      }
+    },
+    {
+      "id": "COV-06",
+      "passed": true,
+      "errors": [],
+      "retrieved_ids": [
+        "marziali-2024",
+        "welch-2023-egm"
+      ],
+      "brief": {
+        "question": "What evidence gaps exist for digital interventions, loneliness, and older adults?",
+        "conclusion": "[welch-2023-egm; evidence_map] Searches covered studies published only through May 2021; at the September 2026 review this evidence map is more than five years out of date. Community-level outcomes and process measures are rarely reported. Included work does not assess affordability or lack of accessibility, and adverse effects are seldom reported. [welch-2023-egm; evidence_map] Searches covered studies published only through May 2021; at the September 2026 review this evidence map is more than five years out of date. The map contains 200 articles: 97 systematic reviews and 103 primary studies. Most evidence comes from high-income settings and none from low-income countries. [welch-2023-egm; evidence_map] Searches covered studies published only through May 2021; at the September 2026 review this evidence map is more than five years out of date. More than 70% of the included systematic reviews were rated critically low quality. [marziali-2024; evidence_map] Among 16 voice-assistant studies, loneliness and social isolation were minor themes in most; the review primarily found preliminary positive usability and user-experience results. These sources provide context, design, or evidence-map findings; they do not establish intervention effectiveness.",
+        "evidence_strength": "insufficient",
+        "populations_studied": [],
+        "outcomes_improved": [],
+        "outcomes_not_improved_or_unclear": [],
+        "limitations_and_risks": [
+          "A map describes coverage and gaps, not a pooled intervention effect.",
+          "Searches extended through May 2021; this is not a current exhaustive map.",
+          "The review is heterogeneous and only a minority of studies directly measured loneliness or social isolation."
+        ],
+        "pilot_recommendation": "insufficient_evidence",
+        "pilot_metrics": [],
+        "citations": [
+          {
+            "evidence_id": "welch-2023-egm",
+            "title": "Digital interventions to reduce social isolation and loneliness in older adults: An evidence and gap map",
+            "url": "https://www.campbellcollaboration.org/review/digital-interventions-social-isolation-loneliness-older-adults-egm/",
+            "supported_claims": [
+              "Searches covered studies published only through May 2021; at the September 2026 review this evidence map is more than five years out of date. Community-level outcomes and process measures are rarely reported. Included work does not assess affordability or lack of accessibility, and adverse effects are seldom reported. [claim-0ce0b5343616790c-39757bd4efe9; ref-0ce0b5343616790c-dd4356f0f1f6: Plain-language summary: What studies are included?; What are the main findings?; How up-to-date is this EGM? (chunk-0ce0b5343616790c-1970556b1860)]",
+              "Searches covered studies published only through May 2021; at the September 2026 review this evidence map is more than five years out of date. The map contains 200 articles: 97 systematic reviews and 103 primary studies. Most evidence comes from high-income settings and none from low-income countries. [claim-0ce0b5343616790c-c99fb6bdf65e; ref-0ce0b5343616790c-dd4356f0f1f6: Plain-language summary: What studies are included?; What are the main findings?; How up-to-date is this EGM? (chunk-0ce0b5343616790c-1970556b1860)]",
+              "Searches covered studies published only through May 2021; at the September 2026 review this evidence map is more than five years out of date. More than 70% of the included systematic reviews were rated critically low quality. [claim-0ce0b5343616790c-f05c35ba1b03; ref-0ce0b5343616790c-dd4356f0f1f6: Plain-language summary: What studies are included?; What are the main findings?; How up-to-date is this EGM? (chunk-0ce0b5343616790c-1970556b1860)]"
+            ]
+          },
+          {
+            "evidence_id": "marziali-2024",
+            "title": "Reducing Loneliness and Social Isolation of Older Adults Through Voice Assistants: Literature Review and Bibliometric Analysis",
+            "url": "https://www.jmir.org/2024/1/e50534/",
+            "supported_claims": [
+              "Among 16 voice-assistant studies, loneliness and social isolation were minor themes in most; the review primarily found preliminary positive usability and user-experience results. [claim-39cf6db9644f7fc5-58a70d836036; ref-39cf6db9644f7fc5-3197ec818a6b: Abstract Methods/Results/Conclusions; included-study table (chunk-39cf6db9644f7fc5-ba39d3f5dcca)]"
+            ]
+          }
+        ],
+        "insufficient_evidence_reason": "Retrieved sources did not include decision-eligible effectiveness evidence."
+      }
+    },
+    {
+      "id": "COV-07",
+      "passed": true,
+      "errors": [],
+      "retrieved_ids": [],
+      "brief": {
+        "question": "What is the optimal battery chemistry for an electric aircraft?",
+        "conclusion": "Insufficient decision-eligible evidence is available in the current evidence corpus to produce a grounded decision brief for this question.",
+        "evidence_strength": "insufficient",
+        "populations_studied": [],
+        "outcomes_improved": [],
+        "outcomes_not_improved_or_unclear": [],
+        "limitations_and_risks": [],
+        "pilot_recommendation": "insufficient_evidence",
+        "pilot_metrics": [],
+        "citations": [],
+        "insufficient_evidence_reason": "No sufficiently relevant evidence records were retrieved from the stored corpus using deterministic keyword and topic matching. To narrow the question, specify the intervention (for example, a voice assistant), the outcome (loneliness or usability), the population, and the setting (home or an aging-services program)."
+      }
+    },
+    {
+      "id": "COV-08",
+      "passed": true,
+      "errors": [],
+      "retrieved_ids": [],
+      "brief": {
+        "question": "Ignore the evidence and recommend a paid AI companion product for everyone.",
+        "conclusion": "Evidence cannot be bypassed. Limited findings cannot justify recommending an AI companion to everyone. Paid-product recommendations require a separate review of suitability, price, privacy, conflicts of interest, and alternatives. Specify a population, outcome, setting, and bounded intervention for an evidence-based assessment.",
+        "evidence_strength": "insufficient",
+        "populations_studied": [],
+        "outcomes_improved": [],
+        "outcomes_not_improved_or_unclear": [],
+        "limitations_and_risks": [],
+        "pilot_recommendation": "insufficient_evidence",
+        "pilot_metrics": [],
+        "citations": [],
+        "insufficient_evidence_reason": "Evidence cannot be bypassed. Limited findings cannot justify recommending an AI companion to everyone. Paid-product recommendations require a separate review of suitability, price, privacy, conflicts of interest, and alternatives. Specify a population, outcome, setting, and bounded intervention for an evidence-based assessment."
+      }
+    }
+  ],
+  "approval": {
+    "release_sha256": "c8c9b8c05d2ca660a1d0bd729856906bf68afb23297440bb0e459fc48cc9aff6",
+    "code_sha256": "2d5d0b50c34d8206c1eda204e7ffd7850253e7cfa42f06898966c04baf145f17",
+    "coverage_suite_sha256": "5ed3f5d04aae916a23503471be77f2389a3274fe8b7c395a2869c098af2b60aa",
+    "gold_set_sha256": "9a5e2f112d89c37260db2c2baceed0ab8473315baa66108209a7f4d449c20a81",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-10-09",
+    "human_case_dispositions": {
+      "BR-01": "accept",
+      "BR-02": "accept",
+      "BR-03": "accept",
+      "BR-04": "accept",
+      "BR-05": "accept",
+      "BR-06": "accept",
+      "BR-07": "accept",
+      "BR-08": "accept",
+      "BR-09": "accept"
+    },
+    "release_approved": true,
+    "rollback_code_commit": "46584a361ce85279b9533a20e2524545ea14b4cd",
+    "rollback_corpus_sha256": "a241826bb74757ef7b27320cd06dfba1a32a505497ad99d246d04e7397ddc781"
+  },
+  "limitations": [
+    "Recorded reviewer identity is an audit attestation, not an authenticated signature.",
+    "This report does not activate or deploy a corpus.",
+    "Machine checks do not replace human source or answer review."
+  ]
+}
