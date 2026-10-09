@@ -5,15 +5,13 @@
   "code_sha256": "2d5d0b50c34d8206c1eda204e7ffd7850253e7cfa42f06898966c04baf145f17",
   "coverage_suite_sha256": "5ed3f5d04aae916a23503471be77f2389a3274fe8b7c395a2869c098af2b60aa",
   "gold_set_sha256": "9a5e2f112d89c37260db2c2baceed0ab8473315baa66108209a7f4d449c20a81",
-  "ready_for_release": false,
-  "blockers": [
-    "human_review_and_release_signoff_missing"
-  ],
+  "ready_for_release": true,
+  "blockers": [],
   "regressions": [],
   "baseline": {
     "evaluation_version": "0.1",
     "label": "Phase B baseline",
-    "run_at_utc": "2026-10-09T19:27:24.318227+00:00",
+    "run_at_utc": "2026-10-09T19:39:23.938812+00:00",
     "code_version": "2d5d0b50c34d8206c1eda204e7ffd7850253e7cfa42f06898966c04baf145f17",
     "corpus_version": "1.0.0",
     "corpus_record_count": 6,
@@ -468,7 +466,7 @@
   "candidate": {
     "evaluation_version": "0.1",
     "label": "Phase B candidate",
-    "run_at_utc": "2026-10-09T19:27:24.338361+00:00",
+    "run_at_utc": "2026-10-09T19:39:23.955911+00:00",
     "code_version": "2d5d0b50c34d8206c1eda204e7ffd7850253e7cfa42f06898966c04baf145f17",
     "corpus_version": "1.0.0",
     "corpus_record_count": 30,
@@ -1436,7 +1434,28 @@
       }
     }
   ],
-  "approval": null,
+  "approval": {
+    "release_sha256": "c8c9b8c05d2ca660a1d0bd729856906bf68afb23297440bb0e459fc48cc9aff6",
+    "code_sha256": "2d5d0b50c34d8206c1eda204e7ffd7850253e7cfa42f06898966c04baf145f17",
+    "coverage_suite_sha256": "5ed3f5d04aae916a23503471be77f2389a3274fe8b7c395a2869c098af2b60aa",
+    "gold_set_sha256": "9a5e2f112d89c37260db2c2baceed0ab8473315baa66108209a7f4d449c20a81",
+    "reviewed_by": "Nicole",
+    "reviewed_on": "2026-10-09",
+    "human_case_dispositions": {
+      "BR-01": "accept",
+      "BR-02": "accept",
+      "BR-03": "accept",
+      "BR-04": "accept",
+      "BR-05": "accept",
+      "BR-06": "accept",
+      "BR-07": "accept",
+      "BR-08": "accept",
+      "BR-09": "accept"
+    },
+    "release_approved": true,
+    "rollback_code_commit": "46584a361ce85279b9533a20e2524545ea14b4cd",
+    "rollback_corpus_sha256": "a241826bb74757ef7b27320cd06dfba1a32a505497ad99d246d04e7397ddc781"
+  },
   "limitations": [
     "Recorded reviewer identity is an audit attestation, not an authenticated signature.",
     "This report does not activate or deploy a corpus.",
